@@ -7,7 +7,7 @@
 
 ;ティラノスクリプトが標準で用意している便利なライブラリ群
 ;コンフィグ、CG、回想モードを使う場合は必須
-@call storage="tyrano.ks"
+@call storage="logics/tyrano.ks"
 
 ;ゲームで必ず必要な初期化処理はこのファイルに記述するのがオススメ
 
@@ -18,7 +18,7 @@
 [hidemenubutton]
 
 ;タイトル画面へ移動
-@jump storage="title.ks"
+@jump storage="outgame/title.ks"
 
 [s]
 
