@@ -4,9 +4,6 @@
 [clearfix]
 [start_keyconfig]
 
-;背景
-[bg storage="room.jpg" time="100"]
-
 ;メニューボタンの表示
 @showmenubutton
 
@@ -98,21 +95,42 @@
 
 [iscript]
 f.turn_count += 1;
+
+if (!f.available_scenarios) {
+    f.available_scenarios = [];
+    for (var i = 1; i <= 1; i++) {
+        f.available_scenarios.push(i);
+    }
+}
+
+var scenario_map = {
+    1:"gakuen_dounyu.ks",
+};
+
+function chooseScenario() {
+    if (f.available_scenarios.length === 0) {
+        return "undefined";  // シナリオがない場合は'undefined'を返す
+    }
+    var key = String(f.turn_count);
+    if (scenario_map[key]) {
+        return "story/gakuen/" + scenario_map[key];
+    } else {
+        var randomIndex = Math.floor(Math.random() * f.available_scenarios.length);
+        var chosenScenario = f.available_scenarios[randomIndex];
+        f.available_scenarios.splice(randomIndex, 1);  // 使用済みのシナリオをリストから削除
+        return "story/gakuen/gakuen_" + chosenScenario + ".ks";
+    }
+}
+
+f.next_gakuen_part_path = chooseScenario();
 [endscript]
 
-[if exp="f.turn_count == 1"]
-@call storage="story/gakuen/gakuen_dounyu.ks"
+;シナリオの選択結果による分岐
+[if exp="f.next_gakuen_part_path == 'undefined'"]
+    @jump storage="story/loop/ending.ks"  ; 利用可能なシナリオがなければエンディングへ
 [else]
-
-[iscript]
-f.next_gakuen_part = 1;
-[endscript]
-
-[p]
-
-;@jump storage="story/gakuen/gakuen_ + &f.next_gakuen_part + .ks" 
-@call storage="story/gakuen/gakuen_ + &f.next_gakuen_part + .ks" 
-
+    [bg storage="rouka.jpg" time="1000" method="vanishIn"]
+    [wait time="300"]
+    @call storage="&f.next_gakuen_part_path"
+    @jump storage="story/loop/houkago_selector.ks"
 [endif]
-
-@jump storage="story/loop/houkago_selector.ks" 
