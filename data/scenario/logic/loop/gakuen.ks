@@ -1,8 +1,4 @@
 *start
-[iscript]
-f.gakuen_FT=false;
-f.gakuen_turn+=1;
-[endscript]
 
 [cm  ]
 [clearfix]
@@ -75,5 +71,18 @@ f.gakuen_turn+=1;
 
 ;;ロールボタン追加終わり
 
+[iscript]
+f.gakuen_FT=false;
+tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]
+if(tf.gakuen_now_turn==0){
+    //学園限定イベントを選択
+    
+}else{
+    //学園通常イベントを選択
+
+} 
+
+f.gakuen_turn+=1;
+[endscript]
 
 
