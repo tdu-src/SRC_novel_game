@@ -76,14 +76,20 @@ f.gakuen_FT=false;
 tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]
 if(tf.gakuen_now_turn==0){
     //学園限定イベントを選択
-    tf.gakuen_path='logic/gakuen/gakuen';
-    
+    f.gakuen_turn_gentei+=1;
+    tf.gakuen_path='logic/gakuen_gentei/gakuen_';
+    tf.gakuen_path+=f.gakuen_turn_gentei+'.ks';
 }else{
     //学園通常イベントを選択
-
+    tf.list_range=f.gakuen_tuzyo.length();
+    tf.math_range=tf.list_range-1;
+    tf.random = Math.floor( Math.random() *tf.math_range );
+    tf.random_ivent=f.gakuen_tuzyo[tf.random];
+    f.gakuen_tuzyo.splice(tf.ramdom,tf.random);
+    tf.gakuen_path='logic/gakuen/gakuen_';
+    tf.gakuen_path+=tf.random_ivent+'.ks';
 } 
-
 f.gakuen_turn+=1;
 [endscript]
-
+[jump storage="tf.gakuen_path" ]
 
