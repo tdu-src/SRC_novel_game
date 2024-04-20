@@ -91,5 +91,5 @@ if(tf.gakuen_now_turn==0){
 } 
 f.gakuen_turn+=1;
 [endscript]
-[jump storage="tf.gakuen_path" ]
+[jump storage="&tf.gakuen_path"]
 
