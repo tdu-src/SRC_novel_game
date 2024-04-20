@@ -17,7 +17,7 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="first_scene.ks"
+@jump storage="logic/loop/entry_point.ks"
 
 
 
