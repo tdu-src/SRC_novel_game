@@ -76,6 +76,7 @@ f.gakuen_FT=false;
 tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]
 if(tf.gakuen_now_turn==0){
     //学園限定イベントを選択
+    tf.gakuen_path='logic/gakuen/gakuen';
     
 }else{
     //学園通常イベントを選択
