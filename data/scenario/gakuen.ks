@@ -130,13 +130,23 @@
 *gakuen_gentei_part_1
 
 #
-ここは限定イベント1です[p]
+ここは限定イベント1です（導入）[p]
+
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
+
 
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_gentei_part_2
 #
-ここは限定イベント2です[p]
+ここは限定イベント2です（体育祭）[p]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
 
 
 [jump target="*gakuen_part_end" ]
@@ -144,30 +154,57 @@
 *gakuen_gentei_part_3
 
 #
-ここは限定イベント3です[p]
+ここは限定イベント3です（夏休み１）[p]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
 
 [jump target="*gakuen_part_end" ]
 
 ;-------------------------------------------------------------------
 *gakuen_gentei_part_4
 #
-ここは限定イベント4です[p]
+ここは限定イベント4です（夏休み２）[p]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
 
 
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_gentei_part_5
 #
-ここは限定イベント5です[p]
+ここは限定イベント5です（文化祭）[p]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
 
 
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_gentei_part_6
 #
-ここは限定イベント6です[p]
+ここは限定イベント6です（お正月）[p]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="なし"  target="*gakuen_part_end"]
+[s]
 
-
+[jump target="*gakuen_part_end" ]
+;-------------------------------------------------------------------
+*memori_20_up
+[iscript]
+f.memori+=20;
+[endscript]
+[jump target="*gakuen_part_end" ]
+;-------------------------------------------------------------------
+*scout_20_up
+[iscript]
+f.scout+=20;
+[endscript]
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_part_end
