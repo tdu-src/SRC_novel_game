@@ -1,12 +1,14 @@
 *start
 [iscript]
 f.gakuen_FT=0;
+tf.place_library_name="library";
+tf.place_color="red";
 [endscript]
 ;バックグラウンドの宣言
 [bg storage="map.jpg" time="1000"  ]
 
 [button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50"]
-[glink  color="blue"  size="21"  x="50"  width="100"  y="600"  text="カフェ" target="*houkago_selector_1" ]
+[glink  color="&tf.place_color"  size="21"  x="50"  width="100"  y="600"  text="カフェ" target="&tf.cafe_tuzyo" ]
 [glink  color="blue"  size="21"  x="250"  width="100"  y="600"  text="図書館" target="*houkago_selector_2" ]
 [glink  color="blue"  size="21"  x="450"  width="100"  y="600"  text="自宅" target="*houkago_selector_3" ]
 [glink  color="blue"  size="21"  x="650"  width="100"  y="600"  text="ゲーセン" target="*houkago_selector_4" ]

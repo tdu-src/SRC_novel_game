@@ -11,6 +11,10 @@
 
 ;ゲームで必ず必要な初期化処理はこのファイルに記述するのがオススメ
 
+;好感度管理プラグイン読込
+[plugin name=lovemng]
+;[plugin name=tsex ]
+
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 

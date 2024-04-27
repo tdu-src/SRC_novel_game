@@ -13,6 +13,7 @@
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
+
 ;文字が表示される領域を調整
 [position layer="message0" page="fore" margint="45" marginl="50" marginr="70" marginb="60"]
 
@@ -28,6 +29,7 @@
 
 ;メニューボタン非表示
 @hidemenubutton
+
 
 ;ロールボタン追加;;;;;;;;;;;;;;
 
@@ -93,7 +95,21 @@
 ;kinoshita
 [chara_new name="kinoshita" storage="chara/kinoshita/jkbk.png"jname="木下" ]
 
-
+[layopt layer="1" visible="true"]
+[layopt layer="2" visible="true"]
+[freeimage layer="1" time="0"]
+[iscript]
+tf.mouth_logic_turn=f.logic_turn-1;
+tf.now_mouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
+if(tf.mouth_logic_turn%2==0){
+    tf.now_mouth+="月前半";
+}else{
+    tf.now_mouth+="月後半";
+}
+[endscript]
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+;あとで直しておきます がるむさんへ
+[ptext layer="2" x="500" y="0" size="40" text="ここにタイトル" name="title_name"]
 
 [iscript]
 f.gakuen_FT=1;

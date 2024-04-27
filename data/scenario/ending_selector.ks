@@ -36,7 +36,7 @@ if(f.memori_flag=='true'){
     tf.ending_root+='memori';
 }else if(f.scout_flag=='true'){
     tf.ending_root+='scout';
-}else{
+}else if{
     tf.ending_root+='normal';
 }
 [endscript]

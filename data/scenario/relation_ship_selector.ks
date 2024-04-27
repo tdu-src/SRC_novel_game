@@ -29,40 +29,38 @@ tf.koryu_person='scout';
 [iscript]
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
-    if(f.memori>=100&&f.memori_kouryu_key>=4){
+    if(f.memori>=100&&f.memori_kouryu_key==4){
         f.memori_flag='true';
         tf.koryu_person+='_'+f.memori_kouryu_key;
-        f.memori_kouryu_key+=1;
-    }else if(f.memori>=80&&f.memori_kouryu_key>=3){
+    }else if(f.memori>=80&&f.memori_kouryu_key==3){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=60&&f.memori_kouryu_key>=2){
+    }else if(f.memori>=60&&f.memori_kouryu_key==2){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=40&&f.memori_kouryu_key>=1){
+    }else if(f.memori>=40&&f.memori_kouryu_key==1){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=20){
+    }else if(f.memori>=20&&f.memori_kouryu_key==0){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
     }
 }else if(tf.koryu_person=='scout'){
-    if(f.scout>=100&&f.scout_kouryu_key>=4){
+    if(f.scout>=100&&f.scout_kouryu_key==4){
         f.scout_flag='true';
         tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=80&&f.scout_kouryu_key>=3){
+    }else if(f.scout>=80&&f.scout_kouryu_key==3){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key>=2){
+    }else if(f.scout>=60&&f.scout_kouryu_key==2){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=40&&f.scout_kouryu_key>=1){
+    }else if(f.scout>=40&&f.scout_kouryu_key==1){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>20){
+    }else if(f.scout>20&&f.scout_kouryu_key==0){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
     }else{
