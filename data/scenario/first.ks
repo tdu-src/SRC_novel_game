@@ -13,7 +13,7 @@
 
 ;好感度管理プラグイン読込
 [plugin name=lovemng]
-;[plugin name=tsex ]
+[plugin name=tsex ]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
