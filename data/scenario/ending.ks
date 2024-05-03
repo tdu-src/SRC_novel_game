@@ -1,11 +1,5 @@
 *start
 ;-------------------------------------------------------------
-*ending_root_normal
-
-#
-ここはノーマルエンドです[p]
-[jump target="*ending_to_titles" ]
-;-------------------------------------------------------------
 *ending_root_memori
 
 #
@@ -20,6 +14,13 @@
 [jump target="*ending_to_titles" ]
 
 ;-------------------------------------------------------------
+*ending_root_normal
+
+#
+ここはノーマルエンドです[p]
+[jump target="*ending_to_titles" ]
+;-------------------------------------------------------------
+
 *ending_to_titles
 [free layer="message0" name="chara_name_area"  ]
 [clearfix]

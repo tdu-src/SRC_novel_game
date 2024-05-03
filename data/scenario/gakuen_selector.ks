@@ -95,11 +95,12 @@
 ;kinoshita
 [chara_new name="kinoshita" storage="chara/kinoshita/jkbk.png"jname="木下" ]
 
+;ここがシナリオ名と月
 [layopt layer="1" visible="true"]
 [layopt layer="2" visible="true"]
 [freeimage layer="1" time="0"]
 [iscript]
-tf.mouth_logic_turn=f.logic_turn-1;
+tf.mouth_logic_turn=f.gakuen_turn;
 tf.now_mouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
 if(tf.mouth_logic_turn%2==0){
     tf.now_mouth+="月前半";
@@ -110,6 +111,7 @@ if(tf.mouth_logic_turn%2==0){
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 ;あとで直しておきます がるむさんへ
 [ptext layer="2" x="500" y="0" size="40" text="ここにタイトル" name="title_name"]
+;ここまでシナリオ名と月のメソッド
 
 [iscript]
 f.gakuen_FT=1;
@@ -121,17 +123,20 @@ if(tf.gakuen_now_turn==0){
     tf.gakuen_path+=f.gakuen_turn_gentei;
 }else{
     //学園通常イベントを選択
-    tf.list_range=f.gakuen_turn_tuzyo.length;
-    tf.math_range=tf.list_range-1;
-    tf.random = Math.floor( Math.random() *tf.math_range );
-    tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
-    f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
-    tf.gakuen_path='gakuen_tuzyo_part_';
-    tf.gakuen_path+=tf.random_ivent;
-    //一様logicのend_turnの値が上手くいかないたら
-    if(tf.list_range==0){
-        tf.gakuen_path='ending';
+    try{
+        tf.list_range=f.gakuen_turn_tuzyo.length;
+        tf.math_range=tf.list_range-1;
+        tf.random = Math.floor( Math.random() *tf.math_range );
+        tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
+        f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
+        tf.gakuen_path='gakuen_tuzyo_part_';
+        tf.gakuen_path+=tf.random_ivent;
+    }catch{
+            if(tf.list_range==0){
+                tf.gakuen_path='ending';
+            }
     }
+    //一様logicのend_turnの値が上手くいかないたら
 } 
 f.gakuen_turn+=1;
 [endscript]

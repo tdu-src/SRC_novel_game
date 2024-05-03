@@ -60,7 +60,7 @@ if(tf.koryu_person=='memori'){
     }else if(f.scout>=40&&f.scout_kouryu_key==1){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>20&&f.scout_kouryu_key==0){
+    }else if(f.scout>=20&&f.scout_kouryu_key==0){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
     }else{

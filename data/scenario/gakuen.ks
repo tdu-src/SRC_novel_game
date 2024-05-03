@@ -131,7 +131,7 @@
 
 
 #
-ここは限定イベント1です（導入）[p]
+ここは限定イベント1です（ｗ導入）[p]
 
 [glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="スカウトの好感度アップ"  target="*scout_20_up"]
 [glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="メモリの好感度アップ"  target="*memori_20_up"]
