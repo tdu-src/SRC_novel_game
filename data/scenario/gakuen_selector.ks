@@ -97,7 +97,6 @@
 
 ;ここがシナリオ名と月
 [layopt layer="1" visible="true"]
-[layopt layer="2" visible="true"]
 [freeimage layer="1" time="0"]
 [iscript]
 tf.mouth_logic_turn=f.gakuen_turn;
@@ -110,7 +109,7 @@ if(tf.mouth_logic_turn%2==0){
 [endscript]
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 ;あとで直しておきます がるむさんへ
-[ptext layer="2" x="500" y="0" size="40" text="ここにタイトル" name="title_name"]
+[ptext layer="1" x="500" y="0" size="40" text="ここにタイトル" name="title_name"]
 ;ここまでシナリオ名と月のメソッド
 
 [iscript]

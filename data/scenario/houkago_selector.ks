@@ -1,4 +1,5 @@
 *start
+[layopt layer="2" visible="false" ]
 ;遭遇イベントの実装
 [iscript]
 f.gakuen_FT=0;
