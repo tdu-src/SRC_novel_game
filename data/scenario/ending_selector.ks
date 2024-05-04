@@ -30,8 +30,6 @@
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
-#
-test[p]
 
 [iscript]
 tf.ending_root='*ending_root_';

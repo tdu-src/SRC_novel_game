@@ -27,7 +27,8 @@ for(var i=0;i<4;i++){
 [glink  color="&tf.random_button_list[1]"  size="21"  x="250"  width="100"  y="600"  text="図書館" target="*houkago_selector_1"exp="tf.selection_button=1" ]
 [glink  color="&tf.random_button_list[2]"  size="21"  x="450"  width="100"  y="600"  text="自宅" target="*houkago_selector_1"exp="tf.selection_button=2" ]
 [glink  color="&tf.random_button_list[3]"  size="21"  x="650"  width="100"  y="600"  text="ゲーセン" target="*houkago_selector_1"exp="tf.selection_button=3" ]
-[glink  color="red"  size="21"  x="1050"  width="100"  y="600"  text="交流" storage="relation_ship_selector.ks" ]
+[glink  color="red"  size="21"  x="1050"  width="100"  y="500"  text="交流" storage="relation_ship_selector.ks" ]
+[glink color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
 [s]
 
 ;以下はただの宣言読む必要ない
