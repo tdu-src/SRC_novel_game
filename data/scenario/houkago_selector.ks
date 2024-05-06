@@ -1,5 +1,4 @@
 *start
-[layopt layer="2" visible="false" ]
 ;遭遇イベントの実装
 [iscript]
 f.gakuen_FT=0;
@@ -17,12 +16,14 @@ for(var i=0;i<4;i++){
 }
 [endscript]
 
-
+*start_sab
+[layopt layer="1" visible="false" ]
+[layopt layer="2" visible="false" ]
 
 ;バックグラウンドの宣言
 [bg storage="map.jpg" time="1000"  ]
 
-[button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50"]
+
 [glink  color="&tf.random_button_list[0]"  size="21"  x="50"  width="100"  y="600"  text="カフェ" target="*houkago_selector_1" exp="tf.selection_button=0"]
 [glink  color="&tf.random_button_list[1]"  size="21"  x="250"  width="100"  y="600"  text="図書館" target="*houkago_selector_1"exp="tf.selection_button=1" ]
 [glink  color="&tf.random_button_list[2]"  size="21"  x="450"  width="100"  y="600"  text="自宅" target="*houkago_selector_1"exp="tf.selection_button=2" ]

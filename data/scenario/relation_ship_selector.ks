@@ -2,6 +2,8 @@
 [bg storage="relation_ship_selector_background.jpg" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
 [clearfix]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
 [layopt layer="message0" visible="false"]
 [layopt layer="2" visible="true" ]
 [chara_hide name="akane" time="1000" ]
@@ -36,7 +38,7 @@ tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_
 
 
 
-[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks"   ]
+[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
 [glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 [glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
 

@@ -3,6 +3,7 @@
 ;----------------------------------------------------------------------
 *place_cafe
 [bg storage="rouka.jpg" time="100" ]
+[exp="f.cafe+=f.normal_place_parameter"]
 
 #
 ここはカフェです[p]

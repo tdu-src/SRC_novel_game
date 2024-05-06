@@ -9,6 +9,7 @@ f.end_turn; //エンドに分岐するための変数
 f.gakuen_turn=0; //学園モードのターン設定
 f.gakuen_turn_gentei=0; //学園の限定イベントの進行
 
+//エンドターンの計算
 f.end_turn=f.gakuen_turn_list.length;
 f.end_turn*=2;
 f.end_turn+=1;
@@ -16,9 +17,13 @@ f.end_turn+=1;
 
 //以下から主人公のパラメータ
 f.cafe=0;
-f.park=0;
+f.my_home=0;
 f.library=0;
 f.game_senter=0;
+
+//場所のパラメータの値の通常と遭遇イベントの値の変化
+f.normal_place_parameter=10;
+f.special_place_parameter=15;
 
 //以下からキャラクターの好感度
 f.scout=0;
