@@ -16,6 +16,7 @@ f.end_turn+=1;
 
 
 //以下から主人公のパラメータ
+f.player_name;
 f.cafe=0;
 f.my_home=0;
 f.library=0;
@@ -32,5 +33,11 @@ f.scout_flag='false';
 f.memori=0;
 f.memori_kouryu_key=0;
 f.memori_flag='false';
+f.tsukuri=0;
+f.tsukuri_kouryu_key=0;
+f.tsukuri_flag='false';
+f.wakatsuki=0;
+f.wakatsuki_kouryu_key=0;
+f.wakatsuki_flag='false';
 [endscript] 
 [jump storage="logic.ks"  ]

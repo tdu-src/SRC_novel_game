@@ -18,10 +18,10 @@ var obj = {
         tf.space_achievement="　　";
         tf.koukando_achievement="●";
         tf.achievement="";
-        for(i=0;i<5;i++){
-            if(person>i*20&&kouryu_key>i){
+        for(i=1;i<6;i++){
+            if(person>=i*20&&kouryu_key>=i){
                 tf.koukando_achievement="●";
-            }else if(person>i*20&&kouryu_key<=i){
+            }else if(person>=i*20&&kouryu_key<=i){
                 tf.koukando_achievement="○";
             }else{
                 tf.koukando_achievement="🔒";
@@ -90,7 +90,77 @@ if(tf.koryu_person=='memori'){
     }else{
         tf.koryu_person='none';
     }
+} else if(tf.koryu_person=='tsukuri'){//ここから変える」
+    if(f.scout>=100&&f.scout_kouryu_key==4){
+        f.scout_flag='true';
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+    }else if(f.scout>=80&&f.scout_kouryu_key==3){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=60&&f.scout_kouryu_key==2){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=40&&f.scout_kouryu_key==1){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=20&&f.scout_kouryu_key==0){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else{
+        tf.koryu_person='none';
+    }
+} else if(tf.koryu_person=='wakatsuki'){
+    if(f.scout>=100&&f.scout_kouryu_key==4){
+        f.scout_flag='true';
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+    }else if(f.scout>=80&&f.scout_kouryu_key==3){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=60&&f.scout_kouryu_key==2){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=40&&f.scout_kouryu_key==1){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=20&&f.scout_kouryu_key==0){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
+        f.scout_kouryu_key+=1;
+    }else{
+        tf.koryu_person='none';
+    }
 } 
+/*
+var obj={
+    relation_ship_select:function(koukando,key,flag){
+        flag='false';
+        if(koukando>=100&&key==4){
+            flag='true';
+            tf.koryu_person+='_'+key;
+        }else if(koukando>=80&&key==3){
+            tf.koryu_person+='_'+key;
+            key+=1;
+        }else if(koukando>=60&&key==2){
+            tf.koryu_person+='_'+key;
+            key+=1;
+        }else if(koukando>=40&&key==1){
+            tf.koryu_person+='_'+key;
+            key+=1;
+        }else if(koukando>=20&&key==0){
+            tf.koryu_person+='_'+key;
+            key+=1;
+        }else{
+            tf.koryu_person='none';
+            key=key;
+        }
+        return [tf.koryu_person,key,flag];
+}
+}
+if(tf.koryu_person=='memori'){
+    var[tf.koryu_person,f.memori_kouryu_key,f.memori_flag]=obj.relation_ship_select(f.memori,f.memori_kouryu_key,f.memori_flag);
+}else if(tf.koryu_person=='scout'){
+    var[tf.koryu_person,f.scout_kouryu_key,f.scout_flag]=obj.relation_ship_select(f.scout,f.scout_kouryu_key,f.scout_flag);
+}
+*/
 [endscript]
 
 ;メッセージウインドウの宣言

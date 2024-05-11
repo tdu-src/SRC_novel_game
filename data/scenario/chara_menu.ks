@@ -14,11 +14,11 @@ tf.scout_kokando_meter="";
 var obj = {
     chara_kokando_meter: function(meter,person) {
         tf.koukando_meter_string="";
-        for(i=0;i<5;i++){
-            if(person>i*20){
-                tf.koukando_meter_string+="■■";
+        for(i=0;i<10;i++){
+            if(person>i*10){
+                tf.koukando_meter_string+="■";
             }else{
-                tf.koukando_meter_string+="□□"
+                tf.koukando_meter_string+="□"
             }
         }
         meter=tf.koukando_meter_string;

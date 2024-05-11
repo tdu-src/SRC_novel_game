@@ -76,9 +76,9 @@
 
 ;このゲームで登場するキャラクターを宣言
 ;akane
-[chara_new  name="akane" storage="chara/akane/normal.png" jname="あかね"  ]
+[chara_new  name="akane" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
 ;キャラクターの表情登録
-[chara_face name="akane" face="normal" storage="chara/akane/normal.png"  ]
+[chara_face name="akane" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="akane" face="angry" storage="chara/akane/angry.png"]
 [chara_face name="akane" face="doki" storage="chara/akane/doki.png"]
 [chara_face name="akane" face="happy" storage="chara/akane/happy.png"]
@@ -86,14 +86,33 @@
 
 
 ;yamato
-[chara_new  name="yamato"  storage="chara/yamato/normal.png" jname="やまと" ]
+[chara_new  name="yamato"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
 
-[chara_face name="yamato" face="happy" storage="chara/yamato/happy.png"  ]
+[chara_face name="yamato" face="normal" storage="chara/scout/scout_normal.png"  ]
 [chara_face name="yamato" face="angry" storage="chara/yamato/angry.png"  ]
 [chara_face name="yamato" face="sad" storage="chara/yamato/sad.png" ]
 
 ;kinoshita
 [chara_new name="kinoshita" storage="chara/kinoshita/jkbk.png"jname="木下" ]
+
+;tsukuri
+[chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
+
+[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
+
+;scout
+[chara_new  name="scout"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
+
+[chara_face name="scout" face="normal" storage="chara/scout/scout_normal.png"  ]
+
+
+;wakastuki
+[chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
+
+[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
+
+;memoei
+
 
 ;ここがシナリオ名と月
 [layopt layer="1" visible="true"]
@@ -109,7 +128,6 @@ if(tf.mouth_logic_turn%2==0){
 [endscript]
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 ;あとで直しておきます がるむさんへ
-[ptext layer="1" x="500" y="0" size="40" text="ここにタイトル" name="title_name"]
 ;ここまでシナリオ名と月のメソッド
 
 [iscript]
@@ -139,5 +157,8 @@ if(tf.gakuen_now_turn==0){
 } 
 f.gakuen_turn+=1;
 [endscript]
+
+;ここにbgm流すスクリプト
+
 [jump storage="gakuen.ks" target="&tf.gakuen_path" ]
 

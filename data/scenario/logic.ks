@@ -18,13 +18,13 @@ var obj={
     }
 }
 f.cafe=obj.parameter_controll(f.cafe);
-//f.my_home=0;
-//f.library=0;
-//f.game_senter=0;
+f.my_home=obj.parameter_controll(f.my_home);
+f.library=obj.parameter_controll(f.library);
+f.game_senter=obj.parameter_controll(f.game_senter);
 f.scout=obj.parameter_controll(f.scout);
 f.memori=obj.parameter_controll(f.memori);
-
 [endscript]
+
 [if exp="f.logic_turn>=f.end_turn" ]
 [jump storage="ending_selector.ks"  ]
 [elsif exp="f.gakuen_FT==0" ]
