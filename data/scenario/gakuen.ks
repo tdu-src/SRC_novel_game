@@ -464,7 +464,6 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 
-[chara_mod name="scout" face="" time="500" ]
 #スカウト
 大事件です大事件です！（主人公）さん！！[p]
 
@@ -474,11 +473,9 @@
 #
 渡り廊下の自販機の前に連れてこられると、そこにはツクリが立っていた..[p]
 
-[chara_mod name="memori" face="" time="500" ]
 #ツクリ
 あ、（主人公）...これは大事件だよ...！[p]
 
-[chara_mod name="scout" face="" time="500" ]
 #スカウト
 （主人公）さん、見てください！この...「すき焼きミルクシェイク[p]
 
@@ -488,18 +485,15 @@
 #&f.player_name
 （...何これ？）[p]
 
-[chara_mod name="scout" face="" time="500" ]
 #スカウト
 突如登場した、謎の缶ジュースです！一番の謎は、まったく味が想像できないところです！[p]
 
-[chara_mod name="memori" face="" time="500" ]
 #ツクリ
 私が偶然見つけたんだ...これは味を確かめないと一生後悔する気がする...[p]
 
 #&f.player_name
 （飲んでも一生後悔しそうだけど...）[p]
 
-[chara_mod name="scout" face="" time="500" ]
 #スカウト
 さあ（主人公）さん！ここまで来たら運命共同体です！一緒に味を確かめましょう！[p]
 
@@ -512,11 +506,11 @@
 
 
 *gakuen_tuzyo_part_6_root_1
-[chara_mod name="scout" face="" time="500" ]
+
 #スカウト
 流石ですね！（主人公）さん！[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 そう言ってくれるってわかってたよ...さあ、一緒に確かめよう...！[p]
 
@@ -532,11 +526,11 @@
 #
 口に入れた瞬間、なんとも形容しがたい甘みと塩味が口の中に広がった..[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 これは...強烈すぎる...[p]
 
-[chara_mod name="scout" face="" time="500" ]
+
 #スカウト
 でも...飲んだからには飲み切るしかありません...！この困難をみんなで切り抜けましょう...！！[p]
 
@@ -548,18 +542,18 @@
 
 *gakuen_tuzyo_part_6_root_2
 
-[chara_mod name="scout" face="" time="500" ]
+
 #スカウト
 かぁ～～！！意気地なしですね！（主人公）さん！[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 これを味わえないなんてきっと後悔するよ？[p]
 
 #&f.player_name
 （味わって後悔したくないんだけど...）[p]
 
-[chara_mod name="scout" face="" time="500" ]
+
 #スカウト
 もう（主人公）さんなんてほっときましょう！いきますよ、ツクリさん！[p]
 
@@ -569,22 +563,22 @@
 #
 スカウトとツクリは購入した謎のドリンクを一気にあおった！スカウト＆ツクリ（驚き）「ゴホッッッッッ！！！！！」主人公「（だ、大丈夫...？）」ツクリ（困惑）「これは...強烈すぎる...」スカウト（困惑）「ひ、ひどいです... （主人公）さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...」ツクリ（ 困惑）「恨むよ...(主人公)...」&&飲まないという選択は正解ではなかったのか、一生頭を悩ませることになった..[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 ゴホッッッッッ！！！！！[p]
 
 #&f.player_name
 （だ、大丈夫...？）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 これは...強烈すぎる...[p]
 
-[chara_mod name="scout" face="" time="500" ]
+
 #スカウト
 ひ、ひどいです... （主人公）さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #ツクリ
 恨むよ...(主人公)...[p]
 
@@ -594,6 +588,8 @@
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_tuzyo_part_7
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[chara_show name="wakastuki" width="450" height="600" ]
 
 
 ;ランダムイベント7
@@ -601,7 +597,7 @@
 #
 休み時間、ワカツキと話しながら廊下で歩いていると..[p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 ねぇ、なんか聞こえない...?[p]
 
@@ -617,7 +613,7 @@
 #
 （ギュイイイイイン！！！！！！[p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 ちょっ...!何あれ?![p]
 
@@ -627,7 +623,7 @@
 #&f.player_name
 （危ない！！）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 とまってーーーーー！！！！[p]
 
@@ -637,37 +633,37 @@
 #
 暴走していた機械は急ブレーキをかけて目の前で止まった。間一髪だった..[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 大丈夫？！ケガしなかった？！[p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 大丈夫...でもこの機械はいったい何...?[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 これはどこでもおそうじくん Z！自動で色んなところを掃除してくれる優れ者なんだよ![p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 安全性は優れてないけど...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 でもこの発明、まだまだ改良の余地があると思うんだよね...何かいい案ないかな？[p]
 
 #&f.player_name
 （いい案か...）[p]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part__root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part__root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part_7_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part_7_root_2" ]
 [s]
 
 
 
 *gakuen_tuzyo_part_7_root_1
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ん～、まぁそうだよねぇ。とりあえず直してみる！[p]
 
@@ -677,19 +673,19 @@
 #
 めもりはその場で機械を改造し始めた... すごい技術だ...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 とりあえずこれで大丈夫なはず![p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 はずって.... 本当に大丈夫...？[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ん～、多分？[p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 多分って...[p]
 
@@ -701,7 +697,7 @@
 
 *gakuen_tuzyo_part_7_root_2
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 それってイメチェンするってこと？面白そうだしやってみる！[p]
 
@@ -711,18 +707,18 @@
 #
 めもりはその場で機械を改造し始めた... すごい技術だ...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 できた！流行りの感じにしてみたよ！[p]
 
 #
 そこには自分くらいの身長をしたガ〇ダムのようなロボットが立っていた..[p]
 
-[chara_mod name="wakastuki" face="" time="500" ]
+
 #ワカツキ
 これ、どこかで見たような...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 もうこれで弱点はないよ！どこでもおそうじくん Z！発進 ！！[p]
 
@@ -733,25 +729,28 @@
 ;-------------------------------------------------------------------
 *gakuen_tuzyo_part_8
 
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+
+
 #
 授業終わり..[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ねぇ、知ってる...?理科準備室のうわさ...[p]
 
 #&f.player_name
 （理科準備室のうわさ？）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ...[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 その人はこの世に未練があったから地縛霊になっちゃって、誰もいないはずの理科準備室に人影を見たって人がいるんだって...！[p]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part__root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part__root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part_8_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part_8_root_2" ]
 [s]
 
 
@@ -759,14 +758,14 @@
 
 
 *gakuen_tuzyo_part_8_root_1
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 も～！噂だから気になるんでしょ！実際に確かめに行くよ！[p]
 
 #
 （教室に移動[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ここが理科準備室だよ！[p]
 
@@ -797,28 +796,27 @@
 #
 バンッ！[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ぐお～～～！！！！！！[p]
 
 #&f.player_name
 （うわぁっ！！）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ドッキリ大成功！！驚いた？！驚いた？！[p]
 
 #&f.player_name
 （め、めもり...？）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 いや～、（主人公）の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]
 
 #
 めもりがある一点を見つめると、みるみる顔が青ざめていく..[p]
 
-[chara_mod name="memori" face="" time="500" ]
 #メモリ
 お化け～～～～～？！！！！！[p]
 
@@ -827,28 +825,28 @@
 
 *gakuen_tuzyo_part_8_root_2
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 も～！噂だから気になるんでしょ！来てくれないと成り立たないよ！[p]
 
 #&f.player_name
 （成り立たない?）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 あっ...成り立たないていうか...うまくいかないっていうか...[p]
 
 #&f.player_name
 （うまくいかない?）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 うぐ...[p]
 
 #&f.player_name
 （もしかして、いたずらしようとしてた？）[p]
 
-[chara_mod name="memori" face="" time="500" ]
+
 #メモリ
 ゴ、ゴメンナサイ...[p]
 
@@ -856,52 +854,213 @@
 ;-------------------------------------------------------------------
 *gakuen_tuzyo_part_9
 
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[chara_show name="wakastuki" width="450" height="600" ]
+[chara_show name="scout" width="450" height="600" ]
 ;ランダムイベント9
+#
+今日の最後の授業が終わった、最近はやることが多くてへとへとだ..[p]
+
+#ワカツキ
+なんか疲れてる顔してるね？[p]
+
+#
+ワカツキが心配して声をかけてくれたようだ..[p]
+
+#&f.player_name
+(最近疲れが取れなくて...)[p]
+
+#スカウト
+そんな時こそサウナです！！（主人公）さん！！[p]
+
+#ワカツキ
+うわ、びっくりした...[p]
+
+#スカウト
+サウナに入って体を温めると血行が促進され疲労回復やリラックス効果を得ることが出来るんです！！中でも私がおすすめしたいのはフィンランド式サウナです ね！あっフィンランド式サウナというのは普通のサウナとは少し違[p]
+
+#ワカツキ
+私は寝る前のマッサージがおすすめかな～、睡眠の質もよくなるし、眼精疲労とかにも良く効くんだよね。[p]
+
+#
+どちらの方法も魅力的だ[p]
+
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part_9_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part_9_root_2" ]
+[s]
+
 
 
 *gakuen_tuzyo_part_9_root_1
+#スカウト
+お安い御用です！私イチオシのサウナ、たくさん教えちゃいますよ！[p]
 
+#ワカツキ
+サウナか～。私は行ったことないけど、試してみようかな？[p]
 
+#スカウト
+大歓迎ですよ！一緒にサウナライフを満喫しましょう！[p]
+
+#
+週末、スカウトイチオシのサウナに行ってリフレッシュすることが出来た[p]
 
 [jump target="*gakuen_part_end"]
 
 *gakuen_tuzyo_part_9_root_2
 
 
+#スカウト
+あっ、ずるいです！私もゲームで目が常にお疲れなので教えてください！！[p]
+
+#
+ワカツキイチオシのマッサージ方法を試し、良い睡眠をとることが出来た[p]
+
 
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_tuzyo_part_10
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[chara_show name="tsukuri" width="450" height="600" ]
 
+#めもり
+ちーがーうー！絶対この方がいいって！！[p]
 
+#ツクリ
+いやいや、さすがにこれは譲れないよ。[p]
+
+#めもり
+ツクリが揉めている...
+
+#&f.player_name
+「（どうしたの？）[p]
+
+#めもり
+あっ、（主人公）！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
+
+#ツクリ
+デザインには守らなくちゃいけないルールがあるんだって言ってるだけだよ。[p]
+
+#めもり
+おっきい文字入れたほうが絶対いいに決まってるじゃん！[p]
+
+#
+このままでは収拾がつかなさそうだ...どうしたものか..[p]
+
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part_10_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part_10_root_2" ]
+[s]
 ;ランダムイベント10
 
 *gakuen_tuzyo_part_10_root_1
+#&f.player_name
+（二人のいいところを入れてみたら？）[p]
+
+#ツクリ
+...そうだね、めもりの言ってたことも一理あるし。[p]
+
+#めもり
+おたがいのいいところを見つけてみるのがいいかも！[p]
+
+#
+二人の良い点を探しあい、それを参考に最高のポスターを完成させることが出来た[p]
 
 
 
 [jump target="*gakuen_part_end"]
 
 *gakuen_tuzyo_part_10_root_2
+#
+二人のポスターを見て、自分なりのポスターをさっとデザインして見せた..[p]
 
+#&f.player_name
+（こんなのはどう？）[p]
 
+#めもり
+...なんか違う。[p]
 
+#ツクリ
+うん、ちょっと悪いとこが目立つかもね。例えばここは...[p]
+
+#
+自分のイマイチなポスターを見たツクリとめもりは、それをヒントにポスターを改善できたのだった..[p]
 
 [jump target="*gakuen_part_end" ]
 ;-------------------------------------------------------------------
 *gakuen_tuzyo_part_11
 
-
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[chara_show name="tsukuri" width="450" height="600" ]
 ;ランダムイベント11
 
+#&f.player_name
+（お、お金がない...)[p]
+
+#
+限られたお小遣いでやりくりしているが、自販機でジュースを買おうとしたら財布の底が尽きていた..[p]
+
+#ツクリ
+驚き）「どうしたの、そんなしょんぼりした顔して。[p]
+
+#&f.player_name
+（最近金欠で...)[p]
+
+#ツクリ
+通常）「あ～、金欠なんだ。私は創作用の機材のためにバイトしてるよ。[p]
+
+#&f.player_name
+（どんなバイトしてるの？)[p]
+
+#ツクリ
+通常）「カフェのバイト。千住庵ってところなんだけど、知ってる？[p]
+
+#&f.player_name
+（知ってる！)[p]
+
+#
+千住庵はこの辺でも有名なカフェだ。平日でも並ばないと入れないぐらいの人気らしい..[p]
+
+#ツクリ
+通常）「それでさ、最近バイトが足りないらしくて良かったら紹介するよ。[p]
+
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text=""  exp="" target="gakuen_tuzyo_part_11_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=""  exp="" target="*gakuen_tuzyo_part_11_root_2" ]
+[s]
+
 *gakuen_tuzyo_part_11_root_1
+#ツクリ
+笑顔）「うん、もちろん。短期でも長期でも歓迎してくれると思うよ。[p]
+
+#&f.player_name
+（ありがとう！)[p]
+
+#
+その後の週末、仕事は激務だったが、無事金欠を乗り切ることが出来た[p]
 
 
 
 [jump target="*gakuen_part_end"]
 
 *gakuen_tuzyo_part_11_root_2
+#ツクリ
+通常）「あ～、それならしょうがないね。[p]
 
+#
+そういうと、ツクリは自販機でジュースを買い、こっちに差し出してきた..[p]
+
+#ツクリ
+通常）「はい、これ。[p]
+
+#&f.player_name
+（さ、さすがに悪いよ！)[p]
+
+#ツクリ
+笑顔）「大丈夫。第一、あんなにしょんぼりしてる人をほっておけないでしょ？[p]
+
+#&f.player_name
+（ありがとう...)[p]
+
+#
+ツクリの優しさを身に染みて感じた.[p]
 
 
 
@@ -1109,7 +1268,8 @@
 [clearfix]
 [layopt layer="message0" visible="false"  ]
 [freeimage layer="1" time="0" ]
-[stopbgm]
+[fadeinbgm storage="../bgm/sofuchara_bgm_normal.mp3" time="3000" ]
+[fadeoutbgm time="3000"]
 [chara_hide name="tsukuri" time="1000" ]
 [chara_hide name="scout" time="0" ]
 [chara_hide name="wakastuki" time="0" ]
