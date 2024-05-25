@@ -136,8 +136,10 @@ tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]
 if(tf.gakuen_now_turn==0){
     //学園限定イベントを選択
     f.gakuen_turn_gentei+=1;
-    tf.gakuen_path='gakuen_gentei_part_'
+    tf.gakuen_path='gakuen/gentei/';
+    tf.gakuen_path+='gakuen_gentei_part_';
     tf.gakuen_path+=f.gakuen_turn_gentei;
+    tf.gakuen_path+='.ks';
 }else{
     //学園通常イベントを選択
     try{
@@ -146,8 +148,9 @@ if(tf.gakuen_now_turn==0){
         tf.random = Math.floor( Math.random() *tf.math_range );
         tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
         f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
-        tf.gakuen_path='gakuen_tuzyo_part_';
+        tf.gakuen_path='gakuen/tuzyo/gakuen_tuzyo_part_';
         tf.gakuen_path+=tf.random_ivent;
+        tf.gakuen_path+='.ks';
     }catch{
             if(tf.list_range==0){
                 tf.gakuen_path='ending';
@@ -160,5 +163,4 @@ f.gakuen_turn+=1;
 
 ;ここにbgm流すスクリプト
 
-[jump storage="gakuen.ks" target="&tf.gakuen_path" ]
-
+[jump storage="&tf.gakuen_path" ]
