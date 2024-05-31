@@ -4,20 +4,23 @@
 (さて、掃除を始めよう!)[p]
 
 [chara_show name="scout" width="450" height="600" ]
+[chara_show name="memori" width="450" height="600" ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #スカウト
 掃除機は私が使うので、（主人公）さんは雑巾で拭き掃除をしてくださいね！[p]
 
-
+[bg time="10000" storage="classroom_hiru.jpg" method="fadeInLeft"]
 #メモリ
 ボクは黒板をきれいにするよ！[p]
 
 #
 時間経過..[p]
 
+[bg time="10000" storage="classroom_yugata.jpg" method="fadeInLeft"]
 #スカウト
 はぁ～、やっと終わりましたよ...[p]
+
 
 #メモリ
 ボクも終わったよ！[p]

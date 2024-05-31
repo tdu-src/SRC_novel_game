@@ -99,19 +99,39 @@
 [chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
 
 [chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
 
 ;scout
 [chara_new  name="scout"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
 
 [chara_face name="scout" face="normal" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="perplexed" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="sad" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="surprise" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="half_sad" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="smaile" storage="chara/scout/scout_normal.png"  ]
 
 
 ;wakastuki
 [chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
 
 [chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
 
-;memoei
+;memori
+[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
+
+[chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
 
 
 ;ここがシナリオ名と月

@@ -7,6 +7,8 @@
 今日は部活動が早く終わり、ホッと一息つく[emb exp="f.player_name"]。[r]
 そんな彼が文化祭の準備で忙しそうな「ツクリ」と教室で偶然会う。[p]
 
+[bg time="1000" storage="classroom_yugata.jpg" method="fadeInLeft"]
+
 [chara_show name="tsukuri" width="450" height="600" ]
 
 #ツクリ
