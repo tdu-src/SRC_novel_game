@@ -6,7 +6,7 @@
 #
 休み時間、ワカツキと話しながら廊下で歩いていると...[p]
 
-[chara_mod name=wakatsuki face=perplexed time="1000" ]
+[chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
 ）「ねぇ、なんか聞こえない...[p]
 
@@ -22,7 +22,7 @@
 #
 ギュイイイイイン！！！！！！[p]
 
-[chara_mod name=wakatsuki face=surprise time="1000" ]
+[chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
 ちょっ...！何あれ?[p]
 
@@ -42,7 +42,7 @@
 #めもり
 大丈夫？！ケガしなかった？[p]
 
-[chara_mod name=wakatsuki face=呆れ time="1000" ]
+[chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 大丈夫...でもこの機械はいったい何...[p]
 
@@ -50,7 +50,7 @@
 #めもり
 これはどこでもおそうじくん Z！自動で色んなところを掃除してくれる優れ者なんだよ[p]
 
-[chara_mod name=wakatsuki face=呆れ time="1000" ]
+[chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 安全性は優れてないけど..[p]
 
@@ -80,7 +80,7 @@
 #めもり
 とりあえずこれで大丈夫なはず[p]
 
-[chara_mod name=wakatsuki face=perplexed time="1000" ]
+[chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
 はずって.... 本当に大丈夫...[p]
 
@@ -88,7 +88,7 @@
 #めもり
 ん～、多分[p]
 
-[chara_mod name=wakatsuki face=呆れ time="1000" ]
+[chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 多分って..[p]
 
@@ -113,7 +113,7 @@
 #
 そこには自分くらいの身長をしたガ〇ダムのようなロボットが立っていた...[p]
 
-[chara_mod name=wakatsuki face=perplexed time="1000" ]
+[chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
 これ、どこかで見たような..[p]
 

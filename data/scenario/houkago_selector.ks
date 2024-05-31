@@ -3,7 +3,7 @@
 [iscript]
 f.gakuen_FT=0;
 tf.random_button_list=[];
-tf.random_place_list=["*place_cafe","*place_library","*place_home","*place_game_center"];
+tf.random_place_list=["cafe","library","home","game_center"];
 tf.selection_button;
 for(var i=0;i<4;i++){
     tf.random_place=Math.floor( Math.random() *2 );
@@ -66,4 +66,11 @@ for(var i=0;i<4;i++){
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
-[jump storage="place.ks" target="&tf.random_place_list[tf.selection_button]"  ]
+[iscript]
+tf.houkago_select_path="houkago_place/";
+tf.houkago_select_path+=tf.random_place_list[tf.selection_button];
+tf.houkago_select_path+=".ks"
+[endscript]
+
+;[jump storage="place.ks" target="&tf.random_place_list[tf.selection_button]"  ]
+[jump storage="&tf.houkago_select_path"]

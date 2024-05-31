@@ -10,4 +10,3 @@
 [chara_hide name="wakastuki" time="0" ]
 [chara_hide name="memori" time="0" ]
 [jump storage="logic.ks" ]
-[jump storage=""]
