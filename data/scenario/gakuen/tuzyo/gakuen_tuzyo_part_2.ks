@@ -1,7 +1,7 @@
 *start
 
 #&f.player_name
-(さて、掃除を始めよう!)[p]
+さて、掃除を始めよう![p]
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_show name="memori" width="450" height="600" ]
@@ -15,7 +15,7 @@
 ボクは黒板をきれいにするよ！[p]
 
 #
-時間経過..[p]
+（時間経過カットイン）[p]
 
 [bg time="10000" storage="classroom_yugata.jpg" method="fadeInLeft"]
 #スカウト
@@ -26,10 +26,10 @@
 ボクも終わったよ！[p]
 
 #&f.player_name
-（みんな、掃除お疲れ様！）[p]
+みんな、掃除お疲れ様！[p]
 
 #
-時間をかけた甲斐もあって、教室はピカピカだ[p]
+時間をかけた甲斐もあって、教室はピカピカだ![p]
 
 [glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"  exp="f.memori+=5" target="gakuen_tuzyo_part_2_root_1"]
 [glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  exp="f.scout+=5" target="*gakuen_tuzyo_part_2_root_2" ]

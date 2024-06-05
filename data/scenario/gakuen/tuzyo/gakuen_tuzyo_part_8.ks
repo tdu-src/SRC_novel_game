@@ -1,18 +1,18 @@
 *start
 
 #
-授業が終わった後、めもりが話しかけてきた [p]
+授業が終わった後、めもりが話しかけてきた。 [p]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-ねぇ、知ってる?理科準備室の怖～いうわさ..[p]
+ねぇ、知ってる?理科準備室の怖～いうわさ...[p]
 
 #&f.player_name
-何それ[p]
+何それ？[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ..[p] 
+昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ...[p] 
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
@@ -25,55 +25,56 @@
 *gakuen_tuzyo_part_8_root_1
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-（主人公）も気になるでしょ！実際に確かめに行くよ[p]
+（主人公）も気になるでしょ！実際に確かめに行くよ![p]
 
-#
-めもり（通常）「ここが理科準備室だよ！[p]
+[chara_mod name=memori face="normal" time="1000" ]
+#めもり
+ここが理科準備室だよ！[p]
 
 #
 めもりに連れてこられた準備室は、薄暗くて中々に雰囲気がある...[p]
 
 #&f.player_name
-ぶ、不気味だなぁ..[p]
+ぶ、不気味だなぁ...[p]
 
 #
-ガタンッ！[p]
+（ガタンッ！）[p]
 
 #
-急に入り口の扉が大きな音を立てて閉まった[p]
+急に入り口の扉が大きな音を立てて閉まった！[p]
 
 #&f.player_name
-？[p]
+？！[p]
 
 #
-ガタガタガタッ！[p]
+（ガタガタガタッ！）[p]
 
 #
-それと同時に掃除用具入れが音を立てながら揺れ始める[p]
+それと同時に掃除用具入れが音を立てながら揺れ始めた！[p]
 
 #
-ガタガタッ！[p]
+(ガタガタッ！)[p]
 
 #
-バンッ！[p]
+(バンッ！)[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
 ぐお～～～！！！！！[p]
 
 #&f.player_name
-うわぁっ！[p]
+うわぁっ？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-ドッキリ大成功！！驚いた？！驚いた？[p]
+ドッキリ大成功！！驚いた？！驚いた？！[p]
 
 #&f.player_name
-め、めもり...[p]
+め、めもり...?[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-いや～、（主人公）の驚いた顔最高だよ！噂なんて作り話に決まっ...て..[p]        
+いや～、（主人公）の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]        
 
 #
 めもりがある一点を見つめると、みるみる顔が青ざめていく...[p]
@@ -89,28 +90,28 @@
 *gakuen_tuzyo_part_8_root_2
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-も～！噂だから気になるんでしょ！来てくれないと成り立たないよ[p]
+も～！噂だから気になるんでしょ！来てくれないと成り立たないよ！![p]
 
 #&f.player_name
-成り立たない[p]
+成り立たない?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-あっ...成り立たないていうか...うまくいかないっていうか..[p]
+あっ...成り立たないていうか...うまくいかないっていうか...[p]
 
 #&f.player_name
-うまくいかない[p]
+うまくいかない?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-うぐ..[p]
+うぐ...[p]
 
 #&f.player_name
-もしかして、何か企んでた[p]
+もしかして、何か企んでた?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-ゴ、ゴメンナサイ..[p]
+ゴ、ゴメンナサイ...[p]
 
 #
 めもりのいたずら作戦は失敗に終わったのだった...[p]

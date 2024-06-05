@@ -19,25 +19,25 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（主人公）さん、見てください！この、「すき焼きミルクシェイ[p]
+（主人公）さん、見てください！この、「すき焼きミルクシェイ」[p]
 
 #
 スカウトが指で示したそれは、自販機に並ぶ謎のドリンクだった...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-突如登場した、謎の缶ジュースです！一番の謎は、まったく味が想像できないところです[p]
+突如登場した、謎の缶ジュースです！一番の謎は、まったく味が想像できないところです！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-私が偶然見つけたんだ...これは味を確かめないと一生後悔する気がする..[p]
+私が偶然見つけたんだ...これは味を確かめないと一生後悔する気がする...[p]
 
 #&f.player_name
-飲んでも一生後悔しそうだけど..[p]
+飲んでも一生後悔しそうだけど...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-さあ（主人公）さん！ここまで来たら運命共同体です！一緒に味を確かめましょう[p]
+さあ（主人公）さん！ここまで来たら運命共同体です！一緒に味を確かめましょう！[p]
 
 #&f.player_name
 ど、どうしよう...[p]
@@ -49,14 +49,14 @@
 *gakuen_tuzyo_part_6_root_1
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-流石ですね！（主人公）さん[p]
+流石ですね！（主人公）さん！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-そう言ってくれるってわかってたよ... さあ、一緒に確かめよう...[p]
+そう言ってくれるってわかってたよ... さあ、一緒に確かめよう...！[p]
 
 #
-三人で、購入したドリンクを一気にあおった[p]
+三人で、購入したドリンクを一気に飲んだ[p]
 
 [iscript ]
 tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
@@ -70,7 +70,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
 #ツクリ
-これは...強烈すぎる..[p]
+これは...強烈すぎる...[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
@@ -82,14 +82,14 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 *gakuen_tuzyo_part_6_root_2
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-かぁ～～！！意気地なしですね！（主人公）さん[p]
+かぁ～～！！意気地なしですね！（主人公）さん！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-これを味わえないなんてきっと後悔するよ[p]
+これを味わえないなんてきっと後悔するよ...[p]
 
 #&f.player_name
-味わって後悔したくない..[p]
+したくないんだけど...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
@@ -97,10 +97,10 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-せーのっ[p]
+せーのっ！[p]
 
 #
-スカウトとツクリは購入した謎のドリンクを一気にあおった[p]
+スカウトとツクリは購入した謎のドリンクを一気に飲んだ！[p]
 
 [chara_mod name=tsukuri face=surprise time="1000" ]
 #ツクリ
@@ -108,7 +108,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
 #ツクリ
-これは...強烈すぎる..[p]
+これは...強烈すぎる...[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
@@ -116,13 +116,13 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
 #ツクリ
-恨むよ...(主人公)..[p]
+恨むよ...(主人公)...[p]
 
 #&f.player_name
-えぇ..[p]
+えぇ...[p]
 
 #
-飲まないという選択は正解ではなかったのか... 一生頭を悩ませることになった...[p]
+飲まないという選択は正解ではなかったのか... 一生頭を悩ませることになった....[p]
 
 
 
