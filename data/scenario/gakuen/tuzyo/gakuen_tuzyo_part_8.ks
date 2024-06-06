@@ -1,5 +1,5 @@
 *start
-
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 #
 授業が終わった後、めもりが話しかけてきた。 [p]
 
