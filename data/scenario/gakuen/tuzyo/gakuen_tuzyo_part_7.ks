@@ -68,7 +68,7 @@
 *gakuen_tuzyo_part_7_root_1
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-ん～、まぁそうだよねぇ。とりあえず直してみる[p]
+ん～、まぁそうだよねぇ。とりあえず直してみる![p]
 
 #
 （トントンカンカン）[p]

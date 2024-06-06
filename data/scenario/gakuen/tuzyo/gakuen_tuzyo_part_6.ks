@@ -93,7 +93,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-もう（主人公）さんなんてほっときましょう！いきますよ、ツクリさん[p]
+もう（主人公）さんなんてほっときましょう！いきますよ、ツクリさん![p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
@@ -112,7 +112,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-ひ、ひどいです... （主人公）さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね..[p]
+ひ、ひどいです... （主人公）さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
 #ツクリ
