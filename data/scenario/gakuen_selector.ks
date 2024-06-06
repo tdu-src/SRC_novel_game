@@ -13,6 +13,7 @@
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
+
 ;文字が表示される領域を調整
 [position layer="message0" page="fore" margint="45" marginl="50" marginr="70" marginb="60"]
 
@@ -28,6 +29,7 @@
 
 ;メニューボタン非表示
 @hidemenubutton
+
 
 ;ロールボタン追加;;;;;;;;;;;;;;
 
@@ -74,9 +76,9 @@
 
 ;このゲームで登場するキャラクターを宣言
 ;akane
-[chara_new  name="akane" storage="chara/akane/normal.png" jname="あかね"  ]
+[chara_new  name="akane" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
 ;キャラクターの表情登録
-[chara_face name="akane" face="normal" storage="chara/akane/normal.png"  ]
+[chara_face name="akane" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="akane" face="angry" storage="chara/akane/angry.png"]
 [chara_face name="akane" face="doki" storage="chara/akane/doki.png"]
 [chara_face name="akane" face="happy" storage="chara/akane/happy.png"]
@@ -84,16 +86,73 @@
 
 
 ;yamato
-[chara_new  name="yamato"  storage="chara/yamato/normal.png" jname="やまと" ]
+[chara_new  name="yamato"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
 
-[chara_face name="yamato" face="happy" storage="chara/yamato/happy.png"  ]
+[chara_face name="yamato" face="normal" storage="chara/scout/scout_normal.png"  ]
 [chara_face name="yamato" face="angry" storage="chara/yamato/angry.png"  ]
 [chara_face name="yamato" face="sad" storage="chara/yamato/sad.png" ]
 
 ;kinoshita
 [chara_new name="kinoshita" storage="chara/kinoshita/jkbk.png"jname="木下" ]
 
+;tsukuri
+[chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
 
+[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
+
+
+;scout
+[chara_new  name="scout"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
+
+[chara_face name="scout" face="normal" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="perplexed" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="sad" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="surprise" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="half_sad" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="smaile" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="weariness" storage="chara/scout/scout_normal.png"  ]
+
+;wakastuki
+[chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
+
+[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
+
+;memori
+[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
+
+[chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
+
+
+;ここがシナリオ名と月
+[layopt layer="1" visible="true"]
+[freeimage layer="1" time="0"]
+[iscript]
+tf.mouth_logic_turn=f.gakuen_turn;
+tf.now_mouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
+if(tf.mouth_logic_turn%2==0){
+    tf.now_mouth+="月前半";
+}else{
+    tf.now_mouth+="月後半";
+}
+[endscript]
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+;あとで直しておきます がるむさんへ
+;ここまでシナリオ名と月のメソッド
 
 [iscript]
 f.gakuen_FT=1;
@@ -101,23 +160,31 @@ tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]
 if(tf.gakuen_now_turn==0){
     //学園限定イベントを選択
     f.gakuen_turn_gentei+=1;
-    tf.gakuen_path='gakuen_gentei_part_'
+    tf.gakuen_path='gakuen/gentei/';
+    tf.gakuen_path+='gakuen_gentei_part_';
     tf.gakuen_path+=f.gakuen_turn_gentei;
+    tf.gakuen_path+='.ks';
 }else{
     //学園通常イベントを選択
-    tf.list_range=f.gakuen_turn_tuzyo.length;
-    tf.math_range=tf.list_range-1;
-    tf.random = Math.floor( Math.random() *tf.math_range );
-    tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
-    f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
-    tf.gakuen_path='gakuen_tuzyo_part_';
-    tf.gakuen_path+=tf.random_ivent;
-    //一様logicのend_turnの値が上手くいかないたら
-    if(tf.list_range==0){
-        tf.gakuen_path='ending';
+    try{
+        tf.list_range=f.gakuen_turn_tuzyo.length;
+        tf.math_range=tf.list_range-1;
+        tf.random = Math.floor( Math.random() *tf.math_range );
+        tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
+        f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
+        tf.gakuen_path='gakuen/tuzyo/gakuen_tuzyo_part_';
+        tf.gakuen_path+=tf.random_ivent;
+        tf.gakuen_path+='.ks';
+    }catch{
+            if(tf.list_range==0){
+                tf.gakuen_path='ending';
+            }
     }
+    //一様logicのend_turnの値が上手くいかないたら
 } 
 f.gakuen_turn+=1;
 [endscript]
-[jump storage="gakuen.ks" target="&tf.gakuen_path" ]
 
+;ここにbgm流すスクリプト
+
+[jump storage="&tf.gakuen_path" ]

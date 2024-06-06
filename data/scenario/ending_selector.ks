@@ -30,8 +30,9 @@
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
+
 [iscript]
-tf.ending_root='ending_root_';
+tf.ending_root='*ending_root_';
 if(f.memori_flag=='true'){
     tf.ending_root+='memori';
 }else if(f.scout_flag=='true'){
@@ -40,4 +41,6 @@ if(f.memori_flag=='true'){
     tf.ending_root+='normal';
 }
 [endscript]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
 [jump storage="ending.ks" target="&tf.ending_root"  ]
