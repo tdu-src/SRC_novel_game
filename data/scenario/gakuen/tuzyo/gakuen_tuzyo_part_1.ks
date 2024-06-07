@@ -3,7 +3,7 @@
 [ptext layer="1" x="500" y="0" size="40" text="補習の危機" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="scout" time="1000" ]
-[chara_show="wakastuki" time="1000"]
+[chara_show name="wakastuki" width="450" height="600"  time="1000"]
 
 
 
@@ -16,6 +16,7 @@
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 （どうしたの...？）[p]
+[chara_show name="scout" time="1000"  width="450" height="600"  ]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト

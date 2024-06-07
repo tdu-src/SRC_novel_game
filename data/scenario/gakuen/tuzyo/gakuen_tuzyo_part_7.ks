@@ -95,6 +95,7 @@
 #
 その後学校中に、校内を徘徊する生首の乗った段ボール箱の都市伝説が広まるのであった...[p]
 
+[jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_7_root_2
 [chara_mod name=memori face=normal time="1000" ]
 #めもり

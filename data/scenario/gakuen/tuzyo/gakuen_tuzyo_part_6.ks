@@ -79,6 +79,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 #
 無事すき焼きミルクシェイクを飲み切った三人の間には、確かな絆が芽生えた...[p]
 
+[jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_6_root_2
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト

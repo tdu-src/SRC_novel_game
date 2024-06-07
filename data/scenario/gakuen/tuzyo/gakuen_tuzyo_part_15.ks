@@ -1,5 +1,103 @@
 *start
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+#
+今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい..[p]
+
+[chara_show name="tsukuri"width="450" height="600"  time="1000" ]
+[chara_mod name=tsukuri face=normal time="1000" ]
+#ツクリ
+どう、描けてる？[p]
+
+#&f.player_name
+あんまり自信ないかな...[p]
+
+[chara_mod name=tsukuri face=normal time="1000" ]
+#ツクリ
+ふ～ん... でも、結構いい感じじゃない？影とかしっかり描けてるし。[p]
+
+#&f.player_name
+そっちのも見せて！[p]
+
+[chara_mod name=tsukuri face=normal time="1000" ]
+#ツクリ
+いいよ、まだ完成はしてないけど。[p]
+
+#
+日々イラストを嗜んでいるツクリのデッサンは、プロ顔負けのクオリティだった..[p]
+
+#&f.player_name
+凄すぎる...[p]
+
+[chara_mod name=tsukuri face=normal time="1000" ]
+#ツクリ
+そこまででもないよ。さっと書いただけだし。[p]
+
+
+[chara_show name="memori" width="450" height="600" ]
+[chara_mod name=memori face=smaile time="1000" ]
+#めもり
+ねえねえ！の描いたのも見てー！[p]
+
+#
+めもりも描いていたデッサンを見せてきた[p]
+
+#&f.player_name
+こ、これは...[p]
+
+#
+あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか..[p]
+
+
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_15_1" ]   
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_15_2" ]
+[s]
+*gakuen_tuzyo_part_15_1
+[chara_mod name=memori face=smaile time="1000" ]
+#めもり
+そう！は千年に一度の画家なんだよ...[p]
+
+[chara_mod name=tsukuri face=weariness time="1000" ]
+#ツクリ
+いや、これもはや印刷でしょ...[p]
+
+[chara_mod name=memori face=perplexed time="1000" ]
+#めもり
+ギクッ！い、インサツナワケナイジャン...[p]
+
+#&f.player_name
+ズルしたの？[p]
+
+[chara_mod name=memori face=sad time="1000" ]
+#めもり
+か、描きなおしてきます...[p]
+
+#
+めもりは項垂れながらデッサンを描きなおしていた..[p]
+
+[jump storage="gakuen/gakuen_end_point.ks"]
+
+*gakuen_tuzyo_part_15_2
+[chara_mod name=memori face=perplexed time="1000" ]
+#めもり
+ギクッ！ず、ズルナンカシテナイヨ...[p]
+
+[chara_mod name=tsukuri face=weariness time="1000" ]
+#ツクリ
+いや、この時間でこれは流石に...[p]
+
+#&f.player_name
+何使ったの？[p]
+
+[chara_mod name=memori face=悲しみ time="1000" ]
+#めもり
+う...の発明品のどこでも印刷くんＺを使いました...[p]
+
+[chara_mod name=tsukuri face=weariness time="1000" ]
+#ツクリ
+プリントアウトしてる...[p]
+
+#
+めもりはその後先生にも見つかり、こっぴどく叱られていた..[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

@@ -104,6 +104,7 @@
 [chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_normal.png"  ]
 
 
 ;scout
@@ -116,6 +117,8 @@
 [chara_face name="scout" face="half_sad" storage="chara/scout/scout_normal.png"  ]
 [chara_face name="scout" face="smaile" storage="chara/scout/scout_normal.png"  ]
 [chara_face name="scout" face="weariness" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="angry" storage="chara/scout/scout_normal.png"  ]
+
 
 ;wakastuki
 [chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
@@ -126,6 +129,7 @@
 [chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
 
 ;memori
 [chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
@@ -136,6 +140,7 @@
 [chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
 
 
 ;ここがシナリオ名と月

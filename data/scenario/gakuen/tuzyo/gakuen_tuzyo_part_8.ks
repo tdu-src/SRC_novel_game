@@ -86,7 +86,7 @@
 #
 絶叫しながら走って準備室から出て行ってしまった...いったい何を見たのだろうか...[p] 
 
-
+[jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_8_root_2
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
