@@ -4,7 +4,7 @@
 今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[p]
 
 
-[chara_show name="wakatsuki" width="450" height="600" ]
+[chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 なんか疲れてる顔してるね？[p]

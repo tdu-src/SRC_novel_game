@@ -1,7 +1,7 @@
 *start
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
-[chara_show name="wakatsuki" width="450" height="600" ]
+[chara_show name="wakastuki" width="450" height="600" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]
 #&f.player_name
