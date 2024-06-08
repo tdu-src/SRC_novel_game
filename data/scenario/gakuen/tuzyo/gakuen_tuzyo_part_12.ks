@@ -4,7 +4,7 @@
 #
 廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[p]
 
-[chara_show name="scout" time="1000"]
+[chara_show name="scout" time="1000" width="450" height="600" ]
 
 
 [chara_mod name=scout face=normal time="1000" ]
