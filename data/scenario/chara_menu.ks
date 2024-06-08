@@ -63,8 +63,8 @@ tf.scout_koukando_parameter=obj.koukando_parameter(f.scout,tf.scout_koukando_par
 
 ;装飾
 [image name="parameter_frame" storage="items/parameter_frame.png" x="-200" y="500" height="300" width="1500" layer="2"  time="0" ]
-[image name="koukando_parameter_frame" storage="items/koukando_parameter_frame.png" x="171" y="123" height="220" width="800" layer="1"  time="0" ]
-[image name="koukando_parameter_frame" storage="items/koukando_parameter_frame.png" x="171" y="195" height="220" width="800" layer="1"  time="0" ]
+[image name="koukando_parameter_frame" storage="items/koukando_parameter_frame.png" x="171" y="123" height="220" width="800" layer="2"  time="0" ]
+[image name="koukando_parameter_frame" storage="items/koukando_parameter_frame.png" x="171" y="195" height="220" width="800" layer="2"  time="0" ]
 
 ;主人公パラメータ
 [ptext layer="2" x="350" y="620" size="40" text="&f.cafe"]

@@ -16,7 +16,7 @@
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 （どうしたの...？）[p]
-[chara_show name="scout"  width="450" height="600" time="1000"  ]
+[chara_show name="scout" width="450" height="600" time="1000"  ]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
