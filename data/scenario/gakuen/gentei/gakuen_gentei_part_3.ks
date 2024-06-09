@@ -1,4 +1,5 @@
 *start
+;夏休み
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 
