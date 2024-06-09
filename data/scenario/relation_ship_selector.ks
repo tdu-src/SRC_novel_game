@@ -51,6 +51,7 @@ tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_
 *kouryu_ivent
 [layopt layer="2" visible="false" ]
 [iscript]
+f.chara_directroy="";
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
     if(f.memori>=100&&f.memori_kouryu_key==4){
