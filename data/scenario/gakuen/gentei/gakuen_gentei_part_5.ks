@@ -46,7 +46,7 @@
 #ツクリ
 スカウト、大丈夫？尋常じゃないぐらい震えてるけど。[p]
 
-[chara_mod name=scout face=半泣き time="1000" ]
+[chara_mod name=scout face="half_sad" time="1000" ]
 #スカウト
 だだだ大丈夫ですよ！！こんなの余裕です！！[p]  
 
