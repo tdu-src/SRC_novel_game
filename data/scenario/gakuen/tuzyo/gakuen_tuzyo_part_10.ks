@@ -4,7 +4,7 @@
 [chara_show name="tsukuri" width="450" height="600" ]
 
 [chara_show name="memori" width="450" height="600" ]
-[chara_mod name=memori face=怒り time="1000" ]
+[chara_mod name=memori face="angry" time="1000" ]
 #めもり
 ちーがーうー！絶対この方がいいって！！[p]
 
@@ -18,7 +18,7 @@
 #&f.player_name
 どうしたの？[p]
 
-[chara_mod name=memori face=怒り time="1000" ]
+[chara_mod name=memori face="angry" time="1000" ]
 #めもり
 あっ、（主人公）！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
 
@@ -26,7 +26,7 @@
 #ツクリ
 デザインには守らなくちゃいけないルールがあるんだって言ってるだけだよ。[p]
 
-[chara_mod name=memori face=怒り time="1000" ]
+[chara_mod name=memori face="angry" time="1000" ]
 #めもり
 おっきい文字入れたほうが絶対いいに決まってるじゃん！[p]
 
@@ -52,6 +52,7 @@
 #
 二人の良い点を探しあい、それを参考に最高のポスターを完成させることが出来た[p]     
 
+[jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_10_2
 #
 二人のポスターを見て、自分なりのポスターをさっとデザインして見せた...[p]

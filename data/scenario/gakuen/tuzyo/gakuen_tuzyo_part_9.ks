@@ -4,7 +4,7 @@
 今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[p]
 
 
-[chara_show name="wakatsuki" width="450" height="600" ]
+[chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 なんか疲れてる顔してるね？[p]
@@ -54,6 +54,6 @@
 大歓迎ですよ！一緒にサウナライフを満喫しましょう！[p]
 
 #
-週末、スカウトイチオシのサウナに行ってリフレッシュすることが出来た[p]
+週末、スカウトイチオシのサウナに行ってリフレッシュすることが出来た。[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

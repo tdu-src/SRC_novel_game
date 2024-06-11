@@ -20,6 +20,8 @@ for(var i=0;i<4;i++){
 [layopt layer="1" visible="false" ]
 [layopt layer="2" visible="false" ]
 
+[layopt layer="1" visible="true"]
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 ;バックグラウンドの宣言
 [bg storage="map.jpg" time="1000"  ]
 
