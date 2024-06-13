@@ -4,7 +4,7 @@
 #
 最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[p]
 
-[chara_show name="tsukuri" time="1000" ]
+[chara_show name="tsukuri" time="1000" width="450" height="600" ]
 #
 美術室に入ると、ツクリは制作中の絵の前で立ち尽くしていた...[p]
 

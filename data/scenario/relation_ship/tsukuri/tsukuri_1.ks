@@ -4,7 +4,7 @@
 #
 定期的にツクリの絵を見に行くようになり、今日も連絡を受けて美術室に向かっていた。[p]
 
-[chara_show name="tsukuri" time="1000"  ]
+[chara_show name="tsukuri" time="1000" width="450" height="600"  ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
 ん～、ここはどうしようかな…[p]
@@ -81,7 +81,7 @@
 #ツクリ
 そうだね。やっぱりここはインパクトを取ってみるよ。[p]
 
-[chara_mod name=tsukuri face=悲哀 time="1000" ]
+[chara_mod name=tsukuri face="sad" time="1000" ]
 #ツクリ
 ごめん、せっかく選んでくれたのに…[p]
 
