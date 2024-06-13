@@ -121,7 +121,7 @@
 #&f.player_name
 そのままのスカウトが一番！[p]
 
-[chara_mod name=scout face=悲哀 time="1000" ]
+[chara_mod name=scout face="sad" time="1000" ]
 #スカウト
 (主人公)さん...[p]
 
