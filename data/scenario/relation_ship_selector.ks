@@ -51,8 +51,10 @@ tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_
 *kouryu_ivent
 [layopt layer="2" visible="false" ]
 [iscript]
+f.chara_directroy='relation_ship/';
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
+    f.chara_directroy+='memori/';
     if(f.memori>=100&&f.memori_kouryu_key==4){
         f.memori_flag='true';
         tf.koryu_person+='_'+f.memori_kouryu_key;
@@ -72,6 +74,7 @@ if(tf.koryu_person=='memori'){
         tf.koryu_person='none';
     }
 }else if(tf.koryu_person=='scout'){
+    f.chara_directroy+='scout/';
     if(f.scout>=100&&f.scout_kouryu_key==4){
         f.scout_flag='true';
         tf.koryu_person+='_'+f.scout_kouryu_key;
@@ -90,7 +93,8 @@ if(tf.koryu_person=='memori'){
     }else{
         tf.koryu_person='none';
     }
-} else if(tf.koryu_person=='tsukuri'){//ここから変える」
+} else if(tf.koryu_person=='tsukuri'){//ここから変える
+    f.chara_directroy+='tsukuri';
     if(f.scout>=100&&f.scout_kouryu_key==4){
         f.scout_flag='true';
         tf.koryu_person+='_'+f.scout_kouryu_key;
@@ -110,6 +114,7 @@ if(tf.koryu_person=='memori'){
         tf.koryu_person='none';
     }
 } else if(tf.koryu_person=='wakatsuki'){
+    f.chara_directroy+='wakatsuki/';
     if(f.scout>=100&&f.scout_kouryu_key==4){
         f.scout_flag='true';
         tf.koryu_person+='_'+f.scout_kouryu_key;
@@ -128,7 +133,10 @@ if(tf.koryu_person=='memori'){
     }else{
         tf.koryu_person='none';
     }
-} 
+}
+    f.chara_directroy+=tf.koryu_person;
+    f.chara_directroy+='.ks';
+
 /*
 var obj={
     relation_ship_select:function(koukando,key,flag){
@@ -197,5 +205,5 @@ if(tf.koryu_person=='memori'){
 
 ;-----------------------------------------------------------------------------------------------------------------
 
-[jump storage="relation_ship.ks" target="&tf.koryu_person" cond="tf.koryu_person!='none'" ]
+[jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 [jump storage="relation_ship_selector.ks" ]

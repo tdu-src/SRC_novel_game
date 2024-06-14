@@ -27,7 +27,7 @@ f.normal_place_parameter=10;
 f.special_place_parameter=15;
 
 //以下からキャラクターの好感度
-f.scout=0;
+f.scout=60;
 f.scout_kouryu_key=0;
 f.scout_flag='false';
 f.memori=0;
