@@ -27,13 +27,13 @@ f.normal_place_parameter=10;
 f.special_place_parameter=15;
 
 //以下からキャラクターの好感度
-f.scout=60;
+f.scout=0;
 f.scout_kouryu_key=0;
 f.scout_flag='false';
 f.memori=0;
 f.memori_kouryu_key=0;
 f.memori_flag='false';
-f.tsukuri=0;
+f.tsukuri=60;
 f.tsukuri_kouryu_key=0;
 f.tsukuri_flag='false';
 f.wakatsuki=0;

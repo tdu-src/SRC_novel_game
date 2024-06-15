@@ -41,6 +41,9 @@ tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_
 [glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
 [glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 [glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+[glink  color="blue"  size="28"  x="200"  width="800"  y="500"  text="ツクリ" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"  ]
+[glink  color="blue"  size="28"  x="200"  width="800"  y="600"  text="ワカツキ" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+
 
 
 [image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
@@ -94,22 +97,22 @@ if(tf.koryu_person=='memori'){
         tf.koryu_person='none';
     }
 } else if(tf.koryu_person=='tsukuri'){//ここから変える
-    f.chara_directroy+='tsukuri';
-    if(f.scout>=100&&f.scout_kouryu_key==4){
-        f.scout_flag='true';
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-    }else if(f.scout>=80&&f.scout_kouryu_key==3){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key==2){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=40&&f.scout_kouryu_key==1){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=20&&f.scout_kouryu_key==0){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
+    f.chara_directroy+='tsukuri/';
+    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==4){
+        f.tsukuri_flag='true';
+        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
+    }else if(f.tsukuri>=80&&f.tsukuri_kouryu_key==3){
+        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
+        f.tsukuri_kouryu_key+=1;
+    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==2){
+        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
+        f.tsukuri_kouryu_key+=1;
+    }else if(f.tsukuri>=40&&f.tsukuri_kouryu_key==1){
+        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
+        f.tsukuri_kouryu_key+=1;
+    }else if(f.tsukuri>=20&&f.tsukuri_kouryu_key==0){
+        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
+        f.tsukuri_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
     }
