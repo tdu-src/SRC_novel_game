@@ -32,11 +32,15 @@
 
 
 [iscript]
-tf.ending_root='*ending_root_';
+tf.ending_directory='ending/';
 if(f.memori_flag=='true'){
-    tf.ending_root+='memori';
+    tf.ending_directory+='memori.ks';
 }else if(f.scout_flag=='true'){
-    tf.ending_root+='scout';
+    tf.ending_directory+='scout.ks';
+}else if(f.tsukuri_flag=='true'){
+    tf.ending_directory+='tsukuri.ks';
+}else if(tf.wakatsuki_flag=='true'){
+    tf.ending_directory+='wakatsuki.ks';
 }else{
     tf.ending_root+='normal';
 }
