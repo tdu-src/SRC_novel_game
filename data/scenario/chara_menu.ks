@@ -6,7 +6,8 @@
 [layopt layer="1" visible="true"]
 [layopt layer="2" visible="true"]
 
-[button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50"]
+[button name="role_button" role="sleepgame" graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50" storage="config.ks" ]
+
 
 [iscript]
 tf.memori_koukando_meter="";
