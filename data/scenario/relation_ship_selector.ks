@@ -118,21 +118,21 @@ if(tf.koryu_person=='memori'){
     }
 } else if(tf.koryu_person=='wakatsuki'){
     f.chara_directroy+='wakatsuki/';
-    if(f.scout>=100&&f.scout_kouryu_key==4){
-        f.scout_flag='true';
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-    }else if(f.scout>=80&&f.scout_kouryu_key==3){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key==2){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=40&&f.scout_kouryu_key==1){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=20&&f.scout_kouryu_key==0){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
+    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==4){
+        f.wakatsuki_flag='true';
+        tf.koryu_person+='_'+wakatsuki_kouryu_key;
+    }else if(f.wakatsuki>=80&&f.wakatsuki_kouryu_key==3){
+        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
+        f.wakatsuki_kouryu_key+=1;
+    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==2){
+        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
+        f.wakatsuki_kouryu_key+=1;
+    }else if(f.wakatsuki>=40&&f.wakatsuki_kouryu_key==1){
+        tf.koryu_person+='_'+wakatsuki_kouryu_key;
+        f.wakatsuki_kouryu_key+=1;
+    }else if(f.wakatsuki>=20&&f.wakatsuki_kouryu_key==0){
+        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
+        f.wakatsuki_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
     }
