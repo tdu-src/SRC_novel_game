@@ -25,6 +25,9 @@ for(var i=0;i<f.gakuen_turn_tuzyo.length;i++){
     tf.dev_gakuen_tuzyo_list+=f.gakuen_turn_tuzyo[i];
     tf.dev_gakuen_tuzyo_list+="　";
 }
+tf.dev_gakuen_tuzyo_list+="計";
+tf.dev_gakuen_tuzyo_list+=f.gakuen_turn_tuzyo.length;
+tf.dev_gakuen_tuzyo_list+="パート";
 [endscript]
 
 [ptext layer="1" x="0" y="50" size="40" text="&tf.dev_gakuen_tuzyo_list"]
