@@ -7,6 +7,7 @@
 #&f.player_name
 ごめん！待った？[p]
 
+[chara_show name="tsukuri" time="1000"  ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
 ううん、私も今来たところ。[p]
