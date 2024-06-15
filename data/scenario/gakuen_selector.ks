@@ -176,7 +176,7 @@ if(tf.gakuen_now_turn==0){
         tf.math_range=tf.list_range-1;
         tf.random = Math.floor( Math.random() *tf.math_range );
         tf.random_ivent=f.gakuen_turn_tuzyo[tf.random];
-        f.gakuen_turn_tuzyo.splice(tf.random,tf.random);
+        f.gakuen_turn_tuzyo.splice(tf.random,1);
         tf.gakuen_path='gakuen/tuzyo/gakuen_tuzyo_part_';
         tf.gakuen_path+=tf.random_ivent;
         tf.gakuen_path+='.ks';
