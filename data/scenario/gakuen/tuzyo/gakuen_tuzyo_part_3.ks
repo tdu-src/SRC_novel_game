@@ -7,7 +7,7 @@
 授業が終わった....やっと昼休みだ....[p]
 
 [chara_show name="scout" ]
-[chara_show name="memori" ]
+[chara_show name="memori" width="450" height="600"  ]
 
 #スカウト
 （主人公）さ～ん！また今日もぼっちめしですかぁ～？！[p]
