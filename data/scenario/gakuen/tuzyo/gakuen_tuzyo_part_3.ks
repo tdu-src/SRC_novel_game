@@ -1,5 +1,5 @@
 *start
-
+[ptext layer="1" x="500" y="0" size="40" text="購買にて" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="scout" width="450" height="600" ]
 
@@ -7,6 +7,7 @@
 授業が終わった....やっと昼休みだ....[p]
 
 [chara_show name="scout" ]
+[chara_show name="memori" ]
 
 #スカウト
 （主人公）さ～ん！また今日もぼっちめしですかぁ～？！[p]

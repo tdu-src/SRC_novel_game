@@ -1,4 +1,5 @@
 *start
+[ptext layer="1" x="500" y="0" size="40" text="金欠問題" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #&f.player_name

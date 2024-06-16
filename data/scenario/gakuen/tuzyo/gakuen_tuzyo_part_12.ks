@@ -1,4 +1,5 @@
 *start
+[ptext layer="1" x="500" y="0" size="40" text="いざ、尋常に！" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -28,8 +29,8 @@
 #スカウト
 大丈夫です！！部室でやればバレないので！！[p]
 
-#
-主人公（なし）「何が大丈夫なんだろう...[p]
+#&f.player_name
+何が大丈夫なんだろう...[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト

@@ -1,4 +1,5 @@
 *start
+[ptext layer="1" x="500" y="0" size="40" text="幕間" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -52,7 +53,7 @@
 ひぃひぃ言ってたのはそっちもじゃん...[p]
 
 #
-こんな風に調子乗りな性格ではあるが...（ 学校でよく話す友達の一人だ。）[p]
+こんな風に調子乗りな性格ではあるが...[r]（ 学校でよく話す友達の一人だ。）[p]
 
 
 [chara_hide name="scout" width="450" height="600" ]
@@ -81,7 +82,8 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-そして、ワカツキはゲームや音楽が好きなクールな女の子だ。基本的には一匹狼スタイルだが、面倒見がよく、人付き合いも大切にするタイプだ。[p]
+そして、ワカツキはゲームや音楽が好きなクールな女の子だ。[p]
+基本的には一匹狼スタイルだが、面倒見がよく、人付き合いも大切にするタイプだ。[p]
 
 
 [chara_show name="scout" width="450" height="600" ]

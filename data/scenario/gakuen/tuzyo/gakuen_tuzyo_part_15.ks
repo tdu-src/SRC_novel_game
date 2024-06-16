@@ -1,4 +1,5 @@
 *start
+[ptext layer="1" x="500" y="0" size="40" text="美術の時間" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -37,7 +38,7 @@
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-ねえねえ！の描いたのも見てー！[p]
+ねえねえ！めもりの描いたのも見てー！[p]
 
 #
 めもりも描いていたデッサンを見せてきた。[p]
@@ -55,7 +56,7 @@
 *gakuen_tuzyo_part_15_1
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-そう！は千年に一度の画家なんだよ...[p]
+そう！めもりは千年に一度の画家なんだよ...[p]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
 #ツクリ
