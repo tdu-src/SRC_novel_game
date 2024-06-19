@@ -23,6 +23,8 @@ f.library=obj.parameter_controll(f.library);
 f.game_senter=obj.parameter_controll(f.game_senter);
 f.scout=obj.parameter_controll(f.scout);
 f.memori=obj.parameter_controll(f.memori);
+f.wakatsuki=obj.parameter_controll(f.wakatsuki);
+f.tsukuri=obj.parameter_controll(f.tsukuri);
 [endscript]
 
 [if exp="f.logic_turn>=f.end_turn" ]

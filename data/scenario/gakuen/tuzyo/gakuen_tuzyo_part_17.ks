@@ -4,6 +4,7 @@
 ;[chara_show name="wakastuki" width="408.75" height="545" ]
 ;[chara_show name="tsukuri" width="412.5" height="550" ]
 ;[chara_show name="scout" width="472.5" height="630" ]
+[ptext layer="1" x="500" y="0" size="40" text="助けて！めもえもん！" name="title_name"]
 
 #
 放課後、急ぎで家に帰らなければならない用事が出来た...[p]

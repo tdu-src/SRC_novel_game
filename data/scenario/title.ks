@@ -17,7 +17,10 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-;@jump storage="logic/loop/entry_point.ks"
+
+;これがないとメッセージウインドウがバグる恐らく初期設定の変更が必要
+[free layer="message0" name="chara_name_area"  ]
+
 [jump storage="entry_point.ks" ]
 
 

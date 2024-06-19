@@ -1,4 +1,5 @@
 *start
+[ptext layer="1" x="500" y="0" size="40" text="教室の掃除" name="title_name"]
 
 #&f.player_name
 さて、掃除を始めよう![p]

@@ -1,5 +1,6 @@
 *start
 ;文化祭
+[ptext layer="1" x="500" y="0" size="40" text="学園祭にて" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]

@@ -1,5 +1,6 @@
 *start
 ;お正月
+[ptext layer="1" x="500" y="0" size="40" text="初詣!" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -139,7 +140,7 @@
 #&f.player_name
 大吉だ！[p]
 
-[chara_mod name=wakastuki face=half_sad time="1000" ]
+[chara_mod name=wakastuki face="sad" time="1000" ]
 #ワカツキ
 うわっ！ずるいです（主人公）さん！私のと交換し てください！[p]
 
