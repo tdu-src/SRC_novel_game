@@ -35,7 +35,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（（主人公）さ～ん！ツクリさ～ん！おっはようございます！！[p]
+（主人公）さ～ん！ツクリさ～ん！おっはようございます！！[p]
 
 #&f.player_name
 おはよう！スカウト！[p]

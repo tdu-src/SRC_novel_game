@@ -4,6 +4,8 @@
 [clearfix]
 [start_keyconfig]
 
+
+
 ;背景は各会話の初めに宣言する
 [bg storage="room.jpg" time="1000"  ]
 
