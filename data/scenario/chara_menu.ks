@@ -7,7 +7,10 @@
 [layopt layer="2" visible="true"]
 
 ;[button name="role_button" role="sleepgame" graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50" storage="config.ks" ]
+;ここでエラーは吐くが動くには動くようになったので一旦後回しにします
+;エラーの要因はプラグインとティラノスクリプトのUIの衝突のため
 [button name="role_button" role="menu"  graphic="button/menu.png" enterimg="button/menu2.png" x="1100" y="50" ]
+
 
 
 [iscript]
