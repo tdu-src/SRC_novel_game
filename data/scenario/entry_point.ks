@@ -40,4 +40,5 @@ f.wakatsuki=0;
 f.wakatsuki_kouryu_key=0;
 f.wakatsuki_flag='false';
 [endscript] 
-[jump storage="logic.ks"  ]
+;[jump storage="logic.ks"  ]
+[jump storage="name_entry.ks"]
