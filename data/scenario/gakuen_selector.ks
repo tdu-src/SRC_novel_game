@@ -133,6 +133,7 @@
 [chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="shy" storage="chara/wakastuki/wakatsuki.png"   ]
+[chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
 
 ;memori
 [chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
