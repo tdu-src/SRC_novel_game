@@ -90,7 +90,31 @@
 #&f.player_name
 何使ったの？[p]
 
-[chara_mod name=memori face=悲しみ time="1000" ]
+[chara_mod name=memori face="sad" time="1000" ]
+#めもり
+う...の発明品のどこでも印刷くんＺを使いました...[p]
+
+[chara_mod name=tsukuri face=weariness time="1000" ]
+#ツクリ
+プリントアウトしてる...[p]
+
+#
+めもりはその後先生にも見つかり、こっぴどく叱られていた...[p]
+
+[jump storage="gakuen/gakuen_end_point.ks"]
+*gakuen_tuzyo_part_15_2
+[chara_mod name=memori face=perplexed time="1000" ]
+#めもり
+ギクッ！ず、ズルナンカシテナイヨ...[p]
+
+[chara_mod name=tsukuri face=weariness time="1000" ]
+#ツクリ
+いや、この時間でこれは流石に...[p]
+
+#&f.player_name
+何使ったの？[p]
+
+[chara_mod name=memori face=sad time="1000" ]
 #めもり
 う...の発明品のどこでも印刷くんＺを使いました...[p]
 
