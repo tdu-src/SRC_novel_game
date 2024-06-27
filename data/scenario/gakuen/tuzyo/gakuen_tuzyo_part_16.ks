@@ -49,7 +49,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（主人公）さん！お願いします！[p]
+[emb exp="f.player_name"]さん！お願いします！[p]
 
 #&f.player_name
 えぇ...[p]
@@ -116,7 +116,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-なんですか（主人公）さんその下手な鳴きまねは！！私のを見ててください！[p]
+なんですか[emb exp="f.player_name"]さんその下手な鳴きまねは！！私のを見ててください！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ

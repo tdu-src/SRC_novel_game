@@ -10,7 +10,7 @@
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-あっ、（主人公）。いま作業中に聞く音楽の話をしてたの。[p]
+あっ、[emb exp="f.player_name"]。いま作業中に聞く音楽の話をしてたの。[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ

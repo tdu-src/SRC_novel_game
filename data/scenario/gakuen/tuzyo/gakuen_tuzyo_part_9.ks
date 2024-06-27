@@ -20,7 +20,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-そんな時こそサウナです！！（主人公）さん！！[p]
+そんな時こそサウナです！！[emb exp="f.player_name"]さん！！[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ

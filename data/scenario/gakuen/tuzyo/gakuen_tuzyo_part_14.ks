@@ -87,7 +87,7 @@ C6H4(CH3)2！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-（主人公）さんの右腕のほくろの数は？！[p]
+[emb exp="f.player_name"]さんの右腕のほくろの数は？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり

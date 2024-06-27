@@ -29,7 +29,7 @@
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-あっ、（主人公）じゃん！何か困ってることがあるの？[p]
+あっ、[emb exp="f.player_name"]じゃん！何か困ってることがあるの？[p]
 
 #&f.player_name
 実はかくかくしかじかで...[p]

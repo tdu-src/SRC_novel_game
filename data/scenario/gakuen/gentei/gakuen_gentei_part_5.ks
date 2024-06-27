@@ -120,7 +120,7 @@
 [chara_mod name=scout face="half_sad" time="1000" ]
 
 #スカウト
-主人公さん、リタイアなんて意気地なしですね...[p]
+[emb exp="f.player_name"]さん、リタイアなんて意気地なしですね...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

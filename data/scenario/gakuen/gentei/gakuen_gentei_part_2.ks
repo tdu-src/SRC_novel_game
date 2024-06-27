@@ -55,7 +55,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
- （主人公）さん！こんな時こそ私たちが応援してあげなくては！[p]
+[emb exp="f.player_name"]さん！こんな時こそ私たちが応援してあげなくては！[p]
 
 #&f.player_name
 確かに…！[p]

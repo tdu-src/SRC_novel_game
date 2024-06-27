@@ -13,7 +13,7 @@
 
 [chara_mod name=tsukuri face=sad time="1000" ]
 #ツクリ
-（主人公）、ごめん... なんだか絵がわからなくなっちゃった...[p]
+[emb exp="f.player_name"]、ごめん... なんだか絵がわからなくなっちゃった...[p]
 
 #&f.player_name
 ど、どうしたの...?[p]
@@ -24,7 +24,7 @@
 
 [chara_mod name=tsukuri face=sad time="1000" ]
 #ツクリ
-このままじゃ最優秀賞どころか、入賞もできない... どうしよう、（主人公）...[p]
+このままじゃ最優秀賞どころか、入賞もできない... どうしよう、[emb exp="f.player_name"]...[p]
 
 #&f.player_name
 ツクリ...[p]

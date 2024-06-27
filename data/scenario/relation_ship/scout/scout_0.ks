@@ -8,7 +8,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-あ、（主人公）さん！！[p]
+あ、[emb exp="f.player_name"]さん！！[p]
 
 #
 街角で偶然スカウトと出くわした。[p]
@@ -18,7 +18,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-ふふふ、変わらず暇そうな顔してますね！！これからゲーセンに行くところなんですが、（主人公）さんも来てください！[p]
+ふふふ、変わらず暇そうな顔してますね！！これからゲーセンに行くところなんですが、[emb exp="f.player_name"]さんも来てください！[p]
 
 #&f.player_name
 ゲーセン？[p]
@@ -57,7 +57,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-あっ！（主人公）さんこの後時間空いてますか！私、駅前のサタバの新作が飲みたいんです！[p]
+あっ！[emb exp="f.player_name"]さんこの後時間空いてますか！私、駅前のサタバの新作が飲みたいんです！[p]
 
 #&f.player_name
 空いてるよ。[p]
@@ -78,7 +78,7 @@
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-それにしても（主人公）さん。今日は突然誘ったのに付き合ってくれてありがとうございます！[p]
+それにしても[emb exp="f.player_name"]さん。今日は突然誘ったのに付き合ってくれてありがとうございます！[p]
 
 #&f.player_name
 こちらこそ、すごく楽しかったよ！[p]

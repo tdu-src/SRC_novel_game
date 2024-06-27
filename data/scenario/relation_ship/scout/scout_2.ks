@@ -73,11 +73,11 @@
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト
-高校に入学してからもそんな風になるのが怖くて... でも、そんな時に助けてくれたのが（主人公）さんだったんです。[p]
+高校に入学してからもそんな風になるのが怖くて... でも、そんな時に助けてくれたのが[emb exp="f.player_name"]さんだったんです。[p]
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト
-（主人公）さんは私に初めて声をかけてくれて、友達になってくれて、そこから他の皆とも友達になれて...[p]
+[emb exp="f.player_name"]さんは私に初めて声をかけてくれて、友達になってくれて、そこから他の皆とも友達になれて...[p]
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト
@@ -123,7 +123,7 @@
 
 [chara_mod name=scout face="sad" time="1000" ]
 #スカウト
-(主人公)さん...[p]
+[emb exp="f.player_name"]さん...[p]
 
 #&f.player_name
 それに、スカウトがそんな様子だと、教室が静かに感じるよ。[p]
