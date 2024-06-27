@@ -60,3 +60,17 @@
 週末、スカウトイチオシのサウナに行ってリフレッシュすることが出来た。[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
+*gakuen_tuzyo_part_9_2
+
+[chara_mod name=wakastuki face=normal time="1000" ]
+#ワカツキ
+いいよ、やり方教えてあげる。[p]
+
+[chara_mod name=scout face=normal time="1000" ]
+#スカウト
+あっ、ずるいです！私もゲームで目が常にお疲れなので教えてください！！[p]
+
+#
+ワカツキイチオシのマッサージ方法を試し、良い睡眠をとることが出来た！[p]
+
+[jump storage="gakuen/gakuen_end_point.ks"]
