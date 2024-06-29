@@ -1,7 +1,12 @@
 *start
+
+[cm  ]
 [bg storage="relation_ship_selector_background.jpg" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
+
 [clearfix]
+
+[freeimage layer="0" time="0"  ]
 [freeimage layer="1" time="0"]
 [freeimage layer="2" time="0"]
 [layopt layer="message0" visible="false"]
