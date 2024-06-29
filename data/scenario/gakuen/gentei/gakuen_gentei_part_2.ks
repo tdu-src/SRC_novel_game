@@ -101,7 +101,8 @@
 [chara_hide name="scout" width="450" height="600" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
-[chara_mod name=wakastuki face=恥じ time="1000" ]
+;恥じ
+[chara_mod name=wakastuki face="shy" time="1000" ]
 #ワカツキ
 ちょ、恥ずかしいんだけど…！[p]
 
