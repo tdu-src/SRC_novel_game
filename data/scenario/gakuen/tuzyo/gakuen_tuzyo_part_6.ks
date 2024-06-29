@@ -6,7 +6,7 @@
 
 [chara_mod name=scout face=surprise time="1000" ]
 #スカウト
-大事件です大事件です！（主人公）さん！[p]
+大事件です大事件です！[emb exp="f.player_name"]さん！[p]
 
 #&f.player_name
 どうしたの？[p]
@@ -16,11 +16,11 @@
 
 [chara_mod name=tsukuri face=surprise time="1000" ]
 #ツクリ
-あ、（主人公）... これは大事件だよ...[p]
+あ、[emb exp="f.player_name"]... これは大事件だよ...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（主人公）さん、見てください！この、「すき焼きミルクシェイ」[p]
+[emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイ」[p]
 
 #
 スカウトが指で示したそれは、自販機に並ぶ謎のドリンクだった...[p]
@@ -38,7 +38,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-さあ（主人公）さん！ここまで来たら運命共同体です！一緒に味を確かめましょう！[p]
+さあ[emb exp="f.player_name"]さん！ここまで来たら運命共同体です！一緒に味を確かめましょう！[p]
 
 #&f.player_name
 ど、どうしよう...[p]
@@ -50,7 +50,7 @@
 *gakuen_tuzyo_part_6_root_1
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-流石ですね！（主人公）さん！[p]
+流石ですね！[emb exp="f.player_name"]さん！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
@@ -84,7 +84,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 *gakuen_tuzyo_part_6_root_2
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-かぁ～～！！意気地なしですね！（主人公）さん！[p]
+かぁ～～！！意気地なしですね！[emb exp="f.player_name"]さん！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
@@ -95,7 +95,7 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-もう（主人公）さんなんてほっときましょう！いきますよ、ツクリさん![p]
+もう[emb exp="f.player_name"]さんなんてほっときましょう！いきますよ、ツクリさん![p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
@@ -114,11 +114,11 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-ひ、ひどいです... （主人公）さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...[p]
+ひ、ひどいです... [emb exp="f.player_name"]さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
 #ツクリ
-恨むよ...(主人公)...[p]
+恨むよ...[emb exp="f.player_name"]...[p]
 
 #&f.player_name
 えぇ...[p]

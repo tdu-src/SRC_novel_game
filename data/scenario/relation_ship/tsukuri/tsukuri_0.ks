@@ -71,7 +71,7 @@
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-本当？ありがとう。（主人公）は本当に優しいね。[p]
+本当？ありがとう。[emb exp="f.player_name"]は本当に優しいね。[p]
 
 #&f.player_name
 それほどでもないよ！[p]

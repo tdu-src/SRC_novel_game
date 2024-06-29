@@ -90,7 +90,7 @@
 #&f.player_name
 何使ったの？[p]
 
-[chara_mod name=memori face=悲しみ time="1000" ]
+[chara_mod name=memori face="sad" time="1000" ]
 #めもり
 う...の発明品のどこでも印刷くんＺを使いました...[p]
 
@@ -102,3 +102,4 @@
 めもりはその後先生にも見つかり、こっぴどく叱られていた...[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
+

@@ -21,7 +21,7 @@
 
 [chara_mod name=memori face="angry" time="1000" ]
 #めもり
-あっ、（主人公）！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
+あっ、[emb exp="f.player_name"]！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

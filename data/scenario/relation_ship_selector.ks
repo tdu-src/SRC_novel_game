@@ -186,7 +186,7 @@ if(tf.koryu_person=='memori'){
 @layopt layer="message0" visible="true"
 
 ;キャラクターの名前が表示される文字領域
-[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x=180 y=510]
+[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x="250" y=505 ]
 
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]

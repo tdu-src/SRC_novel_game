@@ -1,6 +1,8 @@
 *start
 [ptext layer="1" x="500" y="0" size="40" text="理科準備室のうわさ" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+
+[chara_show name="memori" width="450" height="600" ]
 #
 授業が終わった後、めもりが話しかけてきた。 [p]
 
@@ -26,7 +28,7 @@
 *gakuen_tuzyo_part_8_root_1
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-（主人公）も気になるでしょ！実際に確かめに行くよ![p]
+[emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![p]
 
 [chara_mod name=memori face="normal" time="1000" ]
 #めもり
@@ -75,7 +77,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-いや～、（主人公）の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]        
+いや～、[emb exp="f.player_name"]の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]        
 
 #
 めもりがある一点を見つめると、みるみる顔が青ざめていく...[p]

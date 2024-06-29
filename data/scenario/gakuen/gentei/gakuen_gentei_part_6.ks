@@ -12,7 +12,7 @@
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-あ、（主人公）さん！明けましておめでとうござい ます！[p]
+あ、[emb exp="f.player_name"]さん！明けましておめでとうござい ます！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
@@ -27,7 +27,7 @@
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-それで、これからお参りに行くところだったんです ！（主人公）さんも一緒に行きますよ！[p]        
+それで、これからお参りに行くところだったんです ！[emb exp="f.player_name"]さんも一緒に行きますよ！[p]        
 
 #&f.player_name
 行こう！[p]
@@ -117,7 +117,7 @@
 ;煽り
 [chara_mod name=scout face="normal" time="1000" ]  
 #スカウト
-あははは！（主人公）さん、凶引いてるじゃないで すか！[p]
+あははは！[emb exp="f.player_name"]さん、凶引いてるじゃないで すか！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
@@ -142,11 +142,11 @@
 
 [chara_mod name=wakastuki face="sad" time="1000" ]
 #ワカツキ
-うわっ！ずるいです（主人公）さん！私のと交換し てください！[p]
+うわっ！ずるいです[emb exp="f.player_name"]さん！私のと交換し てください！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-今年は良い一年になりそうだね、主人公。[p]      
+今年は良い一年になりそうだね、[emb exp="f.player_name"]。[p]      
 
 #&f.player_name
 うん！[p]

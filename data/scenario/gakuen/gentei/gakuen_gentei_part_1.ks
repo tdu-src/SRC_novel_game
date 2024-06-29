@@ -35,7 +35,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（主人公）さ～ん！ツクリさ～ん！おっはようございます！！[p]
+[emb exp="f.player_name"]さ～ん！ツクリさ～ん！おっはようございます！！[p]
 
 #&f.player_name
 おはよう！スカウト！[p]
@@ -47,7 +47,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-いや～（主人公）さんが一年の期末試験でひぃひぃ言ってたので、もう二年生では会えないのかと思いましたよ！[p]
+いや～[emb exp="f.player_name"]さんが一年の期末試験でひぃひぃ言ってたので、もう二年生では会えないのかと思いましたよ！[p]
 
 #&f.player_name
 ひぃひぃ言ってたのはそっちもじゃん...[p]

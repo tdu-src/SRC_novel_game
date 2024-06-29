@@ -14,7 +14,7 @@
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-（主人公）、来てくれたんだ。ちょっと絵の方向性に悩んでてね…[p]
+[emb exp="f.player_name"]、来てくれたんだ。ちょっと絵の方向性に悩んでてね…[p]
 
 #&f.player_name
 スランプ気味？[p]
@@ -38,7 +38,7 @@
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-あっ、そうだ。方向性を決めるためにラフを描いたんだけど、（主人公）も見てくれない？[p]
+あっ、そうだ。方向性を決めるためにラフを描いたんだけど、[emb exp="f.player_name"]も見てくれない？[p]
 
 #&f.player_name
 いいよ！[p]
@@ -52,7 +52,7 @@
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-これとこれで悩んでるんだけど、（主人公）はどっちがいい？[p]
+これとこれで悩んでるんだけど、[emb exp="f.player_name"]はどっちがいい？[p]
 
 #
 ２つの絵にはさほど変わりはなかったが、使っている色が大きく印象を変えていた。[p]
@@ -90,11 +90,11 @@
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-ふふふ。（主人公）にはいつも助けられてるね。[p]
+ふふふ。[emb exp="f.player_name"]にはいつも助けられてるね。[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-応援してくれる（主人公）のためにも、今年こそは絶対…！[p]
+応援してくれる[emb exp="f.player_name"]のためにも、今年こそは絶対…！[p]
 
 #&f.player_name
 あ、あんまり気負い過ぎないでね？！[p]

@@ -17,7 +17,10 @@
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-それはね、私の出したコンクールの受賞作品が展示されているからだよ。主人公（なし…も しかして！[p]
+それはね、私の出したコンクールの受賞作品が展示されているからだよ。
+
+#&f.player_name
+なし…も しかして！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ

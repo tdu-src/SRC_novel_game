@@ -20,7 +20,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-そんな時こそサウナです！！（主人公）さん！！[p]
+そんな時こそサウナです！！[emb exp="f.player_name"]さん！！[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
@@ -58,5 +58,19 @@
 
 #
 週末、スカウトイチオシのサウナに行ってリフレッシュすることが出来た。[p]
+
+[jump storage="gakuen/gakuen_end_point.ks"]
+*gakuen_tuzyo_part_9_2
+
+[chara_mod name=wakastuki face=normal time="1000" ]
+#ワカツキ
+いいよ、やり方教えてあげる。[p]
+
+[chara_mod name=scout face=normal time="1000" ]
+#スカウト
+あっ、ずるいです！私もゲームで目が常にお疲れなので教えてください！！[p]
+
+#
+ワカツキイチオシのマッサージ方法を試し、良い睡眠をとることが出来た！[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

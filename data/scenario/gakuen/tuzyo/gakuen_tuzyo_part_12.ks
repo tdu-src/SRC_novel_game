@@ -10,7 +10,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-（主人公）さん！！私と勝負です！！[p]
+[emb exp="f.player_name"]さん！！私と勝負です！！[p]
 
 #&f.player_name
 なんの勝負？[p]
