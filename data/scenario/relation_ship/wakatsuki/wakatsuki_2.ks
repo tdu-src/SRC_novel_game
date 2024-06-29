@@ -18,7 +18,7 @@
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-（主人公）！施設で保護してた子猫が、施設から逃げ出しちゃったって…！[p]
+[emb exp="f.player_name"]！施設で保護してた子猫が、施設から逃げ出しちゃったって…！[p]
 
 #&f.player_name
 本当？！[p]
@@ -39,7 +39,7 @@
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-ねぇ。もう遅いし、（主人公）は先に帰ってて。[p]
+ねぇ。もう遅いし、[emb exp="f.player_name"]は先に帰ってて。[p]
 
 #&f.player_name
 ワカツキはどうするの…？[p]
@@ -129,7 +129,7 @@
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-…私も、（主人公）といると…[p]
+…私も、[emb exp="f.player_name"]といると…[p]
 
 #&f.player_name
 え？[p]

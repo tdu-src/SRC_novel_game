@@ -45,7 +45,7 @@
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-…あっ！別に（主人公）のことが嫌なわけじゃないから！[p]
+…あっ！別に[emb exp="f.player_name"]のことが嫌なわけじゃないから！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
@@ -56,7 +56,7 @@
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-良かった。（主人公）は変な誤解されずに済むから一緒にいて気楽でいいよ。[p]
+良かった。[emb exp="f.player_name"]は変な誤解されずに済むから一緒にいて気楽でいいよ。[p]
 
 #&f.player_name
 えっ？[p]

@@ -35,7 +35,7 @@
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-うわっ！（主人公）？！[p]
+うわっ！[emb exp="f.player_name"]？！[p]
 
 #&f.player_name
 闇バイトなんかしちゃだめだ！！[p]

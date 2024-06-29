@@ -10,7 +10,7 @@
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-あっ、（主人公）。ごめんね～、また遊ぼうね。[p]
+あっ、[emb exp="f.player_name"]。ごめんね～、また遊ぼうね。[p]
 
 #
 ワカツキはそう言うと、抱っこしていた猫を優しく下ろした。[p]
@@ -24,11 +24,11 @@
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-ふぅ、（主人公）の顔を見て思ったけど、今年は本当に騒がしい一年だったな。[p]       
+ふぅ、[emb exp="f.player_name"]の顔を見て思ったけど、今年は本当に騒がしい一年だったな。[p]       
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-前は一人でいることが多かったけど、（主人公）の繋がりでいろんな人と話すようになったから。[p]
+前は一人でいることが多かったけど、[emb exp="f.player_name"]の繋がりでいろんな人と話すようになったから。[p]
 
 #&f.player_name
 もしかして、嫌だった？[p]

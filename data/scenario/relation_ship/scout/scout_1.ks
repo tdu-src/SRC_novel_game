@@ -11,7 +11,7 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-（主人公）さん、遊びに行きましょう！！[p]
+[emb exp="f.player_name"]さん、遊びに行きましょう！！[p]
 
 #&f.player_name
 スカウト？[p]

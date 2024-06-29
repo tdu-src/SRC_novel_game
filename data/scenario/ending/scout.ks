@@ -10,7 +10,7 @@
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-あ、（主人公）さん！遅いですよ！レディを待たすのは紳士失格です！[p]
+あ、[emb exp="f.player_name"]さん！遅いですよ！レディを待たすのは紳士失格です！[p]
 
 #&f.player_name
 別に紳士は目指してないんだけど…[p]
@@ -34,14 +34,14 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-勝手に落ち込んでいた私を、（主人公）さんが慰めてくれたじゃないですか…[p]
+勝手に落ち込んでいた私を、[emb exp="f.player_name"]さんが慰めてくれたじゃないですか…[p]
 
 #&f.player_name
 あれは自分が悪かったよ…[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-いえ、元はというと私が無理に（主人公）さんを付き合わせちゃったのが始まりなので…[p]
+いえ、元はというと私が無理に[emb exp="f.player_name"]さんを付き合わせちゃったのが始まりなので…[p]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
@@ -63,7 +63,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-はい！ 良かったらなんですけど、これから二人で遊びに行きませんか？（主人公）さんの 都合が合えばなんですが…[p]
+はい！ 良かったらなんですけど、これから二人で遊びに行きませんか？[emb exp="f.player_name"]さんの 都合が合えばなんですが…[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
