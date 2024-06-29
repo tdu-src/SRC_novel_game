@@ -15,6 +15,9 @@
 [plugin name=lovemng]
 [plugin name=tsex ]
 [plugin name="theme_kopanda_19" ]
+[plugin name=tap_effect]
+
+
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false

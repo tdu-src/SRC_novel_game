@@ -21,6 +21,10 @@
 ;これがないとメッセージウインドウがバグる恐らく初期設定の変更が必要
 [free layer="message0" name="chara_name_area"  ]
 
+;tapeffectプラグインの追加
+[tap_effect_set type="ripple" figure="circle" ratio="9/9" border_color="yellow" border_width="1" bg_none="true" bg_color="red" pos_start="10" pos_end="50" duration="1000" delete_delay="0" delete_time="200" delete_type="fade"]
+[tap_effect_start]
+
 [jump storage="entry_point.ks" ]
 
 
