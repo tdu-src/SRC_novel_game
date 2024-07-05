@@ -113,12 +113,14 @@
 [chara_new  name="scout"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
 
 [chara_face name="scout" face="normal" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="perplexed" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="sad" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="surprise" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="half_sad" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="smaile" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="perplexed" storage="chara/scout/scout_perplexed.png"  ]
+[chara_face name="scout" face="sad" storage="chara/scout/scout_sad.png"  ]
+[chara_face name="scout" face="surprise" storage="chara/scout/scout_surprise.png"  ]
+[chara_face name="scout" face="half_sad" storage="chara/scout/scout_halfsad.png"  ]
+[chara_face name="scout" face="smaile" storage="chara/scout/scout_smile.png"  ]
+;この差分なし
 [chara_face name="scout" face="weariness" storage="chara/scout/scout_normal.png"  ]
+;この差分なし
 [chara_face name="scout" face="angry" storage="chara/scout/scout_normal.png"  ]
 
 
