@@ -136,6 +136,7 @@ if(f.houkago_now_place>=4){
 f.houkago_select_path="houkago_place/";
 f.houkago_select_path+=f.random_place_list[f.houkago_now_place];
 f.houkago_select_path+=".ks"
+
 [endscript]
 
 ;[jump storage="place.ks" target="&tf.random_place_list[tf.selection_button]"  ]
