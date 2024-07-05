@@ -25,22 +25,39 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [endscript]
 
 *start_sab
+
+;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
+;--------------------------------
+;フッターの作成
+[image layer="0" x="0" y="0" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
+[ptext layer="2" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+
+
+;パラメータの枠組み
+[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
+
+;スマホ画面の宣言
+[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
+
+
+*reloadselect
+;--------------------------------
+
 ;バックグラウンドの宣言
 [bg storage="../fgimage/houkago_selector_image/background/trainplatform_background.png" time="1000" ]
-[freeimage layer="0" ]
+;[freeimage layer="0" ]
 [freeimage layer="1" ]
-[freeimage layer="2" ]
+;[freeimage layer="2" ]
 
 [layopt layer="0" visible="true"]
 [layopt layer="1" visible="true"]
 [layopt layer="2" visible="true"]
 
 ;フッターの作成
-[image layer="0" x="0" y="0" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
-[ptext layer="2" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 
 ;パラメータの枠組み
-[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
+
+;up画面の表示
 [image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="620" width="41" height="50"  time="0" ]
 
 ;主人公パラメータ
@@ -49,12 +66,12 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [ptext layer="1" x="680" y="620" size="40" text="&f.cafe"]
 [ptext layer="1" x="880" y="620" size="40" text="&f.my_home"]
 
+;矢印
 [button graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" height="150" width="120"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" height="150" width="120" x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
 
 
 ;スマホ画面の宣言
-[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
 
 
 ;選択ボタン
@@ -67,6 +84,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [button graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
 ;メニューボタンの作成
 [glink color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
+
 [s]
 
 ;メッセージウインドウの遷移
@@ -83,9 +101,7 @@ if(f.houkago_now_place>=4){
 
 [endscript]
 
-
-
-[jump target="*start_sab"]
+[jump target="*reloadselect"]
 ;----------------------------------------
 
 
