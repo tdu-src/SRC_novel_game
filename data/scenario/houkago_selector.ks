@@ -28,6 +28,10 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
+;バックグラウンドの宣言
+[bg storage="../fgimage/houkago_selector_image/background/trainplatform_background.png" time="1000" ]
+
+
 ;フッターの作成
 [image layer="0" x="0" y="0" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
 [ptext layer="2" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
@@ -36,15 +40,21 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 ;パラメータの枠組み
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
+;主人公パラメータ
+[ptext layer="2" x="300" y="620" size="40" text="&f.game_senter"]
+[ptext layer="2" x="480" y="620" size="40" text="&f.library"]
+[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
+[ptext layer="2" x="880" y="620" size="40" text="&f.my_home"]
+
+
 ;スマホ画面の宣言
 [image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
 
 
 *reloadselect
 ;--------------------------------
-
 ;バックグラウンドの宣言
-[bg storage="../fgimage/houkago_selector_image/background/trainplatform_background.png" time="1000" ]
+
 ;[freeimage layer="0" ]
 [freeimage layer="1" ]
 ;[freeimage layer="2" ]
@@ -61,10 +71,6 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="620" width="41" height="50"  time="0" ]
 
 ;主人公パラメータ
-[ptext layer="1" x="300" y="620" size="40" text="&f.game_senter"]
-[ptext layer="1" x="480" y="620" size="40" text="&f.library"]
-[ptext layer="1" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="1" x="880" y="620" size="40" text="&f.my_home"]
 
 ;矢印
 [button graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" height="150" width="120"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
@@ -100,6 +106,7 @@ if(f.houkago_now_place>=4){
 
 
 [endscript]
+
 
 [jump target="*reloadselect"]
 ;----------------------------------------
