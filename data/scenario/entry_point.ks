@@ -17,14 +17,26 @@ f.end_turn+=1;
 
 //以下から主人公のパラメータ
 f.player_name;
+
 f.cafe=0;
 f.my_home=0;
 f.library=0;
 f.game_senter=0;
 
-//場所のパラメータの値の通常と遭遇イベントの値の変化
-f.normal_place_parameter=10;
-f.special_place_parameter=15;
+//既に見た場所ならtrueを返すフラグ
+//ここ気持ち悪いから修正したい
+f.cafe_normal_flag="false";
+f.cafe_special_flag="false";
+f.my_home_normal_flag="false";
+f.my_home_special_flag="false";
+f.library_normal_flag="false";
+f.library_special_flag="false";
+f.gamecenter_normal_flag="false";
+f.gamecenter_special_flag="false";
+
+//放課後イベントのパラメータの調整用変数
+f.nomrmal_houkagoevent=8;
+f.special_houkagoevent=15;
 
 //以下からキャラクターの好感度
 f.scout=0;
@@ -33,7 +45,7 @@ f.scout_flag='false';
 f.memori=0;
 f.memori_kouryu_key=0;
 f.memori_flag='false';
-f.tsukuri=60;
+f.tsukuri=0;
 f.tsukuri_kouryu_key=0;
 f.tsukuri_flag='false';
 f.wakatsuki=0;
