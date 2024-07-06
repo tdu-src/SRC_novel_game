@@ -34,7 +34,8 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 ;フッターの作成
 [image layer="0" x="0" y="0" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
-[ptext layer="2" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+[ptext layer="2" x="50" y="0" size="40" text="&f.playmouth" ]
+[ptext layer="2" x="50" y="50" size="40" text="&f.playmouth_string" ]
 
 
 ;パラメータの枠組み
@@ -76,7 +77,6 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
 
-;[button x=135 y=320 graphic="title/button_load.png" enterimg="title/button_load2.png" role="load" keyfocus="2"]
 
 
 ;スマホ画面の宣言
@@ -95,7 +95,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 [s]
 
-;メッセージウインドウの遷移
+;場所画像の差し替え
 ;----------------------------------------
 *houkago_select_arrow
 [iscript]
@@ -109,6 +109,7 @@ if(f.houkago_now_place>=4){
 
 [endscript]
 
+;ボタンの削除
 [clearfix name="leftarrow"]
 [clearfix name="rightarrow"]
 [clearfix name="koryu_field"]
