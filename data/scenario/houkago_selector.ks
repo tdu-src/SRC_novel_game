@@ -72,24 +72,26 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 ;主人公パラメータ
 
-;矢印
-[button graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" height="150" width="120"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
-[button graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" height="150" width="120" x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
+;矢印 マウスカーソルを合わせると矢印を大きくする
+[button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
+[button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
+
+;[button x=135 y=320 graphic="title/button_load.png" enterimg="title/button_load2.png" role="load" keyfocus="2"]
 
 
 ;スマホ画面の宣言
 
 
 ;選択ボタン
-[button  graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="295" y="170" width="622" height="350" target="*houkago_selector_1"   ]
+[button name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="295" y="170" width="622" height="350" target="*houkago_selector_1"   ]
 
 ;遭遇イベントの宣言
-[button  graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
+[button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
 
 ;交流ボタンの作成
-[button graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
+[button name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
 ;メニューボタンの作成
-[glink color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
+[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
 
 [s]
 
@@ -107,6 +109,12 @@ if(f.houkago_now_place>=4){
 
 [endscript]
 
+[clearfix name="leftarrow"]
+[clearfix name="rightarrow"]
+[clearfix name="koryu_field"]
+[clearfix name="sougu_event"]
+[clearfix name="houkagokouryu_button"]
+[clearfix name="houkagomenu"]
 
 [jump target="*reloadselect"]
 ;----------------------------------------
@@ -162,5 +170,4 @@ f.houkago_select_path+=".ks"
 
 [endscript]
 
-;[jump storage="place.ks" target="&tf.random_place_list[tf.selection_button]"  ]
 [jump storage="&f.houkago_select_path"]
