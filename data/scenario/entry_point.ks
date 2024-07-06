@@ -31,8 +31,8 @@ f.my_home_normal_flag="false";
 f.my_home_special_flag="false";
 f.library_normal_flag="false";
 f.library_special_flag="false";
-f.gamesenter_normal_flag="false";
-f.gamesenter_special_flag="false";
+f.gamecenter_normal_flag="false";
+f.gamecenter_special_flag="false";
 
 //放課後イベントのパラメータの調整用変数
 f.nomrmal_houkagoevent=8;

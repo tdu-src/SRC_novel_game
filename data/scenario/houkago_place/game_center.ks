@@ -1,7 +1,7 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
 [iscript]
-f.game_senter+=f.nomrmal_houkagoevent;
+f.game_center+=f.nomrmal_houkagoevent;
 [endscript]
 [if exp="f.gamesenter_normal_flag=='true'"]
 [jump target="*gamesenter_shortpart"]
