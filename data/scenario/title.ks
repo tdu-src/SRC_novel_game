@@ -20,15 +20,15 @@
 [endkeyframe]
 
 
-[button name="start_button" x=135 y=410 graphic="../fgimage/items/titles/gamestart.png"  target="gamestart" keyfocus="1"]
-[button name="load_button" x=135 y=500 graphic="../fgimage/items/titles/gameload.png" role="load" keyfocus="2"]
-[button name="config_button1" x=135 y=590 graphic="../fgimage/items/titles/gameconfig.png"  role="sleepgame" storage="config.ks" keyfocus="5"]
-[button name="config_button2" x=315 y=575 graphic="../fgimage/items/titles/gameconfig.png"  role="sleepgame" storage="config.ks" keyfocus="5"]
+[button name="start_button" x=135 y=340 graphic="../fgimage/items/titles/gamestart.png"  target="gamestart" keyfocus="1"]
+[button name="load_button" x=145 y=470 graphic="../fgimage/items/titles/gameload.png" role="load" keyfocus="2"]
+[button name="config_button" x=155 y=600 graphic="../fgimage/items/titles/gameconfig.png"  role="sleepgame" storage="config.ks" keyfocus="5"]
+[button name="credit_button" x=325 y=585 graphic="../fgimage/items/titles/gamecredit.png"  role="sleepgame" storage="config.ks" keyfocus="5"]
 ;回転の実行
 [kanim keyframe="spinner" name="start_button" time="0" count="1" easing="linear"]
 [kanim keyframe="spinner" name="load_button" time="0" count="1" easing="linear"]
-[kanim keyframe="spinner" name="config_button1" time="0" count="1" easing="linear"]
-[kanim keyframe="spinner" name="config_button2" time="0" count="1" easing="linear"]
+[kanim keyframe="spinner" name="config_button" time="0" count="1" easing="linear"]
+[kanim keyframe="spinner" name="credit_button" time="0" count="1" easing="linear"]
 [s]
 
 *gamestart
