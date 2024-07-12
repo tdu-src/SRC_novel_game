@@ -1,9 +1,4 @@
 *start
-;bg storage="room.jpg" ]
-;[chara_show name="memori" width="360" height="480" ]
-;[chara_show name="wakastuki" width="408.75" height="545" ]
-;[chara_show name="tsukuri" width="412.5" height="550" ]
-;[chara_show name="scout" width="472.5" height="630" ]
 [ptext layer="1" x="500" y="0" size="40" text="助けて！めもえもん！" name="title_name"]
 
 #
@@ -107,7 +102,7 @@
 #&f.player_name
 安全性...？[p]
 
-[chara_mod name=memori face=焦り time="1000" ]
+[chara_mod name=memori face=impatience time="1000" ]
 #めもり
 あっ... でっ、でも大丈夫だよ！たまに電柱にぶつかるぐらいだから！[p]
 

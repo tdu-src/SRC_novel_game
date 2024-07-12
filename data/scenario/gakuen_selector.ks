@@ -147,6 +147,8 @@
 [chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
+;めもり焦りの追加
+[chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
 
 ;ここがシナリオ名と月
