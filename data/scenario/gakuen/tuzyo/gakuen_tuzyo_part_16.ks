@@ -3,7 +3,7 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-中庭でスカウトと歩いていると、茂みの方にワカツキを見つけた..[p]
+中庭でスカウトと歩いていると、茂みの方にワカツキを見つけた...[p]
 [chara_show name="wakastuki" time="1000" width="450" height="600"  ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
