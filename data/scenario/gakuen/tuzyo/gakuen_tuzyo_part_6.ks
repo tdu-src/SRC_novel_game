@@ -20,7 +20,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-[emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイ」[p]
+[emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイク」[p]
 
 #
 スカウトが指で示したそれは、自販機に並ぶ謎のドリンクだった...[p]
