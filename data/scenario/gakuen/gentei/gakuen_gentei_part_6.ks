@@ -101,7 +101,7 @@
 今年も良い一年になりそうです！[p]
 
 #
-初詣に行って、年初に順調なスタートを切ることが 出来た！[p]
+初詣に行って、年初に順調なスタートを切ることが出来た！[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_gentei_part_6_2
@@ -127,7 +127,7 @@
 とほほ...[p]
 
 #
-初詣に行ったが、年初に幸先の悪いスタートを切る ことになった...[p]
+初詣に行ったが、年初に幸先の悪いスタートを切ることになった...[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_gentei_part_6_3
@@ -152,7 +152,7 @@
 うん！[p]
 
 #
-初詣に行って、年初に最高のスタートを切ることが 出来た！[p]
+初詣に行って、年初に最高のスタートを切ることが出来た！[p]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]
