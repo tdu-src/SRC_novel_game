@@ -149,11 +149,14 @@ if(f.houkago_now_place>=4){
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
-;クイックセーブボタン
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
+;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
+[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="640" y="690"]
 
-;クイックロードボタン
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
+;セーブボタン
+[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x="740" y="690"]
+
+;ロードボタン
+[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x="840" y="690"]
 
 ;オートボタン
 [button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x="940" y="690"]
