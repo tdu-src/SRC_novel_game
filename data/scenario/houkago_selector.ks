@@ -1,4 +1,7 @@
 *start
+;bgm
+[playbgm storage="../bgm/sohuchara_bgm_normal2.mp3" ]
+
 ;遭遇イベントの実装
 [iscript]
 //遭遇イベントの実装
@@ -133,6 +136,9 @@ if(f.houkago_now_place>=4){
 [freeimage layer="0" ]
 [freeimage layer="1" ]
 [freeimage layer="2" ]
+
+;bgmのフェードアウト
+[fadeoutbgm time="3000"]
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
