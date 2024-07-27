@@ -91,7 +91,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 ;交流ボタンの作成
 [button name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
 ;メニューボタンの作成
-[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
+;[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
 
 [s]
 
