@@ -165,9 +165,9 @@ if(tf.mouth_logic_turn%2==0){
     //ここも放課後イベント用変数(entory_pointでは宣言していない)
     f.playmouth_string="前半";
 }else{
-    tf.playnow_mouth+="月後半";
+    tf.now_mouth+="月後半";
     //放課後イベント用変数
-    f.mouth_string="後半";
+    f.playmouth_string="後半";
 }
 //放課後パートだけになる可能性があるため仮で変数を宣言
 f.playmouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
