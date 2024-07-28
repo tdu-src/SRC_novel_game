@@ -1,6 +1,5 @@
 *start
-;bgm
-[playbgm storage="../bgm/sohuchara_bgm_normal2.mp3" ]
+
 
 ;遭遇イベントの実装
 [iscript]
@@ -28,6 +27,12 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [endscript]
 
 *start_sab
+[freeimage layer="0" ]
+[freeimage layer="1" ]
+[freeimage layer="2" ]
+
+;bgm
+[playbgm storage="../bgm/sohuchara_bgm_normal2.mp3" ]
 
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
