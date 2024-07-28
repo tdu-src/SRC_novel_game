@@ -21,7 +21,7 @@ f.player_name;
 f.cafe=0;
 f.my_home=0;
 f.library=0;
-f.game_senter=0;
+f.game_center=0;
 
 //既に見た場所ならtrueを返すフラグ
 //ここ気持ち悪いから修正したい

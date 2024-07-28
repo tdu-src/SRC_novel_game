@@ -45,7 +45,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
 ;主人公パラメータ
-[ptext layer="2" x="300" y="620" size="40" text="&f.game_senter"]
+[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
 [ptext layer="2" x="480" y="620" size="40" text="&f.library"]
 [ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
 [ptext layer="2" x="880" y="620" size="40" text="&f.my_home"]
