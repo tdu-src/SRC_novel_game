@@ -22,7 +22,7 @@ for(var i=0;i<4;i++){
 
 //放課後イベントのアニメーション
 f.houkago_now_place=0;
-f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/cafe_background.jpg","../fgimage/houkago_selector_image/background/park_background.jpg","../fgimage/houkago_selector_image/background/artmusum_background.jpg","../fgimage/houkago_selector_image/background/game_center_background.jpg"]
+f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png","../fgimage/houkago_selector_image/background/game_center_background.png"]
 
 f.houkago_select_upparameter_listx=[730,930,530,350]
 [endscript]
@@ -52,7 +52,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 
 ;スマホ画面の宣言
-[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
+;[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
 
 
 *reloadselect
@@ -86,7 +86,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 
 ;選択ボタン
-[button name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="295" y="170" width="622" height="350" target="*houkago_selector_1"   ]
+[button name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="280" y="150" width="654" height="400" target="*houkago_selector_1"   ]
 
 ;遭遇イベントの宣言
 [button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
