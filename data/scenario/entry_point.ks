@@ -19,18 +19,18 @@ f.end_turn+=1;
 f.player_name;
 
 f.cafe=0;
-f.my_home=0;
-f.library=0;
+f.art_museum=0;
+f.park=0;
 f.game_center=0;
 
 //既に見た場所ならtrueを返すフラグ
 //ここ気持ち悪いから修正したい
 f.cafe_normal_flag="false";
 f.cafe_special_flag="false";
-f.my_home_normal_flag="false";
-f.my_home_special_flag="false";
-f.library_normal_flag="false";
-f.library_special_flag="false";
+f.art_museum_normal_flag="false";
+f.art_museum_special_flag="false";
+f.park_normal_flag="false";
+f.park_special_flag="false";
 f.gamecenter_normal_flag="false";
 f.gamecenter_special_flag="false";
 

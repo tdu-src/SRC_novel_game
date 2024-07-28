@@ -1,9 +1,9 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
 [iscript]
-f.library+=f.nomrmal_houkagoevent;
+f.park+=f.nomrmal_houkagoevent;
 [endscript]
-[if exp="f.library_normal_flag=='true'"]
+[if exp="f.park_normal_flag=='true'"]
 [jump target="*library_shortpart"]
 [endif]
 
@@ -11,7 +11,7 @@ f.library+=f.nomrmal_houkagoevent;
 ここは公園です[p]
 
 [iscript]
-f.library_normal_flag="true";
+f.park_normal_flag="true";
 [endscript]
 [jump storage="houkago_place/houkago_end.ks"]
 

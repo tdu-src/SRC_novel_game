@@ -22,9 +22,9 @@ for(var i=0;i<4;i++){
 
 //放課後イベントのアニメーション
 f.houkago_now_place=0;
-f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png","../fgimage/houkago_selector_image/background/game_center_background.png"]
+f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/game_center_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png"]
 
-f.houkago_select_upparameter_listx=[730,930,530,350]
+f.houkago_select_upparameter_listx=[350,930,730,530]
 [endscript]
 
 *start_sab
@@ -46,9 +46,9 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 ;主人公パラメータ
 [ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
-[ptext layer="2" x="480" y="620" size="40" text="&f.library"]
+[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
 [ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="2" x="880" y="620" size="40" text="&f.my_home"]
+[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
 
 
 ;スマホ画面の宣言

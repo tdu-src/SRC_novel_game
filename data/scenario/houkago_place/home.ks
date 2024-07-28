@@ -1,9 +1,9 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
 [iscript]
-f.my_home+=f.nomrmal_houkagoevent;
+f.art_museum+=f.nomrmal_houkagoevent;
 [endscript]
-[if exp="f.my_home_normal_flag=='true'"]
+[if exp="f.art_museum_normal_flag=='true'"]
 [jump target="*myhome_shortpart"]
 [endif]
 #
@@ -11,7 +11,7 @@ f.my_home+=f.nomrmal_houkagoevent;
 
 
 [iscript]
-f.my_home_normal_flag="true";
+f.art_museum_normal_flag="true";
 [endscript]
 
 [jump storage="houkago_place/houkago_end.ks"]
