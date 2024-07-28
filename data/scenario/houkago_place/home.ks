@@ -1,14 +1,14 @@
 *start
-[bg storage="rouka.jpg" time="100" ]
+[bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
 [iscript]
 f.my_home+=f.nomrmal_houkagoevent;
 [endscript]
 [if exp="f.my_home_normal_flag=='true'"]
 [jump target="*myhome_shortpart"]
 [endif]
-#
-ここは美術館です[p]
 
+#
+ここは美術館です
 
 [iscript]
 f.my_home_normal_flag="true";
