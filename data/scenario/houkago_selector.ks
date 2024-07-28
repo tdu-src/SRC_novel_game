@@ -8,7 +8,7 @@
 f.gakuen_FT=0;
 f.random_button_list=[];
 //家→美術館 図書館→公園
-f.random_place_list=["cafe","library","home","game_center"];
+f.random_place_list=["game_center","home","cafe","library"];
 f.selection_button;
 for(var i=0;i<4;i++){
     tf.random_place=Math.floor( Math.random() *2 );

@@ -7,7 +7,7 @@ f.art_museum+=f.nomrmal_houkagoevent;
 [jump target="*myhome_shortpart"]
 [endif]
 #
-ここは美術館です[p]
+ここは公園です[p]
 
 
 [iscript]
@@ -21,5 +21,5 @@ f.art_museum_normal_flag="true";
 *myhome_shortpart
 
 #
-ここは美術館のショートパートです[p]
+ここは公園のショートパートです[p]
 [jump storage="houkago_place/houkago_end.ks"]

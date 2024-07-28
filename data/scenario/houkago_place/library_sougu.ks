@@ -10,7 +10,7 @@ f.park+=f.special_houkagoevent;
 
 
 #
-ここは遭遇イベントの公園です[p]
+ここは遭遇イベントの美術館です[p]
 
 [iscript]
 f.park_special_flag="true";
@@ -23,7 +23,7 @@ f.park_special_flag="true";
 *librarysougu_shortpart
 
 #
-ここは公園の遭遇イベントのショートパートです[p]
+ここは美術館の遭遇イベントのショートパートです[p]
 
 
 [jump storage="houkago_place/houkago_end.ks"]
