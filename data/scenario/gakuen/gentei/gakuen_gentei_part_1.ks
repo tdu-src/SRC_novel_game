@@ -2,6 +2,11 @@
 [ptext layer="1" x="500" y="0" size="40" text="幕間" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+
 #
 １年前に入学した「ソフケン学園」様々な出会い、発見があり、これ
 までの一年は本当にあっという間だった...[p]

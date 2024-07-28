@@ -39,13 +39,15 @@
 #
 二人が行くには危険すぎる... 自分が行かなくては... [p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="限定カレーパンを狙う！"  exp="f.memori+=5" target="gakuen_tuzyo_part_3_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="大人気クリームパンを狙う!"  exp="f.scout" target="*gakuen_tuzyo_part_3_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="限定カレーパンを狙う！"   target="gakuen_tuzyo_part_3_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="大人気クリームパンを狙う!"  target="*gakuen_tuzyo_part_3_root_2" ]
 [s]
 
 
 
 *gakuen_tuzyo_part_3_root_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 #
 狙いをカレーパンに定め、隙間が空く瞬間を伺う...[p]
 
@@ -89,6 +91,7 @@
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_3_root_2
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 #
 狙いをカレーパンに定め、隙間が空く瞬間を伺う...[p]

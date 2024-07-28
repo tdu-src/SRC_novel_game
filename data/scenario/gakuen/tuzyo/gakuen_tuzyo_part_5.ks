@@ -40,13 +40,14 @@
 #
 次の行動を決めなければ![p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="攻撃して倒しきる！"  exp="f.tsukuri+=5" target="gakuen_tuzyo_part_5_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 回復して体制を整える！"  exp="f.wakatsuki+=5" target="*gakuen_tuzyo_part_5_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="攻撃して倒しきる！"   target="gakuen_tuzyo_part_5_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 回復して体制を整える！"   target="*gakuen_tuzyo_part_5_root_2" ]
 [s]
 
 
 
 *gakuen_tuzyo_part_5_root_1
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 #ツクリ
 もう少しで倒せる...！今！[p]
@@ -72,6 +73,7 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 
 *gakuen_tuzyo_part_5_root_2
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 #ワカツキ
 一回体勢を整えるよ！[p]

@@ -58,10 +58,12 @@
 聞けば聞くほど不安になってきた... どうしよう...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_17_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_17_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"   target="*gakuen_tuzyo_part_17_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_17_2" ]
 [s]
 *gakuen_tuzyo_part_17_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
 そうこなくっちゃ！靴を履いて、目的地を言ってみて！[p]

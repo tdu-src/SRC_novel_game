@@ -22,10 +22,12 @@
 その人はこの世への未練で地縛霊になっちゃって、誰もいないはずの理科準備室に人影を見たって人がいるんだって...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="こ、怖い..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_8_root_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="所詮噂でしょ？"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_8_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="こ、怖い..."   target="*gakuen_tuzyo_part_8_root_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="所詮噂でしょ？"   target="*gakuen_tuzyo_part_8_root_2" ]
 [s]
 *gakuen_tuzyo_part_8_root_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
 [emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![p]

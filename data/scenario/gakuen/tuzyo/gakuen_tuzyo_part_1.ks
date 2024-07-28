@@ -39,10 +39,13 @@
 そんなぁ！[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="地道にコツコツと！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_1_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="解法暗記で切り抜ける！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_1_2" ]     
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="地道にコツコツと！"  target="*gakuen_tuzyo_part_1_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="解法暗記で切り抜ける！"  target="*gakuen_tuzyo_part_1_2" ]     
 [s]
 *gakuen_tuzyo_part_1_1
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 やっぱりそうだよね。絶対その方が身に付くだろうし。[p]
@@ -63,7 +66,8 @@
 二人のスパルタ指導を受けたスカウトは、無事に補習を回避できたのだった...[p]
 
 *gakuen_tuzyo_part_1_2
-[chara_mod name=scout face=normal time="1000" ]
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 #スカウト
 やっぱりそれしかありません！徹夜で詰め込みます！！[p]
 

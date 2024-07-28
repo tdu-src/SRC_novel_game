@@ -177,6 +177,11 @@ f.playmouth+="月";
 ;あとで直しておきます がるむさんへ
 ;ここまでシナリオ名と月のメソッド
 
+;学園通常パートの好感度増加定数
+[iscript]
+f.gakuen_tuzyou_koukando=5;
+[endscript]
+
 [iscript]
 f.gakuen_FT=1;
 tf.gakuen_now_turn=f.gakuen_turn_list[f.gakuen_turn]

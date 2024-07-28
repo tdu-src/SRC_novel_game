@@ -2,6 +2,8 @@
 [ptext layer="1" x="500" y="0" size="40" text="体育祭にて" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 #
 今日は毎年恒例の体育祭の日だ！[p]
 

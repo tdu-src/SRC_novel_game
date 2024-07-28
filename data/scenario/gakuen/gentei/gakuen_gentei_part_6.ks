@@ -3,6 +3,11 @@
 [ptext layer="1" x="500" y="0" size="40" text="初詣!" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+
 #
 元旦の朝、近くの神社に初詣に来た！[p]
 

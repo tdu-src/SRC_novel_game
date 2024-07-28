@@ -32,13 +32,15 @@
 #
 時間をかけた甲斐もあって、教室はピカピカだ![p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"  exp="f.memori+=5" target="gakuen_tuzyo_part_2_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  exp="f.scout+=5" target="*gakuen_tuzyo_part_2_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"   target="gakuen_tuzyo_part_2_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  target="*gakuen_tuzyo_part_2_root_2" ]
 [s]
 
 
 
 *gakuen_tuzyo_part_2_root_1
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 #スカウト
 ふふっ！私にかかればこんなもんです！もっと褒めてくれてもいいんですよ？[p]
 
@@ -58,6 +60,8 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 
 *gakuen_tuzyo_part_2_root_2
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 #メモリ
 でしょでしょ！[p]
 

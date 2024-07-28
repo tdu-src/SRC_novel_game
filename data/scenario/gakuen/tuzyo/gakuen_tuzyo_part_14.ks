@@ -41,10 +41,12 @@
 スカウトは完全に調子に乗っている... 何とか一矢報いる方法はないだろうか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもり、任せた！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_14_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="泣きのもう一回！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_14_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもり、任せた！"   target="*gakuen_tuzyo_part_14_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="泣きのもう一回！"   target="*gakuen_tuzyo_part_14_2" ]
 [s]
 *gakuen_tuzyo_part_14_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
 わかった！クイズは得意なんだよ！[p]
@@ -98,6 +100,8 @@ C6H4(CH3)2！！[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_14_2
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 いいですよ？何回やっても結果は同じですけどね？！[p]

@@ -57,10 +57,12 @@
 このままでは負けてしまう... どうにかしなければ...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="必殺技を使う！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_12_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="とにかく守り切る！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_12_2" ]        
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="必殺技を使う！"   target="*gakuen_tuzyo_part_12_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="とにかく守り切る！"   target="*gakuen_tuzyo_part_12_2" ]        
 [s]
 *gakuen_tuzyo_part_12_1
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 #
 攻撃してきたスカウトに大して、無敵の必殺技を繰り返した。[p]
 
@@ -93,6 +95,8 @@
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_12_2
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 #
 ガードし続ける自分に対し、スカウトは誤って隙の大きな技を繰り出した。[p]
 
