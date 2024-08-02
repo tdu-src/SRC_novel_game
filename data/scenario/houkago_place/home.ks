@@ -1,17 +1,17 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
 [iscript]
-f.my_home+=f.nomrmal_houkagoevent;
+f.art_museum+=f.nomrmal_houkagoevent;
 [endscript]
-[if exp="f.my_home_normal_flag=='true'"]
+[if exp="f.art_museum_normal_flag=='true'"]
 [jump target="*myhome_shortpart"]
 [endif]
 #
-ここは美術館です[p]
+ここは公園です[p]
 
 
 [iscript]
-f.my_home_normal_flag="true";
+f.art_museum_normal_flag="true";
 [endscript]
 
 [jump storage="houkago_place/houkago_end.ks"]
@@ -21,5 +21,5 @@ f.my_home_normal_flag="true";
 *myhome_shortpart
 
 #
-ここは美術館のショートパートです[p]
+ここは公園のショートパートです[p]
 [jump storage="houkago_place/houkago_end.ks"]

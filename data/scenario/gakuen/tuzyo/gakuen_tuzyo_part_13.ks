@@ -31,10 +31,12 @@
 普段音楽はあまり聴いていないので、おすすめを教えてもらおう…[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="ワカツキのおすすめを教えて！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_13_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ツクリのおすすめを教えて！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_13_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="ワカツキのおすすめを教えて！"   target="*gakuen_tuzyo_part_13_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ツクリのおすすめを教えて！"   target="*gakuen_tuzyo_part_13_2" ]
 [s]
 *gakuen_tuzyo_part_13_1
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 いいよ。でも、皆びっくりするかも。[p]
@@ -70,6 +72,8 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 
 *gakuen_tuzyo_part_13_2
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
 いいよ。好きなアーティストとかはいる？[p]

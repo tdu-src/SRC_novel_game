@@ -40,10 +40,12 @@
 どちらの方法も魅力的だ..[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="おすすめのサウナを教えて！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_9_1" ] 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="マッサージの仕方を教えて！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_9_2" ] 
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="おすすめのサウナを教えて！"   target="*gakuen_tuzyo_part_9_1" ] 
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="マッサージの仕方を教えて！"   target="*gakuen_tuzyo_part_9_2" ] 
 [s]
 *gakuen_tuzyo_part_9_1
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 お安い御用です！私イチオシのサウナ、たくさん教えちゃいますよ！[p]
@@ -61,6 +63,7 @@
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_9_2
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ

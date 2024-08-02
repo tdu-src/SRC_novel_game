@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]

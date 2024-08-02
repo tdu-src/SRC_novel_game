@@ -20,7 +20,7 @@
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-[emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイ」[p]
+[emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイク」[p]
 
 #
 スカウトが指で示したそれは、自販機に並ぶ謎のドリンクだった...[p]
@@ -44,10 +44,13 @@
 ど、どうしよう...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="飲む！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_6_root_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_6_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="飲む！"   target="*gakuen_tuzyo_part_6_root_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_6_root_2" ]
 [s]
 *gakuen_tuzyo_part_6_root_1
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 流石ですね！[emb exp="f.player_name"]さん！[p]
@@ -82,6 +85,8 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_6_root_2
+[eval exp="f.scout-=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukuri-=f.gakuen_tuzyou_koukando"]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
 かぁ～～！！意気地なしですね！[emb exp="f.player_name"]さん！[p]

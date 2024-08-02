@@ -50,10 +50,12 @@
 あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_15_1" ]   
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_15_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"   target="*gakuen_tuzyo_part_15_2" ]
 [s]
 *gakuen_tuzyo_part_15_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
 そう！めもりは千年に一度の画家なんだよ...[p]
@@ -79,6 +81,8 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 
 *gakuen_tuzyo_part_15_2
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
 ギクッ！ず、ズルナンカシテナイヨ...[p]

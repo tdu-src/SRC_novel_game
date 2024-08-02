@@ -25,13 +25,16 @@
 #ツクリ
 実際に見てみないとピンとこないかも.... どうしよう...？[p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="猫、探してみようか"  exp="f.scout+=5 && f.memori+=5" target="gakuen_tuzyo_part_4_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分が被写体になるよ！"  exp="f.tsukuri+=5" target="*gakuen_tuzyo_part_4_root_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="猫、探してみようか"   target="gakuen_tuzyo_part_4_root_1"]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分が被写体になるよ！"   target="*gakuen_tuzyo_part_4_root_2" ]
 [s]
 
 
 
 *gakuen_tuzyo_part_4_root_1
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 #ツクリ
 わかった。とりあえず学校の中を探してみよう。[p]
 
@@ -57,6 +60,7 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 
 *gakuen_tuzyo_part_4_root_2
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 #ワカツキ
 え、何言ってるの...？[p]

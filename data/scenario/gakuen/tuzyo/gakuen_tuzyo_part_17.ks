@@ -1,9 +1,4 @@
 *start
-;bg storage="room.jpg" ]
-;[chara_show name="memori" width="360" height="480" ]
-;[chara_show name="wakastuki" width="408.75" height="545" ]
-;[chara_show name="tsukuri" width="412.5" height="550" ]
-;[chara_show name="scout" width="472.5" height="630" ]
 [ptext layer="1" x="500" y="0" size="40" text="助けて！めもえもん！" name="title_name"]
 
 #
@@ -63,10 +58,12 @@
 聞けば聞くほど不安になってきた... どうしよう...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_17_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_17_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"   target="*gakuen_tuzyo_part_17_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_17_2" ]
 [s]
 *gakuen_tuzyo_part_17_1
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
 そうこなくっちゃ！靴を履いて、目的地を言ってみて！[p]
@@ -107,7 +104,7 @@
 #&f.player_name
 安全性...？[p]
 
-[chara_mod name=memori face=焦り time="1000" ]
+[chara_mod name=memori face=impatience time="1000" ]
 #めもり
 あっ... でっ、でも大丈夫だよ！たまに電柱にぶつかるぐらいだから！[p]
 
