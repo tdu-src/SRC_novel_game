@@ -2,6 +2,8 @@
 [ptext layer="1" x="500" y="0" size="40" text="テスト勉強会" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_show name="memori" width="450" height="600" ]
 

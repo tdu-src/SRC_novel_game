@@ -1,9 +1,9 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
 [iscript]
-f.my_home+=f.special_houkagoevent;
+f.art_museum+=f.special_houkagoevent;
 [endscript]
-[if exp="f.my_home_special_flag=='true'"]
+[if exp="f.art_museum_special_flag=='true'"]
 [jump target="*myhomesougu_shortpart"]
 [endif]
 
@@ -81,9 +81,8 @@ f.my_home+=f.special_houkagoevent;
 
 #
 ツクリのガイドのおかげで、美術館を楽しむことが出来た！[p]
-
 [iscript]
-f.my_home_special_flag="true";
+f.art_museum_special_flag="true";
 [endscript]
 
 [jump storage="houkago_place/houkago_end.ks"]
@@ -93,6 +92,6 @@ f.my_home_special_flag="true";
 *myhomesougu_shortpart
 
 #
-ここは美術館の遭遇イベントのショートパートです[p]
+ここは公園の遭遇イベントのショートパートです[p]
 
 [jump storage="houkago_place/houkago_end.ks"]

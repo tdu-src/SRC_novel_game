@@ -39,16 +39,19 @@
 ; ロールボタン配置
 
 ;クイックセーブボタン
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
+;[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
 
 ;クイックロードボタン
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
+;[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
+
+;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
+[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="640" y="690"]
 
 ;セーブボタン
-;[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x="240" y="690"]
+[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x="740" y="690"]
 
 ;ロードボタン
-;[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x="340" y="690"]
+[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x="840" y="690"]
 
 ;オートボタン
 [button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x="940" y="690"]
@@ -147,6 +150,8 @@
 [chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
+;めもり焦りの追加
+[chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
 
 ;ここがシナリオ名と月
@@ -160,9 +165,9 @@ if(tf.mouth_logic_turn%2==0){
     //ここも放課後イベント用変数(entory_pointでは宣言していない)
     f.playmouth_string="前半";
 }else{
-    tf.playnow_mouth+="月後半";
+    tf.now_mouth+="月後半";
     //放課後イベント用変数
-    f.mouth_string="後半";
+    f.playmouth_string="後半";
 }
 //放課後パートだけになる可能性があるため仮で変数を宣言
 f.playmouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
@@ -171,6 +176,11 @@ f.playmouth+="月";
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 ;あとで直しておきます がるむさんへ
 ;ここまでシナリオ名と月のメソッド
+
+;学園通常パートの好感度増加定数
+[iscript]
+f.gakuen_tuzyou_koukando=5;
+[endscript]
 
 [iscript]
 f.gakuen_FT=1;

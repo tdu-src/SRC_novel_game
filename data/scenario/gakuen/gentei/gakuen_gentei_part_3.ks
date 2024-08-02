@@ -3,6 +3,10 @@
 [ptext layer="1" x="500" y="0" size="40" text="夏祭り" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+
+
 
 今日は近くの神社で、夏祭りが行われていた！[p]
 

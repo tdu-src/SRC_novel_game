@@ -1,11 +1,13 @@
 *start
+
+
 ;遭遇イベントの実装
 [iscript]
 //遭遇イベントの実装
 f.gakuen_FT=0;
 f.random_button_list=[];
 //家→美術館 図書館→公園
-f.random_place_list=["cafe","library","home","game_center"];
+f.random_place_list=["game_center","home","cafe","library"];
 f.selection_button;
 for(var i=0;i<4;i++){
     tf.random_place=Math.floor( Math.random() *2 );
@@ -19,12 +21,18 @@ for(var i=0;i<4;i++){
 
 //放課後イベントのアニメーション
 f.houkago_now_place=0;
-f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/cafe_background.jpg","../fgimage/houkago_selector_image/background/park_background.jpg","../fgimage/houkago_selector_image/background/artmusum_background.jpg","../fgimage/houkago_selector_image/background/game_center_background.jpg"]
+f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/game_center_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png"]
 
-f.houkago_select_upparameter_listx=[730,930,530,350]
+f.houkago_select_upparameter_listx=[350,930,730,530]
 [endscript]
 
 *start_sab
+[freeimage layer="0" ]
+[freeimage layer="1" ]
+[freeimage layer="2" ]
+
+;bgm
+[playbgm storage="../bgm/sohuchara_bgm_normal2.mp3" ]
 
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
@@ -33,23 +41,23 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 
 ;フッターの作成
-[image layer="0" x="0" y="0" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
-[ptext layer="2" x="50" y="0" size="40" text="&f.playmouth" ]
-[ptext layer="2" x="50" y="50" size="40" text="&f.playmouth_string" ]
+[image layer="0" x="-30" y="-10" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
+[ptext layer="2" x="20" y="-10" size="40" text="&f.playmouth" ]
+[ptext layer="2" x="20" y="40" size="40" text="&f.playmouth_string" ]
 
 
 ;パラメータの枠組み
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
 ;主人公パラメータ
-[ptext layer="2" x="300" y="620" size="40" text="&f.game_senter"]
-[ptext layer="2" x="480" y="620" size="40" text="&f.library"]
+[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
+[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
 [ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="2" x="880" y="620" size="40" text="&f.my_home"]
+[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
 
 
 ;スマホ画面の宣言
-[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
+;[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
 
 
 *reloadselect
@@ -83,7 +91,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 
 
 ;選択ボタン
-[button name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="295" y="170" width="622" height="350" target="*houkago_selector_1"   ]
+[button name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" x="280" y="150" width="654" height="400" target="*houkago_selector_1"   ]
 
 ;遭遇イベントの宣言
 [button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
@@ -91,7 +99,7 @@ f.houkago_select_upparameter_listx=[730,930,530,350]
 ;交流ボタンの作成
 [button name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
 ;メニューボタンの作成
-[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
+;[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
 
 [s]
 
@@ -133,6 +141,9 @@ if(f.houkago_now_place>=4){
 [freeimage layer="0" ]
 [freeimage layer="1" ]
 [freeimage layer="2" ]
+
+;bgmのフェードアウト
+[fadeoutbgm time="3000"]
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
@@ -149,11 +160,14 @@ if(f.houkago_now_place>=4){
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
-;クイックセーブボタン
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
+;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
+[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="640" y="690"]
 
-;クイックロードボタン
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
+;セーブボタン
+[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x="740" y="690"]
+
+;ロードボタン
+[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x="840" y="690"]
 
 ;オートボタン
 [button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x="940" y="690"]
@@ -170,5 +184,9 @@ f.houkago_select_path+=f.random_place_list[f.houkago_now_place];
 f.houkago_select_path+=".ks"
 
 [endscript]
+
+[layopt layer="1" visible="true"]
+;月の追加
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
 
 [jump storage="&f.houkago_select_path"]

@@ -3,6 +3,11 @@
 [ptext layer="1" x="500" y="0" size="40" text="初詣!" name="title_name"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+
 #
 元旦の朝、近くの神社に初詣に来た！[p]
 
@@ -101,7 +106,7 @@
 今年も良い一年になりそうです！[p]
 
 #
-初詣に行って、年初に順調なスタートを切ることが 出来た！[p]
+初詣に行って、年初に順調なスタートを切ることが出来た！[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_gentei_part_6_2
@@ -127,7 +132,7 @@
 とほほ...[p]
 
 #
-初詣に行ったが、年初に幸先の悪いスタートを切る ことになった...[p]
+初詣に行ったが、年初に幸先の悪いスタートを切ることになった...[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_gentei_part_6_3
@@ -152,7 +157,7 @@
 うん！[p]
 
 #
-初詣に行って、年初に最高のスタートを切ることが 出来た！[p]
+初詣に行って、年初に最高のスタートを切ることが出来た！[p]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]

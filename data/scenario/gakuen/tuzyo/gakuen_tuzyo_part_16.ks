@@ -3,7 +3,7 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-中庭でスカウトと歩いていると、茂みの方にワカツキを見つけた..[p]
+中庭でスカウトと歩いていると、茂みの方にワカツキを見つけた...[p]
 [chara_show name="wakastuki" time="1000" width="450" height="600"  ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
@@ -58,10 +58,12 @@
 猫と仲良くなる方法か...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="猫じゃらしとか？"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_16_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="声真似してみよう！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_16_2" ]        
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="猫じゃらしとか？"   target="*gakuen_tuzyo_part_16_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="声真似してみよう！"   target="*gakuen_tuzyo_part_16_2" ]        
 [s]
 *gakuen_tuzyo_part_16_1
+[eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 あ～、それいいかも。[p]
@@ -97,6 +99,8 @@
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_16_2
+[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
 いや、それは無理でしょ...[p]

@@ -39,10 +39,12 @@
 それでさ、最近バイトが足りないてないらしいんだよね。良かったら紹介するよ。[p]     
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="いいの？！"  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_11_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="バイトする暇が..."  exp="f.tsukuri+=10" target="*gakuen_tuzyo_part_11_2" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="いいの？！"   target="*gakuen_tuzyo_part_11_1" ]
+[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="バイトする暇が..."   target="*gakuen_tuzyo_part_11_2" ]
 [s]
 *gakuen_tuzyo_part_11_1
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
 うん、もちろん。短期でも長期でも歓迎してくれると思うよ。[p]
@@ -55,6 +57,8 @@
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_11_2
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
 あ～、それならしょうがないね。[p]
