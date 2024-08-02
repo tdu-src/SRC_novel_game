@@ -79,8 +79,18 @@ f.my_home+=f.special_houkagoevent;
 #ツクリ
 ふふ、約束だよ。一緒に楽しめる美術館を探しておくね。[p]
 
+
+
+
+
+
+
+
 #
 ツクリのガイドのおかげで、美術館を楽しむことが出来た！[p]
+
+
+
 
 [iscript]
 f.my_home_special_flag="true";

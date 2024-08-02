@@ -7,8 +7,7 @@ f.my_home+=f.nomrmal_houkagoevent;
 [jump target="*myhome_shortpart"]
 [endif]
 
-#
-ここは美術館です
+
 
 [iscript]
 f.my_home_normal_flag="true";
