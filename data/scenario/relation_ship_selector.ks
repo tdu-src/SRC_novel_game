@@ -1,7 +1,7 @@
 *start
 
 [cm  ]
-[bg storage="relation_ship_selector_background.jpg" time="1000"  ]
+[bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
 
 [clearfix]
@@ -11,9 +11,35 @@
 [freeimage layer="2" time="0"]
 [layopt layer="message0" visible="false"]
 [layopt layer="2" visible="true" ]
-[chara_hide name="akane" time="1000" ]
-[chara_hide name="yamato" time="1000" ]
 
+;静的なUIの作成
+
+;パラメータの枠組み
+[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
+
+;主人公パラメータ
+[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
+[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
+[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
+[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
+
+;戻るボタンの作成
+[button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" width="120" height="120" storage="houkago_selector.ks" target="*start_sab" ]
+
+;好感度パラメータのハートマークイメージの宣言
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="30"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="165"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="300"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
+
+;好感度パラメータの宣言
+[ptext layer="2" x="860" y="60" size="60" text="&f.scout"]
+[ptext layer="2" x="860" y="195" size="60" text="&f.tsukuri"]
+[ptext layer="2" x="860" y="330" size="60" text="&f.wakatsuki"]
+[ptext layer="2" x="860" y="465" size="60" text="&f.memori"]
+
+
+;
 ;キャラ交流解放度
 [iscript]
 tf.memori_achievement="メモリ"
@@ -43,16 +69,30 @@ tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_
 
 
 
-[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="500"  text="ツクリ" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="600"  text="ワカツキ" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+;[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
+;[glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
+;[glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+;[glink  color="blue"  size="28"  x="200"  width="800"  y="500"  text="ツクリ" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"  ]
+;[glink  color="blue"  size="28"  x="200"  width="800"  y="600"  text="ワカツキ" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+
+;ボタンの作成
+
+;scoutの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+
+;ツクリの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+
+;ワカツキの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+
+;メモリの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 
 
 
-[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
-[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
+;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
+;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
 [s]
 ;好感度による会話の操作
 ;-------------------------------------------------
@@ -214,4 +254,8 @@ if(tf.koryu_person=='memori'){
 ;-----------------------------------------------------------------------------------------------------------------
 
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
+
+#
+好感度が足りません[p]
+
 [jump storage="relation_ship_selector.ks" ]
