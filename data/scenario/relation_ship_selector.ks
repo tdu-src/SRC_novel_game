@@ -71,21 +71,21 @@ tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
 tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
-
+[ptext layer="2" x="0" y="0" size="60" text="&f.memori_kouryu_key"]
 
 ;ボタンの作成
 
 ;scoutの交流ボタンの作成
-[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
 
 ;ツクリの交流ボタンの作成
-[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
 
 ;ワカツキの交流ボタンの作成
-[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
 
 ;メモリの交流ボタンの作成
-[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 
 
 ;スカウトの確認画面
@@ -122,19 +122,14 @@ f.chara_directroy='relation_ship/';
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
     f.chara_directroy+='memori/';
-    if(f.memori>=100&&f.memori_kouryu_key==4){
+    if(f.memori>=100&&f.memori_kouryu_key==2){
+        f.memori_kouryu_key+=1;
         f.memori_flag='true';
         tf.koryu_person+='_'+f.memori_kouryu_key;
-    }else if(f.memori>=80&&f.memori_kouryu_key==3){
+    }else if(f.memori>=60&&f.memori_kouryu_key==1){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=60&&f.memori_kouryu_key==2){
-        tf.koryu_person+='_'+f.memori_kouryu_key;
-        f.memori_kouryu_key+=1;
-    }else if(f.memori>=40&&f.memori_kouryu_key==1){
-        tf.koryu_person+='_'+f.memori_kouryu_key;
-        f.memori_kouryu_key+=1;
-    }else if(f.memori>=20&&f.memori_kouryu_key==0){
+    }else if(f.memori>=30&&f.memori_kouryu_key==0){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
     }else{
@@ -142,19 +137,14 @@ if(tf.koryu_person=='memori'){
     }
 }else if(tf.koryu_person=='scout'){
     f.chara_directroy+='scout/';
-    if(f.scout>=100&&f.scout_kouryu_key==4){
+    if(f.scout>=100&&f.scout_kouryu_key==2){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_flag='true';
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-    }else if(f.scout>=80&&f.scout_kouryu_key==3){
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=60&&f.scout_kouryu_key==1){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key==2){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=40&&f.scout_kouryu_key==1){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=20&&f.scout_kouryu_key==0){
+    }else if(f.scout>=30&&f.scout_kouryu_key==0){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
     }else{
@@ -162,19 +152,14 @@ if(tf.koryu_person=='memori'){
     }
 } else if(tf.koryu_person=='tsukuri'){//ここから変える
     f.chara_directroy+='tsukuri/';
-    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==4){
+    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==2){
         f.tsukuri_flag='true';
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-    }else if(f.tsukuri>=80&&f.tsukuri_kouryu_key==3){
+        f.tsukuri_kouryu_key+=1;
+    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==1){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==2){
-        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-        f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=40&&f.tsukuri_kouryu_key==1){
-        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-        f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=20&&f.tsukuri_kouryu_key==0){
+    }else if(f.tsukuri>=30&&f.tsukuri_kouryu_key==0){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
     }else{
@@ -182,19 +167,14 @@ if(tf.koryu_person=='memori'){
     }
 } else if(tf.koryu_person=='wakatsuki'){
     f.chara_directroy+='wakatsuki/';
-    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==4){
+    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==2){
         f.wakatsuki_flag='true';
-        tf.koryu_person+='_'+wakatsuki_kouryu_key;
-    }else if(f.wakatsuki>=80&&f.wakatsuki_kouryu_key==3){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==2){
-        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
-        f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=40&&f.wakatsuki_kouryu_key==1){
+    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==1){
         tf.koryu_person+='_'+wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=20&&f.wakatsuki_kouryu_key==0){
+    }else if(f.wakatsuki>=30&&f.wakatsuki_kouryu_key==0){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else{
