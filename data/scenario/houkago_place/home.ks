@@ -1,5 +1,5 @@
 *start
-[bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
+[bg storage="rouka.jpg" time="100" ]
 [iscript]
 f.art_museum+=f.nomrmal_houkagoevent;
 [endscript]
