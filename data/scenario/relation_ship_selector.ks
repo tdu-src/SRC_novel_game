@@ -45,20 +45,24 @@
 var obj = {
     chara_achievement: function(person,kouryu_key) {
         name="";
+        name_list=[];
         var AchievementsUnlock=(num,i)=>{
             if(person>=num&&kouryu_key>=i){
-                tf.koukando_achievement="●";
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/successed.png"; //●
             }else if(person>=num&&kouryu_key<=i){
-                tf.koukando_achievement="○";
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/anlock.png"; //○
             }else{
-                tf.koukando_achievement="🔒";
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/lock.png"; //🔒
             }
             return tf.koukando_achievement;
         }
-        name+=AchievementsUnlock(30,1);
-        name+=AchievementsUnlock(60,2);
-        name+=AchievementsUnlock(100,3);
-        return name;
+        name=AchievementsUnlock(30,1);
+        name_list.push(name);
+        name=AchievementsUnlock(60,2);
+        name_list.push(name);
+        name=AchievementsUnlock(100,3);
+        name_list.push(name);
+        return name_list;
     }
 }
 tf.memori_achievement=obj.chara_achievement(f.memori,f.memori_kouryu_key);
@@ -67,25 +71,44 @@ tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
 tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
-[ptext layer="2" x="0" y="0" size="40" text="&tf.memori_achievement"]
-
 
 
 ;ボタンの作成
 
 ;scoutの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
 
 ;ツクリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
 
 ;ワカツキの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
 
 ;メモリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
+[button name="base" graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 
 
+;スカウトの確認画面
+[button  graphic="&tf.scout_achievement[0]"  x="450"   y="50" ]
+[button  graphic="&tf.scout_achievement[1]"  x="550"   y="50" ]
+[button  graphic="&tf.scout_achievement[2]"  x="650"   y="50" ]
+
+;ツクリの確認画面
+[button  graphic="&tf.tsukuri_achievement[0]"  x="450"   y="190" ]
+[button  graphic="&tf.tsukuri_achievement[1]"  x="550"   y="190" ]
+[button  graphic="&tf.tsukuri_achievement[2]"  x="650"   y="190" ]
+
+
+;ワカツキの確認画面
+[button  graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="330" ]
+[button  graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="330" ]
+[button  graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="330" ]
+
+
+;メモリの確認画面
+[button  graphic="&tf.memori_achievement[0]"  x="450"   y="470" ]
+[button  graphic="&tf.memori_achievement[1]"  x="550"   y="470" ]
+[button  graphic="&tf.memori_achievement[2]"  x="650"   y="470" ]
 
 ;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
 ;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
@@ -215,6 +238,13 @@ if(tf.koryu_person=='memori'){
 */
 [endscript]
 
+[cm  ]
+[clearfix ]
+[start_keyconfig]
+[freeimage layer="0" time="0"  ]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
+
 ;メッセージウインドウの宣言
 ;-----------------------------------------------------------------------------------------------------
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
@@ -248,6 +278,7 @@ if(tf.koryu_person=='memori'){
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
 ;-----------------------------------------------------------------------------------------------------------------
+
 
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 
