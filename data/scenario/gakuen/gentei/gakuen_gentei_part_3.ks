@@ -4,7 +4,7 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
-[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 
 

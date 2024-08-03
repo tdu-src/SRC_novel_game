@@ -6,7 +6,7 @@
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
-[eval exp="f.tsukiri+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 #
 元旦の朝、近くの神社に初詣に来た！[p]
