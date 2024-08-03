@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="異種族交流？" name="align_ct_h"]
+[ptext layer="1" x="0" y="0" size="40" text="異種族交流？" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #

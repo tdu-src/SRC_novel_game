@@ -1,6 +1,6 @@
 *start
 ;文化祭
-[ptext layer="1" x="500" y="0" size="40" text="学園祭にて" name="align_ct_h"]
+[ptext layer="1" x="0" y="0" size="40" text="学園祭にて" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

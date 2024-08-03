@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
+[ptext layer="1" x="0" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
 
 #
 放課後、急ぎで家に帰らなければならない用事が出来た...[p]
