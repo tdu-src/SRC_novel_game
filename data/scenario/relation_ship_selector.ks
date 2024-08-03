@@ -89,26 +89,26 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 
 
 ;スカウトの確認画面
-[button  graphic="&tf.scout_achievement[0]"  x="450"   y="50" ]
-[button  graphic="&tf.scout_achievement[1]"  x="550"   y="50" ]
-[button  graphic="&tf.scout_achievement[2]"  x="650"   y="50" ]
+[button  graphic="&tf.scout_achievement[0]"  x="450"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'" ]
+[button  graphic="&tf.scout_achievement[1]"  x="550"   y="50"  target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
+[button  graphic="&tf.scout_achievement[2]"  x="650"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
 
 ;ツクリの確認画面
-[button  graphic="&tf.tsukuri_achievement[0]"  x="450"   y="190" ]
-[button  graphic="&tf.tsukuri_achievement[1]"  x="550"   y="190" ]
-[button  graphic="&tf.tsukuri_achievement[2]"  x="650"   y="190" ]
+[button  graphic="&tf.tsukuri_achievement[0]"  x="450"   y="190"target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button  graphic="&tf.tsukuri_achievement[1]"  x="550"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
+[button  graphic="&tf.tsukuri_achievement[2]"  x="650"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
 
 
 ;ワカツキの確認画面
-[button  graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="330" ]
-[button  graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="330" ]
-[button  graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="330" ]
+[button  graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'" ]
+[button  graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
+[button  graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
 
 
 ;メモリの確認画面
-[button  graphic="&tf.memori_achievement[0]"  x="450"   y="470" ]
-[button  graphic="&tf.memori_achievement[1]"  x="550"   y="470" ]
-[button  graphic="&tf.memori_achievement[2]"  x="650"   y="470" ]
+[button  graphic="&tf.memori_achievement[0]"  x="450"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'" ]
+[button  graphic="&tf.memori_achievement[1]"  x="550"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+[button  graphic="&tf.memori_achievement[2]"  x="650"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
 
 ;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
 ;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
