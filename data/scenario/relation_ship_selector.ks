@@ -42,38 +42,34 @@
 ;
 ;キャラ交流解放度
 [iscript]
-tf.memori_achievement="メモリ"
-tf.scout_achievement="スカウト"
 var obj = {
-    chara_achievement: function(name,person,kouryu_key) {
-        tf.space_achievement="　　";
-        tf.koukando_achievement="●";
-        tf.achievement="";
-        for(i=1;i<6;i++){
-            if(person>=i*20&&kouryu_key>=i){
+    chara_achievement: function(person,kouryu_key) {
+        name="";
+        var AchievementsUnlock=(num,i)=>{
+            if(person>=num&&kouryu_key>=i){
                 tf.koukando_achievement="●";
-            }else if(person>=i*20&&kouryu_key<=i){
+            }else if(person>=num&&kouryu_key<=i){
                 tf.koukando_achievement="○";
             }else{
                 tf.koukando_achievement="🔒";
             }
-            tf.achievement+=tf.space_achievement+tf.koukando_achievement;
+            return tf.koukando_achievement;
         }
-        name=name+tf.achievement;
+        name+=AchievementsUnlock(30,1);
+        name+=AchievementsUnlock(60,2);
+        name+=AchievementsUnlock(100,3);
         return name;
     }
 }
-tf.memori_achievement=obj.chara_achievement(tf.memori_achievement,f.memori,f.memori_kouryu_key);
-tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_kouryu_key);
+tf.memori_achievement=obj.chara_achievement(f.memori,f.memori_kouryu_key);
+tf.scout_achievement=obj.chara_achievement(f.scout,f.scout_kouryu_key);
+tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
+tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
+[ptext layer="2" x="0" y="0" size="40" text="&tf.memori_achievement"]
 
 
-;[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
-;[glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
-;[glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
-;[glink  color="blue"  size="28"  x="200"  width="800"  y="500"  text="ツクリ" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"  ]
-;[glink  color="blue"  size="28"  x="200"  width="800"  y="600"  text="ワカツキ" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
 
 ;ボタンの作成
 
