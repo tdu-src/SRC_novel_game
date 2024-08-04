@@ -1,6 +1,6 @@
 *start
 ;お正月
-[ptext layer="1" x="500" y="0" size="40" text="初詣!" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="初詣!" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
@@ -71,9 +71,9 @@
 どこから引こうかな...？[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="上の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_1" ]      
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="真ん中の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_2" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="350"  text="下の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_3" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="上の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_1" ]      
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="真ん中の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="350"  text="下の箱！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_6_3" ]
 [s]
 *gakuen_gentei_part_6_1
 [chara_mod name=scout face=normal time="1000" ]

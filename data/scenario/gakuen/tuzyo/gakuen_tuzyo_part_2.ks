@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="教室の掃除" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="教室の掃除" name="align_ct_h"]
 
 #&f.player_name
 さて、掃除を始めよう![p]
@@ -32,8 +32,8 @@
 #
 時間をかけた甲斐もあって、教室はピカピカだ![p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"   target="gakuen_tuzyo_part_2_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  target="*gakuen_tuzyo_part_2_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"   target="gakuen_tuzyo_part_2_root_1"]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  target="*gakuen_tuzyo_part_2_root_2" ]
 [s]
 
 

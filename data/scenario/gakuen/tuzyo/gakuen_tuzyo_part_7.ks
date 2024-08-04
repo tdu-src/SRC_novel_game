@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="めもりの発明品" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="めもりの発明品" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_show name="memori" width="450" height="600" ]
@@ -63,8 +63,8 @@
 いい案か...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="まずは安全性を..."   target="*gakuen_tuzyo_part_7_root_1" ]     
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="思い切って見た目をチェンジ！"   target="*gakuen_tuzyo_part_7_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="まずは安全性を..."   target="*gakuen_tuzyo_part_7_root_1" ]     
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="思い切って見た目をチェンジ！"   target="*gakuen_tuzyo_part_7_root_2" ]
 [s]
 *gakuen_tuzyo_part_7_root_1
 [chara_mod name=memori face=normal time="1000" ]

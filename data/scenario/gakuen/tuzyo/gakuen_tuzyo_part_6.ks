@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="すき焼きミルクシェイク" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="すき焼きミルクシェイク" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="scout" width="450" height="600" ]
@@ -44,8 +44,8 @@
 ど、どうしよう...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="飲む！"   target="*gakuen_tuzyo_part_6_root_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_6_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="飲む！"   target="*gakuen_tuzyo_part_6_root_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_6_root_2" ]
 [s]
 *gakuen_tuzyo_part_6_root_1
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

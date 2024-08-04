@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="助けて！めもえもん！" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
 
 #
 放課後、急ぎで家に帰らなければならない用事が出来た...[p]
@@ -58,8 +58,8 @@
 聞けば聞くほど不安になってきた... どうしよう...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"   target="*gakuen_tuzyo_part_17_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_17_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"   target="*gakuen_tuzyo_part_17_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="遠慮しとく..."   target="*gakuen_tuzyo_part_17_2" ]
 [s]
 *gakuen_tuzyo_part_17_1
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="美術の時間" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="美術の時間" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -50,8 +50,8 @@
 あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"   target="*gakuen_tuzyo_part_15_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"   target="*gakuen_tuzyo_part_15_2" ]
 [s]
 *gakuen_tuzyo_part_15_1
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

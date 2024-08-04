@@ -5,4 +5,5 @@
 [freeimage layer="1" time="0" ]
 [fadeoutbgm time="3000"]
 [chara_hide_all time=1000 wait=true]
+[playbgm storage="../bgm/secene_moving_se.mp3" ]
 [jump storage="logic.ks" ]

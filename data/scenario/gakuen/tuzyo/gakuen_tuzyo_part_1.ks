@@ -1,6 +1,6 @@
 *start
 
-[ptext layer="1" x="500" y="0" size="40" text="補習の危機" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="補習の危機" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="scout" time="1000" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600"  time="1000"]
@@ -39,8 +39,8 @@
 そんなぁ！[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="地道にコツコツと！"  target="*gakuen_tuzyo_part_1_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="解法暗記で切り抜ける！"  target="*gakuen_tuzyo_part_1_2" ]     
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="地道にコツコツと！"  target="*gakuen_tuzyo_part_1_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="解法暗記で切り抜ける！"  target="*gakuen_tuzyo_part_1_2" ]     
 [s]
 *gakuen_tuzyo_part_1_1
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

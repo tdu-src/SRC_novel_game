@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="500" y="0" size="40" text="ポスターのデザイン" name="title_name"]
+[ptext layer="1" x="0" y="0" size="40" text="ポスターのデザイン" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]
@@ -35,8 +35,8 @@
 このままでは収拾がつかなさそうだ...どうしたものか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="妥協案を出す"   target="*gakuen_tuzyo_part_10_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分の案はどう？"   target="*gakuen_tuzyo_part_10_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="妥協案を出す"   target="*gakuen_tuzyo_part_10_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分の案はどう？"   target="*gakuen_tuzyo_part_10_2" ]
 [s]
 *gakuen_tuzyo_part_10_1
 #&f.player_name
