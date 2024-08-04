@@ -133,7 +133,7 @@ if(f.houkago_now_place>=4){
 ;----------------------------------------
 *houkago_selector_1
 
-
+[playbgm storage="../bgm/secene_moving_se.mp3" ]
 [cm  ]
 [clearfix]
 [start_keyconfig]
