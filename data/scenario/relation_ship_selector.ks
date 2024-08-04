@@ -1,7 +1,7 @@
 *start
 
 [cm  ]
-[bg storage="relation_ship_selector_background.jpg" time="1000"  ]
+[bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
 
 [clearfix]
@@ -11,48 +11,107 @@
 [freeimage layer="2" time="0"]
 [layopt layer="message0" visible="false"]
 [layopt layer="2" visible="true" ]
-[chara_hide name="akane" time="1000" ]
-[chara_hide name="yamato" time="1000" ]
 
+;静的なUIの作成
+
+;パラメータの枠組み
+[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
+
+;主人公パラメータ
+[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
+[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
+[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
+[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
+
+;戻るボタンの作成
+[button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" width="120" height="120" storage="houkago_selector.ks" target="*start_sab" ]
+
+;好感度パラメータのハートマークイメージの宣言
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="30"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="165"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="300"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
+
+;好感度パラメータの宣言
+[ptext layer="2" x="860" y="60" size="60" text="&f.scout"]
+[ptext layer="2" x="860" y="195" size="60" text="&f.tsukuri"]
+[ptext layer="2" x="860" y="330" size="60" text="&f.wakatsuki"]
+[ptext layer="2" x="860" y="465" size="60" text="&f.memori"]
+
+
+;
 ;キャラ交流解放度
 [iscript]
-tf.memori_achievement="メモリ"
-tf.scout_achievement="スカウト"
 var obj = {
-    chara_achievement: function(name,person,kouryu_key) {
-        tf.space_achievement="　　";
-        tf.koukando_achievement="●";
-        tf.achievement="";
-        for(i=1;i<6;i++){
-            if(person>=i*20&&kouryu_key>=i){
-                tf.koukando_achievement="●";
-            }else if(person>=i*20&&kouryu_key<=i){
-                tf.koukando_achievement="○";
+    chara_achievement: function(person,kouryu_key) {
+        name="";
+        name_list=[];
+        var AchievementsUnlock=(num,i)=>{
+            if(person>=num&&kouryu_key>=i){
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/successed.png"; //●
+            }else if(person>=num&&kouryu_key<=i){
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/anlock.png"; //○
             }else{
-                tf.koukando_achievement="🔒";
+                tf.koukando_achievement="../fgimage/relationship_selector_image/image/lock.png"; //🔒
             }
-            tf.achievement+=tf.space_achievement+tf.koukando_achievement;
+            return tf.koukando_achievement;
         }
-        name=name+tf.achievement;
-        return name;
+        name=AchievementsUnlock(30,1);
+        name_list.push(name);
+        name=AchievementsUnlock(60,2);
+        name_list.push(name);
+        name=AchievementsUnlock(100,3);
+        name_list.push(name);
+        return name_list;
     }
 }
-tf.memori_achievement=obj.chara_achievement(tf.memori_achievement,f.memori,f.memori_kouryu_key);
-tf.scout_achievement=obj.chara_achievement(tf.scout_achievement,f.scout,f.scout_kouryu_key);
+tf.memori_achievement=obj.chara_achievement(f.memori,f.memori_kouryu_key);
+tf.scout_achievement=obj.chara_achievement(f.scout,f.scout_kouryu_key);
+tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
+tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
+[ptext layer="2" x="0" y="0" size="60" text="&f.memori_kouryu_key"]
+
+;ボタンの作成
+
+;scoutの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+
+;ツクリの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+
+;ワカツキの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+
+;メモリの交流ボタンの作成
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 
 
-[glink  color="blue"  size="28"  x="100"  width="100"  y="100"  text="戻る" storage="houkago_selector.ks" target="*start_sab" ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="300"  text="&tf.memori_achievement" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="400"  text="&tf.scout_achievement" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="500"  text="ツクリ" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"  ]
-[glink  color="blue"  size="28"  x="200"  width="800"  y="600"  text="ワカツキ" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+;スカウトの確認画面
+[button  graphic="&tf.scout_achievement[0]"  x="450"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'" ]
+[button  graphic="&tf.scout_achievement[1]"  x="550"   y="50"  target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
+[button  graphic="&tf.scout_achievement[2]"  x="650"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
+
+;ツクリの確認画面
+[button  graphic="&tf.tsukuri_achievement[0]"  x="450"   y="190"target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button  graphic="&tf.tsukuri_achievement[1]"  x="550"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
+[button  graphic="&tf.tsukuri_achievement[2]"  x="650"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
 
 
+;ワカツキの確認画面
+[button  graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'" ]
+[button  graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
+[button  graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
 
-[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
-[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
+
+;メモリの確認画面
+[button  graphic="&tf.memori_achievement[0]"  x="450"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'" ]
+[button  graphic="&tf.memori_achievement[1]"  x="550"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+[button  graphic="&tf.memori_achievement[2]"  x="650"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+
+;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
+;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
 [s]
 ;好感度による会話の操作
 ;-------------------------------------------------
@@ -63,19 +122,14 @@ f.chara_directroy='relation_ship/';
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
     f.chara_directroy+='memori/';
-    if(f.memori>=100&&f.memori_kouryu_key==4){
+    if(f.memori>=100&&f.memori_kouryu_key==2){
+        f.memori_kouryu_key+=1;
         f.memori_flag='true';
         tf.koryu_person+='_'+f.memori_kouryu_key;
-    }else if(f.memori>=80&&f.memori_kouryu_key==3){
+    }else if(f.memori>=60&&f.memori_kouryu_key==1){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=60&&f.memori_kouryu_key==2){
-        tf.koryu_person+='_'+f.memori_kouryu_key;
-        f.memori_kouryu_key+=1;
-    }else if(f.memori>=40&&f.memori_kouryu_key==1){
-        tf.koryu_person+='_'+f.memori_kouryu_key;
-        f.memori_kouryu_key+=1;
-    }else if(f.memori>=20&&f.memori_kouryu_key==0){
+    }else if(f.memori>=30&&f.memori_kouryu_key==0){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
     }else{
@@ -83,19 +137,14 @@ if(tf.koryu_person=='memori'){
     }
 }else if(tf.koryu_person=='scout'){
     f.chara_directroy+='scout/';
-    if(f.scout>=100&&f.scout_kouryu_key==4){
+    if(f.scout>=100&&f.scout_kouryu_key==2){
+        tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_flag='true';
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-    }else if(f.scout>=80&&f.scout_kouryu_key==3){
+        f.scout_kouryu_key+=1;
+    }else if(f.scout>=60&&f.scout_kouryu_key==1){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key==2){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=40&&f.scout_kouryu_key==1){
-        tf.koryu_person+='_'+f.scout_kouryu_key;
-        f.scout_kouryu_key+=1;
-    }else if(f.scout>=20&&f.scout_kouryu_key==0){
+    }else if(f.scout>=30&&f.scout_kouryu_key==0){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
     }else{
@@ -103,19 +152,14 @@ if(tf.koryu_person=='memori'){
     }
 } else if(tf.koryu_person=='tsukuri'){//ここから変える
     f.chara_directroy+='tsukuri/';
-    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==4){
+    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==2){
         f.tsukuri_flag='true';
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-    }else if(f.tsukuri>=80&&f.tsukuri_kouryu_key==3){
+        f.tsukuri_kouryu_key+=1;
+    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==1){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==2){
-        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-        f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=40&&f.tsukuri_kouryu_key==1){
-        tf.koryu_person+='_'+f.tsukuri_kouryu_key;
-        f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=20&&f.tsukuri_kouryu_key==0){
+    }else if(f.tsukuri>=30&&f.tsukuri_kouryu_key==0){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
     }else{
@@ -123,19 +167,14 @@ if(tf.koryu_person=='memori'){
     }
 } else if(tf.koryu_person=='wakatsuki'){
     f.chara_directroy+='wakatsuki/';
-    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==4){
+    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==2){
         f.wakatsuki_flag='true';
-        tf.koryu_person+='_'+wakatsuki_kouryu_key;
-    }else if(f.wakatsuki>=80&&f.wakatsuki_kouryu_key==3){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==2){
-        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
-        f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=40&&f.wakatsuki_kouryu_key==1){
+    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==1){
         tf.koryu_person+='_'+wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=20&&f.wakatsuki_kouryu_key==0){
+    }else if(f.wakatsuki>=30&&f.wakatsuki_kouryu_key==0){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else{
@@ -179,6 +218,13 @@ if(tf.koryu_person=='memori'){
 */
 [endscript]
 
+[cm  ]
+[clearfix ]
+[start_keyconfig]
+[freeimage layer="0" time="0"  ]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
+
 ;メッセージウインドウの宣言
 ;-----------------------------------------------------------------------------------------------------
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
@@ -213,5 +259,10 @@ if(tf.koryu_person=='memori'){
 
 ;-----------------------------------------------------------------------------------------------------------------
 
+
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
+
+#
+好感度が足りません[p]
+
 [jump storage="relation_ship_selector.ks" ]
