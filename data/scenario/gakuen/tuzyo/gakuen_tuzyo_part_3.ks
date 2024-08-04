@@ -39,8 +39,8 @@
 #
 二人が行くには危険すぎる... 自分が行かなくては... [p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="限定カレーパンを狙う！"   target="gakuen_tuzyo_part_3_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="大人気クリームパンを狙う!"  target="*gakuen_tuzyo_part_3_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="限定カレーパンを狙う！"   target="gakuen_tuzyo_part_3_root_1"]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="大人気クリームパンを狙う!"  target="*gakuen_tuzyo_part_3_root_2" ]
 [s]
 
 

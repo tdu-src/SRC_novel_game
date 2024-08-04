@@ -35,8 +35,8 @@
 このままでは収拾がつかなさそうだ...どうしたものか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="妥協案を出す"   target="*gakuen_tuzyo_part_10_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分の案はどう？"   target="*gakuen_tuzyo_part_10_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="妥協案を出す"   target="*gakuen_tuzyo_part_10_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分の案はどう？"   target="*gakuen_tuzyo_part_10_2" ]
 [s]
 *gakuen_tuzyo_part_10_1
 #&f.player_name

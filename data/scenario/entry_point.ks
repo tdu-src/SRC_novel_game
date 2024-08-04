@@ -51,6 +51,9 @@ f.tsukuri_flag='false';
 f.wakatsuki=0;
 f.wakatsuki_kouryu_key=0;
 f.wakatsuki_flag='false';
+
+//以下から音声ファイルの宣言
+f.button_clicking_se="../bgm/button_click_se.mp3";
 [endscript] 
 ;[jump storage="logic.ks"  ]
 [jump storage="name_entry.ks"]

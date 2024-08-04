@@ -77,8 +77,8 @@
 かくいう自分も、怖すぎて逃げ出してしまいたい気 分だが...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="このまま続きを回る！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_5_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分もリタイアで..."  exp="f.tsukuri+=10" target="*gakuen_gentei_part_5_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="このまま続きを回る！"  exp="f.tsukuri+=10" target="*gakuen_gentei_part_5_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="自分もリタイアで..."  exp="f.tsukuri+=10" target="*gakuen_gentei_part_5_2" ]
 [s]
 *gakuen_gentei_part_5_1
 #&f.player_name

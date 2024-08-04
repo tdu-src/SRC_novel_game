@@ -39,8 +39,8 @@
 それでさ、最近バイトが足りないてないらしいんだよね。良かったら紹介するよ。[p]     
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="いいの？！"   target="*gakuen_tuzyo_part_11_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="バイトする暇が..."   target="*gakuen_tuzyo_part_11_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="いいの？！"   target="*gakuen_tuzyo_part_11_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="バイトする暇が..."   target="*gakuen_tuzyo_part_11_2" ]
 [s]
 *gakuen_tuzyo_part_11_1
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]

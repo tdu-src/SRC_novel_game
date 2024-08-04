@@ -41,8 +41,8 @@
 スカウトは完全に調子に乗っている... 何とか一矢報いる方法はないだろうか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもり、任せた！"   target="*gakuen_tuzyo_part_14_1" ]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="泣きのもう一回！"   target="*gakuen_tuzyo_part_14_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもり、任せた！"   target="*gakuen_tuzyo_part_14_1" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="泣きのもう一回！"   target="*gakuen_tuzyo_part_14_2" ]
 [s]
 *gakuen_tuzyo_part_14_1
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

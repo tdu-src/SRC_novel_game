@@ -32,8 +32,8 @@
 #
 時間をかけた甲斐もあって、教室はピカピカだ![p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"   target="gakuen_tuzyo_part_2_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  target="*gakuen_tuzyo_part_2_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="床、すごく綺麗になったね！"   target="gakuen_tuzyo_part_2_root_1"]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 黒板、すごく綺麗になったね！"  target="*gakuen_tuzyo_part_2_root_2" ]
 [s]
 
 

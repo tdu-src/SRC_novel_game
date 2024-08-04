@@ -50,8 +50,8 @@
 あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか...[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"   target="*gakuen_tuzyo_part_15_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="ズル、した...?"   target="*gakuen_tuzyo_part_15_2" ]
 [s]
 *gakuen_tuzyo_part_15_1
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

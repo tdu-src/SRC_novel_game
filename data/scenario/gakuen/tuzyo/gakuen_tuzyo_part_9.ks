@@ -40,8 +40,8 @@
 どちらの方法も魅力的だ..[p]
 
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="おすすめのサウナを教えて！"   target="*gakuen_tuzyo_part_9_1" ] 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text="マッサージの仕方を教えて！"   target="*gakuen_tuzyo_part_9_2" ] 
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="おすすめのサウナを教えて！"   target="*gakuen_tuzyo_part_9_1" ] 
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="マッサージの仕方を教えて！"   target="*gakuen_tuzyo_part_9_2" ] 
 [s]
 *gakuen_tuzyo_part_9_1
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

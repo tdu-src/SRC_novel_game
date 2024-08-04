@@ -41,8 +41,8 @@
 #
 次の行動を決めなければ![p]
 
-[glink  color="blue"  size="28"  x="360"  width="500"  y="150"  text="攻撃して倒しきる！"   target="gakuen_tuzyo_part_5_root_1"]
-[glink  color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 回復して体制を整える！"   target="*gakuen_tuzyo_part_5_root_2" ]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="攻撃して倒しきる！"   target="gakuen_tuzyo_part_5_root_1"]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text=" 回復して体制を整える！"   target="*gakuen_tuzyo_part_5_root_2" ]
 [s]
 
 
