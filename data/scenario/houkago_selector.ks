@@ -59,10 +59,6 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
 
 
-;スマホ画面の宣言
-;[image storage="houkago_selector_image/UI/backgroundsmartphone.png" layer="0"   x="280" y="150" width="654" height="400"  time="0"  target="*houkago_selector_1" ]
-
-
 *reloadselect
 ;--------------------------------
 ;バックグラウンドの宣言
@@ -101,8 +97,6 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 
 ;交流ボタンの作成
 [button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/kouryubutton_2.png"  x="1050"  y="50" width="150" height="150" storage="relation_ship_selector.ks" ]
-;メニューボタンの作成
-;[glink name="houkagomenu" color="blue" size="12" width="100" height="100" x="1050" y="600" text="メニュー" storage="chara_menu.ks"  ]
 
 [s]
 
