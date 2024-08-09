@@ -184,38 +184,6 @@ if(tf.koryu_person=='memori'){
     f.chara_directroy+=tf.koryu_person;
     f.chara_directroy+='.ks';
 
-/*
-var obj={
-    relation_ship_select:function(koukando,key,flag){
-        flag='false';
-        if(koukando>=100&&key==4){
-            flag='true';
-            tf.koryu_person+='_'+key;
-        }else if(koukando>=80&&key==3){
-            tf.koryu_person+='_'+key;
-            key+=1;
-        }else if(koukando>=60&&key==2){
-            tf.koryu_person+='_'+key;
-            key+=1;
-        }else if(koukando>=40&&key==1){
-            tf.koryu_person+='_'+key;
-            key+=1;
-        }else if(koukando>=20&&key==0){
-            tf.koryu_person+='_'+key;
-            key+=1;
-        }else{
-            tf.koryu_person='none';
-            key=key;
-        }
-        return [tf.koryu_person,key,flag];
-}
-}
-if(tf.koryu_person=='memori'){
-    var[tf.koryu_person,f.memori_kouryu_key,f.memori_flag]=obj.relation_ship_select(f.memori,f.memori_kouryu_key,f.memori_flag);
-}else if(tf.koryu_person=='scout'){
-    var[tf.koryu_person,f.scout_kouryu_key,f.scout_flag]=obj.relation_ship_select(f.scout,f.scout_kouryu_key,f.scout_flag);
-}
-*/
 [endscript]
 
 [cm  ]
@@ -237,16 +205,19 @@ if(tf.koryu_person=='memori'){
 @layopt layer="message0" visible="true"
 
 ;キャラクターの名前が表示される文字領域
-[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x="250" y=505 ]
+[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x="250"  y=510]
 
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
-;クイックセーブボタン
-[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
+;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
+[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="640" y="690"]
 
-;クイックロードボタン
-[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
+;セーブボタン
+[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png" x="740" y="690"]
+
+;ロードボタン
+[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png" x="840" y="690"]
 
 ;オートボタン
 [button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png" x="940" y="690"]

@@ -1,48 +1,20 @@
 *start
-
-[cm  ]
-[clearfix]
-[start_keyconfig]
-
-
-
 ;背景は各会話の初めに宣言する
 [bg storage="room.jpg" time="1000"  ]
+[iscript]
+tf.game_start_path="";
+[endscript]
 
-;メニューボタンの表示
-@showmenubutton
+[if exp="f.boolean_firstpart=='true'"]
+[eval exp="tf.game_start_path='*first_game_play'"]
+[elsif exp="f.boolean_firstpart=='false'"]
+[eval exp="tf.game_start_path='*nofirst_game_play'"]
+[endif]
 
-;メッセージウィンドウの設定
-[position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
-
-
-;文字が表示される領域を調整
-[position layer="message0" page="fore" margint="45" marginl="50" marginr="70" marginb="60"]
-
-
-;メッセージウィンドウの表示
-@layopt layer="message0" visible="true"
-
-;キャラクターの名前が表示される文字領域
-[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x="250" y=505]
-
-;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-[chara_config ptext="chara_name_area"]
-
-;メニューボタン非表示
-@hidemenubutton
-
-
-;ロールボタン追加;;;;;;;;;;;;;;
-
-
+[jump target="&tf.game_start_path"]
+*first_game_play
 ; ロールボタン配置
 
-;クイックセーブボタン
-;[button name="role_button" role="quicksave" graphic="button/qsave.png" enterimg="button/qsave2.png" x="740" y="690"]
-
-;クイックロードボタン
-;[button name="role_button" role="quickload" graphic="button/qload.png" enterimg="button/qload2.png" x="840" y="690"]
 
 ;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
 [button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="640" y="690"]
@@ -62,97 +34,9 @@
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
-;フルスクリーン切替ボタン
-;[button name="role_button" role="fullscreen" graphic="button/screen.png" enterimg="button/screen2.png" x="740" y="690"]
-
-;コンフィグボタン（※sleepgame を使用して config.ks を呼び出しています）
-;[button name="role_button" role="sleepgame" graphic="button/sleep.png" enterimg="button/sleep2.png" storage="config.ks" x="840" y="690"]
-
-;メニュー呼び出しボタン（※ロールボタンを使うなら不要）
-;[button name="role_button" role="menu" graphic="button/menu.png" enterimg="button/menu2.png" x="940" y="690"]
-
-;メッセージウィンドウ非表示ボタン
-;[button name="role_button" role="window" graphic="button/close.png" enterimg="button/close2.png" x="1040" y="690"]
-
-;タイトルに戻るボタン
-;[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x="1140" y="690"]
-
+[eval exp="f.boolean_firstpart='false'"]
 ;;ロールボタン追加終わり
-
-;このゲームで登場するキャラクターを宣言
-;akane
-[chara_new  name="akane" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
-;キャラクターの表情登録
-[chara_face name="akane" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="akane" face="angry" storage="chara/akane/angry.png"]
-[chara_face name="akane" face="doki" storage="chara/akane/doki.png"]
-[chara_face name="akane" face="happy" storage="chara/akane/happy.png"]
-[chara_face name="akane" face="sad" storage="chara/akane/sad.png"]
-
-
-;yamato
-[chara_new  name="yamato"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
-
-[chara_face name="yamato" face="normal" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="yamato" face="angry" storage="chara/yamato/angry.png"  ]
-[chara_face name="yamato" face="sad" storage="chara/yamato/sad.png" ]
-
-;kinoshita
-[chara_new name="kinoshita" storage="chara/kinoshita/jkbk.png"jname="木下" ]
-
-;tsukuri
-[chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
-
-[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_normal.png"  ]
-
-
-;scout
-[chara_new  name="scout"  storage="chara/scout/scout_normal.png" jname="スカウト" ]
-
-[chara_face name="scout" face="normal" storage="chara/scout/scout_normal.png"  ]
-[chara_face name="scout" face="perplexed" storage="chara/scout/scout_perplexed.png"  ]
-[chara_face name="scout" face="sad" storage="chara/scout/scout_sad.png"  ]
-[chara_face name="scout" face="surprise" storage="chara/scout/scout_surprise.png"  ]
-[chara_face name="scout" face="half_sad" storage="chara/scout/scout_halfsad.png"  ]
-[chara_face name="scout" face="smaile" storage="chara/scout/scout_smile.png"  ]
-;この差分なし
-[chara_face name="scout" face="weariness" storage="chara/scout/scout_normal.png"  ]
-;この差分なし
-[chara_face name="scout" face="angry" storage="chara/scout/scout_normal.png"  ]
-
-
-;wakastuki
-[chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
-
-[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="shy" storage="chara/wakastuki/wakatsuki.png"   ]
-[chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
-
-;memori
-[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
-
-[chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
-;めもり焦りの追加
-[chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
-
+*nofirst_game_play
 
 ;ここがシナリオ名と月
 [layopt layer="1" visible="true"]
