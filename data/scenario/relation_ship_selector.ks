@@ -24,7 +24,7 @@
 [ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
 
 ;戻るボタンの作成
-[button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" width="120" height="120" storage="houkago_selector.ks" target="*start_sab" ]
+[button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png"  storage="houkago_selector.ks" target="*start_sab" ]
 
 ;好感度パラメータのハートマークイメージの宣言
 [image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="30"layer="0" time="0"  ]
