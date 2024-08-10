@@ -76,16 +76,16 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 ;ボタンの作成
 
 ;scoutの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
 
 ;ツクリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png" x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
 
 ;ワカツキの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png" x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
 
 ;メモリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png"  x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
+[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png" x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
 
 
 ;スカウトの確認画面
