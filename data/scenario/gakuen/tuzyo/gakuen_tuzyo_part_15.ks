@@ -7,21 +7,21 @@
 
 [chara_show name="tsukuri"width="450" height="600"  time="1000" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 どう、描けてる？[p]
 
 #&f.player_name
 あんまり自信ないかな...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ふ～ん... でも、結構いい感じじゃない？影とかしっかり描けてるし。[p]
 
 #&f.player_name
 そっちのも見せて！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 いいよ、まだ完成はしてないけど。[p]
 
 #
@@ -31,13 +31,13 @@
 凄すぎる...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 そこまででもないよ。さっと書いただけだし。[p]
 
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 ねえねえ！めもりの描いたのも見てー！[p]
 
 #
@@ -57,22 +57,22 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 そう！めもりは千年に一度の画家なんだよ...[p]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
-#ツクリ
+#tsukuri
 いや、これもはや印刷でしょ...[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 ギクッ！い、インサツナワケナイジャン...[p]
 
 #&f.player_name
 ズルしたの？[p]
 
 [chara_mod name=memori face=sad time="1000" ]
-#めもり
+#memori
 か、描きなおしてきます...[p]
 
 #
@@ -84,22 +84,22 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 ギクッ！ず、ズルナンカシテナイヨ...[p]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
-#ツクリ
+#tsukuri
 いや、この時間でこれは流石に...[p]
 
 #&f.player_name
 何使ったの？[p]
 
 [chara_mod name=memori face="sad" time="1000" ]
-#めもり
+#memori
 う...の発明品のどこでも印刷くんＺを使いました...[p]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
-#ツクリ
+#tsukuri
 プリントアウトしてる...[p]
 
 #

@@ -7,35 +7,35 @@
 
 
 
-#スカウト
+#scout
 うわぁぁぁ～ん！助けてください～！！！[p]
 
 #
 授業終わり、スカウトが半泣きでこちらの方に向かってきた...[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 （どうしたの...？）[p]
 [chara_show name="scout" width="450" height="600" time="1000"  ]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 数学の小テストがひどい点数だったんです！次もひどかったら補習になっちゃいます！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 数学かぁ... 一番厄介な科目だよね...[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 うぅ.... 何か一晩で最強になれる方法とかないんですか！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 それはこっちが知りたいくらいだよ... [p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 そんなぁ！[p]
 
 
@@ -47,19 +47,19 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 やっぱりそうだよね。絶対その方が身に付くだろうし。[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ほ、ほんとに一からやるんですか...？[p]
 
 [chara_mod name=wakastuki face=smaile time="1000" ]
-#ワカツキ
+#wakastuki
 うん。楽はできないと思った方がいいよ。[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ひぃぃ！[p]
 
 #
@@ -68,19 +68,19 @@
 *gakuen_tuzyo_part_1_2
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
-#スカウト
+#scout
 やっぱりそれしかありません！徹夜で詰め込みます！！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 ほんとにその方法で大丈夫なの...？[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 もう背に腹は代えられません！やるしかないんですよ！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 最初からやっておけばよかったのでは？[p]
 
 #

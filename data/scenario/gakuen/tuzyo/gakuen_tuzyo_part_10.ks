@@ -6,11 +6,11 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face="angry" time="1000" ]
-#めもり
+#memori
 ちーがーうー！絶対この方がいいって！！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 いやいや、さすがにこれは譲れないよ。[p]
 
 #
@@ -20,15 +20,15 @@
 どうしたの？[p]
 
 [chara_mod name=memori face="angry" time="1000" ]
-#めもり
+#memori
 あっ、[emb exp="f.player_name"]！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 デザインには守らなくちゃいけないルールがあるんだって言ってるだけだよ。[p]
 
 [chara_mod name=memori face="angry" time="1000" ]
-#めもり
+#memori
 おっきい文字入れたほうが絶対いいに決まってるじゃん！[p]
 
 #
@@ -43,11 +43,11 @@
 二人のいいところを入れてみたら？[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ...そうだね、めもりの言ってたことも一理あるし。[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 おたがいのいいところを見つけてみるのがいいかも！[p]
 
 #
@@ -62,14 +62,14 @@
 こんなのはどう？[p]
 
 [chara_mod name=memori face=weariness time="1000" ]
-#めもり
+#memori
 ...なんか違う。[p]
 
 #&f.player_name
 えっ[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 うん、ちょっと悪いとこが目立つかもね。例えばここは...[p]
 
 #
