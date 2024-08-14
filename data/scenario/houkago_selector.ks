@@ -45,8 +45,8 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 
 ;フッターの作成
 [image layer="0" x="-30" y="-10" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
-[ptext layer="2" x="20" y="0" size="35" text="&f.playmouth" color="0x808080	"  bold="true"  face="Arial" ]
-[ptext layer="2" x="20" y="40" size="35" text="&f.playmouth_string" color="0x808080	"  bold="true"  face="Arial"]
+[ptext layer="2" x="20" y="0" size="35" text="&f.playmouth" color="0x736e6e"  bold="true"  face="Arial" ]
+[ptext layer="2" x="20" y="40" size="35" text="&f.playmouth_string" color="0x736e6e"  bold="true"  face="Arial"]
 ;メイリオ、MS PGothi、Arial
 
 ;パラメータの枠組み
