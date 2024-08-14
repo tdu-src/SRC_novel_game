@@ -16,7 +16,7 @@
 [plugin name=tsex ]
 [plugin name="theme_kopanda_19" ]
 [plugin name="ptext_align"]
-[plugin name=popopo]
+;[plugin name=popopo]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
