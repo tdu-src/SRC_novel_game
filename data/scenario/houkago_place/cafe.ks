@@ -8,7 +8,7 @@ f.cafe+=f.nomrmal_houkagoevent;
 [endif]
 
 #
-ここはカフェです[p]
+ここはカフェです[pse]
 
 [iscript]
 f.cafe_normal_flag="true";
@@ -22,7 +22,7 @@ f.cafe_normal_flag="true";
 *cafe_shortpart
 
 #
-ここはカフェnのショートパートです[p]
+ここはカフェnのショートパートです[pse]
 
 
 [jump storage="houkago_place/houkago_end.ks"]

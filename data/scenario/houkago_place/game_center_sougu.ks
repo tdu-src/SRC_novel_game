@@ -9,7 +9,7 @@ f.game_center+=f.special_houkagoevent;
 
 
 #
-ここは遭遇イベントのゲームセンターです[p]
+ここは遭遇イベントのゲームセンターです[pse]
 
 [iscript]
 f.gamesenter_special_flag="true";
@@ -21,6 +21,6 @@ f.gamesenter_special_flag="true";
 *gamesentersougu_shortpart
 
 #
-ここはゲームセンターの遭遇イベントのショートパートです[p]
+ここはゲームセンターの遭遇イベントのショートパートです[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

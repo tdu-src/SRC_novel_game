@@ -8,7 +8,7 @@ f.game_center+=f.nomrmal_houkagoevent;
 [endif]
 
 #
-ここはゲームセンターです[p]
+ここはゲームセンターです[pse]
 
 [iscript]
 f.gamesenter_normal_flag="true";
@@ -21,6 +21,6 @@ f.gamesenter_normal_flag="true";
 *gamesenter_shortpart
 
 #
-ここはゲームセンターのショートパートです[p]
+ここはゲームセンターのショートパートです[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

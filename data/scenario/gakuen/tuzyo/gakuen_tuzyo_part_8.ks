@@ -4,22 +4,22 @@
 
 [chara_show name="memori" width="450" height="600" ]
 #
-授業が終わった後、めもりが話しかけてきた。 [p]
+授業が終わった後、めもりが話しかけてきた。 [pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-ねぇ、知ってる?理科準備室の怖～いうわさ...[p]
+ねぇ、知ってる?理科準備室の怖～いうわさ...[pse]
 
 #&f.player_name
-何それ？[p]
+何それ？[pse]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ...[p] 
+昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ...[pse] 
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-その人はこの世への未練で地縛霊になっちゃって、誰もいないはずの理科準備室に人影を見たって人がいるんだって...[p]
+その人はこの世への未練で地縛霊になっちゃって、誰もいないはずの理科準備室に人影を見たって人がいるんだって...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="こ、怖い..."   target="*gakuen_tuzyo_part_8_root_1" ]
@@ -30,96 +30,96 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-[emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![p]
+[emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![pse]
 
 [chara_mod name=memori face="normal" time="1000" ]
 #めもり
-ここが理科準備室だよ！[p]
+ここが理科準備室だよ！[pse]
 
 #
-めもりに連れてこられた準備室は、薄暗くて中々に雰囲気がある...[p]
+めもりに連れてこられた準備室は、薄暗くて中々に雰囲気がある...[pse]
 
 #&f.player_name
-ぶ、不気味だなぁ...[p]
+ぶ、不気味だなぁ...[pse]
 
 #
-（ガタンッ！）[p]
+（ガタンッ！）[pse]
 
 #
-急に入り口の扉が大きな音を立てて閉まった！[p]
+急に入り口の扉が大きな音を立てて閉まった！[pse]
 
 #&f.player_name
-？！[p]
+？！[pse]
 
 #
-（ガタガタガタッ！）[p]
+（ガタガタガタッ！）[pse]
 
 #
-それと同時に掃除用具入れが音を立てながら揺れ始めた！[p]
+それと同時に掃除用具入れが音を立てながら揺れ始めた！[pse]
 
 #
-(ガタガタッ！)[p]
+(ガタガタッ！)[pse]
 
 #
-(バンッ！)[p]
+(バンッ！)[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-ぐお～～～！！！！！[p]
+ぐお～～～！！！！！[pse]
 
 #&f.player_name
-うわぁっ？！[p]
+うわぁっ？！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-ドッキリ大成功！！驚いた？！驚いた？！[p]
+ドッキリ大成功！！驚いた？！驚いた？！[pse]
 
 #&f.player_name
-め、めもり...?[p]
+め、めもり...?[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-いや～、[emb exp="f.player_name"]の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]        
+いや～、[emb exp="f.player_name"]の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[pse]        
 
 #
-めもりがある一点を見つめると、みるみる顔が青ざめていく...[p]
+めもりがある一点を見つめると、みるみる顔が青ざめていく...[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-お化け～～～～～？！！！！[p]
+お化け～～～～～？！！！！[pse]
 
 #
-絶叫しながら走って準備室から出て行ってしまった...いったい何を見たのだろうか...[p] 
+絶叫しながら走って準備室から出て行ってしまった...いったい何を見たのだろうか...[pse] 
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_8_root_2
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-も～！噂だから気になるんでしょ！来てくれないと成り立たないよ！![p]
+も～！噂だから気になるんでしょ！来てくれないと成り立たないよ！![pse]
 
 #&f.player_name
-成り立たない?[p]
+成り立たない?[pse]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-あっ...成り立たないていうか...うまくいかないっていうか...[p]
+あっ...成り立たないていうか...うまくいかないっていうか...[pse]
 
 #&f.player_name
-うまくいかない?[p]
+うまくいかない?[pse]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-うぐ...[p]
+うぐ...[pse]
 
 #&f.player_name
-もしかして、何か企んでた?[p]
+もしかして、何か企んでた?[pse]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-ゴ、ゴメンナサイ...[p]
+ゴ、ゴメンナサイ...[pse]
 
 #
-めもりのいたずら作戦は失敗に終わったのだった...[p]
+めもりのいたずら作戦は失敗に終わったのだった...[pse]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]

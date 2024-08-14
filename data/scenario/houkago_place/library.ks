@@ -8,7 +8,7 @@ f.park+=f.nomrmal_houkagoevent;
 [endif]
 
 #
-ここは美術館です[p]
+ここは美術館です[pse]
 
 [iscript]
 f.park_normal_flag="true";
@@ -20,6 +20,6 @@ f.park_normal_flag="true";
 *library_shortpart
 
 #
-ここは美術館のショートパートです[p]
+ここは美術館のショートパートです[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

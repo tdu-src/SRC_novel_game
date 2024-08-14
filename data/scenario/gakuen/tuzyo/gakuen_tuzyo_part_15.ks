@@ -3,51 +3,51 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[p]
+今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[pse]
 
 [chara_show name="tsukuri"width="450" height="600"  time="1000" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-どう、描けてる？[p]
+どう、描けてる？[pse]
 
 #&f.player_name
-あんまり自信ないかな...[p]
+あんまり自信ないかな...[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-ふ～ん... でも、結構いい感じじゃない？影とかしっかり描けてるし。[p]
+ふ～ん... でも、結構いい感じじゃない？影とかしっかり描けてるし。[pse]
 
 #&f.player_name
-そっちのも見せて！[p]
+そっちのも見せて！[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-いいよ、まだ完成はしてないけど。[p]
+いいよ、まだ完成はしてないけど。[pse]
 
 #
-日々イラストを嗜んでいるツクリのデッサンは、プロ顔負けのクオリティだった...[p]
+日々イラストを嗜んでいるツクリのデッサンは、プロ顔負けのクオリティだった...[pse]
 
 #&f.player_name
-凄すぎる...[p]
+凄すぎる...[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-そこまででもないよ。さっと書いただけだし。[p]
+そこまででもないよ。さっと書いただけだし。[pse]
 
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-ねえねえ！めもりの描いたのも見てー！[p]
+ねえねえ！めもりの描いたのも見てー！[pse]
 
 #
-めもりも描いていたデッサンを見せてきた。[p]
+めもりも描いていたデッサンを見せてきた。[pse]
 
 #&f.player_name
-こ、これは...[p]
+こ、これは...[pse]
 
 #
-あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか...[p]
+あまりにもモデルに近く、この短時間で描けるようなレベルではない... まさか...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもりに天性の才能が..."   target="*gakuen_tuzyo_part_15_1" ]   
@@ -58,25 +58,25 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-そう！めもりは千年に一度の画家なんだよ...[p]
+そう！めもりは千年に一度の画家なんだよ...[pse]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
 #ツクリ
-いや、これもはや印刷でしょ...[p]
+いや、これもはや印刷でしょ...[pse]
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-ギクッ！い、インサツナワケナイジャン...[p]
+ギクッ！い、インサツナワケナイジャン...[pse]
 
 #&f.player_name
-ズルしたの？[p]
+ズルしたの？[pse]
 
 [chara_mod name=memori face=sad time="1000" ]
 #めもり
-か、描きなおしてきます...[p]
+か、描きなおしてきます...[pse]
 
 #
-めもりは項垂れながらデッサンを描きなおしていた..[p]
+めもりは項垂れながらデッサンを描きなおしていた..[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 
@@ -85,25 +85,25 @@
 
 [chara_mod name=memori face=perplexed time="1000" ]
 #めもり
-ギクッ！ず、ズルナンカシテナイヨ...[p]
+ギクッ！ず、ズルナンカシテナイヨ...[pse]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
 #ツクリ
-いや、この時間でこれは流石に...[p]
+いや、この時間でこれは流石に...[pse]
 
 #&f.player_name
-何使ったの？[p]
+何使ったの？[pse]
 
 [chara_mod name=memori face="sad" time="1000" ]
 #めもり
-う...の発明品のどこでも印刷くんＺを使いました...[p]
+う...の発明品のどこでも印刷くんＺを使いました...[pse]
 
 [chara_mod name=tsukuri face=weariness time="1000" ]
 #ツクリ
-プリントアウトしてる...[p]
+プリントアウトしてる...[pse]
 
 #
-めもりはその後先生にも見つかり、こっぴどく叱られていた...[p]
+めもりはその後先生にも見つかり、こっぴどく叱られていた...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 

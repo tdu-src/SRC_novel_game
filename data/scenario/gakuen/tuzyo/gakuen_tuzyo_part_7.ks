@@ -5,62 +5,62 @@
 [chara_show name="memori" width="450" height="600" ]
 
 #
-休み時間、ワカツキと話しながら廊下で歩いていると...[p]
+休み時間、ワカツキと話しながら廊下で歩いていると...[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-ねぇ、なんか聞こえない...？[p]
+ねぇ、なんか聞こえない...？[pse]
 
 #
-（キュィィィン...）[p]
+（キュィィィン...）[pse]
 
 #
-耳を澄ましてみると、廊下の奥から音が聞こえる....[p]
+耳を澄ましてみると、廊下の奥から音が聞こえる....[pse]
 
 #
-（キュィィイン...）[p]
+（キュィィイン...）[pse]
 
 #
-（ギュイイイイイン！！！！！！）[p]
+（ギュイイイイイン！！！！！！）[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-ちょっ...！何あれ?！[p]
+ちょっ...！何あれ?！[pse]
 
 #
-段ボール箱にロボットの顔を乗せたような何かが猛スピードで迫ってくる!![p]
+段ボール箱にロボットの顔を乗せたような何かが猛スピードで迫ってくる!![pse]
 
 #&f.player_name
-危ない！[p]
+危ない！[pse]
 
 #
-（キキキキィィ！！！）[p]
+（キキキキィィ！！！）[pse]
 
 #
-暴走していた機械は急ブレーキをかけて目の前で止まった。間一髪だった...[p]
+暴走していた機械は急ブレーキをかけて目の前で止まった。間一髪だった...[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-大丈夫？！ケガしなかった？[p]
+大丈夫？！ケガしなかった？[pse]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
-大丈夫...でもこの機械はいったい何...？！[p]
+大丈夫...でもこの機械はいったい何...？！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-これはどこでもおそうじくん Z！自動で色んなところを掃除してくれる優れ者なんだよ！[p]
+これはどこでもおそうじくん Z！自動で色んなところを掃除してくれる優れ者なんだよ！[pse]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
-安全性は優れてないけど...[p]
+安全性は優れてないけど...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-でもこの発明、まだまだ改良の余地があると思うんだよね...何かいい案ないかな？[p]
+でもこの発明、まだまだ改良の余地があると思うんだよね...何かいい案ないかな？[pse]
 
 #&f.player_name
-いい案か...[p]
+いい案か...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="まずは安全性を..."   target="*gakuen_tuzyo_part_7_root_1" ]     
@@ -69,61 +69,61 @@
 *gakuen_tuzyo_part_7_root_1
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-ん～、まぁそうだよねぇ。とりあえず直してみる![p]
+ん～、まぁそうだよねぇ。とりあえず直してみる![pse]
 
 #
-（トントンカンカン）[p]
+（トントンカンカン）[pse]
 
 #
-めもりはその場で機械を改造し始めた... すごい技術だ...！[p]
+めもりはその場で機械を改造し始めた... すごい技術だ...！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-とりあえずこれで大丈夫なはず！[p]
+とりあえずこれで大丈夫なはず！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-はずって.... 本当に大丈夫...？[p]
+はずって.... 本当に大丈夫...？[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-ん～、多分？[p]
+ん～、多分？[pse]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
-多分って...[p]
+多分って...[pse]
 
 #
-その後学校中に、校内を徘徊する生首の乗った段ボール箱の都市伝説が広まるのであった...[p]
+その後学校中に、校内を徘徊する生首の乗った段ボール箱の都市伝説が広まるのであった...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_7_root_2
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-それってイメチェンするってこと？面白そうだしやってみる！[p]
+それってイメチェンするってこと？面白そうだしやってみる！[pse]
 
 #
-（トントンカンカン）[p]
+（トントンカンカン）[pse]
 
 #
-めもりはその場で機械を改造し始めた... すごい技術だ...[p]
+めもりはその場で機械を改造し始めた... すごい技術だ...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-できた！流行りの感じにしてみたよ！[p]
+できた！流行りの感じにしてみたよ！[pse]
 
 #
-そこには自分くらいの身長をしたガ〇ダムのようなロボットが立っていた...[p]
+そこには自分くらいの身長をしたガ〇ダムのようなロボットが立っていた...[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-これ、どこかで見たような...[p]
+これ、どこかで見たような...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-もうこれで弱点はないよ！どこでもおそうじくん Z！発進 ！[p]
+もうこれで弱点はないよ！どこでもおそうじくん Z！発進 ！[pse]
 
 #
-その後学校中に、校内を徘徊するガ〇ダムの都市伝説が広まるのであった...[p]
+その後学校中に、校内を徘徊するガ〇ダムの都市伝説が広まるのであった...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
