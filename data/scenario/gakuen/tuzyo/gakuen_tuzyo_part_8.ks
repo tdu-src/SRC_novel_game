@@ -7,18 +7,18 @@
 授業が終わった後、めもりが話しかけてきた。 [p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ねぇ、知ってる?理科準備室の怖～いうわさ...[p]
 
 #&f.player_name
 何それ？[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 昔この学校で、病気で亡くなっちゃった学生がいてね、科学部だったらしいんだ...[p] 
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 その人はこの世への未練で地縛霊になっちゃって、誰もいないはずの理科準備室に人影を見たって人がいるんだって...[p]
 
 
@@ -29,11 +29,11 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 [emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![p]
 
 [chara_mod name=memori face="normal" time="1000" ]
-#めもり
+#memori
 ここが理科準備室だよ！[p]
 
 #
@@ -64,28 +64,28 @@
 (バンッ！)[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 ぐお～～～！！！！！[p]
 
 #&f.player_name
 うわぁっ？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 ドッキリ大成功！！驚いた？！驚いた？！[p]
 
 #&f.player_name
 め、めもり...?[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 いや～、[emb exp="f.player_name"]の驚いた顔最高だよ！噂なんて作り話に決まっ...て...[p]        
 
 #
 めもりがある一点を見つめると、みるみる顔が青ざめていく...[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 お化け～～～～～？！！！！[p]
 
 #
@@ -94,28 +94,28 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_8_root_2
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 も～！噂だから気になるんでしょ！来てくれないと成り立たないよ！![p]
 
 #&f.player_name
 成り立たない?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 あっ...成り立たないていうか...うまくいかないっていうか...[p]
 
 #&f.player_name
 うまくいかない?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 うぐ...[p]
 
 #&f.player_name
 もしかして、何か企んでた?[p]
 
 [chara_mod name=memori face=perplexed time="1000" ]
-#めもり
+#memori
 ゴ、ゴメンナサイ...[p]
 
 #

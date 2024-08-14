@@ -13,38 +13,38 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 いや～、浜辺を散歩するのって気持ちいいですね！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ほら二人とも！少し遊んでいきますよ！[p]
 
 #&f.player_name
 お～！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 お～[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 ってワカツキさん！何スマホ見てるんですか？！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 何って、ゲームの夏イベの周回だけど。[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 海に来てまでゲームしてる人いませんよ！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 私がいるよ？[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 そういう話じゃないです！[p]
 
 #
@@ -54,45 +54,45 @@
 そういえば、もうすぐ夏休みが終わっちゃうね。[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 うわ…、気分下がること言わないでよ。(主人公)…[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 そうですよ(主人公)さん！先のことなんて考えてもいいことないです！[p]
 
 #&f.player_name
 ご、ごめん…[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 でも、夕暮れの海を眺めてると、感慨深くなっちゃうのはわかります！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 まぁ、今年の夏は皆で遊びに行ったりして、楽しかったね。[p]
 
 #&f.player_name
 そうだね～…。[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 いっぱい楽しい思い出作れたし、きっと憂鬱な学校も楽しめますよ！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 そうはいっても私は憂鬱なままだけどな…。 数学の宿題もちょっと残ってるし…[p]
 
 [chara_mod name=scout face=perplexed time="1000" ]
-#スカウト
+#scout
 え、数学の宿題？[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 …。[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 あっ！！！！[p]
 
 #&f.player_name
@@ -102,23 +102,23 @@
 突然声を上げたスカウトは、信じられないほど青ざめた表情をしている…！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 私…数学の宿題忘れてました！！！！！！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 えっ… あれって一日で終わる量じゃないような…[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 どどどどうしましょう？！出せなかったらあの厳しい数学の先生に、めちゃくちゃ叱られちゃいます！！！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 まぁ… もう潔く諦めた方が…[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 うわ～ん！！主人公さんさん、助けて下さ～い！！！！！[p]
 
 #

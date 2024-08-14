@@ -12,33 +12,33 @@
 今日は学園祭の日！自分はツクリとスカウトと一緒に学校を回っていた[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 いや～賑わってますねぇ！面白そうな出し物がいっ ぱいありますよ！[p]
 
 #&f.player_name
 そうだね。[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 あっ、見て。ここ、お化け屋敷やってるみたい。[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 えっ...本気ですか...?[p]
 
 #&f.player_name
 怖いの？[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 こここ怖くなんてありませんよ！！所詮高校生クオリティですし！！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ふ～ん、じゃあ行こっか[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 待って待って心の準備が！！[p]
 
 
@@ -46,11 +46,11 @@
 入ってみると、学生の催しを超えているレベルで作 りこまれており、中々雰囲気がある。[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 スカウト、大丈夫？尋常じゃないぐらい震えてるけど。[p]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#スカウト
+#scout
 だだだ大丈夫ですよ！！こんなの余裕です！！[p]  
 
 #
@@ -60,11 +60,11 @@
 （グワ～～～～！！）[p]  
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ぎゃ～～～～～！！！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 うぅ... もうこんな所にはいられません！！私はこ こから出ますよ！！[p]
 
 #
@@ -95,18 +95,18 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ふぅ、楽しかった。[p]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#スカウト
+#scout
 あぁ... 帰ってきたんですね...[p]
 
 #&f.player_name
 大丈夫...？[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 大丈夫に見えますか... お化け屋敷なんて二度と入 りません！！[p]
 
 #
@@ -121,11 +121,11 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face="half_sad" time="1000" ]
 
-#スカウト
+#scout
 [emb exp="f.player_name"]さん、リタイアなんて意気地なしですね...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 うん。演出も良かったし、置物のクオリティとかも 凄かったよ。[p]
 
 #&f.player_name
@@ -134,18 +134,18 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ふぅ、みんなお待たせ。[p]
 
 #&f.player_name
 楽しかった..？[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 うん。演出も良かったし、置物のクオリティとかも 凄かったよ。[p]
 
 [chara_mod name=scout face=weariness time="1000" ]
-#スカウト
+#scout
 一人だけ違うベクトルで楽しんでる..[p]
 
 #

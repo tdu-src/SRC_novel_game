@@ -15,36 +15,36 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 おーい！ここだよー！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 こんばんは、（主人公）。[p]
 
 #&f.player_name
 ごめん、待った？[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 大丈夫だよ！ぼく、楽しみ過ぎて早く来ちゃった！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 めもり、張り切って１時間前から会場に居たらしいよ。[p]
 
 #&f.player_name
 そんなに前から？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 うん！りんご飴、金魚すくい、わたあめ、全部回るつもり！[p]
 
 #&f.player_name
 ま、回り切れるかな…?[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 そんなことより早く行こう！屋台が売り切れちゃうよ！[p]
 
 #&f.player_name
@@ -54,15 +54,15 @@
 こうして、3 人で様々な屋台を回った…[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 ふぅ～… 行きたいところ、全部回れたね！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 そういえば、そろそろ花火が打ちあがる時間だよ。[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 えっ！見たい見たい！[p]
 
 #&f.player_name
@@ -72,11 +72,11 @@
 (ドーン…)[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 見て、すごい綺麗だよ！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 うわ～！本当だ！[p]
 
 #&f.player_name
@@ -95,26 +95,26 @@
 あれは…めもりの顔？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
  （主人公）、 づいちゃった？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 実は打ち上げ準備をしてる時に、特製の花火をこっそり入れておいたんだ！[p]      
 
 #&f.player_name
 流石にまずいんじゃ…[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 だ、大丈夫なの…？これ…[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 大丈夫だよ！、火薬類製造保安責任者の資格持ってるから！[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 知らない言葉が出てきた…[p]
 
 #

@@ -7,7 +7,7 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 なんか疲れてる顔してるね？[p]
 
 #
@@ -19,21 +19,21 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 そんな時こそサウナです！！[emb exp="f.player_name"]さん！！[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 うわっ！びっくりした...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 サウナに入って体を温めると血行が促進され疲労回復やリラックス効果を得ることが出来るんです！！[p]
 中でも私がおすすめしたいのはフィンランド式サウナですね！[p]
 あっ フィンランド式サウナというのは普通のサウナとは少し違[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 私は寝る前のマッサージがおすすめかな。 睡眠の質もよくなるし、眼精疲労とかにも良く効くんだよね。[p]
 
 #
@@ -47,15 +47,15 @@
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 お安い御用です！私イチオシのサウナ、たくさん教えちゃいますよ！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 サウナか～。私は行ったことないけど、試してみようかな？[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 大歓迎ですよ！一緒にサウナライフを満喫しましょう！[p]
 
 #
@@ -66,11 +66,11 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 いいよ、やり方教えてあげる。[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 あっ、ずるいです！私もゲームで目が常にお疲れなので教えてください！！[p]
 
 #
