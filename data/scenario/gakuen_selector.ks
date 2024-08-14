@@ -57,7 +57,7 @@ if(tf.mouth_logic_turn%2==0){
 f.playmouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
 f.playmouth+="月";
 [endscript]
-[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" bold="true"  face="Arial" ]
 ;あとで直しておきます がるむさんへ
 ;ここまでシナリオ名と月のメソッド
 

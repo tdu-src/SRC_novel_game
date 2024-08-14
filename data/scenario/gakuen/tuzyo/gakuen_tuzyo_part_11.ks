@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="金欠問題" name="align_ct_h"]
+[ptext layer="1" x="0" y="0" size="40" text="金欠問題" name="align_ct_h" bold="true"  face="Arial"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #&f.player_name

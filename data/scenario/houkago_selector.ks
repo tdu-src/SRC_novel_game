@@ -184,6 +184,6 @@ f.houkago_select_path+=".ks"
 
 [layopt layer="1" visible="true"]
 ;月の追加
-[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" bold="true"  face="Arial"]
 
 [jump storage="&f.houkago_select_path"]
