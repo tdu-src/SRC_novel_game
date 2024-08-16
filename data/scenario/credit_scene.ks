@@ -19,7 +19,7 @@ for(num=0;num<100;num++){
 [endscript]
 
 [macro name="credit_scroll" ]
-[ptext layer=0 x="200" y="%y" size="40" text="%scroll_text" name="%scroll_text_name" color="white" ]
+[ptext layer=0 x="180" y="%y" size="40" text="%scroll_text" name="%scroll_text_name" color="white" ]
 [anim name="%scroll_text_name" top="-1000" time="%scroll_time"]
 [endmacro]
 
@@ -37,10 +37,10 @@ for(num=0;num<100;num++){
 [credit_scroll  y="&tf.scroll_posi[10]" scroll_text="デバッグ : Garume" scroll_time="&tf.scroll_time_list[10]" scroll_text_name="text10" ]
 [credit_scroll  y="&tf.scroll_posi[11]" scroll_text="特別協力 : ソフトウェア研究部" scroll_time="&tf.scroll_time_list[11]" scroll_text_name="text11" ]
 [credit_scroll  y="&tf.scroll_posi[12]" scroll_text="プラグイン" scroll_time="&tf.scroll_time_list[12]" scroll_text_name="text12" ]
-[credit_scroll  y="&tf.scroll_posi[13]" scroll_text="ptext_align" scroll_time="&tf.scroll_time_list[13]" scroll_text_name="text13" ]
-[credit_scroll  y="&tf.scroll_posi[14]" scroll_text="テーマ一括変換プラグイン その19" scroll_time="&tf.scroll_time_list[14]" scroll_text_name="text14" ]
-[credit_scroll  y="&tf.scroll_posi[15]" scroll_text="ティラノスタジオ用デバッグ支援プラグイン" scroll_time="&tf.scroll_time_list[15]" scroll_text_name="text15" ]
-[credit_scroll  y="&tf.scroll_posi[16]" scroll_text="lovemng" scroll_time="&tf.scroll_time_list[16]" scroll_text_name="text16" ]
+[credit_scroll  y="&tf.scroll_posi[13]" scroll_text="ptext_align 空想曲線" scroll_time="&tf.scroll_time_list[13]" scroll_text_name="text13" ]
+[credit_scroll  y="&tf.scroll_posi[14]" scroll_text="テーマ一括変換プラグイン その19　空想曲線" scroll_time="&tf.scroll_time_list[14]" scroll_text_name="text14" ]
+[credit_scroll  y="&tf.scroll_posi[15]" scroll_text="ティラノスタジオ用デバッグ支援プラグイン さくさくぷんた" scroll_time="&tf.scroll_time_list[15]" scroll_text_name="text15" ]
+[credit_scroll  y="&tf.scroll_posi[16]" scroll_text="lovemng　柚須 佳" scroll_time="&tf.scroll_time_list[16]" scroll_text_name="text16" ]
 [credit_scroll  y="&tf.scroll_posi[17]" scroll_text="ゲームエンジン : ティラノスクリプト" scroll_time="&tf.scroll_time_list[17]" scroll_text_name="text17" ]
 
 [wait time="82000"]
