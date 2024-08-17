@@ -130,10 +130,9 @@ if(f.houkago_now_place>=4){
 ;以下はただの宣言読む必要ない
 ;----------------------------------------
 *houkago_selector_1
-
+[cm]
+[SceneMove]
 [playbgm storage="../bgm/secene_moving_se.mp3" ]
-[cm  ]
-[clearfix]
 [start_keyconfig]
 
 [freeimage layer="0" ]
@@ -186,5 +185,5 @@ f.houkago_select_path+=".ks"
 [layopt layer="1" visible="true"]
 ;月の追加
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
-
+[wait time="1500"]
 [jump storage="&f.houkago_select_path"]

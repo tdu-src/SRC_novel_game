@@ -58,5 +58,7 @@
 
 ; ------------------------------------------------------
 *Part1_OK
+[SceneMove]
+[wait time="1000"]
 [cm]
 [jump storage="logic.ks"]
