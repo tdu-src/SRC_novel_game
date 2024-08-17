@@ -4,13 +4,14 @@
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
+
 #
 今日は毎年恒例の体育祭の日だ！[p]
 
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ぜぇ...ぜぇ... ごほっ...！げほっ...！[p]
 
 #
@@ -20,7 +21,7 @@
 大丈夫？[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 大丈夫に見えますか...?インドア派に体育祭なんてやらせるもんじゃありません…[p]
 
 
@@ -31,7 +32,7 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 あっ！リレーですよ！さんが代表の！[p]
 
 
@@ -49,14 +50,14 @@
 緊張してるみたい…[p]
 
 [chara_mod name=scout face=perplexed time="1000" ]
-#スカウト
+#scout
 そうですねぇ… なんかいつもより表情が硬いですし…[p]
 
 #
 足の速さで代表に選ばれたワカツキだが、こういった場には慣れていないのかもしれない…[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 [emb exp="f.player_name"]さん！こんな時こそ私たちが応援してあげなくては！[p]
 
 #&f.player_name
@@ -74,7 +75,7 @@
 うおぉぉ！！ワカツキー！！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ワカツキさーーーん！！！[p]
 
 
@@ -82,7 +83,7 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 ？！[p]
 
 #
@@ -96,7 +97,7 @@
 頑張れーーー！！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ワカツキさーーん！！よっ！ソフケン学園のウサイン・ボルト！[p]
 
 
@@ -105,7 +106,7 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 ;恥じ
 [chara_mod name=wakastuki face="shy" time="1000" ]
-#ワカツキ
+#wakastuki
 ちょ、恥ずかしいんだけど…！[p]
 
 
@@ -122,7 +123,7 @@
 
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ]
-#ワカツキ
+#wakastuki
 ちょっと…！さっきのマジで恥ずかしかったんだけど！[p]
 
 #&f.player_name
@@ -130,7 +131,7 @@
 
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ] 
-#ワカツキ
+#wakastuki
 とっ、届いてたけど... ああいうのはホントに...！[p]
 
 #&f.player_name
@@ -138,7 +139,7 @@
 
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ]
-#ワカツキ
+#wakastuki
 あ゛～～！！もうっ！[p]
 
 #
@@ -153,7 +154,7 @@
 うおぉぉ！！ワ・カ・ツ・キー！！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ワカツキさーーーん！！！[p]
 
 
@@ -161,7 +162,7 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 ？！[p]
 
 
@@ -172,7 +173,7 @@
 いけいけワカツキ！！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ＧＯＧＯワカツキさーーん！！！[p]
 
 #
@@ -184,7 +185,7 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ]
-#ワカツキ
+#wakastuki
 ちょ、最悪なんだけど...！[p]
 
 #
@@ -192,7 +193,7 @@
 
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ]
-#ワカツキ
+#wakastuki
 ～～！[p]
 
 #
@@ -201,7 +202,7 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ワカツキさん、そんなに怒らなくても...[p]
 
 #

@@ -11,21 +11,21 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 どうしたの、そんなしょんぼりした顔して。[p]
 
 #&f.player_name
 最近金欠で...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 あ～、金欠なんだ。私は創作用の機材のためにバイトしてるよ。[p]
 
 #&f.player_name
 どんなバイトしてるの？[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 カフェのバイト。千住庵ってところなんだけど、知ってる？[p]
 
 #&f.player_name
@@ -35,7 +35,7 @@
 千住庵はこの辺でも有名なカフェだ。平日でも並ばないと入れないぐらいの人気だ...[p]  
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 それでさ、最近バイトが足りないてないらしいんだよね。良かったら紹介するよ。[p]     
 
 
@@ -46,7 +46,7 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 うん、もちろん。短期でも長期でも歓迎してくれると思うよ。[p]
 
 #&f.player_name
@@ -60,21 +60,21 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 あ～、それならしょうがないね。[p]
 
 #
 そういうと、ツクリは自販機でジュースを買い、こっちに差し出してきた...[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 はい、これ。[p]
 
 #&f.player_name
 さ、さすがに悪いよ！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 大丈夫。第一、あんなにしょんぼりしてる人をほっておけないでしょ？[p]
 
 #&f.player_name

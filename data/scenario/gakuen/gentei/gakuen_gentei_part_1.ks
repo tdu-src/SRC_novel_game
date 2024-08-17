@@ -7,6 +7,7 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
+[chara_config  talk_focus="brightness" ]
 #
 １年前に入学した「ソフケン学園」様々な出会い、発見があり、これ
 までの一年は本当にあっという間だった...[p]
@@ -17,7 +18,7 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 おはよう～、今日から二年生だね。[p]
 
 #&f.player_name
@@ -30,7 +31,7 @@
 そういえば、言ってたコンクールの絵はどう？[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 いい感じ。自分でも納得いく絵が描けたから、きっといい評価がもらえると思う。[p]
 
 #
@@ -39,7 +40,7 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 [emb exp="f.player_name"]さ～ん！ツクリさ～ん！おっはようございます！！[p]
 
 #&f.player_name
@@ -51,7 +52,7 @@
 この子はスカウト。ゲームとサウナが趣味の、明るい女の子だ。[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 いや～[emb exp="f.player_name"]さんが一年の期末試験でひぃひぃ言ってたので、もう二年生では会えないのかと思いましたよ！[p]
 
 #&f.player_name
@@ -67,11 +68,11 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 三人とも、何こんなところで騒いでるの...[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 おはようみんな！！元気だった？！[p]
 
 #
@@ -93,11 +94,11 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 うぅ... 学年が上がるにつれ、受験も迫ってくるのがしんどいですねぇ...[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 まぁ、三年になったら受験が終わるまで、ほとんど遊べないよね。[p]
 
 
@@ -109,11 +110,11 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 じゃあ、遊べるのは今だけってことじゃん！みんなで思い出作らないと！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 そうだね。みんなとたくさん話せるといいな。[p]
 
 #&f.player_name

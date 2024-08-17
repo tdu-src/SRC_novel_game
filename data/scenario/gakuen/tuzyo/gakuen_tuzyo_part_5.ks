@@ -8,16 +8,16 @@
 #
 昼休み、ご飯を食べ終えてゆっくりしていると、ツクリが話しかけてきた。[p]
 
-#ツクリ
+#tsukuri
 ねぇねぇ、昨日新しいスマホゲームが出たんだけど、いっしょにやらない？[p]
 
 #&f.player_name
 （新しいスマホゲーム？）[p]
 
-#ツクリ
+#tsukuri
 うん、『マジックスクランブル』っていう魔法と銃を合わせた FPS ゲームなんだ。[p]
 
-#ワカツキ
+#wakastuki
 私もやってる。スマホゲームなのに意外と本格派なんだよね。[p]
 
 #&f.player_name
@@ -29,10 +29,10 @@
 #&f.player_name
 右の敵倒した！[p]
 
-#ツクリ
+#tsukuri
 スキル使った！攻撃して！[p]
 
-#ワカツキ
+#wakastuki
 回復足りない！先に回復したほうがいいかも！[p]
 
 #
@@ -50,7 +50,7 @@
 *gakuen_tuzyo_part_5_root_1
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
-#ツクリ
+#tsukuri
 もう少しで倒せる...！今！[p]
 
 #
@@ -62,10 +62,10 @@
 #&f.player_name
 勝った！[p]
 
-#ワカツキ
+#wakastuki
 ふぅ... 危なかった... なかなか白熱したね。[p]
 
-#ツクリ
+#tsukuri
 スマホゲームにはうるさい方だけど、これはハマりそうかも...![p]
 
 #
@@ -76,7 +76,7 @@
 *gakuen_tuzyo_part_5_root_2
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
-#ワカツキ
+#wakastuki
 一回体勢を整えるよ！[p]
 
 #
@@ -85,7 +85,7 @@
 #&f.player_name
 勝った！[p]
 
-#ツクリ
+#tsukuri
 スマホゲームにはうるさい方だけど、これはハマりそうかも...! [p]
 
 #

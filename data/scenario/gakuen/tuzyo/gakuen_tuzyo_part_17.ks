@@ -16,42 +16,42 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 は～い！のこと呼んだ～！？[p]
 
 #&f.player_name
 めもり！[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 あっ、[emb exp="f.player_name"]じゃん！何か困ってることがあるの？[p]
 
 #&f.player_name
 実はかくかくしかじかで...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ふんふん、なるほどね！そういうキミにぴったりな発明品があるよ！[p]
 
 #
 そう言うと、めもりは荷物でいっぱいなリュックの中を漁り始めた... 明らかにリュックに入らない量の物が出てきている...[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 あった！てってれ～！らくらく登下校くん改！[p]
 
 #&f.player_name
 らくらく登下校くん改？[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 そう！これは自動運転付きの靴でね、この靴を履いて目的地を言うと、そこまで一瞬で連れて行ってくれるの！[p]
 
 #&f.player_name
 なんだか怖いんだけど...[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 大丈夫だよ！事故はほとんど起きてないから使ってみてよ！[p]
 
 #
@@ -65,7 +65,7 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 そうこなくっちゃ！靴を履いて、目的地を言ってみて！[p]
 
 #&f.player_name
@@ -81,7 +81,7 @@
 その靴は突如エンジンのような音を立て、宙に浮きだした！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 それじゃあ、いってらっしゃい！[p]
 
 #&f.player_name
@@ -98,14 +98,14 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_17_2
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 え～！？安全性をテストできるいい機会だったのに！[p]
 
 #&f.player_name
 安全性...？[p]
 
 [chara_mod name=memori face=impatience time="1000" ]
-#めもり
+#memori
 あっ... でっ、でも大丈夫だよ！たまに電柱にぶつかるぐらいだから！[p]
 
 #&f.player_name

@@ -9,22 +9,22 @@
 何の話してるの？[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 あっ、[emb exp="f.player_name"]。いま作業中に聞く音楽の話をしてたの。[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 そうそう、気分上げたいときとかに聞くやつ。[p]
 
 #&f.player_name
 二人はどんなのを聞くの？[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 私は音ゲーの曲をよく聞くよ。歌詞とかないやつだけど。[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 私は Offcial 膝ダンディズムとか聞くかな。[p]
 
 #
@@ -38,7 +38,7 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 いいよ。でも、皆びっくりするかも。[p]
 
 #
@@ -51,15 +51,15 @@
 ？！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 それ、210BPM くらいある曲なんだよね。[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 作業用には使えないんじゃ…[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 最初はね。でも、ずっとヘビロテしてるうちに慣れてくるから。集中したいときに聞いてみて。[p]
 
 #&f.player_name
@@ -75,14 +75,14 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 いいよ。好きなアーティストとかはいる？[p]
 
 #&f.player_name
 そういうのに疎くて…[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 それじゃあ、二人に私がいつも聞いてるプレイリストを教えるよ。いい曲ばっかりだから。[p]
 
 #&f.player_name

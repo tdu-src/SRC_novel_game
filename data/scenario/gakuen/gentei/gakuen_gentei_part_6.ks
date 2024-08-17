@@ -16,41 +16,41 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 あ、[emb exp="f.player_name"]さん！明けましておめでとうござい ます！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 明けましておめでとう。[p]
 
 #&f.player_name
 奇遇だね！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 私たちもさっき偶然会ったとこなんだ。[p]        
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 それで、これからお参りに行くところだったんです ！[emb exp="f.player_name"]さんも一緒に行きますよ！[p]        
 
 #&f.player_name
 行こう！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 並ぶの、すごく時間かかったね。[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 皆さんは何をお願いしましたか？！私は億万長者に なれるようにお願いしましたよ！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 あれ、お願い事って言ったら叶わないんじゃなかっ た？[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 あ゛っっ！！忘れてました...[p]
 
 #
@@ -60,11 +60,11 @@
 皆でおみくじひかない？[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 いいね。みんなで引きにいこう。[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 これ、好きなところからおみくじを引く形式らしい ですよ！みんなでこの中から引きましょう！[p]    
 
 #&f.player_name
@@ -77,7 +77,7 @@
 [s]
 *gakuen_gentei_part_6_1
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 みんな引けましたね！それじゃあ開きますよ！[p]
 
 
@@ -91,18 +91,18 @@
 中吉だ！[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 私も中吉でした！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 ん、私も中吉だったよ。[p]
 
 #&f.player_name
 みんなお揃いだね！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 今年も良い一年になりそうです！[p]
 
 #
@@ -121,11 +121,11 @@
 
 ;煽り
 [chara_mod name=scout face="normal" time="1000" ]  
-#スカウト
+#scout
 あははは！[emb exp="f.player_name"]さん、凶引いてるじゃないで すか！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 まぁ、きっといいことあるはずだよ。[p]
 
 #&f.player_name
@@ -146,11 +146,11 @@
 大吉だ！[p]
 
 [chara_mod name=wakastuki face="sad" time="1000" ]
-#ワカツキ
+#wakastuki
 うわっ！ずるいです[emb exp="f.player_name"]さん！私のと交換し てください！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 今年は良い一年になりそうだね、[emb exp="f.player_name"]。[p]      
 
 #&f.player_name

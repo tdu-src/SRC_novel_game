@@ -8,7 +8,7 @@
 休み時間、ワカツキと話しながら廊下で歩いていると...[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 ねぇ、なんか聞こえない...？[p]
 
 #
@@ -24,7 +24,7 @@
 （ギュイイイイイン！！！！！！）[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 ちょっ...！何あれ?！[p]
 
 #
@@ -40,23 +40,23 @@
 暴走していた機械は急ブレーキをかけて目の前で止まった。間一髪だった...[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 大丈夫？！ケガしなかった？[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 大丈夫...でもこの機械はいったい何...？！[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 これはどこでもおそうじくん Z！自動で色んなところを掃除してくれる優れ者なんだよ！[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 安全性は優れてないけど...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 でもこの発明、まだまだ改良の余地があると思うんだよね...何かいい案ないかな？[p]
 
 #&f.player_name
@@ -68,7 +68,7 @@
 [s]
 *gakuen_tuzyo_part_7_root_1
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ん～、まぁそうだよねぇ。とりあえず直してみる![p]
 
 #
@@ -78,19 +78,19 @@
 めもりはその場で機械を改造し始めた... すごい技術だ...！[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 とりあえずこれで大丈夫なはず！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 はずって.... 本当に大丈夫...？[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ん～、多分？[p]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#ワカツキ
+#wakastuki
 多分って...[p]
 
 #
@@ -99,7 +99,7 @@
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_7_root_2
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 それってイメチェンするってこと？面白そうだしやってみる！[p]
 
 #
@@ -109,18 +109,18 @@
 めもりはその場で機械を改造し始めた... すごい技術だ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 できた！流行りの感じにしてみたよ！[p]
 
 #
 そこには自分くらいの身長をしたガ〇ダムのようなロボットが立っていた...[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 これ、どこかで見たような...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 もうこれで弱点はないよ！どこでもおそうじくん Z！発進 ！[p]
 
 #

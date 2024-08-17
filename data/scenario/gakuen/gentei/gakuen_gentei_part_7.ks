@@ -9,14 +9,14 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 さっそく勉強会を始めるよ！[p]
 
 #&f.player_name
 おー！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 おー。[p]
 
 #
@@ -26,59 +26,59 @@
 うん...全然わからない...[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 もうわかんないの？！これ基礎中の基礎じゃん！[p]
 
 #&f.player_name
 おっしゃる通りです...[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 私もやる気なくなってきたな... 暗記だけは嫌いなんだよね。[p]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#めもり
+#memori
 えー？！やらなきゃ覚えられないよ！[p]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#ワカツキ
+#wakastuki
 いや、わかってはいるけど...[p]
 
 [chara_mod name=memori face=angry time="1000" ]
-#めもり
+#memori
 もう、二人ともダメダメじゃん！これはもうスパルタで行くしかないね！[p]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#wakastuki
 えっ、スパルタって...[p]
 
 #
 そう言うと、めもりはリュックからロボットを取り出した！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 じゃじゃーん！徹底指導スパルタン V！[p]
 
 #&f.player_name
 スパルタン V ?[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 そう！これは設定した目標を達成する能力が付くまでスパルタ指導し続けてくれるロボットだよ！[p]
 
 #&f.player_name
 設定した目標って...？[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 そんなの、物理と化学どっちも１００点に決まってるじゃん！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 １００点？！そんなの絶対無理...！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 無理じゃないよ！努力すれば、絶対できる！！[p]
 
 #
@@ -100,15 +100,15 @@
 あ痛っ！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 ちなみに、逃げようとしたらお仕置きが待ってるから！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 お、鬼だ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 あっ！もうこんな時間！今日はここまでだね！[p]
 
 #
@@ -118,22 +118,22 @@
 やっと解放された...[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 うぅ、もう勉強なんてこりごりだよ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 じゃあ続きはまた明日ね！！[p]
 
 #&f.player_name
 ...明日...？[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 当たり前じゃん！テスト前日まで毎日やるよ！[p]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#ワカツキ
+#wakastuki
 だ、誰か助けて...[p]
 
 #

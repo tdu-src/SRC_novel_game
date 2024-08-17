@@ -8,7 +8,7 @@
 [chara_show name="memori" width="450" height="600" ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
-#スカウト
+#scout
 掃除機は私が使うので、[emb exp="f.player_name"]さんは雑巾で拭き掃除をしてくださいね！[p]
 
 [bg time="10000" storage="classroom_hiru.jpg" method="fadeInLeft"]
@@ -19,7 +19,7 @@
 （時間経過カットイン）[p]
 
 [bg time="10000" storage="classroom_yugata.jpg" method="fadeInLeft"]
-#スカウト
+#scout
 はぁ～、やっと終わりましたよ...[p]
 
 
@@ -41,19 +41,19 @@
 *gakuen_tuzyo_part_2_root_1
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
-#スカウト
+#scout
 ふふっ！私にかかればこんなもんです！もっと褒めてくれてもいいんですよ？[p]
 
 #メモリ
 でも、[emb exp="f.player_name"]にさりげなく雑巾がけ押し付けてなかった？[p]
 
-#スカウト
+#scout
 お、押し付けてなんかありませんよ！適材適所ってやつです！[p]
 
 #メモリ
 じゃあ、そういうことにしておこうかな。[p]
 
-#スカウト
+#scout
 そういうことってなんですか？！[p]
 
 
@@ -65,19 +65,19 @@
 #メモリ
 でしょでしょ！[p]
 
-#スカウト
+#scout
 あれ、でもどうやって黒板の上の方も掃除できたんですか？[p]
 
 #メモリ
 ボクの発明品のおかげだよ！ボタンを押せば、あとは座ってるだけ！[p]
 
-#スカウト
+#scout
 ず、ずるい！私も使わせてくれればよかったのに！[p]
 
 #メモリ
 でも、スカウトも[emb exp="f.player_name"]にさりげなく雑巾がけさせてたじゃん？[p]
 
-#スカウト
+#scout
 う、うぐぐ...[p]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

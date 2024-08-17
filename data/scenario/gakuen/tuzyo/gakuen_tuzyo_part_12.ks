@@ -9,14 +9,14 @@
 
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 [emb exp="f.player_name"]さん！！私と勝負です！！[p]
 
 #&f.player_name
 なんの勝負？[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 そんなの、今日発売された「ダウンタウンファイター６」[p]
 
 #
@@ -26,14 +26,14 @@
 学校でゲームしちゃダメじゃない...？[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 大丈夫です！！部室でやればバレないので！！[p]
 
 #&f.player_name
 何が大丈夫なんだろう...[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 さぁ、始めましょう！負けたらジュース奢りです！[p]
 
 #
@@ -43,14 +43,14 @@
 強い...！[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 ふふふ、気づきました？私が強い理由、それはちょっとだけ体験版をかじったからです！[p]
 
 #&f.player_name
 ひ、卑怯者！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 あはは！勝負の世界に卑怯も何もありませんよ！さぁ、私の勝ちです！[p]
 
 #
@@ -67,7 +67,7 @@
 攻撃してきたスカウトに大して、無敵の必殺技を繰り返した。[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 あ、やば！[p]
 
 #&f.player_name
@@ -80,11 +80,11 @@
 勝った！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 そんなぁ！あんなのまぐれです！もう一回やりましょう！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ぐぎぎぎぎ.....！！覚えといてください～～！！！！[p]
 
 
@@ -101,7 +101,7 @@
 ガードし続ける自分に対し、スカウトは誤って隙の大きな技を繰り出した。[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 あ、やば！[p]
 
 #&f.player_name
@@ -114,14 +114,14 @@
 勝った！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 そんなぁ！今のは押してません！！コントローラーが勝手に動いたんですぅ！もう一回やりましょう！！[p]
 
 #&f.player_name
 とりあえず、こっちの勝ちってことでいい？[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ぐぎぎぎぎ...！！覚えといてください～～！！！！[p]
 
 

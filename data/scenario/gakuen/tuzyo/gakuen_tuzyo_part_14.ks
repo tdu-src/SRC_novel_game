@@ -4,14 +4,14 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 問題です！メロンの生産量日本一の県は？！[p]
 
 #&f.player_name
 北海道！！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ぶぶー！正解は茨城県です！[p]
 
 #&f.player_name
@@ -23,18 +23,18 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ねぇねぇ、何してるの？！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 雑学クイズです！結果は私の圧勝でしたけどね！あはは！[p]
 
 #&f.player_name
 うぐぐ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 へ～！面白そう！[p]
 
 #
@@ -48,51 +48,51 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 わかった！クイズは得意なんだよ！[p]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 ふふふ、それはどうですかねぇ...！[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 問題です！しめじの生産量日本一の県は？！[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 長野県！[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 なっ、やるじゃないですか...！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 えへへ～！そんなの朝飯前だよ！[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 じゃ、じゃあ... スロバキアの首都は？！[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ブラチスラバ！[p]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#スカウト
+#scout
 ぐぬぬ... p-キシレンの化学式は？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 C6H4(CH3)2！！[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 [emb exp="f.player_name"]さんの右腕のほくろの数は？！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 ６つ！[p]
 
 #&f.player_name
@@ -103,7 +103,7 @@ C6H4(CH3)2！！[p]
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 いいですよ？何回やっても結果は同じですけどね？！[p]
 
 #&f.player_name
@@ -113,41 +113,41 @@ C6H4(CH3)2！！[p]
 ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 長野県！[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 なっ！めもりさん、やるじゃないですか...！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 えへへ～！これぐらい朝飯前だよ！[p]
 
 [chara_mod name=scout face=perplexed time="1000" ]
-#スカウト
+#scout
 じゃ、じゃあ... スロバキアの首都は？！[p]
 
 #&f.player_name
 ...[p]
 
 [chara_mod name=memori face=normal time="1000" ]
-#めもり
+#memori
 ブラチスラバ！[p]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 ぐぬぬ... p-キシレンの化学式は？！[p]
 
 #&f.player_name
 めもり！！[p]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#めもり
+#memori
 C6H4(CH3)2！！[p]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#スカウト
+#scout
 なんでめもりさんが全部答えてるんですか！！[p]
 
 #

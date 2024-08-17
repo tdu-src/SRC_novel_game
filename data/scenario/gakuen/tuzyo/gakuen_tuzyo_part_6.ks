@@ -5,7 +5,7 @@
 [chara_show name="scout" width="450" height="600" ]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#スカウト
+#scout
 大事件です大事件です！[emb exp="f.player_name"]さん！[p]
 
 #&f.player_name
@@ -15,29 +15,29 @@
 中庭の自販機の前に連れてこられると、そこにはツクリが立っていた...[p]
 
 [chara_mod name=tsukuri face=surprise time="1000" ]
-#ツクリ
+#tsukuri
 あ、[emb exp="f.player_name"]... これは大事件だよ...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 [emb exp="f.player_name"]さん、見てください！この、「すき焼きミルクシェイク」[p]
 
 #
 スカウトが指で示したそれは、自販機に並ぶ謎のドリンクだった...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 突如登場した、謎の缶ジュースです！一番の謎は、まったく味が想像できないところです！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 私が偶然見つけたんだ...これは味を確かめないと一生後悔する気がする...[p]
 
 #&f.player_name
 飲んでも一生後悔しそうだけど...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 さあ[emb exp="f.player_name"]さん！ここまで来たら運命共同体です！一緒に味を確かめましょう！[p]
 
 #&f.player_name
@@ -52,11 +52,11 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#スカウト
+#scout
 流石ですね！[emb exp="f.player_name"]さん！[p]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
-#ツクリ
+#tsukuri
 そう言ってくれるってわかってたよ... さあ、一緒に確かめよう...！[p]
 
 #
@@ -73,11 +73,11 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 口に入れた瞬間、なんとも形容しがたい甘みと塩味が口の中に広がった...[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 これは...強烈すぎる...[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 でも...飲んだからには飲み切るしかありません...！この困難をみんなで切り抜けましょう...！[p]
 
 #
@@ -88,41 +88,41 @@ tf.menbers_speak=f.player_name+"　スカウト　"+"ツクリ"
 [eval exp="f.scout-=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri-=f.gakuen_tuzyou_koukando"]
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 かぁ～～！！意気地なしですね！[emb exp="f.player_name"]さん！[p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 これを味わえないなんてきっと後悔するよ...[p]
 
 #&f.player_name
 したくないんだけど...[p]
 
 [chara_mod name=scout face=normal time="1000" ]
-#スカウト
+#scout
 もう[emb exp="f.player_name"]さんなんてほっときましょう！いきますよ、ツクリさん![p]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#ツクリ
+#tsukuri
 せーのっ！[p]
 
 #
 スカウトとツクリは購入した謎のドリンクを一気に飲んだ！[p]
 
 [chara_mod name=tsukuri face=surprise time="1000" ]
-#ツクリ
+#tsukuri
 ゴホッッ！！！！[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 これは...強烈すぎる...[p]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#スカウト
+#scout
 ひ、ひどいです... [emb exp="f.player_name"]さん...私たちの哀れな姿を楽しむために、私たちのことを見捨てたんですね...[p]
 
 [chara_mod name=tsukuri face=perplexed time="1000" ]
-#ツクリ
+#tsukuri
 恨むよ...[emb exp="f.player_name"]...[p]
 
 #&f.player_name
