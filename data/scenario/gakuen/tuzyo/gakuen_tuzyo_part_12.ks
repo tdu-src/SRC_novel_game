@@ -3,58 +3,58 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[p]
+廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[pse]
 
 [chara_show name="scout" time="1000" width="450" height="600" ]
 
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-[emb exp="f.player_name"]さん！！私と勝負です！！[p]
+#スカウト
+[emb exp="f.player_name"]さん！！私と勝負です！！[pse]
 
 #&f.player_name
-なんの勝負？[p]
+なんの勝負？[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-そんなの、今日発売された「ダウンタウンファイター６」[p]
+#スカウト
+そんなの、今日発売された「ダウンタウンファイター６」[pse]
 
 #
-どうやら超有名格闘ゲームの新作が今日発売されたらしいが...[p]
+どうやら超有名格闘ゲームの新作が今日発売されたらしいが...[pse]
 
 #&f.player_name
-学校でゲームしちゃダメじゃない...？[p]
+学校でゲームしちゃダメじゃない...？[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-大丈夫です！！部室でやればバレないので！！[p]
+#スカウト
+大丈夫です！！部室でやればバレないので！！[pse]
 
 #&f.player_name
-何が大丈夫なんだろう...[p]
+何が大丈夫なんだろう...[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-さぁ、始めましょう！負けたらジュース奢りです！[p]
+#スカウト
+さぁ、始めましょう！負けたらジュース奢りです！[pse]
 
 #
-試合が始まるが、スカウトはなぜか手馴れている...発売日のゲームのはずだが...[p]
+試合が始まるが、スカウトはなぜか手馴れている...発売日のゲームのはずだが...[pse]
 
 #&f.player_name
-強い...！[p]
+強い...！[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-ふふふ、気づきました？私が強い理由、それはちょっとだけ体験版をかじったからです！[p]
+#スカウト
+ふふふ、気づきました？私が強い理由、それはちょっとだけ体験版をかじったからです！[pse]
 
 #&f.player_name
-ひ、卑怯者！[p]
+ひ、卑怯者！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-あはは！勝負の世界に卑怯も何もありませんよ！さぁ、私の勝ちです！[p]
+#スカウト
+あはは！勝負の世界に卑怯も何もありませんよ！さぁ、私の勝ちです！[pse]
 
 #
-このままでは負けてしまう... どうにかしなければ...[p]
+このままでは負けてしまう... どうにかしなければ...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="必殺技を使う！"   target="*gakuen_tuzyo_part_12_1" ]
@@ -64,33 +64,33 @@
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 #
-攻撃してきたスカウトに大して、無敵の必殺技を繰り返した。[p]
+攻撃してきたスカウトに大して、無敵の必殺技を繰り返した。[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-あ、やば！[p]
+#スカウト
+あ、やば！[pse]
 
 #&f.player_name
-行ける！[p]
+行ける！[pse]
 
 #
-必殺技で流れを変え、そのまま押し切った。[p]
+必殺技で流れを変え、そのまま押し切った。[pse]
 
 #&f.player_name
-勝った！！[p]
+勝った！！[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-そんなぁ！あんなのまぐれです！もう一回やりましょう！！[p]
+#スカウト
+そんなぁ！あんなのまぐれです！もう一回やりましょう！！[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-ぐぎぎぎぎ.....！！覚えといてください～～！！！！[p]
+#スカウト
+ぐぎぎぎぎ.....！！覚えといてください～～！！！！[pse]
 
 
 [chara_hide name="scout" width="450" height="600" ]
 #
-スカウトに勝ち、無事にジュースを勝ち取った...[p]
+スカウトに勝ち、無事にジュースを勝ち取った...[pse]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]
@@ -98,35 +98,35 @@
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 #
-ガードし続ける自分に対し、スカウトは誤って隙の大きな技を繰り出した。[p]
+ガードし続ける自分に対し、スカウトは誤って隙の大きな技を繰り出した。[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-あ、やば！[p]
+#スカウト
+あ、やば！[pse]
 
 #&f.player_name
-チャンス！[p]
+チャンス！[pse]
 
 #
-大きな隙を晒したスカウトに、ありったけの猛攻を叩き込む。[p]
+大きな隙を晒したスカウトに、ありったけの猛攻を叩き込む。[pse]
 
 #&f.player_name
-勝った！！[p]
+勝った！！[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-そんなぁ！今のは押してません！！コントローラーが勝手に動いたんですぅ！もう一回やりましょう！！[p]
+#スカウト
+そんなぁ！今のは押してません！！コントローラーが勝手に動いたんですぅ！もう一回やりましょう！！[pse]
 
 #&f.player_name
-とりあえず、こっちの勝ちってことでいい？[p]
+とりあえず、こっちの勝ちってことでいい？[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-ぐぎぎぎぎ...！！覚えといてください～～！！！！[p]
+#スカウト
+ぐぎぎぎぎ...！！覚えといてください～～！！！！[pse]
 
 
 [chara_hide name="scout" width="450" height="600" ]
 #
-スカウトに勝ち、無事にジュースを勝ち取った...[p]
+スカウトに勝ち、無事にジュースを勝ち取った...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

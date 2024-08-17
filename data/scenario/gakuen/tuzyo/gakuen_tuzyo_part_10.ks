@@ -6,33 +6,33 @@
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face="angry" time="1000" ]
-#memori
-ちーがーうー！絶対この方がいいって！！[p]
+#めもり
+ちーがーうー！絶対この方がいいって！！[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#tsukuri
-いやいや、さすがにこれは譲れないよ。[p]
+#ツクリ
+いやいや、さすがにこれは譲れないよ。[pse]
 
 #
-何やら、めもりとツクリが揉めている...[p]
+何やら、めもりとツクリが揉めている...[pse]
 
 #&f.player_name
-どうしたの？[p]
+どうしたの？[pse]
 
 [chara_mod name=memori face="angry" time="1000" ]
-#memori
-あっ、[emb exp="f.player_name"]！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[p]
+#めもり
+あっ、[emb exp="f.player_name"]！今委員会のポスターのデザインを決めてるんだけど、よくツクリがわかんないことばっかり言うの！！[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#tsukuri
-デザインには守らなくちゃいけないルールがあるんだって言ってるだけだよ。[p]
+#ツクリ
+デザインには守らなくちゃいけないルールがあるんだって言ってるだけだよ。[pse]
 
 [chara_mod name=memori face="angry" time="1000" ]
-#memori
-おっきい文字入れたほうが絶対いいに決まってるじゃん！[p]
+#めもり
+おっきい文字入れたほうが絶対いいに決まってるじゃん！[pse]
 
 #
-このままでは収拾がつかなさそうだ...どうしたものか...[p]
+このままでは収拾がつかなさそうだ...どうしたものか...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="妥協案を出す"   target="*gakuen_tuzyo_part_10_1" ]
@@ -40,40 +40,40 @@
 [s]
 *gakuen_tuzyo_part_10_1
 #&f.player_name
-二人のいいところを入れてみたら？[p]
+二人のいいところを入れてみたら？[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#tsukuri
-...そうだね、めもりの言ってたことも一理あるし。[p]
+#ツクリ
+...そうだね、めもりの言ってたことも一理あるし。[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-おたがいのいいところを見つけてみるのがいいかも！[p]
+#めもり
+おたがいのいいところを見つけてみるのがいいかも！[pse]
 
 #
-二人の良い点を探しあい、それを参考に最高のポスターを完成させることが出来た[p]     
+二人の良い点を探しあい、それを参考に最高のポスターを完成させることが出来た[pse]     
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_10_2
 #
-二人のポスターを見て、自分なりのポスターをさっとデザインして見せた...[p]
+二人のポスターを見て、自分なりのポスターをさっとデザインして見せた...[pse]
 
 #&f.player_name
-こんなのはどう？[p]
+こんなのはどう？[pse]
 
 [chara_mod name=memori face=weariness time="1000" ]
-#memori
-...なんか違う。[p]
+#めもり
+...なんか違う。[pse]
 
 #&f.player_name
-えっ[p]
+えっ[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
-#tsukuri
-うん、ちょっと悪いとこが目立つかもね。例えばここは...[p]
+#ツクリ
+うん、ちょっと悪いとこが目立つかもね。例えばここは...[pse]
 
 #
-自分のイマイチなポスターを見たツクリとめもりは、それをヒントにポスターを改善できたのだった...[p]
+自分のイマイチなポスターを見たツクリとめもりは、それをヒントにポスターを改善できたのだった...[pse]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]

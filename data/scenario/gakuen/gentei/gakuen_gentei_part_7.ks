@@ -9,134 +9,134 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-さっそく勉強会を始めるよ！[p]
+#めもり
+さっそく勉強会を始めるよ！[pse]
 
 #&f.player_name
-おー！[p]
+おー！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-おー。[p]
+#ワカツキ
+おー。[pse]
 
 #
-今回の勉強テーマは理科だ。各々の苦手なところを勉強し始めていた。[p]
+今回の勉強テーマは理科だ。各々の苦手なところを勉強し始めていた。[pse]
 
 #&f.player_name
-うん...全然わからない...[p]
+うん...全然わからない...[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#memori
-もうわかんないの？！これ基礎中の基礎じゃん！[p]
+#めもり
+もうわかんないの？！これ基礎中の基礎じゃん！[pse]
 
 #&f.player_name
-おっしゃる通りです...[p]
+おっしゃる通りです...[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-私もやる気なくなってきたな... 暗記だけは嫌いなんだよね。[p]
+#ワカツキ
+私もやる気なくなってきたな... 暗記だけは嫌いなんだよね。[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
-#memori
-えー？！やらなきゃ覚えられないよ！[p]
+#めもり
+えー？！やらなきゃ覚えられないよ！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-いや、わかってはいるけど...[p]
+#ワカツキ
+いや、わかってはいるけど...[pse]
 
 [chara_mod name=memori face=angry time="1000" ]
-#memori
-もう、二人ともダメダメじゃん！これはもうスパルタで行くしかないね！[p]
+#めもり
+もう、二人ともダメダメじゃん！これはもうスパルタで行くしかないね！[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#wakastuki
-えっ、スパルタって...[p]
+#ワカツキ
+えっ、スパルタって...[pse]
 
 #
-そう言うと、めもりはリュックからロボットを取り出した！[p]
+そう言うと、めもりはリュックからロボットを取り出した！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-じゃじゃーん！徹底指導スパルタン V！[p]
+#めもり
+じゃじゃーん！徹底指導スパルタン V！[pse]
 
 #&f.player_name
-スパルタン V ?[p]
+スパルタン V ?[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-そう！これは設定した目標を達成する能力が付くまでスパルタ指導し続けてくれるロボットだよ！[p]
+#めもり
+そう！これは設定した目標を達成する能力が付くまでスパルタ指導し続けてくれるロボットだよ！[pse]
 
 #&f.player_name
-設定した目標って...？[p]
+設定した目標って...？[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-そんなの、物理と化学どっちも１００点に決まってるじゃん！[p]
+#めもり
+そんなの、物理と化学どっちも１００点に決まってるじゃん！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-１００点？！そんなの絶対無理...！[p]
+#ワカツキ
+１００点？！そんなの絶対無理...！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-無理じゃないよ！努力すれば、絶対できる！！[p]
+#めもり
+無理じゃないよ！努力すれば、絶対できる！！[pse]
 
 #
-まずい、めもりが熱血教師みたいなことを言っている... 早くここから逃げなければ...[p]
+まずい、めもりが熱血教師みたいなことを言っている... 早くここから逃げなければ...[pse]
 
 #&f.player_name
-そういや、用事があったから先に帰ろうかな...[p]
+そういや、用事があったから先に帰ろうかな...[pse]
 
 #
-自分がそう言って帰ろうとした瞬間、スパルタン V の腕からハリセンのようなものが出てきた！[p]
+自分がそう言って帰ろうとした瞬間、スパルタン V の腕からハリセンのようなものが出てきた！[pse]
 
 #スパルタンV
-指導！！[p]
+指導！！[pse]
 
 #
-（バチーン！）[p]
+（バチーン！）[pse]
 
 #&f.player_name
-あ痛っ！[p]
+あ痛っ！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-ちなみに、逃げようとしたらお仕置きが待ってるから！[p]
+#めもり
+ちなみに、逃げようとしたらお仕置きが待ってるから！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-お、鬼だ...[p]
+#ワカツキ
+お、鬼だ...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-あっ！もうこんな時間！今日はここまでだね！[p]
+#めもり
+あっ！もうこんな時間！今日はここまでだね！[pse]
 
 #
-結局、スパルタ指導は夕方まで続き、気づけば下校時間になっていた...[p]
+結局、スパルタ指導は夕方まで続き、気づけば下校時間になっていた...[pse]
 
 #&f.player_name
-やっと解放された...[p]
+やっと解放された...[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-うぅ、もう勉強なんてこりごりだよ...[p]
+#ワカツキ
+うぅ、もう勉強なんてこりごりだよ...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-じゃあ続きはまた明日ね！！[p]
+#めもり
+じゃあ続きはまた明日ね！！[pse]
 
 #&f.player_name
-...明日...？[p]
+...明日...？[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-当たり前じゃん！テスト前日まで毎日やるよ！[p]
+#めもり
+当たり前じゃん！テスト前日まで毎日やるよ！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-だ、誰か助けて...[p]
+#ワカツキ
+だ、誰か助けて...[pse]
 
 #
-スパルタ指導の甲斐あって、二人は無事物理と化学で１００点を取ることが出来たが、二人の心には消えないトラウマが刻まれた...[p]
+スパルタ指導の甲斐あって、二人は無事物理と化学で１００点を取ることが出来たが、二人の心には消えないトラウマが刻まれた...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

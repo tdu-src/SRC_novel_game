@@ -7,121 +7,121 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 #
-夏休みが終わる前日、思い出作りとしてワカツキとスカウトの三人で海を見に来ていた。[p]
+夏休みが終わる前日、思い出作りとしてワカツキとスカウトの三人で海を見に来ていた。[pse]
 
 [chara_show name="scout" width="450" height="600" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-いや～、浜辺を散歩するのって気持ちいいですね！[p]
+#スカウト
+いや～、浜辺を散歩するのって気持ちいいですね！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-ほら二人とも！少し遊んでいきますよ！[p]
+#スカウト
+ほら二人とも！少し遊んでいきますよ！[pse]
 
 #&f.player_name
-お～！[p]
+お～！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-お～[p]
+#ワカツキ
+お～[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-ってワカツキさん！何スマホ見てるんですか？！[p]
+#スカウト
+ってワカツキさん！何スマホ見てるんですか？！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-何って、ゲームの夏イベの周回だけど。[p]
+#ワカツキ
+何って、ゲームの夏イベの周回だけど。[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-海に来てまでゲームしてる人いませんよ！[p]
+#スカウト
+海に来てまでゲームしてる人いませんよ！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-私がいるよ？[p]
+#ワカツキ
+私がいるよ？[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#wakastuki
-そういう話じゃないです！[p]
+#ワカツキ
+そういう話じゃないです！[pse]
 
 #
-なんやかんや言い合っているが、二人はとても楽しそうに遊んでいる…[p]
+なんやかんや言い合っているが、二人はとても楽しそうに遊んでいる…[pse]
 
 #&f.player_name
-そういえば、もうすぐ夏休みが終わっちゃうね。[p]
+そういえば、もうすぐ夏休みが終わっちゃうね。[pse]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#wakastuki
-うわ…、気分下がること言わないでよ。(主人公)…[p]
+#ワカツキ
+うわ…、気分下がること言わないでよ。(主人公)…[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-そうですよ(主人公)さん！先のことなんて考えてもいいことないです！[p]
+#スカウト
+そうですよ(主人公)さん！先のことなんて考えてもいいことないです！[pse]
 
 #&f.player_name
-ご、ごめん…[p]
+ご、ごめん…[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-でも、夕暮れの海を眺めてると、感慨深くなっちゃうのはわかります！[p]
+#スカウト
+でも、夕暮れの海を眺めてると、感慨深くなっちゃうのはわかります！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
-#wakastuki
-まぁ、今年の夏は皆で遊びに行ったりして、楽しかったね。[p]
+#ワカツキ
+まぁ、今年の夏は皆で遊びに行ったりして、楽しかったね。[pse]
 
 #&f.player_name
-そうだね～…。[p]
+そうだね～…。[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-いっぱい楽しい思い出作れたし、きっと憂鬱な学校も楽しめますよ！[p]
+#スカウト
+いっぱい楽しい思い出作れたし、きっと憂鬱な学校も楽しめますよ！[pse]
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
-#wakastuki
-そうはいっても私は憂鬱なままだけどな…。 数学の宿題もちょっと残ってるし…[p]
+#ワカツキ
+そうはいっても私は憂鬱なままだけどな…。 数学の宿題もちょっと残ってるし…[pse]
 
 [chara_mod name=scout face=perplexed time="1000" ]
-#scout
-え、数学の宿題？[p]
+#スカウト
+え、数学の宿題？[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-…。[p]
+#スカウト
+…。[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-あっ！！！！[p]
+#スカウト
+あっ！！！！[pse]
 
 #&f.player_name
-ど、どうしたの？[p]
+ど、どうしたの？[pse]
 
 #
-突然声を上げたスカウトは、信じられないほど青ざめた表情をしている…！[p]
+突然声を上げたスカウトは、信じられないほど青ざめた表情をしている…！[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-私…数学の宿題忘れてました！！！！！！[p]
+#スカウト
+私…数学の宿題忘れてました！！！！！！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-えっ… あれって一日で終わる量じゃないような…[p]
+#ワカツキ
+えっ… あれって一日で終わる量じゃないような…[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-どどどどうしましょう？！出せなかったらあの厳しい数学の先生に、めちゃくちゃ叱られちゃいます！！！[p]
+#スカウト
+どどどどうしましょう？！出せなかったらあの厳しい数学の先生に、めちゃくちゃ叱られちゃいます！！！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-まぁ… もう潔く諦めた方が…[p]
+#ワカツキ
+まぁ… もう潔く諦めた方が…[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
-#wakastuki
-うわ～ん！！主人公さんさん、助けて下さ～い！！！！！[p]
+#ワカツキ
+うわ～ん！！主人公さんさん、助けて下さ～い！！！！！[pse]
 
 #
-結局、帰ってスカウトの宿題を手伝うことになり、波乱万丈な夏の終わりになった…[p]
+結局、帰ってスカウトの宿題を手伝うことになり、波乱万丈な夏の終わりになった…[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]

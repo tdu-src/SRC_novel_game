@@ -113,7 +113,14 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;めもり焦りの追加
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
+
+[macro name="pse"]
+[p]
+[playse storage="../bgm/text_click_se.mp3" ]
+[endmacro]
+
 [chara_config  talk_focus="brightness" ]
+
 
 
 [jump storage="name_entry.ks"]

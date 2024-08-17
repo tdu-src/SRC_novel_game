@@ -2,60 +2,60 @@
 [ptext layer="1" x="0" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
 
 #
-放課後、急ぎで家に帰らなければならない用事が出来た...[p]
+放課後、急ぎで家に帰らなければならない用事が出来た...[pse]
 
 #&f.player_name
-でも、今から走ってもなぁ...[p]
+でも、今から走ってもなぁ...[pse]
 
 #
-しかし、この学校にはピンチになったときに助けを呼べる魔法の言葉があるのだ...[p]
+しかし、この学校にはピンチになったときに助けを呼べる魔法の言葉があるのだ...[pse]
 
 #&f.player_name
-助けて！めもえもん～！[p]
+助けて！めもえもん～！[pse]
 
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-は～い！のこと呼んだ～！？[p]
+#めもり
+は～い！のこと呼んだ～！？[pse]
 
 #&f.player_name
-めもり！[p]
+めもり！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-あっ、[emb exp="f.player_name"]じゃん！何か困ってることがあるの？[p]
+#めもり
+あっ、[emb exp="f.player_name"]じゃん！何か困ってることがあるの？[pse]
 
 #&f.player_name
-実はかくかくしかじかで...[p]
+実はかくかくしかじかで...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-ふんふん、なるほどね！そういうキミにぴったりな発明品があるよ！[p]
+#めもり
+ふんふん、なるほどね！そういうキミにぴったりな発明品があるよ！[pse]
 
 #
-そう言うと、めもりは荷物でいっぱいなリュックの中を漁り始めた... 明らかにリュックに入らない量の物が出てきている...[p]
+そう言うと、めもりは荷物でいっぱいなリュックの中を漁り始めた... 明らかにリュックに入らない量の物が出てきている...[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-あった！てってれ～！らくらく登下校くん改！[p]
+#めもり
+あった！てってれ～！らくらく登下校くん改！[pse]
 
 #&f.player_name
-らくらく登下校くん改？[p]
+らくらく登下校くん改？[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-そう！これは自動運転付きの靴でね、この靴を履いて目的地を言うと、そこまで一瞬で連れて行ってくれるの！[p]
+#めもり
+そう！これは自動運転付きの靴でね、この靴を履いて目的地を言うと、そこまで一瞬で連れて行ってくれるの！[pse]
 
 #&f.player_name
-なんだか怖いんだけど...[p]
+なんだか怖いんだけど...[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-大丈夫だよ！事故はほとんど起きてないから使ってみてよ！[p]
+#めもり
+大丈夫だよ！事故はほとんど起きてないから使ってみてよ！[pse]
 
 #
-聞けば聞くほど不安になってきた... どうしよう...[p]
+聞けば聞くほど不安になってきた... どうしよう...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="使ってみる！"   target="*gakuen_tuzyo_part_17_1" ]
@@ -65,54 +65,54 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-そうこなくっちゃ！靴を履いて、目的地を言ってみて！[p]
+#めもり
+そうこなくっちゃ！靴を履いて、目的地を言ってみて！[pse]
 
 #&f.player_name
-じゃあ... 家まで連れて行って！[p]
+じゃあ... 家まで連れて行って！[pse]
 
 #
-めもりに促され、目的地を言うと...[p]
+めもりに促され、目的地を言うと...[pse]
 
 #&f.player_name
-？！[p]
+？！[pse]
 
 #
-その靴は突如エンジンのような音を立て、宙に浮きだした！[p]
+その靴は突如エンジンのような音を立て、宙に浮きだした！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-それじゃあ、いってらっしゃい！[p]
+#めもり
+それじゃあ、いってらっしゃい！[pse]
 
 #&f.player_name
-うわああああ！！[p]
+うわああああ！！[pse]
 
 
 [chara_hide name="memori" width="450" height="600" ]
 #&f.player_name
-着いた... けど死ぬかと思った...[p]
+着いた... けど死ぬかと思った...[pse]
 
 #
-安全性に関しては最悪だが、めもりの技術力を改めて実感した...[p]
+安全性に関しては最悪だが、めもりの技術力を改めて実感した...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_17_2
 [chara_mod name=memori face=surprise time="1000" ]
-#memori
-え～！？安全性をテストできるいい機会だったのに！[p]
+#めもり
+え～！？安全性をテストできるいい機会だったのに！[pse]
 
 #&f.player_name
-安全性...？[p]
+安全性...？[pse]
 
 [chara_mod name=memori face=impatience time="1000" ]
-#memori
-あっ... でっ、でも大丈夫だよ！たまに電柱にぶつかるぐらいだから！[p]
+#めもり
+あっ... でっ、でも大丈夫だよ！たまに電柱にぶつかるぐらいだから！[pse]
 
 #&f.player_name
-絶対にダメじゃん！！[p]
+絶対にダメじゃん！！[pse]
 
 #
-結局走って帰ることになったが、自分の命は守ることが出来た...[p]
+結局走って帰ることになったが、自分の命は守ることが出来た...[pse]
 
 
 [jump storage="gakuen/gakuen_end_point.ks"]

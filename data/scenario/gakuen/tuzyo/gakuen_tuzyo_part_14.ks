@@ -4,41 +4,41 @@
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-問題です！メロンの生産量日本一の県は？！[p]
+#スカウト
+問題です！メロンの生産量日本一の県は？！[pse]
 
 #&f.player_name
-北海道！！[p]
+北海道！！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-ぶぶー！正解は茨城県です！[p]
+#スカウト
+ぶぶー！正解は茨城県です！[pse]
 
 #&f.player_name
-また負けた...[p]
+また負けた...[pse]
 
 #
-休み時間、スカウトと雑学クイズをしていたが、結果は完敗だ...[p]
+休み時間、スカウトと雑学クイズをしていたが、結果は完敗だ...[pse]
 
 
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-ねぇねぇ、何してるの？！[p]
+#めもり
+ねぇねぇ、何してるの？！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-雑学クイズです！結果は私の圧勝でしたけどね！あはは！[p]
+#スカウト
+雑学クイズです！結果は私の圧勝でしたけどね！あはは！[pse]
 
 #&f.player_name
-うぐぐ...[p]
+うぐぐ...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-へ～！面白そう！[p]
+#めもり
+へ～！面白そう！[pse]
 
 #
-スカウトは完全に調子に乗っている... 何とか一矢報いる方法はないだろうか...[p]
+スカウトは完全に調子に乗っている... 何とか一矢報いる方法はないだろうか...[pse]
 
 
 [glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="150"  text="めもり、任せた！"   target="*gakuen_tuzyo_part_14_1" ]
@@ -48,109 +48,109 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-わかった！クイズは得意なんだよ！[p]
+#めもり
+わかった！クイズは得意なんだよ！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-ふふふ、それはどうですかねぇ...！[p]
+#スカウト
+ふふふ、それはどうですかねぇ...！[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-問題です！しめじの生産量日本一の県は？！[p]
+#スカウト
+問題です！しめじの生産量日本一の県は？！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-長野県！[p]
+#めもり
+長野県！[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-なっ、やるじゃないですか...！[p]
+#スカウト
+なっ、やるじゃないですか...！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-えへへ～！そんなの朝飯前だよ！[p]
+#めもり
+えへへ～！そんなの朝飯前だよ！[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-じゃ、じゃあ... スロバキアの首都は？！[p]
+#スカウト
+じゃ、じゃあ... スロバキアの首都は？！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-ブラチスラバ！[p]
+#めもり
+ブラチスラバ！[pse]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#scout
-ぐぬぬ... p-キシレンの化学式は？！[p]
+#スカウト
+ぐぬぬ... p-キシレンの化学式は？！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-C6H4(CH3)2！！[p]
+#めもり
+C6H4(CH3)2！！[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
-#scout
-[emb exp="f.player_name"]さんの右腕のほくろの数は？！[p]
+#スカウト
+[emb exp="f.player_name"]さんの右腕のほくろの数は？！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-６つ！[p]
+#めもり
+６つ！[pse]
 
 #&f.player_name
-何で知ってるの？！[p]
+何で知ってるの？！[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
 *gakuen_tuzyo_part_14_2
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 [chara_mod name=scout face=smaile time="1000" ]
-#scout
-いいですよ？何回やっても結果は同じですけどね？！[p]
+#スカウト
+いいですよ？何回やっても結果は同じですけどね？！[pse]
 
 #&f.player_name
-どんと来い！[p]
+どんと来い！[pse]
 
 #&f.player_name
-...[p]
+...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-長野県！[p]
+#めもり
+長野県！[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
-#scout
-なっ！めもりさん、やるじゃないですか...！[p]
+#スカウト
+なっ！めもりさん、やるじゃないですか...！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-えへへ～！これぐらい朝飯前だよ！[p]
+#めもり
+えへへ～！これぐらい朝飯前だよ！[pse]
 
 [chara_mod name=scout face=perplexed time="1000" ]
-#scout
-じゃ、じゃあ... スロバキアの首都は？！[p]
+#スカウト
+じゃ、じゃあ... スロバキアの首都は？！[pse]
 
 #&f.player_name
-...[p]
+...[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
-#memori
-ブラチスラバ！[p]
+#めもり
+ブラチスラバ！[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
-#scout
-ぐぬぬ... p-キシレンの化学式は？！[p]
+#スカウト
+ぐぬぬ... p-キシレンの化学式は？！[pse]
 
 #&f.player_name
-めもり！！[p]
+めもり！！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
-#memori
-C6H4(CH3)2！！[p]
+#めもり
+C6H4(CH3)2！！[pse]
 
 [chara_mod name=scout face="half_sad" time="1000" ]
-#scout
-なんでめもりさんが全部答えてるんですか！！[p]
+#スカウト
+なんでめもりさんが全部答えてるんですか！！[pse]
 
 #
-クイズを通して、めもりの雑学知識の多さを知ることになった...[p]
+クイズを通して、めもりの雑学知識の多さを知ることになった...[pse]
 
 [jump storage="gakuen/gakuen_end_point.ks"]
