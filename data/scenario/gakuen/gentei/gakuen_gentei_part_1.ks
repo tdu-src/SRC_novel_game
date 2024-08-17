@@ -7,7 +7,6 @@
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
-
 #
 １年前に入学した「ソフケン学園」様々な出会い、発見があり、これ
 までの一年は本当にあっという間だった...[pse]

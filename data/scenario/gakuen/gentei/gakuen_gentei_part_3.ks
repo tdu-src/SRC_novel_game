@@ -7,7 +7,7 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 
-
+#
 今日は近くの神社で、夏祭りが行われていた！[pse]
 
 

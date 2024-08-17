@@ -4,6 +4,7 @@
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
+
 #
 今日は毎年恒例の体育祭の日だ！[pse]
 

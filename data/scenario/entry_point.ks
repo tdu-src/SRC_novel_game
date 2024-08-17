@@ -101,7 +101,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
 
 ;memori
-[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
+[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="めもり"  ]
 
 [chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
 [chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
@@ -113,10 +113,14 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;めもり焦りの追加
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
+
 [macro name="pse"]
 [p]
 [playse storage="../bgm/text_click_se.mp3" ]
 [endmacro]
+
+[chara_config  talk_focus="brightness" ]
+
 
 
 [jump storage="name_entry.ks"]
