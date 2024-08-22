@@ -24,7 +24,7 @@ f.houkago_now_place=0;
 f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/game_center_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png"]
 f.houkago_affter_place_list=["../fgimage/houkago_selector_image/background/game_center_backgroundaffter.png","../fgimage/houkago_selector_image/background/park_backgroundaffter.png","../fgimage/houkago_selector_image/background/cafe_backgroundaffter.png","../fgimage/houkago_selector_image/background/artmusum_backgroundaffter.png"]
 
-f.houkago_select_upparameter_listx=[350,930,730,530]
+f.houkago_select_upparameter_listx=[340,930,730,530]
 [endscript]
 
 *start_sab
@@ -77,7 +77,7 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 ;パラメータの枠組み
 
 ;up画面の表示
-[image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="620" width="41" height="50"  time="0" ]
+[image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="630"   time="0" ]
 
 ;主人公パラメータ
 
