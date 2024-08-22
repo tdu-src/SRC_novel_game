@@ -54,10 +54,10 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
 ;主人公パラメータ
-[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
-[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
-[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
+[ptext layer="2" name="align_ct_h" x="-330" y="620" size="30" text="&f.game_center"]
+[ptext layer="2" name="align_ct_h" x="-150" y="620" size="30" text="&f.park"]
+[ptext layer="2" name="align_ct_h" x="50" y="620" size="30" text="&f.cafe"]
+[ptext layer="2" name="align_ct_h" x="250" y="620" size="30" text="&f.art_museum"]
 
 
 *reloadselect
@@ -77,7 +77,7 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 ;パラメータの枠組み
 
 ;up画面の表示
-[image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="630"   time="0" ]
+[image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="625"   time="0" ]
 
 ;主人公パラメータ
 

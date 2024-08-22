@@ -33,10 +33,10 @@
 [image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
 
 ;好感度パラメータの宣言
-[ptext layer="2" x="860" y="60" size="60" text="&f.scout"]
-[ptext layer="2" x="860" y="195" size="60" text="&f.tsukuri"]
-[ptext layer="2" x="860" y="330" size="60" text="&f.wakatsuki"]
-[ptext layer="2" x="860" y="465" size="60" text="&f.memori"]
+[ptext name="align_ct_h" layer="2" x="250" y="60" size="60" text="&f.scout"]
+[ptext name="align_ct_h" layer="2" x="250" y="195" size="60" text="&f.tsukuri"]
+[ptext name="align_ct_h" layer="2" x="250" y="330" size="60" text="&f.wakatsuki"]
+[ptext name="align_ct_h" layer="2" x="250" y="465" size="60" text="&f.memori"]
 
 
 ;
