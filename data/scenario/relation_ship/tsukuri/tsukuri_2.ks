@@ -12,7 +12,7 @@
 [chara_show name="tsukuri" time="1000" width="450" height="600" ]
 #
 美術室に入ると、ツクリは制作中の絵の前で立ち尽くしていた...[s]
-*TimePassage
+*Timepassage
 [playse storage="../bgm/text_click_se.mp3" ]
 
 
@@ -46,7 +46,7 @@
 [isTimePassage2]
 #&f.player_name
 落ち着いた？[s]
-*TimePassage2
+*Timepassage2
 [playse storage="../bgm/text_click_se.mp3" ]
 
 

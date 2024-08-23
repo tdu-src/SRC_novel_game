@@ -109,7 +109,7 @@
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
 はぁ…やっと終わった…[s]
-*TimePassage2
+*Timepassage2
 [playse storage="../bgm/text_click_se.mp3" ]
 
 

@@ -36,7 +36,7 @@
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
 うわ～ん！！また負けました！[s]
-*TimePassage
+*Timepassage
 [playse storage="../bgm/text_click_se.mp3" ]
 
 
@@ -79,7 +79,7 @@
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 ふ～。いやぁ、いっぱい遊んじゃいましたね！[s]
-*TimePassage2
+*Timepassage2
 [playse storage="../bgm/text_click_se.mp3" ]
 
 

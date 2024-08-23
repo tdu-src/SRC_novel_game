@@ -66,7 +66,7 @@
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #
 二人で公園のベンチに座って少し時間が経つと、スカウトはぽつりぽつりと話し始めた。[s]
-*TimePassage
+*Timepassage
 [playse storage="../bgm/text_click_se.mp3" ]
 
 

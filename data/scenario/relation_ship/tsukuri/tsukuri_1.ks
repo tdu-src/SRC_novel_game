@@ -12,7 +12,7 @@
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
 ん～、ここはどうしようかな…[s]
-*TimePassage
+*Timepassage
 [playse storage="../bgm/text_click_se.mp3" ]
 
 
