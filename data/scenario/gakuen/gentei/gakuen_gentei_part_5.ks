@@ -93,12 +93,17 @@
 （時間経過カットイン）[pse]
 
 
+[isTimePassage]
 [chara_show name="scout" width="450" height="600" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-ふぅ、楽しかった。[pse]
+ふぅ、楽しかった。[s]
+*Timepassage
+
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=scout face="half_sad" time="1000" ]
 #スカウト
@@ -119,12 +124,20 @@
 #&f.player_name
 ごめん、自分もリタイアで！[pse]
 
+[chara_mod name=tsukuri face=normal time="1000" ]
+#ツクリ
+あ、行っちゃった。しょうがない、一人で回るかぁ...[pse]
 
+[isTimePassage2]
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face="half_sad" time="1000" ]
 
 #スカウト
-[emb exp="f.player_name"]さん、リタイアなんて意気地なしですね...[pse]
+[emb exp="f.player_name"]さん、リタイアなんて意気地なしですね...[s]
+*Timepassage2
+
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

@@ -22,11 +22,13 @@
 #ワカツキ
 私もやってる。スマホゲームなのに意外と本格派なんだよね。[pse]
 
-#&f.player_name
-やってみる！[pse]
 
+[isTimePassage2]
 #
-（時間経過）[pse]
+#&f.player_name
+やってみる！[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 右の敵倒した！[pse]

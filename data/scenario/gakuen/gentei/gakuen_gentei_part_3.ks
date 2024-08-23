@@ -8,8 +8,9 @@
 
 
 #
-今日は近くの神社で、夏祭りが行われていた！[pse]
-
+今日は近くの神社で、夏祭りが行われていた！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]
 
@@ -53,9 +54,13 @@
 #
 こうして、3 人で様々な屋台を回った…[pse]
 
+[isTimePassage]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-ふぅ～… 行きたいところ、全部回れたね！[pse]
+ふぅ～… 行きたいところ、全部回れたね！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
@@ -68,8 +73,12 @@
 #&f.player_name
 じゃあ、見やすい場所に移動しようか。[pse]
 
+[isTimePassage2]
 #
-(ドーン…)[pse]
+(ドーン…)[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ

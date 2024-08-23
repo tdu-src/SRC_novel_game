@@ -116,12 +116,15 @@
 #
 こちらの声援が届いたおかげで、ワカツキの表情から緊張が消えたみたいだ！[pse]
 
-
+[isTimePassage]
 [chara_show name="wakastuki" width="450" height="600" ]
-
 [chara_show name="scout" width="450" height="600" ]
 #
-レース後、顔を赤くしたワカツキがこちらに近づいてきた！[pse]
+レース後、顔を赤くしたワカツキがこちらに近づいてきた！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
+
 
 ;恥じ
 [chara_mod name=wakastuki face="normal" time="1000" ]
@@ -201,11 +204,14 @@
 #
 ワカツキは顔を真っ赤にし、こっちを見ようとしない... 完全に他人の振りをし始めた...！[pse]
 
-
+[isTimePassage2]
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-ワカツキさん、そんなに怒らなくても...[pse]
+ワカツキさん、そんなに怒らなくても...[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 その後帰ってきたワカツキに、こっぴどく叱られるはめになった...[pse]

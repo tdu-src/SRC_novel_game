@@ -89,10 +89,14 @@
 #&f.player_name
 うわああああ！！[pse]
 
-
-[chara_hide name="memori" width="450" height="600" ]
+[chara_hide name="memori" time="1000" ]
+[isTimePassage]
+[chara_mod name=scout face=smaile time="1000" ]
 #&f.player_name
-着いた... けど死ぬかと思った...[pse]
+着いた... けど死ぬかと思った...[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 安全性に関しては最悪だが、めもりの技術力を改めて実感した...[pse]

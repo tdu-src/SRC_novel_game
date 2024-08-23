@@ -25,9 +25,11 @@
 
 #
 購買に移った[pse]
-
+[isTimePassage]
 #
-（ざわざわ....）[pse]
+（ざわざわ....）[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #スカウト
 えぇっ？！無茶苦茶人がいますよ!！[pse]

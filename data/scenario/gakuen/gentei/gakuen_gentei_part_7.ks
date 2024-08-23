@@ -108,9 +108,12 @@
 #ワカツキ
 お、鬼だ...[pse]
 
+[isTimePassage]
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-あっ！もうこんな時間！今日はここまでだね！[pse]
+あっ！もうこんな時間！今日はここまでだね！[s]
+*Timepassage
+
 
 #
 結局、スパルタ指導は夕方まで続き、気づけば下校時間になっていた...[pse]
