@@ -174,7 +174,7 @@ if(tf.koryu_person=='memori'){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==1){
-        tf.koryu_person+='_'+wakatsuki_kouryu_key;
+        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else if(f.wakatsuki>=30&&f.wakatsuki_kouryu_key==0){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
