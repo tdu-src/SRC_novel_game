@@ -32,9 +32,13 @@
 #
 そう言うスカウトに連れられ、ゲームセンターに向かうことになった。[pse]
 
+[isTimePassage]
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-うわ～ん！！また負けました！[pse]
+うわ～ん！！また負けました！[s]
+*TimePassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 ゲームセンターでスカウトと対戦を始め、結果は１０勝８敗だった！[pse]
@@ -71,9 +75,14 @@
 #
 心底楽しそうなスカウトに手を引かれ、駅前のカフェに向かった。[pse]
 
+[isTimePassage2]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-ふ～。いやぁ、いっぱい遊んじゃいましたね！[pse]
+ふ～。いやぁ、いっぱい遊んじゃいましたね！[s]
+*TimePassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
+
 
 #&f.player_name
 そうだね。[pse]

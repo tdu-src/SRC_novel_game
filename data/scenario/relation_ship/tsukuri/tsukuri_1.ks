@@ -7,10 +7,14 @@
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
+[isTimePassage]
 [chara_show name="tsukuri" time="1000" width="450" height="600"  ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-ん～、ここはどうしようかな…[pse]
+ん～、ここはどうしようかな…[s]
+*TimePassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 ツクリ、調子はどう？[pse]
