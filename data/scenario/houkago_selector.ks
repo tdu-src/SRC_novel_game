@@ -98,9 +98,9 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 ;遭遇イベントの宣言
 [button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
 
+
 ;交流ボタンの作成
 [button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="50" storage="relation_ship_selector.ks" ]
-
 [s]
 
 ;場所画像の差し替え

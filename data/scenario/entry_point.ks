@@ -119,6 +119,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [playse storage="../bgm/text_click_se.mp3" ]
 [endmacro]
 
+
 ;キャラクターのハイド
 [chara_config  talk_focus="brightness" ]
 

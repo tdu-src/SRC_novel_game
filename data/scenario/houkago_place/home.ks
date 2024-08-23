@@ -7,8 +7,14 @@ f.art_museum+=f.nomrmal_houkagoevent;
 [if exp="f.art_museum_normal_flag=='true'"]
 [jump target="*myhome_shortpart"]
 [endif]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+
 #
-ここは公園です[pse]
+ここは公園です[s]
+
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 
 [iscript]
@@ -21,6 +27,12 @@ f.art_museum_normal_flag="true";
 ;---------------------------------------------------------
 *myhome_shortpart
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
+
 #
-ここは公園のショートパートです[pse]
+ここは公園のショートパートです[s]
+
+*Point_2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 [jump storage="houkago_place/houkago_end.ks"]

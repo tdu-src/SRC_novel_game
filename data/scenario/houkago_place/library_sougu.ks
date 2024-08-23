@@ -7,9 +7,14 @@ f.park+=f.special_houkagoevent;
 [if exp="f.park_special_flag=='true'"]
 [jump target="*librarysougu_shortpart"]
 [endif]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-放課後、新聞契約の特典でもらった優待券で、美術館に来ていた。[pse]
+放課後、新聞契約の特典でもらった優待券で、美術館に来ていた。[s]
+
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 （～ん … 自分には芸術的すぎる…。）[pse]
@@ -92,9 +97,14 @@ f.park_special_flag="true";
 ;以下からショートパート
 ;---------------------------------------------------------
 *librarysougu_shortpart
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ここは美術館の遭遇イベントのショートパートです[pse]
+ここは美術館の遭遇イベントのショートパートです[s]
+
+*Point_2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 
 [jump storage="houkago_place/houkago_end.ks"]

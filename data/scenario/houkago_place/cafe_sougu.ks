@@ -10,8 +10,14 @@ f.cafe+=f.special_houkagoevent;
 [jump target="*cafesougu_shortpart"]
 [endif]
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+
 #
-放課後、特にあてもなくふらふらと道を歩いていた。[pse]
+放課後、特にあてもなくふらふらと道を歩いていた。[s]
+
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 この通りは滅多に通らないから、何か新鮮だなぁ…[pse]
@@ -111,7 +117,12 @@ f.cafe_special_flag="true";
 ;---------------------------------------------------------
 *cafesougu_shortpart
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
+
 #
-ここは遭遇イベントショートパートのカフェです[pse]
+ここは遭遇イベントショートパートのカフェです[s]
+
+*Point_2
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [jump storage="houkago_place/houkago_end.ks"]

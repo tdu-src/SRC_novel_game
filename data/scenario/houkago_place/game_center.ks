@@ -8,8 +8,13 @@ f.game_center+=f.nomrmal_houkagoevent;
 [jump target="*gamesenter_shortpart"]
 [endif]
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+
 #
-ここはゲームセンターです[pse]
+ここはゲームセンターです[s]
+
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [iscript]
 f.gamesenter_normal_flag="true";
@@ -21,7 +26,13 @@ f.gamesenter_normal_flag="true";
 ;---------------------------------------------------------
 *gamesenter_shortpart
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
+
 #
-ここはゲームセンターのショートパートです[pse]
+ここはゲームセンターのショートパートです[s]
+
+*Point_2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [jump storage="houkago_place/houkago_end.ks"]
