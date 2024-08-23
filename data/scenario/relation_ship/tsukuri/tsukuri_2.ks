@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[pse]
+最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="tsukuri" time="1000" width="450" height="600" ]
 #

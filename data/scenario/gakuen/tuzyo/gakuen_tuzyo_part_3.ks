@@ -4,7 +4,9 @@
 [chara_show name="scout" width="450" height="600" ]
 
 #
-授業が終わった....やっと昼休みだ....[pse]
+授業が終わった....やっと昼休みだ....[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" ]
 [chara_show name="memori" width="450" height="600"  ]

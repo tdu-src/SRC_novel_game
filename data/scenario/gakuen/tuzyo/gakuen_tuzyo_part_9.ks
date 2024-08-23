@@ -2,7 +2,9 @@
 [ptext layer="1" x="0" y="0" size="40" text="リフレッシュのすすめ" name="align_ct_h"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 #
-今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[pse]
+今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 
 [chara_show name="wakastuki" width="450" height="600" ]

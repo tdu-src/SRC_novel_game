@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #&f.player_name
-お、お金がない...[pse]
+お、お金がない...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #
 限られたお小遣いでやりくりしていたが、ついに財布の底が尽きてしまった...[pse]

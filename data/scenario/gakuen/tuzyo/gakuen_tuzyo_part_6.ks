@@ -6,7 +6,9 @@
 
 [chara_mod name=scout face=surprise time="1000" ]
 #スカウト
-大事件です大事件です！[emb exp="f.player_name"]さん！[pse]
+大事件です大事件です！[emb exp="f.player_name"]さん！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 どうしたの？[pse]

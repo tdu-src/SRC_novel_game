@@ -9,8 +9,9 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 #
-元旦の朝、近くの神社に初詣に来た！[pse]
-
+元旦の朝、近くの神社に初詣に来た！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 

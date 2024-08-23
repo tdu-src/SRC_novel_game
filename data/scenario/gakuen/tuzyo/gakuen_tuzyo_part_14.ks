@@ -5,7 +5,9 @@
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-問題です！メロンの生産量日本一の県は？！[pse]
+問題です！メロンの生産量日本一の県は？！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 北海道！！[pse]

@@ -4,7 +4,9 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-放課後、町を歩いていると、駅前に立っているワカツキを見つけた。[pse]
+放課後、町を歩いていると、駅前に立っているワカツキを見つけた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ

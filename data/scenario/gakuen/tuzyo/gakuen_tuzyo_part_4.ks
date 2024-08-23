@@ -5,7 +5,9 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 
 #
-授業後、ツクリの創作活動のためにワカツキと一緒に資料写真を集めることになった！[pse]
+授業後、ツクリの創作活動のためにワカツキと一緒に資料写真を集めることになった！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #ワカツキ
 ツクリ、こんな感じでいいの？[pse]

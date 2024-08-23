@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[pse]
+廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" time="1000" width="450" height="600" ]
 

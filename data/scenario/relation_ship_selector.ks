@@ -234,6 +234,7 @@ if(tf.koryu_person=='memori'){
 
 [if exp="tf.koryu_person!='none'" ]
 [SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 [endif]
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 

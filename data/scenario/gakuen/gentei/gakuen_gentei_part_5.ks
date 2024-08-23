@@ -9,7 +9,9 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 #
-今日は学園祭の日！自分はツクリとスカウトと一緒に学校を回っていた[pse]
+今日は学園祭の日！自分はツクリとスカウトと一緒に学校を回っていた[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=scout face=surprise time="1000" ]
 #スカウト

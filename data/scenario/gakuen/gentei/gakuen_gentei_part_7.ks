@@ -10,8 +10,9 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-さっそく勉強会を始めるよ！[pse]
-
+さっそく勉強会を始めるよ！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 #&f.player_name
 おー！[pse]
 

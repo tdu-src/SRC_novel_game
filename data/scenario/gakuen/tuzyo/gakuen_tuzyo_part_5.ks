@@ -6,7 +6,9 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 
 #
-昼休み、ご飯を食べ終えてゆっくりしていると、ツクリが話しかけてきた。[pse]
+昼休み、ご飯を食べ終えてゆっくりしていると、ツクリが話しかけてきた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #ツクリ
 ねぇねぇ、昨日新しいスマホゲームが出たんだけど、いっしょにやらない？[pse]

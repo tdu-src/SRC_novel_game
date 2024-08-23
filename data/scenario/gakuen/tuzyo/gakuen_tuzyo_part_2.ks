@@ -2,7 +2,9 @@
 [ptext layer="1" x="0" y="0" size="40" text="教室の掃除" name="align_ct_h"]
 
 #&f.player_name
-さて、掃除を始めよう![pse]
+さて、掃除を始めよう![s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_show name="memori" width="450" height="600" ]

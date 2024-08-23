@@ -4,7 +4,9 @@
 
 [chara_show name="memori" width="450" height="600" ]
 #
-授業が終わった後、めもりが話しかけてきた。 [pse]
+授業が終わった後、めもりが話しかけてきた。 [s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり

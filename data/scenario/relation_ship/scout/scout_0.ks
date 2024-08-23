@@ -3,8 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-放課後、特に予定もなく道を歩いていると...[pse]
-
+放課後、特に予定もなく道を歩いていると...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]

@@ -98,4 +98,6 @@ if(tf.gakuen_now_turn==0){
 f.gakuen_turn+=1;
 [endscript]
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+
 [jump storage="&tf.gakuen_path" ]

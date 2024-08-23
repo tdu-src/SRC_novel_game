@@ -6,7 +6,9 @@
 
 
 #
-今日は毎年恒例の体育祭の日だ！[pse]
+今日は毎年恒例の体育祭の日だ！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 
 [chara_show name="scout" width="450" height="600" ]

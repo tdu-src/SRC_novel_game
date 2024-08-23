@@ -2,7 +2,9 @@
 [ptext layer="1" x="0" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
 
 #
-放課後、急ぎで家に帰らなければならない用事が出来た...[pse]
+放課後、急ぎで家に帰らなければならない用事が出来た...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 でも、今から走ってもなぁ...[pse]

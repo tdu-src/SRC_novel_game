@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[pse]
+今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="tsukuri"width="450" height="600"  time="1000" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
