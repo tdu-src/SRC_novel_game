@@ -135,5 +135,15 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [anim name="third_arrow" left="4000" time="4500"]
 [endmacro]
 
+;時間経過カットイン
+[macro name="isTimePassage"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage"]
+[endmacro]
+
+[macro name="isTimePassage2"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage2"]
+[endmacro]
 
 [jump storage="name_entry.ks"]
