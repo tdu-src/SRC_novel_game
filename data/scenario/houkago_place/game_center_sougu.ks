@@ -1,5 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
+[wait time=1000]
 [iscript]
 f.game_center+=f.special_houkagoevent;
 [endscript]

@@ -1,5 +1,7 @@
 *start
-
+[iscript]
+f.Relationship_selector_flag='true';
+[endscript]
 [cm  ]
 [bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
@@ -230,7 +232,9 @@ if(tf.koryu_person=='memori'){
 
 ;-----------------------------------------------------------------------------------------------------------------
 
-
+[if exp="tf.koryu_person!='none'" ]
+[SceneMove]
+[endif]
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 
 #

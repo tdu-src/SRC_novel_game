@@ -124,7 +124,6 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 
 ;画面遷移のマクロ
 [macro name="SceneMove"]
-[clearfix]
 [button name="first_arrow" graphic="../fgimage/items/screen_transition_item/yellow_arrow.png" x="-1500" y="0"]
 [anim name="first_arrow" left="2000" time="6000"]
 [wait time="500"]

@@ -1,6 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
-
+[wait time=1000]
 [iscript]
 //パラメータの増加
 f.cafe+=f.special_houkagoevent;

@@ -28,7 +28,10 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [endscript]
 
 *start_sab
-[cm  ]
+[if exp="f.Relationship_selector_flag=='true'"]
+[eval exp="f.Relationship_selector_flag='false'"]
+[cm]
+[endif]
 [clearfix ]
 [start_keyconfig]
 [freeimage layer="0" ]
@@ -58,7 +61,6 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [ptext layer="2" x="480" y="620" size="40" text="&f.park"]
 [ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
 [ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
-
 
 *reloadselect
 ;--------------------------------
@@ -132,6 +134,7 @@ if(f.houkago_now_place>=4){
 *houkago_selector_1
 [cm]
 [SceneMove]
+[clearfix]
 [playbgm storage="../bgm/secene_moving_se.mp3" ]
 [start_keyconfig]
 
@@ -146,7 +149,6 @@ if(f.houkago_now_place>=4){
 
 ;文字が表示される領域を調整
 [position layer="message0" page="fore" margint="45" marginl="50" marginr="70" marginb="60"]
-
 
 ;メッセージウィンドウの表示
 @layopt layer="message0" visible="true"
@@ -185,5 +187,4 @@ f.houkago_select_path+=".ks"
 [layopt layer="1" visible="true"]
 ;月の追加
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
-[wait time="1500"]
 [jump storage="&f.houkago_select_path"]

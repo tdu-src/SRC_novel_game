@@ -1,5 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
+[wait time=1000]
 [iscript]
 f.cafe+=f.nomrmal_houkagoevent;
 [endscript]
