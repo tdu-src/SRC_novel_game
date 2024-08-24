@@ -229,6 +229,8 @@ if(tf.koryu_person=='memori'){
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
+;タイトルに戻るボタン
+[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x="540" y="690"]
 ;-----------------------------------------------------------------------------------------------------------------
 
 

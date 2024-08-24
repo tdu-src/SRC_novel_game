@@ -176,6 +176,9 @@ if(f.houkago_now_place>=4){
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
+;タイトルに戻るボタン
+[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x="540" y="690"]
+
 [iscript]
 f.houkago_select_path="houkago_place/";
 f.houkago_select_path+=f.random_place_list[f.houkago_now_place];
