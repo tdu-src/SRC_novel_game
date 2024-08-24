@@ -18,9 +18,9 @@ var obj={
     }
 }
 f.cafe=obj.parameter_controll(f.cafe);
-f.my_home=obj.parameter_controll(f.my_home);
-f.library=obj.parameter_controll(f.library);
-f.game_senter=obj.parameter_controll(f.game_senter);
+f.park=obj.parameter_controll(f.park);
+f.art_museum=obj.parameter_controll(f.art_museum);
+f.game_center=obj.parameter_controll(f.game_center);
 f.scout=obj.parameter_controll(f.scout);
 f.memori=obj.parameter_controll(f.memori);
 f.wakatsuki=obj.parameter_controll(f.wakatsuki);

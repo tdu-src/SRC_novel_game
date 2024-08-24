@@ -17,19 +17,19 @@ f.park+=f.special_houkagoevent;
 
 
 #&f.player_name
-（～ん … 自分には芸術的すぎる…。）[pse]
+（う～ん … 自分には芸術的すぎる…。）[pse]
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-な だか難しそ～な顔をしてるね。[pse]
+なんだか難しそ～な顔をしてるね。[pse]
 
 #&f.player_name
 あっ、ツクリ！[pse]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-こ にちは。美術館、楽しめてる？[pse]
+こんにちは。美術館、楽しめてる？[pse]
 
 #&f.player_name
 自分には正直難しくて…[pse]
@@ -39,25 +39,25 @@ f.park+=f.special_houkagoevent;
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-～ 。創作に行き詰ったときに、いつもこの美術館に来る だ。[pse]
+うん。創作に行き詰ったときに、いつもこの美術館に来るんだ。[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-（主人公）はど～？[pse]
+（主人公）はどう？[pse]
 
 #&f.player_name
 自分は美術館自体ほと ど行ったことないかな…[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-そ～な だ。じゃあ、私が案内してあげるよ。[pse]
+そ～なんだ。じゃあ、私が案内してあげるよ。[pse]
 
 #&f.player_name
 いいの？！[pse]
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-もちろ 。美術館の楽しみ方を教えてあげるね。[pse]
+もちろん。美術館の楽しみ方を教えてあげるね。[pse]
 
 #
 ツクリのガイドもあり、美術館を最大限楽しむことが出来た！[pse]
@@ -67,15 +67,15 @@ f.park+=f.special_houkagoevent;
 ここで終わりだね。美術館は満喫できた？[pse]
 
 #&f.player_name
-～ ！絵の楽しみ方を知れてよかったよ！[pse]
+うん！絵の楽しみ方を知れてよかったよ！[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-そ～だね。難しく見えるけど、構図とか色合いとか、注目してみると見えてくるものがたくさ ある だ。[pse]
+そうだね。難しく見えるけど、構図とか色合いとか、注目してみると見えてくるものがたくさんあるんだ。[pse]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-今度、違～美術館にも行ってみない？作品が変わると、また別の面白さが見えてくると思～よ。[pse]
+今度、違う美術館にも行ってみない？作品が変わると、また別の面白さが見えてくると思うよ。[pse]
 
 #&f.player_name
 行きたい！[pse]

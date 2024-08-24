@@ -20,10 +20,10 @@ f.Relationship_selector_flag='true';
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
 ;主人公パラメータ
-[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
-[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
-[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
+[ptext layer="2" name="align_ct_h" x="-330" y="620" size="30" text="&f.game_center"]
+[ptext layer="2" name="align_ct_h" x="-150" y="620" size="30" text="&f.park"]
+[ptext layer="2" name="align_ct_h" x="50" y="620" size="30" text="&f.cafe"]
+[ptext layer="2" name="align_ct_h" x="250" y="620" size="30" text="&f.art_museum"]
 
 ;戻るボタンの作成
 [button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png"  storage="houkago_selector.ks" target="*start_sab" ]
@@ -35,10 +35,10 @@ f.Relationship_selector_flag='true';
 [image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
 
 ;好感度パラメータの宣言
-[ptext layer="2" x="860" y="60" size="60" text="&f.scout"]
-[ptext layer="2" x="860" y="195" size="60" text="&f.tsukuri"]
-[ptext layer="2" x="860" y="330" size="60" text="&f.wakatsuki"]
-[ptext layer="2" x="860" y="465" size="60" text="&f.memori"]
+[ptext name="align_ct_h" layer="2" x="250" y="60" size="60" text="&f.scout"]
+[ptext name="align_ct_h" layer="2" x="250" y="195" size="60" text="&f.tsukuri"]
+[ptext name="align_ct_h" layer="2" x="250" y="330" size="60" text="&f.wakatsuki"]
+[ptext name="align_ct_h" layer="2" x="250" y="465" size="60" text="&f.memori"]
 
 
 ;
@@ -73,7 +73,8 @@ tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
 tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
-[ptext layer="2" x="0" y="0" size="60" text="&f.memori_kouryu_key"]
+;ヘッダーの作成
+[image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
 
 ;ボタンの作成
 
@@ -230,6 +231,8 @@ if(tf.koryu_person=='memori'){
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
 
+;タイトルに戻るボタン
+[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x="540" y="690"]
 ;-----------------------------------------------------------------------------------------------------------------
 
 [if exp="tf.koryu_person!='none'" ]
