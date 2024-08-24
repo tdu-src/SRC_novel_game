@@ -71,7 +71,8 @@ tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
 tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
 [endscript]
 
-[ptext layer="2" x="0" y="0" size="60" text="&f.memori_kouryu_key"]
+;ヘッダーの作成
+[image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
 
 ;ボタンの作成
 
