@@ -18,10 +18,10 @@
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
 
 ;主人公パラメータ
-[ptext layer="2" x="300" y="620" size="40" text="&f.game_center"]
-[ptext layer="2" x="480" y="620" size="40" text="&f.park"]
-[ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
-[ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
+[ptext layer="2" name="align_ct_h" x="-330" y="620" size="30" text="&f.game_center"]
+[ptext layer="2" name="align_ct_h" x="-150" y="620" size="30" text="&f.park"]
+[ptext layer="2" name="align_ct_h" x="50" y="620" size="30" text="&f.cafe"]
+[ptext layer="2" name="align_ct_h" x="250" y="620" size="30" text="&f.art_museum"]
 
 ;戻るボタンの作成
 [button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png"  storage="houkago_selector.ks" target="*start_sab" ]
