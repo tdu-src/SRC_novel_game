@@ -45,32 +45,32 @@ f.Relationship_selector_flag='true';
 ;キャラ交流解放度
 [iscript]
 var obj = {
-    chara_achievement: function(person,kouryu_key) {
+    chara_achievement: function(person,kouryu_key,place) {
         name="";
         name_list=[];
         var AchievementsUnlock=(num,i)=>{
-            if(person>=num&&kouryu_key>=i){
+            if(person>=num&&kouryu_key>=i&&place>=num){
                 tf.koukando_achievement="../fgimage/relationship_selector_image/image/successed.png"; //●
-            }else if(person>=num&&kouryu_key<=i){
+            }else if(person>=num&&kouryu_key<=i&&place>=num){
                 tf.koukando_achievement="../fgimage/relationship_selector_image/image/anlock.png"; //○
             }else{
                 tf.koukando_achievement="../fgimage/relationship_selector_image/image/lock.png"; //🔒
             }
             return tf.koukando_achievement;
         }
-        name=AchievementsUnlock(30,1);
+        name=AchievementsUnlock(0,1);
         name_list.push(name);
-        name=AchievementsUnlock(60,2);
+        name=AchievementsUnlock(50,2);
         name_list.push(name);
         name=AchievementsUnlock(100,3);
         name_list.push(name);
         return name_list;
     }
 }
-tf.memori_achievement=obj.chara_achievement(f.memori,f.memori_kouryu_key);
-tf.scout_achievement=obj.chara_achievement(f.scout,f.scout_kouryu_key);
-tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key);
-tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key);
+tf.memori_achievement=obj.chara_achievement(f.memori,f.memori_kouryu_key,f.art_museum);
+tf.scout_achievement=obj.chara_achievement(f.scout,f.scout_kouryu_key,f.cafe);
+tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key,f.park);
+tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key,f.game_center);
 [endscript]
 
 ;ヘッダーの作成
@@ -121,67 +121,72 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 *kouryu_ivent
 [layopt layer="2" visible="false" ]
 [iscript]
+tf.Waskoryuperson='';
 f.chara_directroy='relation_ship/';
 //ここメソッドにできたかも
 if(tf.koryu_person=='memori'){
     f.chara_directroy+='memori/';
-    if(f.memori>=100&&f.memori_kouryu_key==2){
+    if(f.memori>=100&&f.memori_kouryu_key==2&&f.art_museum>=100){
         f.memori_kouryu_key+=1;
         f.memori_flag='true';
         tf.koryu_person+='_'+f.memori_kouryu_key;
-    }else if(f.memori>=60&&f.memori_kouryu_key==1){
+    }else if(f.memori>=50&&f.memori_kouryu_key==1&&f.art_museum>=50){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
-    }else if(f.memori>=30&&f.memori_kouryu_key==0){
+    }else if(f.memori>=0&&f.memori_kouryu_key==0&&f.art_museum>=0){
         tf.koryu_person+='_'+f.memori_kouryu_key;
         f.memori_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
+        tf.Waskoryuperson='memori';
     }
 }else if(tf.koryu_person=='scout'){
     f.chara_directroy+='scout/';
-    if(f.scout>=100&&f.scout_kouryu_key==2){
+    if(f.scout>=100&&f.scout_kouryu_key==2&&f.cafe>=100){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_flag='true';
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=60&&f.scout_kouryu_key==1){
+    }else if(f.scout>=50&&f.scout_kouryu_key==1&&f.cafe>=50){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
-    }else if(f.scout>=30&&f.scout_kouryu_key==0){
+    }else if(f.scout>=0&&f.scout_kouryu_key==0&&f.cafe>=0){
         tf.koryu_person+='_'+f.scout_kouryu_key;
         f.scout_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
+        tf.Waskoryuperson='scout';
     }
 } else if(tf.koryu_person=='tsukuri'){//ここから変える
     f.chara_directroy+='tsukuri/';
-    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==2){
+    if(f.tsukuri>=100&&f.tsukuri_kouryu_key==2&&f.park>=100){
         f.tsukuri_flag='true';
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=60&&f.tsukuri_kouryu_key==1){
+    }else if(f.tsukuri>=50&&f.tsukuri_kouryu_key==1&&f.park>=50){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
-    }else if(f.tsukuri>=30&&f.tsukuri_kouryu_key==0){
+    }else if(f.tsukuri>=0&&f.tsukuri_kouryu_key==0&&f.park>=0){
         tf.koryu_person+='_'+f.tsukuri_kouryu_key;
         f.tsukuri_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
+        tf.Waskoryuperson='tsukuri';
     }
 } else if(tf.koryu_person=='wakatsuki'){
     f.chara_directroy+='wakatsuki/';
-    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==2){
+    if(f.wakatsuki>=100&&f.wakatsuki_kouryu_key==2&&f.game_center>=100){
         f.wakatsuki_flag='true';
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==1){
+    }else if(f.wakatsuki>=50&&f.wakatsuki_kouryu_key==1&&f.game_center>=50){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
-    }else if(f.wakatsuki>=30&&f.wakatsuki_kouryu_key==0){
+    }else if(f.wakatsuki>=0&&f.wakatsuki_kouryu_key==0&&f.game_center>=0){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else{
         tf.koryu_person='none';
+        tf.Waskoryuperson="wakatsuki";
     }
 }
     f.chara_directroy+=tf.koryu_person;
@@ -241,7 +246,53 @@ if(tf.koryu_person=='memori'){
 [endif]
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 
+[iscript]
+var obj={
+    TalkResult: function(person,koukando,place,kouryu_key){
+        ShowingResule="false";
+        if(tf.Waskoryuperson==person){
+            tf.PlaceResult=0;
+            tf.KoukandoResult=0;
+            if(kouryu_key==1){
+                tf.PlaceResult=50-place;
+                tf.KoukandoResult=50-koukando;
+            }
+            else if(kouryu_key==2){
+                tf.PlaceResult=100-place;
+                tf.KoukandoResult=100-koukando;
+            }
+            if(tf.PlaceResult<=0){
+                tf.PlaceResult=0;
+            }
+            if(tf.KoukandoResult<=0){
+                tf.KoukandoResult=0;
+            }
+            if(tf.KoukandoResult==0&&tf.PlaceResult==0){
+                ShowingResule="false";
+            }else{
+                ShowingResule="好感度が"+tf.KoukandoResult+"足りません　"+"お出かけポイントが"+tf.PlaceResult+"足りません";
+            }
+        }
+        return ShowingResule;
+    } 
+}
+tf.memoriResult=obj.TalkResult('memori',f.memori,f.art_museum,f.memori_kouryu_key);
+tf.scoutResult=obj.TalkResult('scout',f.scout,f.cafe,f.scout_kouryu_key);
+tf.tsukuriResult=obj.TalkResult('tsukuri',f.tsukuri,f.park,f.tsukuri_kouryu_key);
+tf.wakatsukiResult=obj.TalkResult('wakatsuki',f.wakatsuki,f.game_center,f.wakatsuki_kouryu_key);
+[endscript]
+[if exp="tf.memoriResult!='false'" ]
 #
-好感度が足りません[p]
+[emb exp="tf.memoriResult"][pse]
+[elsif exp="tf.scoutResult!='false'" ]
+#
+[emb exp="tf.scoutResult"][pse]
+[elsif exp="tf.tsukuriResult!='false'" ]
+#
+[emb exp="tf.tsukuriResult"][pse]
+[elsif exp="tf.wakatsukiResult!='false'" ]
+#
+[emb exp="tf.wakatsukiResult"][pse]
+[endif]
 
 [jump storage="relation_ship_selector.ks" ]
