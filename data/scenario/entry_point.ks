@@ -61,13 +61,13 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;このゲームで登場するキャラクターを宣言
 
 ;tsukuri
-[chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
+[chara_new  name="tsukuri" storage="chara/tsukuri/normal.png" jname="ツクリ"  ]
 
-[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/normal.png"  ]
+[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/perplexed.png"  ]
+[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/sad.png"  ]
+[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/surprise.png"  ]
+[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/smile.png"  ]
 [chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_normal.png"  ]
 
@@ -88,28 +88,28 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 
 
 ;wakastuki
-[chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
+[chara_new  name="wakastuki" storage="chara/wakastuki/normal.png" jname="ワカツキ"  ]
 
-[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/normal.png"  ]
 [chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/sad.png"  ]
+[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/surprise.png"  ]
+[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/smile.png"  ]
 [chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="shy" storage="chara/wakastuki/wakatsuki.png"   ]
+[chara_face name="wakastuki" face="shy" storage="chara/wakastuki/shy.png"   ]
 [chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
 
 ;memori
-[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="めもり"  ]
+[chara_new name="memori" storage="chara/memori/normal.png"jname="めもり"  ]
 
-[chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="normal" storage="chara/memori/normal.png"  ]
+[chara_face name="memori" face="perplexed" storage="chara/memori/perplexed.png"  ]
 [chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="surprise" storage="chara/memori/surprise.png"  ]
+[chara_face name="memori" face="smaile" storage="chara/memori/smile.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="angry" storage="chara/memori/angry.png"  ]
 ;めもり焦りの追加
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
