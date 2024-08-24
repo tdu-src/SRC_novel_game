@@ -59,8 +59,8 @@ f.playmouth+="月";
 [endscript]
 ;ヘッダーの宣言
 [image layer="1" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png"]
-[ptext layer="1" x="20" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
-[ptext layer="1" x="20" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
+[ptext layer="1" x="10" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+[ptext layer="1" x="10" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
 ;あとで直しておきます がるむさんへ
 ;ここまでシナリオ名と月のメソッド
 

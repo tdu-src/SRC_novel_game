@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="理科準備室のうわさ" name="align_ct_h" bold="true"  face="Arial"]
+[ptext layer="1" x="-350" y="25" size="40" text="理科準備室のうわさ" name="align_ct_h" bold="true"  face="Arial"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="memori" width="450" height="600" ]
