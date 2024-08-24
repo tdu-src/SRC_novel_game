@@ -3,11 +3,18 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[pse]
+最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
+
+[isTimePassage]
 [chara_show name="tsukuri" time="1000" width="450" height="600" ]
 #
-美術室に入ると、ツクリは制作中の絵の前で立ち尽くしていた...[pse]
+美術室に入ると、ツクリは制作中の絵の前で立ち尽くしていた...[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 大丈夫...？[pse]
@@ -36,8 +43,12 @@
 #
 ツクリの心を落ち着かせるために、静かな場所へ移動することにした。[pse]
 
+[isTimePassage2]
 #&f.player_name
-落ち着いた？[pse]
+落ち着いた？[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=tsukuri face=sad time="1000" ]
 #ツクリ

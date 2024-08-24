@@ -4,7 +4,9 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-（プルルルル…）[pse]
+（プルルルル…）[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ

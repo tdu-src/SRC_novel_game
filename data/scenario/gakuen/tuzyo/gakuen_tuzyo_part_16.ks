@@ -7,7 +7,9 @@
 [chara_show name="wakastuki" time="1000" width="450" height="600"  ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-ほら、怖くないよ～...[pse]
+ほら、怖くないよ～...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" time="1000" width="450" height="600"   ]
 [chara_mod name=scout face=smaile time="1000" ]

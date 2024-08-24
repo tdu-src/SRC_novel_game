@@ -7,7 +7,9 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 
 #
-夏休みが終わる前日、思い出作りとしてワカツキとスカウトの三人で海を見に来ていた。[pse]
+夏休みが終わる前日、思い出作りとしてワカツキとスカウトの三人で海を見に来ていた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 

@@ -5,7 +5,9 @@
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-手伝ってくれてありがとう。本当に助かったよ。[pse]
+手伝ってくれてありがとう。本当に助かったよ。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 お安い御用だよ！[pse]

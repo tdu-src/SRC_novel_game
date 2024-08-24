@@ -5,7 +5,9 @@
 [chara_show name="memori" width="450" height="600" ]
 
 #
-休み時間、ワカツキと話しながら廊下で歩いていると...[pse]
+休み時間、ワカツキと話しながら廊下で歩いていると...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ

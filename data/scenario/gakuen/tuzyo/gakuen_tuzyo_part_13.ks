@@ -6,7 +6,9 @@
 
 [chara_show name="tsukuri" width="450" height="600" ]
 #&f.player_name
-何の話してるの？[pse]
+何の話してるの？[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

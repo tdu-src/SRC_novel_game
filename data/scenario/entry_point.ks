@@ -113,14 +113,37 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;めもり焦りの追加
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
-
+;seと[p]のマクロ
 [macro name="pse"]
 [p]
 [playse storage="../bgm/text_click_se.mp3" ]
 [endmacro]
 
+
+;キャラクターのハイド
 [chara_config  talk_focus="brightness" ]
 
+;画面遷移のマクロ
+[macro name="SceneMove"]
+[button name="first_arrow" graphic="../fgimage/items/screen_transition_item/yellow_arrow.png" x="-1500" y="0"]
+[anim name="first_arrow" left="2000" time="6000"]
+[wait time="500"]
+[button name="second_arrow" graphic="../fgimage/items/screen_transition_item/green_arrow.png" x="-2000" y="0"]
+[anim name="second_arrow" left="2500" time="4500"]
+[wait time="500"]
+[button name="third_arrow" graphic="../fgimage/items/screen_transition_item/blue_arrow.png" x="-2500" y="0"]
+[anim name="third_arrow" left="4000" time="4500"]
+[endmacro]
 
+;時間経過カットイン
+[macro name="isTimePassage"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage"]
+[endmacro]
+
+[macro name="isTimePassage2"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage2"]
+[endmacro]
 
 [jump storage="name_entry.ks"]

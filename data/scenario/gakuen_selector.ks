@@ -1,5 +1,6 @@
 *start
 ;背景は各会話の初めに宣言する
+[SceneMove]
 [bg storage="room.jpg" time="1000"  ]
 [iscript]
 tf.game_start_path="";
@@ -97,6 +98,6 @@ if(tf.gakuen_now_turn==0){
 f.gakuen_turn+=1;
 [endscript]
 
-;ここにbgm流すスクリプト
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 [jump storage="&tf.gakuen_path" ]

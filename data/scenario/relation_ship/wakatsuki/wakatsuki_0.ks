@@ -4,7 +4,9 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-放課後、町を歩いていると、駅前に立っているワカツキを見つけた。[pse]
+放課後、町を歩いていると、駅前に立っているワカツキを見つけた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
@@ -74,9 +76,13 @@
 #ワカツキ
 私のことどんな奴だと思ってるの？！[pse]
 
+[isTimePassage]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-はぁ、まさか闇バイトをやってると思われるとはね…[pse]
+はぁ、まさか闇バイトをやってると思われるとはね…[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 本当にごめん…[pse]
@@ -99,9 +105,13 @@
 #ワカツキ
 そうなの…?まぁ、人手は多い方がいいか…[pse]
 
+[isTimePassage2]
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-はぁ…やっと終わった…[pse]
+はぁ…やっと終わった…[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 大変だったね…[pse]

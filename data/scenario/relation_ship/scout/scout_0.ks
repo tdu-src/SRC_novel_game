@@ -3,8 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-放課後、特に予定もなく道を歩いていると...[pse]
-
+放課後、特に予定もなく道を歩いていると...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=normal time="1000" ]
@@ -31,9 +32,13 @@
 #
 そう言うスカウトに連れられ、ゲームセンターに向かうことになった。[pse]
 
+[isTimePassage]
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-うわ～ん！！また負けました！[pse]
+うわ～ん！！また負けました！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 ゲームセンターでスカウトと対戦を始め、結果は１０勝８敗だった！[pse]
@@ -70,9 +75,14 @@
 #
 心底楽しそうなスカウトに手を引かれ、駅前のカフェに向かった。[pse]
 
+[isTimePassage2]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-ふ～。いやぁ、いっぱい遊んじゃいましたね！[pse]
+ふ～。いやぁ、いっぱい遊んじゃいましたね！[s]
+*Timepassage2
+[playse storage="../bgm/text_click_se.mp3" ]
+
+
 
 #&f.player_name
 そうだね。[pse]

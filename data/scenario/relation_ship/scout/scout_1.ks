@@ -3,8 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #&f.player_name
-今日は早く帰らなきゃ…[pse]
-
+今日は早く帰らなきゃ…[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 #
 放課後、急ぎの用があってすぐに帰ろうとしていた。[pse]
 

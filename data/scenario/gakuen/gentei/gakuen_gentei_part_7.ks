@@ -10,8 +10,9 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-さっそく勉強会を始めるよ！[pse]
-
+さっそく勉強会を始めるよ！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 #&f.player_name
 おー！[pse]
 
@@ -107,9 +108,12 @@
 #ワカツキ
 お、鬼だ...[pse]
 
+[isTimePassage]
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-あっ！もうこんな時間！今日はここまでだね！[pse]
+あっ！もうこんな時間！今日はここまでだね！[s]
+*Timepassage
+
 
 #
 結局、スパルタ指導は夕方まで続き、気づけば下校時間になっていた...[pse]

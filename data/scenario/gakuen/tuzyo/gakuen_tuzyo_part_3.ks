@@ -4,7 +4,9 @@
 [chara_show name="scout" width="450" height="600" ]
 
 #
-授業が終わった....やっと昼休みだ....[pse]
+授業が終わった....やっと昼休みだ....[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" ]
 [chara_show name="memori" width="450" height="600"  ]
@@ -23,9 +25,11 @@
 
 #
 購買に移った[pse]
-
+[isTimePassage]
 #
-（ざわざわ....）[pse]
+（ざわざわ....）[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #スカウト
 えぇっ？！無茶苦茶人がいますよ!！[pse]

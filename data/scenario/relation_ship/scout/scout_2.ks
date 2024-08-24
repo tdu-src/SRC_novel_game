@@ -4,8 +4,9 @@
 
 #
 あれからスカウトは学校で会っても目を合わせてくれなくなってしまった...きっとこの前
-の事で怒らせてしまったのだろう...[pse]
-
+の事で怒らせてしまったのだろう...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 #&f.player_name
 どこかで謝らなくては...[pse]
 
@@ -61,8 +62,13 @@
 #&f.player_name
 とりあえず、場所を変えようか。[pse]
 
+[isTimePassage]
+[chara_mod name=wakastuki face=perplexed time="1000" ]
 #
-二人で公園のベンチに座って少し時間が経つと、スカウトはぽつりぽつりと話し始めた。[pse]
+二人で公園のベンチに座って少し時間が経つと、スカウトはぽつりぽつりと話し始めた。[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト

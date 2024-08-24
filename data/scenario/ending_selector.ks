@@ -1,4 +1,5 @@
 *start
+[SceneMove]
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 

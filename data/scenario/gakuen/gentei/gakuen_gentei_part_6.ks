@@ -9,8 +9,9 @@
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
 
 #
-元旦の朝、近くの神社に初詣に来た！[pse]
-
+元旦の朝、近くの神社に初詣に来た！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
 
@@ -37,9 +38,12 @@
 #&f.player_name
 行こう！[pse]
 
+[isTimePassage]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-並ぶの、すごく時間かかったね。[pse]
+並ぶの、すごく時間かかったね。[s]
+*Timepassage
+
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
@@ -63,9 +67,13 @@
 #ツクリ
 いいね。みんなで引きにいこう。[pse]
 
+
+[isTimePassage2]
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-これ、好きなところからおみくじを引く形式らしい ですよ！みんなでこの中から引きましょう！[pse]    
+これ、好きなところからおみくじを引く形式らしい ですよ！みんなでこの中から引きましょう！[s]
+*Timepassage2
+
 
 #&f.player_name
 どこから引こうかな...？[pse]

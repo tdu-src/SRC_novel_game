@@ -28,7 +28,10 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [endscript]
 
 *start_sab
-[cm  ]
+[if exp="f.Relationship_selector_flag=='true'"]
+[eval exp="f.Relationship_selector_flag='false'"]
+[cm]
+[endif]
 [clearfix ]
 [start_keyconfig]
 [freeimage layer="0" ]
@@ -58,7 +61,6 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 [ptext layer="2" x="480" y="620" size="40" text="&f.park"]
 [ptext layer="2" x="680" y="620" size="40" text="&f.cafe"]
 [ptext layer="2" x="880" y="620" size="40" text="&f.art_museum"]
-
 
 *reloadselect
 ;--------------------------------
@@ -96,9 +98,9 @@ f.houkago_select_upparameter_listx=[350,930,730,530]
 ;遭遇イベントの宣言
 [button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
 
+
 ;交流ボタンの作成
 [button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="50" storage="relation_ship_selector.ks" ]
-
 [s]
 
 ;場所画像の差し替え
@@ -130,10 +132,10 @@ if(f.houkago_now_place>=4){
 ;以下はただの宣言読む必要ない
 ;----------------------------------------
 *houkago_selector_1
-
-[playbgm storage="../bgm/secene_moving_se.mp3" ]
-[cm  ]
+[cm]
+[SceneMove]
 [clearfix]
+[playbgm storage="../bgm/secene_moving_se.mp3" ]
 [start_keyconfig]
 
 [freeimage layer="0" ]
@@ -147,7 +149,6 @@ if(f.houkago_now_place>=4){
 
 ;文字が表示される領域を調整
 [position layer="message0" page="fore" margint="45" marginl="50" marginr="70" marginb="60"]
-
 
 ;メッセージウィンドウの表示
 @layopt layer="message0" visible="true"
@@ -186,5 +187,4 @@ f.houkago_select_path+=".ks"
 [layopt layer="1" visible="true"]
 ;月の追加
 [ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
-
 [jump storage="&f.houkago_select_path"]

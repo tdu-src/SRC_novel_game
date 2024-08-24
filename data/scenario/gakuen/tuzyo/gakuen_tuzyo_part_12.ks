@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[pse]
+廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_show name="scout" time="1000" width="450" height="600" ]
 
@@ -32,9 +34,13 @@
 #&f.player_name
 何が大丈夫なんだろう...[pse]
 
+[isTimePassage]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-さぁ、始めましょう！負けたらジュース奢りです！[pse]
+さぁ、始めましょう！負けたらジュース奢りです！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 試合が始まるが、スカウトはなぜか手馴れている...発売日のゲームのはずだが...[pse]

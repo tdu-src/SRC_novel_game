@@ -7,7 +7,9 @@
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face="angry" time="1000" ]
 #めもり
-ちーがーうー！絶対この方がいいって！！[pse]
+ちーがーうー！絶対この方がいいって！！[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

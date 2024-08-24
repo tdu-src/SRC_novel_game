@@ -4,7 +4,9 @@
 
 [chara_show name="memori" width="450" height="600" ]
 #
-授業が終わった後、めもりが話しかけてきた。 [pse]
+授業が終わった後、めもりが話しかけてきた。 [s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
@@ -28,13 +30,21 @@
 *gakuen_tuzyo_part_8_root_1
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 
+
+#
+購買に移った[pse]
 [chara_mod name=memori face=smaile time="1000" ]
+
 #めもり
 [emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![pse]
 
+[isTimePassage]
 [chara_mod name=memori face="normal" time="1000" ]
 #めもり
-ここが理科準備室だよ！[pse]
+ここが理科準備室だよ！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 めもりに連れてこられた準備室は、薄暗くて中々に雰囲気がある...[pse]

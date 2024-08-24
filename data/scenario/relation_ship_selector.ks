@@ -1,5 +1,7 @@
 *start
-
+[iscript]
+f.Relationship_selector_flag='true';
+[endscript]
 [cm  ]
 [bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
@@ -172,7 +174,7 @@ if(tf.koryu_person=='memori'){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else if(f.wakatsuki>=60&&f.wakatsuki_kouryu_key==1){
-        tf.koryu_person+='_'+wakatsuki_kouryu_key;
+        tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
         f.wakatsuki_kouryu_key+=1;
     }else if(f.wakatsuki>=30&&f.wakatsuki_kouryu_key==0){
         tf.koryu_person+='_'+f.wakatsuki_kouryu_key;
@@ -230,7 +232,10 @@ if(tf.koryu_person=='memori'){
 
 ;-----------------------------------------------------------------------------------------------------------------
 
-
+[if exp="tf.koryu_person!='none'" ]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+[endif]
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 
 #

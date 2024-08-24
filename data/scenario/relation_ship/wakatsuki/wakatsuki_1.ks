@@ -5,7 +5,9 @@
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=smaile time="1000" ]
 #ワカツキ
-ほら、ごはんですよ～♡[pse]
+ほら、ごはんですよ～♡[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 ……[pse]

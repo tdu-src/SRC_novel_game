@@ -2,7 +2,9 @@
 [ptext layer="1" x="0" y="0" size="40" text="助けて！めもえもん！" name="align_ct_h"]
 
 #
-放課後、急ぎで家に帰らなければならない用事が出来た...[pse]
+放課後、急ぎで家に帰らなければならない用事が出来た...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 でも、今から走ってもなぁ...[pse]
@@ -87,10 +89,14 @@
 #&f.player_name
 うわああああ！！[pse]
 
-
-[chara_hide name="memori" width="450" height="600" ]
+[chara_hide name="memori" time="1000" ]
+[isTimePassage]
+[chara_mod name=scout face=smaile time="1000" ]
 #&f.player_name
-着いた... けど死ぬかと思った...[pse]
+着いた... けど死ぬかと思った...[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 安全性に関しては最悪だが、めもりの技術力を改めて実感した...[pse]
