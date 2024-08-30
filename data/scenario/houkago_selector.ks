@@ -44,7 +44,7 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
 ;バックグラウンドの宣言
-[bg storage="../fgimage/houkago_selector_image/background/trainplatform_background.png" time="1000" ]
+[bg storage="HoukagoSelectorUI.png" time="1000" ]
 
 
 ;フッターの作成

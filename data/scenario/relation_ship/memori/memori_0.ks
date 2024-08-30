@@ -18,7 +18,7 @@
 
 #&f.player_name
 …とりあえず行ってみるか…[pse]
-
+[chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
 よく来たね！[emb exp="f.player_name"][pse]

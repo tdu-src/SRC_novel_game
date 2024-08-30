@@ -4,7 +4,9 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-放課後、校内を歩いていると、中庭でワカツキが野良猫と戯れていた。[p]
+放課後、校内を歩いていると、中庭でワカツキが野良猫と戯れていた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 おーい、ワカツキ！[p]
