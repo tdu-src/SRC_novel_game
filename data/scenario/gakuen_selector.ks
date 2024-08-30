@@ -39,7 +39,9 @@ tf.game_start_path="";
 *nofirst_game_play
 
 ;ここがシナリオ名と月
+[layopt layer="0" visible="true"]
 [layopt layer="1" visible="true"]
+[freeimage layer="0" time="0"]
 [freeimage layer="1" time="0"]
 [iscript]
 tf.mouth_logic_turn=f.gakuen_turn;
@@ -58,9 +60,9 @@ f.playmouth=f.gakuen_mouth_turn[tf.mouth_logic_turn]
 f.playmouth+="月";
 [endscript]
 ;ヘッダーの宣言
-[image layer="1" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png"]
-[ptext layer="1" x="10" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
-[ptext layer="1" x="10" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
+;[image layer="0" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png" width="250" height="150"]
+[ptext layer="1"x="20" y="0" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+[ptext layer="1" x="20" y="40" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
 ;あとで直しておきます がるむさんへ
 ;ここまでシナリオ名と月のメソッド
 

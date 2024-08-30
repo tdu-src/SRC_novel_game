@@ -114,4 +114,18 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
 
+[macro name="isHeaderMostSize"]
+[image layer="0" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png" width="600" height="150"]
+[ptext name="align_ct_h" layer="1" x="-300" y="25" size="40" text="%text"  bold="true"  face="Arial"]
+[endmacro]
+
+[macro name="isHeader"]
+[image layer="0" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png"]
+[ptext name="align_ct_h" layer="1" x="-350" y="25" size="40" text="%text"  bold="true"  face="Arial"]
+[endmacro]
+
+[macro name="isHeaderLeastSize"]
+[image layer="0" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png" width="400" height="150"]
+[ptext name="align_ct_h" layer="1" x="-420" y="25" size="40" text="%text"  bold="true"  face="Arial"]
+[endmacro]
 [jump storage="name_entry.ks"]
