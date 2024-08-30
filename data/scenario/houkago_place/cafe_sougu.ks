@@ -35,7 +35,7 @@ f.cafe+=f.special_houkagoevent;
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=surprise time="1000" ]
 #スカウト
-あれ、（主人公）さんじゃないですか！[pse]
+あれ、[emb exp="f.player_name"]さんじゃないですか！[pse]
 
 #&f.player_name
 スカウト？！[pse]
@@ -98,7 +98,7 @@ f.cafe+=f.special_houkagoevent;
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-絶対に約束ですからね！いや～、楽しみですね（主人公）さん！[pse]
+絶対に約束ですからね！いや～、楽しみですね[emb exp="f.player_name"]さん！[pse]
 
 #&f.player_name
 ソ、ソウダネ…[pse]

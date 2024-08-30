@@ -43,7 +43,7 @@ f.park+=f.special_houkagoevent;
 
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ
-（主人公）はどう？[pse]
+[emb exp="f.player_name"]はどう？[pse]
 
 #&f.player_name
 自分は美術館自体ほと ど行ったことないかな…[pse]

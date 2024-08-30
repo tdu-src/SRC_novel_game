@@ -57,11 +57,11 @@
 
 [chara_mod name=wakastuki face=weariness time="1000" ]
 #ワカツキ
-うわ…、気分下がること言わないでよ。(主人公)…[pse]
+うわ…、気分下がること言わないでよ。[emb exp="f.player_name"]…[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-そうですよ(主人公)さん！先のことなんて考えてもいいことないです！[pse]
+そうですよ[emb exp="f.player_name"]さん！先のことなんて考えてもいいことないです！[pse]
 
 #&f.player_name
 ご、ごめん…[pse]
@@ -121,7 +121,7 @@
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-うわ～ん！！主人公さんさん、助けて下さ～い！！！！！[pse]
+うわ～ん！！[emb exp="f.player_name"]さん、助けて下さ～い！！！！！[pse]
 
 #
 結局、帰ってスカウトの宿題を手伝うことになり、波乱万丈な夏の終わりになった…[pse]
