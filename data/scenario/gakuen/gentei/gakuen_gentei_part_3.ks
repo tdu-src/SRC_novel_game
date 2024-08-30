@@ -105,7 +105,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-[emb exp="f.player_name"]、 づいちゃった？！[pse]
+[emb exp="f.player_name"]、気づいちゃった？！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
