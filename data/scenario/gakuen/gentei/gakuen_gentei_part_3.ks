@@ -21,7 +21,7 @@
 
 [chara_mod name=tsukuri face=smaile time="1000" ]
 #ツクリ
-こんばんは、（主人公）。[pse]
+こんばんは、[emb exp="f.player_name"]。[pse]
 
 #&f.player_name
 ごめん、待った？[pse]
@@ -105,7 +105,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
- （主人公）、 づいちゃった？！[pse]
+[emb exp="f.player_name"]、 づいちゃった？！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
