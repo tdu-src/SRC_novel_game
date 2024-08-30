@@ -1,5 +1,6 @@
 *start
 ;背景は各会話の初めに宣言する
+[SceneMove]
 [bg storage="room.jpg" time="1000"  ]
 [iscript]
 tf.game_start_path="";
@@ -33,6 +34,9 @@ tf.game_start_path="";
 
 ;バックログボタン
 [button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png" x="1140" y="690"]
+
+;タイトルに戻るボタン
+[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png" x="540" y="690"]
 
 [eval exp="f.boolean_firstpart='false'"]
 ;;ロールボタン追加終わり
@@ -97,6 +101,6 @@ if(tf.gakuen_now_turn==0){
 f.gakuen_turn+=1;
 [endscript]
 
-;ここにbgm流すスクリプト
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 [jump storage="&tf.gakuen_path" ]

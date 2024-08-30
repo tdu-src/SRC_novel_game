@@ -2,9 +2,12 @@
 [bg storage="room.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+
 [chara_show name="memori" width="450" height="600" ]
 #
-放課後、めもりと二人で下校していると、道端で泣いている女の子を見つけた。[pse]
+放課後、めもりと二人で下校していると、道端で泣いている女の子を見つけた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
@@ -105,5 +108,6 @@
 
 #
 楽しみなはずの予定が、一気に雲行きが怪しくなった気がした…[pse]
+
 
 [jump storage="relation_ship/relation_ship_end_point.ks"]

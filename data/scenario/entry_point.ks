@@ -61,13 +61,13 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;このゲームで登場するキャラクターを宣言
 
 ;tsukuri
-[chara_new  name="tsukuri" storage="chara/tsukuri/tsukuri_normal.png" jname="ツクリ"  ]
+[chara_new  name="tsukuri" storage="chara/tsukuri/normal.png" jname="ツクリ"  ]
 
-[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="normal" storage="chara/tsukuri/normal.png"  ]
+[chara_face name="tsukuri" face="perplexed" storage="chara/tsukuri/perplexed.png"  ]
+[chara_face name="tsukuri" face="sad" storage="chara/tsukuri/sad.png"  ]
+[chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/surprise.png"  ]
+[chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/smile.png"  ]
 [chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
 [chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_normal.png"  ]
 
@@ -88,30 +88,62 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 
 
 ;wakastuki
-[chara_new  name="wakastuki" storage="chara/wakastuki/wakatsuki.png" jname="ワカツキ"  ]
+[chara_new  name="wakastuki" storage="chara/wakastuki/normal.png" jname="ワカツキ"  ]
 
-[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="normal" storage="chara/wakastuki/normal.png"  ]
 [chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="sad" storage="chara/wakastuki/sad.png"  ]
+[chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/surprise.png"  ]
+[chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/smile.png"  ]
 [chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
 [chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="shy" storage="chara/wakastuki/wakatsuki.png"   ]
+[chara_face name="wakastuki" face="shy" storage="chara/wakastuki/shy.png"   ]
 [chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
 
 ;memori
-[chara_new name="memori" storage="chara/memori/memori_normal.png"jname="メモリ"]
+[chara_new name="memori" storage="chara/memori/normal.png"jname="めもり"  ]
 
-[chara_face name="memori" face="normal" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="perplexed" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="normal" storage="chara/memori/normal.png"  ]
+[chara_face name="memori" face="perplexed" storage="chara/memori/perplexed.png"  ]
 [chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="surprise" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="smaile" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="surprise" storage="chara/memori/surprise.png"  ]
+[chara_face name="memori" face="smaile" storage="chara/memori/smile.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
-[chara_face name="memori" face="angry" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="angry" storage="chara/memori/angry.png"  ]
 ;めもり焦りの追加
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
+;seと[p]のマクロ
+[macro name="pse"]
+[p]
+[playse storage="../bgm/text_click_se.mp3" ]
+[endmacro]
+
+
+;キャラクターのハイド
+[chara_config  talk_focus="brightness" ]
+
+;画面遷移のマクロ
+[macro name="SceneMove"]
+[button name="first_arrow" graphic="../fgimage/items/screen_transition_item/yellow_arrow.png" x="-1500" y="0"]
+[anim name="first_arrow" left="2000" time="6000"]
+[wait time="500"]
+[button name="second_arrow" graphic="../fgimage/items/screen_transition_item/green_arrow.png" x="-2000" y="0"]
+[anim name="second_arrow" left="2500" time="4500"]
+[wait time="500"]
+[button name="third_arrow" graphic="../fgimage/items/screen_transition_item/blue_arrow.png" x="-2500" y="0"]
+[anim name="third_arrow" left="4000" time="4500"]
+[endmacro]
+
+;時間経過カットイン
+[macro name="isTimePassage"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage"]
+[endmacro]
+
+[macro name="isTimePassage2"]
+[SceneMove]
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Timepassage2"]
+[endmacro]
 
 [jump storage="name_entry.ks"]

@@ -3,7 +3,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-机の中に何か入っている… どうやら手紙のようだ…[pse]
+机の中に何か入っている… どうやら手紙のようだ…[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #
 午後、ソフ研公園に集合！──紀伊めもり[pse]
@@ -134,5 +136,6 @@
 
 #
 相変わらず、めもりの自由人っぷりには振り回されてばかりなのだった…[pse]
+
 
 [jump storage="relation_ship/relation_ship_end_point.ks"]

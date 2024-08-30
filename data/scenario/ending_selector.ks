@@ -1,4 +1,5 @@
 *start
+[SceneMove]
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
@@ -42,9 +43,9 @@ if(f.memori_flag=='true'){
 }else if(tf.wakatsuki_flag=='true'){
     tf.ending_directory+='wakatsuki.ks';
 }else{
-    tf.ending_root+='normal';
+    tf.ending_directory+='normal.ks';
 }
 [endscript]
 [freeimage layer="1" time="0"]
 [freeimage layer="2" time="0"]
-[jump storage="ending.ks" target="&tf.ending_root"  ]
+[jump storage="&tf.ending_directory"  ]
