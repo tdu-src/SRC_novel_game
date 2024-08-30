@@ -146,7 +146,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-うん！話聞いてくれてありがとう、（主人公）！[pse]
+うん！話聞いてくれてありがとう、[emb exp="f.player_name"]！[pse]
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり

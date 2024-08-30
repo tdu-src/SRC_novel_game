@@ -16,7 +16,7 @@ f.game_center+=f.special_houkagoevent;
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-あれ、（主人公）じゃん。（主人公）も遊びに来たの？[pse]
+あれ、[emb exp="f.player_name"]じゃん。[emb exp="f.player_name"]も遊びに来たの？[pse]
 
 #&f.player_name
 うん。ワカツキは何をしてたの？[pse]

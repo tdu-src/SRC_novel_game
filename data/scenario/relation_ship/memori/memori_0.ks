@@ -19,7 +19,7 @@
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-よく来たね！（主人公）[pse]
+よく来たね！[emb exp="f.player_name"][pse]
 
 #&f.player_name
 あの手紙はどうしたの？[pse]
@@ -49,7 +49,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-細かいことはいいから！とりあえず（主人公）が鬼ね！[pse]
+細かいことはいいから！とりあえず[emb exp="f.player_name"]が鬼ね！[pse]
 
 #&f.player_name
 ちょっ、もう始めるの？！[pse]
@@ -120,7 +120,7 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-えへへ、すごいでしょ！リアクションの良い（主人公）を呼んだ甲斐があったよ！[pse]
+えへへ、すごいでしょ！リアクションの良い[emb exp="f.player_name"]を呼んだ甲斐があったよ！[pse]
 
 #&f.player_name
 …もしかして、今日誘ったのって…？[pse]

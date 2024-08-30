@@ -7,14 +7,14 @@
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-お～い、（主人公）！[pse]
+お～い、[emb exp="f.player_name"]！[pse]
 
 #&f.player_name
 めもり！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
-やっと見つけた！（主人公）に見せたいものがあって、ずっと探してたんだよ！[pse]
+やっと見つけた！[emb exp="f.player_name"]に見せたいものがあって、ずっと探してたんだよ！[pse]
 
 #&f.player_name
 見せたいものって？[pse]
@@ -38,14 +38,14 @@
 
 [chara_mod name=memori face=smaile time="1000" ]
 #めもり
-うん！（主人公）が背中を押してくれたおかげで、頑張ってみようと思えたんだ！[pse]
+うん！[emb exp="f.player_name"]が背中を押してくれたおかげで、頑張ってみようと思えたんだ！[pse]
 
 #&f.player_name
 卒業したら、寂しくなるね[pse]
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-いやいや、（主人公）は周りに皆がいるじゃん！[pse]
+いやいや、[emb exp="f.player_name"]は周りに皆がいるじゃん！[pse]
 
 [chara_mod name=memori face=weariness time="1000" ]
 #めもり
@@ -63,7 +63,7 @@
 
 [chara_mod name=memori face=surprise time="1000" ]
 #めもり
-（主人公）！[pse]
+[emb exp="f.player_name"]！[pse]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
