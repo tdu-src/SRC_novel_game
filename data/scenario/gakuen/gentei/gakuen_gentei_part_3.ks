@@ -1,7 +1,7 @@
 *start
 ;夏休み
 [ptext layer="1" x="0" y="0" size="40" text="夏祭り" name="align_ct_h"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]

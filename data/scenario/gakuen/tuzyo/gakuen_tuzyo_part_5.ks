@@ -1,7 +1,7 @@
 *start
 [ptext layer="1" x="0" y="0" size="40" text="流行りのスマホゲーム" name="align_ct_h"]
 
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600" ]
 

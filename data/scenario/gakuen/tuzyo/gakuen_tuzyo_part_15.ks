@@ -1,6 +1,6 @@
 *start
 [ptext layer="1" x="0" y="0" size="40" text="美術の時間" name="align_ct_h"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #
 今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[s]
