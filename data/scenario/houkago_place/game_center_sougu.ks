@@ -9,6 +9,8 @@ f.game_center+=f.special_houkagoevent;
 [endif]
 
 
+[glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+
 [chara_show name="wakastuki" width="450" height="600" ]
 
 #

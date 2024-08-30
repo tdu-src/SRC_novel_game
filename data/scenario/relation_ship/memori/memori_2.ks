@@ -6,6 +6,7 @@
 放課後…[s]
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
+[chara_show name="memori" width="450" height="600" ]
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
