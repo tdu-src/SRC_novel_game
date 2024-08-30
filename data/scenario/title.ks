@@ -14,7 +14,7 @@
 ;[button x=135 y=590 graphic="title/button_config.png" enterimg="title/button_config2.png" role="sleepgame" storage="config.ks" keyfocus="5"]
 
 
-
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [button name="start_button" x=135 y=340 graphic="../fgimage/items/titles/gamestart.png" enterimg="../fgimage/items/titles/gamestartaffter.png"  target="gamestart" keyfocus="1"]
 [button name="load_button" x=135 y=470 graphic="../fgimage/items/titles/gameload.png" enterimg="../fgimage/items/titles/gameloadaffter.png" role="load" keyfocus="2"]
