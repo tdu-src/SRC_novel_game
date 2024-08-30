@@ -2,7 +2,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_sad.mp3" ]
 
 #
-ある休みの日、ツクリに呼び出されて美術館に来ていた。[p]
+ある休みの日、ツクリに呼び出されて美術館に来ていた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 ごめん！待った？[p]
