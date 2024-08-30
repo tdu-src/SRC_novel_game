@@ -1,5 +1,5 @@
 *start
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofucharaEnding.mp3" ]
 
 #
 ある日の放課後[s]
