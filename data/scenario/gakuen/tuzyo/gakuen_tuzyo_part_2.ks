@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="-350" y="25" size="40" text="教室の掃除" name="align_ct_h"   bold="true"  face="Arial"]
+[isHeader text="教室の掃除"]
 
 #&f.player_name
 さて、掃除を始めよう![p]

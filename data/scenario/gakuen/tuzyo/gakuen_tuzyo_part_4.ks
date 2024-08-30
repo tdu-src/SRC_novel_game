@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="-350" y="25" size="40" text="ツクリの創作意欲" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderMostSize text="ツクリの創作意欲"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600" ]

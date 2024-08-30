@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="-340" y="25" size="40" text="すき焼きミルクシェイク" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderMostSize text="すき焼きミルクシェイク"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="scout" width="450" height="600" ]

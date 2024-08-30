@@ -1,8 +1,7 @@
 *start
-[ptext name="align_ct_h" layer="1" x="-350" y="25" size="40" text="幕間"  bold="true"  face="Arial"]
+[isHeaderLeastSize text="幕間"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
-
-[eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
+[eval exp="f.scouまt+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]

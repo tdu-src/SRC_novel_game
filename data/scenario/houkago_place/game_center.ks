@@ -1,6 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
-[ptext layer="1" x="-350" y="25" size="40" text="ゲームセンター" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderMostSize text="ゲームセンター"]
 [iscript]
 f.game_center+=f.nomrmal_houkagoevent;
 [endscript]

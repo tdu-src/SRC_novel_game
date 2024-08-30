@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="-350" y="25" size="40" text="リフレッシュのすすめ" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderMostSize text="リフレッシュのすすめ"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 #
 今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[p]

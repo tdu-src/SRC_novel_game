@@ -1,6 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
-[ptext layer="1" x="-350" y="25" size="40" text="公園" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderLeastSize text="公園"]
 [iscript]
 f.art_museum+=f.nomrmal_houkagoevent;
 [endscript]

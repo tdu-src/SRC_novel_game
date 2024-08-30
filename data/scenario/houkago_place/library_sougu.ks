@@ -1,6 +1,6 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
-[ptext layer="1" x="-350" y="25" size="40" text="美術館" name="align_ct_h" bold="true"  face="Arial"]
+[isHeaderLeastSize text="美術館"]
 [iscript]
 f.park+=f.special_houkagoevent;
 [endscript]
