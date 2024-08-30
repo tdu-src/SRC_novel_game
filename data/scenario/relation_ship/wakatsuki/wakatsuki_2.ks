@@ -4,150 +4,152 @@
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #
-（プルルルル…）[p]
+（プルルルル…）[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-あれ、電話…?もしもし？[p]
+あれ、電話…?もしもし？[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-…えっ？！[p]
+…えっ？！[pse]
 
 #
-ワカツキが何やら深刻な顔をして駆け込んできた…[p]
+ワカツキが何やら深刻な顔をして駆け込んできた…[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-[emb exp="f.player_name"]！施設で保護してた子猫が、施設から逃げ出しちゃったって…！[p]
+[emb exp="f.player_name"]！施設で保護してた子猫が、施設から逃げ出しちゃったって…！[pse]
 
 #&f.player_name
-本当？！[p]
+本当？！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-しかも、臆病な子だから、早く見つけないと大変なことになるかも…！[p]
+しかも、臆病な子だから、早く見つけないと大変なことになるかも…！[pse]
 
 #&f.player_name
-探しに行かないと！[p]
+探しに行かないと！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-うん、行こう！[p]
+うん、行こう！[pse]
 
 #&f.player_name
-全然見つからないね…[p]
+全然見つからないね…[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-ねぇ。もう遅いし、[emb exp="f.player_name"]は先に帰ってて。[p]
+ねぇ。もう遅いし、[emb exp="f.player_name"]は先に帰ってて。[pse]
 
 #&f.player_name
-ワカツキはどうするの…？[p]
+ワカツキはどうするの…？[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-私はまだ探すよ。今もどこかで怖い思いをしてるはずだから。[p]
+私はまだ探すよ。今もどこかで怖い思いをしてるはずだから。[pse]
 
 #&f.player_name
-自分も探すよ！[p]
+自分も探すよ！[pse]
 
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #ワカツキ
-でも、流石にこれ以上は…[p]
+でも、流石にこれ以上は…[pse]
 
 #&f.player_name
-困っている友達を見過ごして帰れないよ！[p]
+困っている友達を見過ごして帰れないよ！[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-…！[p]
+…！[pse]
 
 [chara_mod name=wakastuki face=smaile time="1000" ]
 #ワカツキ
-ありがとう。暗くなる前に急いで探そう！[p]
+ありがとう。暗くなる前に急いで探そう！[pse]
 
 #&f.player_name
-今、鳴き声が聞こえたような…！[p]
+今、鳴き声が聞こえたような…！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-うん… あそこだ…！[p]
+うん… あそこだ…！[pse]
 
 #
-音がした草木の方に駆け寄ると、脱走した子猫が心細そうに隠れていた。[p]
+音がした草木の方に駆け寄ると、脱走した子猫が心細そうに隠れていた。[pse]
 
 [chara_mod name=wakastuki face=smaile time="1000" ]
 #ワカツキ
-良かった…。怪我はしてないみたい。[p]
+良かった…。怪我はしてないみたい。[pse]
 
 #&f.player_name
-とりあえず、施設まで連れて行こう。[p]
+とりあえず、施設まで連れて行こう。[pse]
 
 [chara_mod name=wakastuki face=smaile time="1000" ]
 #ワカツキ
-ありがとう、今日は本当に助かったよ。[p]
+ありがとう、今日は本当に助かったよ。[pse]
 
 #&f.player_name
-ワカツキと子猫のためなら、どうってことないよ！[p]
+ワカツキと子猫のためなら、どうってことないよ！[pse]
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-…[p]
+…[pse]
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-ねぇ、いつも思うんだけど、どうして私のことをそんなに気にかけてくれるの？[p]       
+ねぇ、いつも思うんだけど、どうして私のことをそんなに気にかけてくれるの？[pse]       
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-ほら、私って全然愛想良くないし…。いつも一匹狼で、マイペースな方だしさ…[p]
+ほら、私って全然愛想良くないし…。いつも一匹狼で、マイペースな方だしさ…[pse]
 
 #&f.player_name
-そんなこと、一度も思ったことないよ？[p]
+そんなこと、一度も思ったことないよ？[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-えっ？[p]
+えっ？[pse]
 
 #&f.player_name
-ワカツキはクールに見えるけど、面倒見が良くて、心優しい子だと思ってるよ！[p]       
+ワカツキはクールに見えるけど、面倒見が良くて、心優しい子だと思ってるよ！[pse]       
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
 #ワカツキ
-…！[p]
+…！[pse]
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-…そんな風に言われたの初めてだな…。[p]
+…そんな風に言われたの初めてだな…。[pse]
 
 #&f.player_name
-ワカツキと一緒にいる時、いつも感じてるよ！[p]
+ワカツキと一緒にいる時、いつも感じてるよ！[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-そうなのかな…[p]
+そうなのかな…[pse]
 
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
-…私も、[emb exp="f.player_name"]といると…[p]
+…私も、[emb exp="f.player_name"]といると…[pse]
 
 #&f.player_name
-え？[p]
+え？[pse]
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-…やっぱり、今のなし！[p]
+…やっぱり、今のなし！[pse]
 
 #&f.player_name
-何を言おうと思ったの？[p]
+何を言おうと思ったの？[pse]
 
 [chara_mod name=wakastuki face=shy time="1000" ]
 #ワカツキ
-いいから！もう忘れて！[p]
+いいから！もう忘れて！[pse]
 
 #
-ワカツキの言おうとしたことは分からなかったが、よりきずなが深まったのを感じた…[p]  
+ワカツキの言おうとしたことは分からなかったが、よりきずなが深まったのを感じた…[pse]  
 
 
 

@@ -3,98 +3,99 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #&f.player_name
-今日は早く帰らなきゃ…[p]
-
+今日は早く帰らなきゃ…[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 #
-放課後、急ぎの用があってすぐに帰ろうとしていた。[p]
+放課後、急ぎの用があってすぐに帰ろうとしていた。[pse]
 
 
 [chara_show name="scout" width="450" height="600" ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-[emb exp="f.player_name"]さん、遊びに行きましょう！！[p]
+[emb exp="f.player_name"]さん、遊びに行きましょう！！[pse]
 
 #&f.player_name
-スカウト？[p]
+スカウト？[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-暇そうな顔してますね！ほら、この前のゲーセンに行きますよ！[p]
+暇そうな顔してますね！ほら、この前のゲーセンに行きますよ！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-私、あれから結構練習したんです！[p]
+私、あれから結構練習したんです！[pse]
 
 #&f.player_name
-今日は用事が…[p]
+今日は用事が…[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-それならちょっとだけでもいいんで！[p]
+それならちょっとだけでもいいんで！[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-すぐに終わりますから！早く行かないと時間が無くなっちゃいます！[p]
+すぐに終わりますから！早く行かないと時間が無くなっちゃいます！[pse]
 
 #&f.player_name
-う、うん…[p]
+う、うん…[pse]
 
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-また負けた…！ もう一戦やりましょう！[p]
+また負けた…！ もう一戦やりましょう！[pse]
 
 #
-結局、ぎりぎりの時間まで遊んでしまった… さすがにもう帰らなければ…[p]
+結局、ぎりぎりの時間まで遊んでしまった… さすがにもう帰らなければ…[pse]
 
 #&f.player_name
-流石にもう時間が…[p]
+流石にもう時間が…[pse]
 
 [chara_mod name=scout face=normal time="1000" ]
 #スカウト
-え～？！ちょっとぐらい遅れても大丈夫ですよ！[p]
+え～？！ちょっとぐらい遅れても大丈夫ですよ！[pse]
 
 #&f.player_name
-そういう訳には…[p]
+そういう訳には…[pse]
 
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
-大丈夫ですって！もうちょっと遊びましょう！[p]
+大丈夫ですって！もうちょっと遊びましょう！[pse]
 
 #&f.player_name
-だ、ダメだって！！[p]
+だ、ダメだって！！[pse]
 
 #
-時間的な焦りもあって、つい声が大きくなってしまった…[p]
+時間的な焦りもあって、つい声が大きくなってしまった…[pse]
 
 [chara_mod name=scout face=surprise time="1000" ]
 #スカウト
-…？！[p]
+…？！[pse]
 
 #&f.player_name
-あっ、ごめん…[p]
+あっ、ごめん…[pse]
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト
-そ、そうですよね…！ごめんなさい、調子に乗り過ぎました…[p]
+そ、そうですよね…！ごめんなさい、調子に乗り過ぎました…[pse]
 
 #&f.player_name
-あ…、 いや…[p]
+あ…、 いや…[pse]
 
 [chara_mod name=scout face=sad time="1000" ]
 #スカウト
-邪魔しちゃってすみません、今日はこの辺にしておきましょう…！それじゃあ…！[p]       
+邪魔しちゃってすみません、今日はこの辺にしておきましょう…！それじゃあ…！[pse]       
 
 #&f.player_name
-待って！[p]
+待って！[pse]
 
 #
-慌てて声を掛けたが、そのまま行ってしまった…[p]
+慌てて声を掛けたが、そのまま行ってしまった…[pse]
 
 #&f.player_name
-どうしよう、傷つけてしまったかもしれない…[p]
+どうしよう、傷つけてしまったかもしれない…[pse]
 
 #
-すぐに追いかけたかったが、用事もあってそのままゲームセンターを後にした…[p]        
+すぐに追いかけたかったが、用事もあってそのままゲームセンターを後にした…[pse]        
 
 
 

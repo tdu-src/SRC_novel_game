@@ -3,7 +3,7 @@
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
-ここはテスト3[p]
+ここはテスト3[pse]
 
 
 [jump storage="relation_ship/relation_ship_end_point.ks"]

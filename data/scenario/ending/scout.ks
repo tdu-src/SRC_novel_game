@@ -3,7 +3,9 @@
 
 [chara_show name="scout" width="450" height="600" ]
 #
-ある日の放課後、スカウトに学校の屋上に呼び出された。[p]
+ある日の放課後、スカウトに学校の屋上に呼び出された。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 スカウト！[p]

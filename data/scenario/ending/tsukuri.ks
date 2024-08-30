@@ -2,7 +2,9 @@
 [playbgm storage="../bgm/sofuchara_bgm_sad.mp3" ]
 
 #
-ある休みの日、ツクリに呼び出されて美術館に来ていた。[p]
+ある休みの日、ツクリに呼び出されて美術館に来ていた。[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
 ごめん！待った？[p]
@@ -30,8 +32,12 @@
 #ツクリ
 とりあえず館内を回ろう。[p]
 
+[isTimePassage]
 #
-ツクリに連れられて、大半の作品は見終えた。[p]
+ツクリに連れられて、大半の作品は見終えた。[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 しかし、ツクリの作品はまだ現れていない。どこにあるのだろう…[p]
