@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #
 定期的にツクリの絵を見に行くようになり、今日も連絡を受けて美術室に向かっていた。[s]

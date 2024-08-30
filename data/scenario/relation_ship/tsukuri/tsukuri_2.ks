@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 
 #
 最近、ツクリから進捗の連絡がない... 心配なので、美術室へ様子を見に行くことにした。[s]
