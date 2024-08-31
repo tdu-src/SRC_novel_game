@@ -1,5 +1,6 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]
 [iscript]
 f.park+=f.special_houkagoevent;

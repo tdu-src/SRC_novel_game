@@ -1,5 +1,5 @@
 *start
-[playbgm storage="../bgm/sofuchara_bgm_sad.mp3" ]
+[playbgm storage="../bgm/sofucharaEnding.mp3" ]
 
 
 [chara_show name="wakastuki" width="450" height="600" ]

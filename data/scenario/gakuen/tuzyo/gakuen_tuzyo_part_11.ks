@@ -1,6 +1,6 @@
 *start
 [ptext layer="1" x="0" y="0" size="40" text="金欠問題" name="align_ct_h"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #&f.player_name
 お、お金がない...[s]

@@ -1,5 +1,5 @@
 *start
-[playbgm storage="../bgm/sofuchara_bgm_sad.mp3" ]
+[playbgm storage="../bgm/sofucharaEnding.mp3" ]
 
 #
 ある休みの日、ツクリに呼び出されて美術館に来ていた。[s]
