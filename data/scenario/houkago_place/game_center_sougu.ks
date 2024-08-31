@@ -1,5 +1,5 @@
 *start
-[bg storage="rouka.jpg" time="100" ]
+[bg storage="Gamecenter.jpg" time="100" ]
 
 [isHeaderMostSize text="ゲームセンター"]
 
