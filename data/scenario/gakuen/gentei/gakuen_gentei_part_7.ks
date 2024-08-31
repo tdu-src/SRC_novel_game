@@ -1,6 +1,6 @@
 *start
 [isHeader text="テスト勉強会"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

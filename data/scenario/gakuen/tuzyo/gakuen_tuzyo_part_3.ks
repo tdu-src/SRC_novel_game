@@ -1,6 +1,7 @@
 *start
 [isHeaderLeastSize text="購買にて"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
+
 [chara_show name="scout" width="450" height="600" ]
 
 #

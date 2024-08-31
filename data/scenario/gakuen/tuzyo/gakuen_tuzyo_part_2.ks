@@ -1,5 +1,7 @@
 *start
 [isHeader text="教室の掃除"]
+[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+
 
 #&f.player_name
 さて、掃除を始めよう![s]

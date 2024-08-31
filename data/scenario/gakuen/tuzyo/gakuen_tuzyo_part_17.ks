@@ -1,5 +1,6 @@
 *start
 [isHeaderMostSize text="助けて！めもえもん！"]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #
 放課後、急ぎで家に帰らなければならない用事が出来た...[s]

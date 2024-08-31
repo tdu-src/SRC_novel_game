@@ -1,7 +1,7 @@
 *start
-[isHeader text="体育祭にて"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
+[isHeader text="体育祭にて"]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 
 

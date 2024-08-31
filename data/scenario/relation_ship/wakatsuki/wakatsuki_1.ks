@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_mod name=wakastuki face=smaile time="1000" ]

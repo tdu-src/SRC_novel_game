@@ -1,6 +1,6 @@
 *start
 [isHeader text="美術の時間"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #
 今日の美術はデッサンだ。モデルを見ながら描くが、なかなか難しい...[s]

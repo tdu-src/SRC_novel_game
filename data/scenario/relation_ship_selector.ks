@@ -1,4 +1,5 @@
 *start
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [iscript]
 f.Relationship_selector_flag='true';
 [endscript]

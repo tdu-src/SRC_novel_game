@@ -3,6 +3,7 @@
 
 [isHeaderLeastSize text="美術館"]
 
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]
 
 [iscript]

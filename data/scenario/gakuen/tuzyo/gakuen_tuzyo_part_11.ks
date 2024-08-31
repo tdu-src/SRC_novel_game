@@ -1,6 +1,6 @@
 *start
 [isHeader text="金欠問題"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #&f.player_name
 お、お金がない...[s]

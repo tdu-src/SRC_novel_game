@@ -1,6 +1,6 @@
 *start
 [isHeaderMostSize text="理科準備室のうわさ"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="memori" width="450" height="600" ]
 #

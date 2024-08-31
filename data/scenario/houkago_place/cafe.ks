@@ -2,6 +2,8 @@
 [bg storage="rouka.jpg" time="100" ]
 
 [isHeaderLeastSize text="カフェ"]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
+
 [wait time=1000]
 [iscript]
 f.cafe+=f.nomrmal_houkagoevent;

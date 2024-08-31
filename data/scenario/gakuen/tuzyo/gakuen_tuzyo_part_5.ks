@@ -1,7 +1,7 @@
 *start
 [isHeaderMostSize text="流行りのスマホゲーム"]
 
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600" ]
 

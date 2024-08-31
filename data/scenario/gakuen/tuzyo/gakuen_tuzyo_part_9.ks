@@ -1,6 +1,7 @@
 *start
 [isHeaderMostSize text="リフレッシュのすすめ"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
+
 #
 今日の最後の授業が終わった、最近はやることが多くてへとへとだ...[s]
 *Point

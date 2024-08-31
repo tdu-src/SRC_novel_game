@@ -1,6 +1,6 @@
 *start
 [isHeaderMostSize text="いざ、尋常に！"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #
 廊下を歩いていると、スカウトがにやにやしながらこちらに近づいてきた...[s]

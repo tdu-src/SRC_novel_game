@@ -1,6 +1,7 @@
 *start
 [isHeader text="補習の危機"]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
+[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
+
 [chara_show name="scout" time="1000" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600"  time="1000"]
 
