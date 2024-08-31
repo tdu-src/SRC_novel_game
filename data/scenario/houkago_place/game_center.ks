@@ -1,7 +1,11 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
+
+[isHeaderMostSize text="ゲームセンター"]
+
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]
+
 [iscript]
 f.game_center+=f.nomrmal_houkagoevent;
 [endscript]

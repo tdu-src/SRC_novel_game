@@ -1,6 +1,7 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="購買にて" name="align_ct_h"]
+[isHeaderLeastSize text="購買にて"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
+
 [chara_show name="scout" width="450" height="600" ]
 
 #

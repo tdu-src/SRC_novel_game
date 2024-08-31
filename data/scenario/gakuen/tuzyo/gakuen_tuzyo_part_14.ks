@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="雑学クイズ" name="align_ct_h"]
+[isHeader text="雑学クイズ"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]

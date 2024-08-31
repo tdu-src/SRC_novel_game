@@ -49,9 +49,9 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 
 ;フッターの作成
 [image layer="0" x="-30" y="-10" width="377" height="100"  storage="houkago_selector_image/UI/partwindow_houkago_futa.png" time="0"  ]
-[ptext layer="2" x="20" y="-10" size="40" text="&f.playmouth" ]
-[ptext layer="2" x="20" y="40" size="40" text="&f.playmouth_string" ]
-
+[ptext layer="2" x="20" y="0" size="35" text="&f.playmouth" color="0x736e6e"  bold="true"  face="Arial" ]
+[ptext layer="2" x="20" y="40" size="35" text="&f.playmouth_string" color="0x736e6e"  bold="true"  face="Arial"]
+;メイリオ、MS PGothi、Arial
 
 ;パラメータの枠組み
 [image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
@@ -186,8 +186,13 @@ f.houkago_select_path+=f.random_place_list[f.houkago_now_place];
 f.houkago_select_path+=".ks"
 
 [endscript]
-
+[layopt layer="0" visible="true"]
 [layopt layer="1" visible="true"]
 ;月の追加
-[ptext layer="1" x="0" y="0" size="40" text="&tf.now_mouth" name="mouth" ]
+
+;ヘッダーの宣言
+[ptext layer="1" x="20" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+[ptext layer="1" x="20" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
+
+
 [jump storage="&f.houkago_select_path"]

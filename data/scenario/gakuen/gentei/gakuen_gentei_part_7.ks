@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="テスト勉強会" name="align_ct_h"]
+[isHeader text="テスト勉強会"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]

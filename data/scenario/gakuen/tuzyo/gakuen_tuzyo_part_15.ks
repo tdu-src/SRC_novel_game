@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="美術の時間" name="align_ct_h"]
+[isHeader text="美術の時間"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #

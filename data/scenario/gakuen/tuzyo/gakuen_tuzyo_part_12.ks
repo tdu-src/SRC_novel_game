@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="いざ、尋常に！" name="align_ct_h"]
+[isHeaderMostSize text="いざ、尋常に！"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #

@@ -1,5 +1,5 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="めもりの発明品" name="align_ct_h"]
+[isHeaderMostSize text="めもりの発明品"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="wakastuki" width="450" height="600" ]
 [chara_show name="memori" width="450" height="600" ]

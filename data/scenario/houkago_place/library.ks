@@ -1,7 +1,11 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
+
+[isHeaderLeastSize text="美術館"]
+
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]
+
 [iscript]
 f.park+=f.nomrmal_houkagoevent;
 [endscript]

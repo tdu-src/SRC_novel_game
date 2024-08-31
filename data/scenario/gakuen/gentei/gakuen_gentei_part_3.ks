@@ -1,6 +1,6 @@
 *start
-;夏休み
-[ptext layer="1" x="0" y="0" size="40" text="夏祭り" name="align_ct_h"]
+
+[isHeaderLeastSize text="夏祭り"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

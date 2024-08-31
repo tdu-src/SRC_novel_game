@@ -1,5 +1,6 @@
 *start
-[ptext layer="1" x="0" y="0" size="40" text="体育祭にて" name="align_ct_h"]
+
+[isHeader text="体育祭にて"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 

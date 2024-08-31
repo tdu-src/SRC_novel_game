@@ -1,7 +1,11 @@
 *start
 [bg storage="rouka.jpg" time="100" ]
+
+[isHeaderLeastSize text="公園"]
+
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]
+
 [iscript]
 f.art_museum+=f.special_houkagoevent;
 [endscript]
