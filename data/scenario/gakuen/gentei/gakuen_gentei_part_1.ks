@@ -5,10 +5,11 @@
 [eval exp="f.wakatsuki+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
-[cm]
 #
 １年前に入学した「ソフケン学園」様々な出会い、発見があり、これ
-までの一年は本当にあっという間だった...[pse]
+までの一年は本当にあっという間だった...[s]
+*Point
+[playse storage="../bgm/text_click_se.mp3" ]
 
 #
 そして、今日からソフケン学園高等部の新年度だ！[pse]
