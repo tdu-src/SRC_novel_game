@@ -1,4 +1,5 @@
 *start
+[bg storage="rouka.jpg" time="1000"  ]
 [isHeaderLeastSize text="学園祭にて"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 

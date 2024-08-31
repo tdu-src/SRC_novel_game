@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeader text="補習の危機"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

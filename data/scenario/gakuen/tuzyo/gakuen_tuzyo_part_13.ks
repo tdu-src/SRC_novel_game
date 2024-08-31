@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeader text="作業用BGM"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 

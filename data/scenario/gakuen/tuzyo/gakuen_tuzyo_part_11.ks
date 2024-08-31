@@ -1,4 +1,5 @@
 *start
+[bg storage="SchoolCourtyard.jpeg" time="1000"  ]
 [isHeader text="金欠問題"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 

@@ -1,4 +1,5 @@
 *start
+[bg storage="Shrine.jpg" time="1000"  ]
 [isHeaderLeastSize text="初詣!"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 

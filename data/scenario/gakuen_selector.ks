@@ -1,7 +1,6 @@
 *start
 ;背景は各会話の初めに宣言する
 [SceneMove]
-[bg storage="room.jpg" time="1000"  ]
 [iscript]
 tf.game_start_path="";
 [endscript]

@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeader text="雑学クイズ"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

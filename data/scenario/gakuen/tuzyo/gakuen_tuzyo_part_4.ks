@@ -1,4 +1,5 @@
 *start
+[bg storage="SchoolGround.jpg" time="1000"  ]
 [isHeaderMostSize text="ツクリの創作意欲"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
@@ -66,6 +67,8 @@
 
 *gakuen_tuzyo_part_4_root_2
 [eval exp="f.tsukuri+=f.gakuen_tuzyou_koukando"]
+
+[bg storage="room.jpg" time="1000"  ]
 
 #ワカツキ
 え、何言ってるの...？[pse]
