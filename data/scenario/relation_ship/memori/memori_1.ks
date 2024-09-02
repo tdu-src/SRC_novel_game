@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 
@@ -29,7 +29,7 @@
 #&f.player_name
 何かいい方法はないかな…[pse]
 
-[chara_mod name=memori face=なし time="1000" ]
+[chara_mod name=memori face="normal" time="1000" ]
 #めもり
 あっ、そういえばいい発明品を持ってた気がする！[pse]
 

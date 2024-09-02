@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="SchoolGate.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #&f.player_name
@@ -40,9 +40,14 @@
 #&f.player_name
 う、うん…[pse]
 
+[isTimePassage]
+[bg storage="GameCenter.jpg" time="1000"  ]
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
-また負けた…！ もう一戦やりましょう！[pse]
+また負けた…！ もう一戦やりましょう！[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #
 結局、ぎりぎりの時間まで遊んでしまった… さすがにもう帰らなければ…[pse]

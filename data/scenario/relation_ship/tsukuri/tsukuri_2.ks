@@ -9,6 +9,7 @@
 
 
 [isTimePassage]
+[bg storage="room.jpg" time="1000"  ]
 [chara_show name="tsukuri" time="1000" width="450" height="600" ]
 #
 美術室に入ると、ツクリは制作中の絵の前で立ち尽くしていた...[s]
@@ -44,6 +45,7 @@
 ツクリの心を落ち着かせるために、静かな場所へ移動することにした。[pse]
 
 [isTimePassage2]
+[bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="1000"  ]
 #&f.player_name
 落ち着いた？[s]
 *Timepassage2

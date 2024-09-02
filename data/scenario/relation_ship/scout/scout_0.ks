@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="UrbanStreet.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
@@ -33,6 +33,7 @@
 そう言うスカウトに連れられ、ゲームセンターに向かうことになった。[pse]
 
 [isTimePassage]
+[bg storage="GameCenter.jpg" time="1000"  ]
 [chara_mod name=scout face=half_sad time="1000" ]
 #スカウト
 うわ～ん！！また負けました！[s]
@@ -76,6 +77,7 @@
 心底楽しそうなスカウトに手を引かれ、駅前のカフェに向かった。[pse]
 
 [isTimePassage2]
+[bg storage="../fgimage/houkago_selector_image/background/cafe_background.jpg" time="1000"  ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 ふ～。いやぁ、いっぱい遊んじゃいましたね！[s]

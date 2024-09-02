@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="StationFront.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
@@ -77,6 +77,7 @@
 私のことどんな奴だと思ってるの？！[pse]
 
 [isTimePassage]
+[bg storage="PlaygroundEvening.jpg" time="1000"  ]
 [chara_mod name=wakastuki face=normal time="1000" ]
 #ワカツキ
 はぁ、まさか闇バイトをやってると思われるとはね…[s]

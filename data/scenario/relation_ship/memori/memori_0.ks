@@ -18,6 +18,9 @@
 
 #&f.player_name
 …とりあえず行ってみるか…[pse]
+
+[bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="100" ]
+
 [chara_show name="memori" width="450" height="600" ]
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
