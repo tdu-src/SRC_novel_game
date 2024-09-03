@@ -1,4 +1,5 @@
 *start
+[bg storage="rouka.jpg" time="1000"  ]
 [isHeaderMostSize text="めもりの発明品"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="wakastuki" width="450" height="600" ]

@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="rouka.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #
@@ -8,6 +8,7 @@
 [playse storage="../bgm/text_click_se.mp3" ]
 
 [isTimePassage]
+[bg storage="ArtRoom.jpg" time="1000"  ]
 [chara_show name="tsukuri" time="1000" width="450" height="600"  ]
 [chara_mod name=tsukuri face=normal time="1000" ]
 #ツクリ

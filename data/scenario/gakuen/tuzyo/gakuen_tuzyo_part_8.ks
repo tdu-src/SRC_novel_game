@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeaderMostSize text="理科準備室のうわさ"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
@@ -39,6 +40,7 @@
 [emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![pse]
 
 [isTimePassage]
+[bg storage="ScienceRoom.jpeg" time="1000"  ]
 [chara_mod name=memori face="normal" time="1000" ]
 #めもり
 ここが理科準備室だよ！[s]

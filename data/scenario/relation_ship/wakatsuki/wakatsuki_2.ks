@@ -85,10 +85,14 @@
 
 #&f.player_name
 とりあえず、施設まで連れて行こう。[pse]
-
+[isTimePassage]
+[bg storage="UrbanStreetEvening.jpg" time="1000"  ]
 [chara_mod name=wakastuki face=smaile time="1000" ]
 #ワカツキ
 ありがとう、今日は本当に助かったよ。[pse]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 #&f.player_name
 ワカツキと子猫のためなら、どうってことないよ！[pse]

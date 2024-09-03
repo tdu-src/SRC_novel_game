@@ -1,4 +1,5 @@
 *start
+[bg storage="BeachEvening.jpg" time="1000"  ]
 [isHeaderLeastSize text="砂浜で"]
 [playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 

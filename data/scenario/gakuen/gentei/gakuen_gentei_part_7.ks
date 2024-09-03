@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeader text="テスト勉強会"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
@@ -109,6 +110,7 @@
 お、鬼だ...[pse]
 
 [isTimePassage]
+[bg storage="classroom_yugata.jpg" time="1000"  ]
 [chara_mod name=memori face=normal time="1000" ]
 #めもり
 あっ！もうこんな時間！今日はここまでだね！[s]

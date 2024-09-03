@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeaderLeastSize text="購買にて"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
@@ -27,6 +28,7 @@
 #
 購買に移った[pse]
 [isTimePassage]
+[bg storage="cafeteria.jpg" time="1000"  ]
 #
 （ざわざわ....）[s]
 *Timepassage

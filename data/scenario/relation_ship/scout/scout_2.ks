@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="UrbanStreet.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 
 #
@@ -63,6 +63,7 @@
 とりあえず、場所を変えようか。[pse]
 
 [isTimePassage]
+[bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="1000"  ]
 [chara_mod name=wakastuki face=perplexed time="1000" ]
 #
 二人で公園のベンチに座って少し時間が経つと、スカウトはぽつりぽつりと話し始めた。[s]

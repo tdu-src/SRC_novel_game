@@ -28,8 +28,13 @@
 #めもり
 それじゃあ、早速行こう！[pse]
 
+[isTimePassage]
+[bg storage="ScienceRoom.jpeg" time="1000"  ]
 #&f.player_name
-ここは、理科室…？[pse]
+ここは、理科室…？[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
+
 
 [chara_mod name=memori face=normal time="1000" ]
 #めもり

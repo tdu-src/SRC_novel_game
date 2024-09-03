@@ -1,4 +1,5 @@
 *start
+[bg storage="SchoolGate.jpg" time="1000"  ]
 [isHeaderLeastSize text="幕間"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [eval exp="f.scouまt+=f.gakuen_tuzyou_koukando"]

@@ -1,5 +1,5 @@
 *start
-[bg storage="room.jpg" time="1000"  ]
+[bg storage="ArtRoom.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]

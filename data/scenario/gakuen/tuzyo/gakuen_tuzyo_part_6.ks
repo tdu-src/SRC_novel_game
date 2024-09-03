@@ -1,4 +1,5 @@
 *start
+[bg storage="SchoolCourtyard.jpeg" time="1000"  ]
 [isHeaderMostSize text="すき焼きミルクシェイク"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]

@@ -1,5 +1,5 @@
 *start
-
+[bg storage="Festival.jpg" time="1000"  ]
 [isHeaderLeastSize text="夏祭り"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

@@ -1,4 +1,5 @@
 *start
+[bg storage="ArtRoom.jpg" time="1000"  ]
 [isHeader text="美術の時間"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

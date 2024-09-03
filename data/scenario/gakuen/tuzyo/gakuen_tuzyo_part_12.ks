@@ -1,4 +1,5 @@
 *start
+[bg storage="rouka.jpg" time="1000"  ]
 [isHeaderMostSize text="いざ、尋常に！"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
@@ -35,6 +36,7 @@
 何が大丈夫なんだろう...[pse]
 
 [isTimePassage]
+[bg storage="room.jpg" time="1000"  ]
 [chara_mod name=scout face=smaile time="1000" ]
 #スカウト
 さぁ、始めましょう！負けたらジュース奢りです！[s]

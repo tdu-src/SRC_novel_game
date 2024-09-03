@@ -1,4 +1,5 @@
 *start
+[bg storage="room.jpg" time="1000"  ]
 [isHeaderMostSize text="流行りのスマホゲーム"]
 
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]

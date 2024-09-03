@@ -1,5 +1,5 @@
 *start
-[bg storage="rouka.jpg" time="100" ]
+[bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="100" ]
 
 [isHeaderLeastSize text="公園"]
 
