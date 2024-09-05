@@ -1,5 +1,8 @@
 *start
-
+;アニメーションのレイヤーより下にするための処理
+[iscript]
+f.AnimationLayerFlag+=1;
+[endscript]
 
 ;遭遇イベントの実装
 [iscript]
@@ -74,39 +77,39 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [layopt layer="1" visible="true"]
 [layopt layer="2" visible="true"]
 
-;フッターの作成
-
-;パラメータの枠組み
 
 ;up画面の表示
 [image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="625"   time="0" ]
 
-;主人公パラメータ
-
+[if exp="f.AnimationLayerFlag>1"]
 ;矢印 マウスカーソルを合わせると矢印を大きくする
 [button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
 
 
 
-;スマホ画面の宣言
-
-
 ;選択ボタン
 [button clickse="&f.button_clicking_se" name="koryu_field" graphic="&f.houkago_now_place_list[f.houkago_now_place]" enterimg="&f.houkago_affter_place_list[f.houkago_now_place]"  x="280" y="150"  target="*houkago_selector_1"   ]
+
 
 ;遭遇イベントの宣言
 [button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
 
-
 ;交流ボタンの作成
 [button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="50" storage="relation_ship_selector.ks" ]
+[endif]
+[if exp="f.AnimationLayerFlag==1"]
+[wait time="1000"]
+;遭遇イベントの宣言
+[button name="sougu_event" graphic="&f.random_button_list[f.houkago_now_place]" x="800" y="400" width="100" height="100"  ]
+[endif]
 [s]
 
 ;場所画像の差し替え
 ;----------------------------------------
 *houkago_select_arrow
 [iscript]
+f.AnimationLayerFlag+=1;
 f.houkago_now_place+=tf.select_arrow;
 if(f.houkago_now_place>=4){
     f.houkago_now_place=0;
