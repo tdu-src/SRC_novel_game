@@ -131,7 +131,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [button name="second_arrow" graphic="../fgimage/items/screen_transition_item/green_arrow.png" x="-2000" y="0"]
 [anim name="second_arrow" left="2500" time="4500"]
 [wait time="500"]
-[button name="third_arrow" graphic="../fgimage/items/screen_transition_item/blue_arrow.png" x="-2500" y="0"]
+[button name="third_arrow" graphic="../fgimage/items/screen_transition_item/blue_arrow.png" x="-2400" y="-10"]
 [anim name="third_arrow" left="4000" time="4500"]
 [endmacro]
 
