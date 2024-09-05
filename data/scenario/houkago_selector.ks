@@ -26,6 +26,7 @@ for(var i=0;i<4;i++){
 f.houkago_now_place=0;
 f.houkago_now_place_list=["../fgimage/houkago_selector_image/background/game_center_background.png","../fgimage/houkago_selector_image/background/park_background.png","../fgimage/houkago_selector_image/background/cafe_background.png","../fgimage/houkago_selector_image/background/artmusum_background.png"]
 f.houkago_affter_place_list=["../fgimage/houkago_selector_image/background/game_center_backgroundaffter.png","../fgimage/houkago_selector_image/background/park_backgroundaffter.png","../fgimage/houkago_selector_image/background/cafe_backgroundaffter.png","../fgimage/houkago_selector_image/background/artmusum_backgroundaffter.png"]
+f.houkago_BackGroundList=["../fgimage/houkago_selector_image/background/GameCenterMode.png","../fgimage/houkago_selector_image/background/ParkMode.png","../fgimage/houkago_selector_image/background/CafeMode.png","../fgimage/houkago_selector_image/background/ArtMuseumMode.png"]
 
 f.houkago_select_upparameter_listx=[340,930,730,530]
 [endscript]
@@ -47,7 +48,7 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
 ;バックグラウンドの宣言
-[bg storage="HoukagoSelectorUI.png" time="1000" ]
+[bg storage="../fgimage/houkago_selector_image/background/GameCenterMode.png" time="1000" ]
 
 
 ;フッターの作成
@@ -119,6 +120,9 @@ if(f.houkago_now_place>=4){
 
 
 [endscript]
+
+;背景の変更
+[bg storage="&f.houkago_BackGroundList[f.houkago_now_place]" time="0" ]
 
 ;ボタンの削除
 [clearfix name="leftarrow"]
