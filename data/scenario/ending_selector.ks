@@ -47,6 +47,7 @@ if(f.memori_flag=='true'){
 }
 [endscript]
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+[freeimage layer="0" time="0"]
 [freeimage layer="1" time="0"]
 [freeimage layer="2" time="0"]
 [jump storage="&tf.ending_directory"  ]
