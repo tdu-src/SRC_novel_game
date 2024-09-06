@@ -68,8 +68,8 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="tsukuri" face="sad" storage="chara/tsukuri/sad.png"  ]
 [chara_face name="tsukuri" face="surprise" storage="chara/tsukuri/surprise.png"  ]
 [chara_face name="tsukuri" face="smaile" storage="chara/tsukuri/smile.png"  ]
-[chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_normal.png"  ]
-[chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_normal.png"  ]
+[chara_face name="tsukuri" face="weariness" storage="chara/tsukuri/tsukuri_weariness.png"  ]
+[chara_face name="tsukuri" face="angry" storage="chara/tsukuri/tsukuri_angry.png"  ]
 
 
 ;scout
@@ -81,8 +81,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="scout" face="surprise" storage="chara/scout/scout_surprise.png"  ]
 [chara_face name="scout" face="half_sad" storage="chara/scout/scout_halfsad.png"  ]
 [chara_face name="scout" face="smaile" storage="chara/scout/scout_smile.png"  ]
-;この差分なし
-[chara_face name="scout" face="weariness" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="weariness" storage="chara/scout/scout_weariness.png"  ]
 ;この差分なし
 [chara_face name="scout" face="angry" storage="chara/scout/scout_normal.png"  ]
 
@@ -91,26 +90,26 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_new  name="wakastuki" storage="chara/wakastuki/normal.png" jname="ワカツキ"  ]
 
 [chara_face name="wakastuki" face="normal" storage="chara/wakastuki/normal.png"  ]
-[chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="perplexed" storage="chara/wakastuki/perplexed.png"  ]
 [chara_face name="wakastuki" face="sad" storage="chara/wakastuki/sad.png"  ]
 [chara_face name="wakastuki" face="surprise" storage="chara/wakastuki/surprise.png"  ]
 [chara_face name="wakastuki" face="smaile" storage="chara/wakastuki/smile.png"  ]
-[chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/wakatsuki.png"  ]
-[chara_face name="wakastuki" face="angry" storage="chara/wakastuki/wakatsuki.png"  ]
+[chara_face name="wakastuki" face="weariness" storage="chara/wakastuki/weariness.png"  ]
+[chara_face name="wakastuki" face="angry" storage="chara/wakastuki/angry.png"  ]
 [chara_face name="wakastuki" face="shy" storage="chara/wakastuki/shy.png"   ]
-[chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/wakatsuki.png"]
+[chara_face name="wakastuki" face="ashamed" storage="chara/wakastuki/ashamed.png"]
 
 ;memori
 [chara_new name="memori" storage="chara/memori/normal.png"jname="めもり"  ]
 
 [chara_face name="memori" face="normal" storage="chara/memori/normal.png"  ]
 [chara_face name="memori" face="perplexed" storage="chara/memori/perplexed.png"  ]
-[chara_face name="memori" face="sad" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="sad" storage="chara/memori/memori_sad.png"  ]
 [chara_face name="memori" face="surprise" storage="chara/memori/surprise.png"  ]
 [chara_face name="memori" face="smaile" storage="chara/memori/smile.png"  ]
-[chara_face name="memori" face="weariness" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="weariness" storage="chara/memori/memori_weariness.png"  ]
 [chara_face name="memori" face="angry" storage="chara/memori/angry.png"  ]
-;めもり焦りの追加
+;めもり焦りの追加//この差分なし
 [chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
 
 ;seと[p]のマクロ
