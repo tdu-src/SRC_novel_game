@@ -283,6 +283,10 @@ tf.scoutResult=obj.TalkResult('scout',f.scout,f.cafe,f.scout_kouryu_key);
 tf.tsukuriResult=obj.TalkResult('tsukuri',f.tsukuri,f.park,f.tsukuri_kouryu_key);
 tf.wakatsukiResult=obj.TalkResult('wakatsuki',f.wakatsuki,f.game_center,f.wakatsuki_kouryu_key);
 [endscript]
+
+;スキップをキャンセル
+[cancelskip]
+
 [if exp="tf.memoriResult!='false'" ]
 #
 [emb exp="tf.memoriResult"][pse]
