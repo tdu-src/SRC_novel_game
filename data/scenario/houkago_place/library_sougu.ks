@@ -105,7 +105,7 @@ f.park_special_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ここは美術館の遭遇イベントのショートパートです[s]
+放課後、新聞契約の特典でもらった優待券で、美術館に来ていた。[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
