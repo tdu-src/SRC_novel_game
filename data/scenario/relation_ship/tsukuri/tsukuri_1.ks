@@ -1,5 +1,5 @@
 *start
-[isKoryuHeader text="ツクリと②"]
+[isKoryuHeader3 text="ツクリと②"]
 [bg storage="rouka.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

@@ -1,5 +1,5 @@
 *start
-[isKoryuHeader text="ワカツキと②"]
+[isKoryuHeader4 text="ワカツキと②"]
 [bg storage="StairsRoom.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
