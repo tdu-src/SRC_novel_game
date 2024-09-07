@@ -245,6 +245,9 @@ if(tf.koryu_person=='memori'){
 [if exp="tf.koryu_person!='none'" ]
 [SceneMove]
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
+[layopt layer="0" visible="true" ]
+[ptext layer="0"x="20" y="0" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+[ptext layer="0" x="20" y="40" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
 [endif]
 [jump storage="&f.chara_directroy" cond="tf.koryu_person!='none'" ]
 
