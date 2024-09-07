@@ -8,12 +8,18 @@
 *Part1_Edit
 
 [layopt layer="message0" visible="false"]
-[image layer="1" storage="15_input_A.png" x="0" y="0"]
 
+[layopt layer="1" visible="true"]
 ; [edit] 入力欄を出します。
-[edit name="f.player_name" left="380" top="350" width="260" height="40" size="30" maxchars="8" initial="ソフ研太郎"]
+[image layer="1" storage="../fgimage/items/NameEntoryText.png" x="400" y="150" ]
 
-[button graphic="config/arrow_next.png" target="*Part1_Commit" x="440" y="430"]
+
+[edit name="f.player_name" left="380" top="300" width="520" height="80" size="60" maxchars="8" initial="ソフ研太郎"]
+
+[change_textbox bg_color="0xffffff" border_width="4" border_color="0x54b6fb" border_radius="100" font_color="0x22222" font_weight="bold"]
+
+[button graphic="../fgimage/items/DecisionButton.png" target="*Part1_Commit" x="460" y="480"]
+
 [s]
 
 ; ------------------------------------------------------
@@ -58,5 +64,7 @@
 
 ; ------------------------------------------------------
 *Part1_OK
+[freeimage layer="1"]
+
 [cm]
 [jump storage="logic.ks"]
