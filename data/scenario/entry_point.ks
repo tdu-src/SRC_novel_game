@@ -82,8 +82,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="scout" face="half_sad" storage="chara/scout/scout_halfsad.png"  ]
 [chara_face name="scout" face="smaile" storage="chara/scout/scout_smile.png"  ]
 [chara_face name="scout" face="weariness" storage="chara/scout/scout_weariness.png"  ]
-;この差分なし
-[chara_face name="scout" face="angry" storage="chara/scout/scout_normal.png"  ]
+[chara_face name="scout" face="angry" storage="chara/scout/scout_angry.png"  ]
 
 
 ;wakastuki
@@ -109,8 +108,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [chara_face name="memori" face="smaile" storage="chara/memori/smile.png"  ]
 [chara_face name="memori" face="weariness" storage="chara/memori/memori_weariness.png"  ]
 [chara_face name="memori" face="angry" storage="chara/memori/angry.png"  ]
-;めもり焦りの追加//この差分なし
-[chara_face name="memori" face="impatience" storage="chara/memori/memori_normal.png"  ]
+[chara_face name="memori" face="impatience" storage="chara/memori/memori_impatience.png"  ]
 
 ;seと[p]のマクロ
 [macro name="pse"]
