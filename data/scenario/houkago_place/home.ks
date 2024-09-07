@@ -15,11 +15,13 @@ f.art_museum+=f.nomrmal_houkagoevent;
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-ここは公園です[s]
+公園に来てみた[s]
 
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
+#
+公園で少し遊んで帰った[pse]
 
 
 [iscript]
@@ -35,9 +37,12 @@ f.art_museum_normal_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ここは公園のショートパートです[s]
+公園に来てみた[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
+
+#
+公園で少し遊んで帰った[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

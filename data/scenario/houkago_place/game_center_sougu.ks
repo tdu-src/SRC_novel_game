@@ -117,10 +117,20 @@ f.gamesenter_special_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ここはゲームセンターの遭遇イベントのショートパートです[s]
+ゲームセンターに来た[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
+
+#
+音ゲーで遊んでいるワカツキを見つけた[pse]
+
+[chara_show name="wakastuki" width="450" height="600" ]
+#ワカツキ
+あれ、[emb exp="f.player_name"]じゃん。
+
+#
+音ゲーを交代してプレイしたが、難易度が高くてクリア出来なかった…[pse]
 
 
 [jump storage="houkago_place/houkago_end.ks"]
