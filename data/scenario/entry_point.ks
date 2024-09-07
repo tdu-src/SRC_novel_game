@@ -148,7 +148,7 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 ;width=565 height=130 デフォルト
 [image layer="0" x="-30" y="-10" storage="../fgimage/items/partwindow_background.png"  width="%width" height="110"]
 ;x=-350 デフォルト
-[ptext name="align_ct_h" layer="1" x="%x" y="10" size="60" text="%text"  bold="true"  face="Arial"]
+[ptext name="align_ct_h" layer="1" x="%x" y="10" size="48" text="%text"  bold="true"  face="Arial"]
 [endmacro]
 
 [macro name="isKoryuHeader"]
