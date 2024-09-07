@@ -16,16 +16,15 @@
 #スカウト
 掃除機は私が使うので、[emb exp="f.player_name"]さんは雑巾で拭き掃除をしてくださいね！[pse]
 
-[bg time="10000" storage="classroom_hiru.jpg" method="fadeInLeft"]
 #メモリ
 ボクは黒板をきれいにするよ！[pse]
 
-#
-（時間経過カットイン）[pse]
-
-[bg time="10000" storage="classroom_yugata.jpg" method="fadeInLeft"]
+[isTimePassage]
+[bg time="1000" storage="classroom_yugata.jpg"]
 #スカウト
-はぁ～、やっと終わりましたよ...[pse]
+はぁ～、やっと終わりましたよ...[s]
+*Timepassage
+[playse storage="../bgm/text_click_se.mp3" ]
 
 
 #メモリ
