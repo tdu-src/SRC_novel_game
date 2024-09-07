@@ -151,9 +151,14 @@ f.button_clicking_se="../bgm/button_click_se.mp3";
 [ptext name="align_ct_h" layer="1" x="%x" y="10" size="48" text="%text"  bold="true"  face="Arial"]
 [endmacro]
 
-[macro name="isKoryuHeader"]
-[image layer="0" x="-30" y="-10" storage="../fgimage/relationship_selector_image/image/PartHeader.png"  width="565" height="130"]
-[ptext name="align_ct_h" layer="1" x="-350" y="25" size="40" text="%text"  bold="true"  face="Arial"]
+[macro name="isKoryuHeader3"]
+[image layer="0" x="-30" y="-10" storage="../fgimage/relationship_selector_image/image/PartHeader.png"  width="420" height="110"]
+[ptext name="align_ct_h" layer="1" x="-400" y="10" size="48" text="%text"  bold="true"  face="Arial"]
+[endmacro]
+
+[macro name="isKoryuHeader4"]
+[image layer="0" x="-30" y="-10" storage="../fgimage/relationship_selector_image/image/PartHeader.png"  width="450" height="110"]
+[ptext name="align_ct_h" layer="1" x="-380" y="10" size="48" text="%text"  bold="true"  face="Arial"]
 [endmacro]
 
 [jump storage="name_entry.ks"]
