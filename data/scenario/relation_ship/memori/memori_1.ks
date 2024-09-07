@@ -1,4 +1,5 @@
 *start
+[isKoryuHeader text="めもりと②"]
 [bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 

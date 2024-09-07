@@ -1,4 +1,5 @@
 *start
+[isKoryuHeader text="ワカツキと①"]
 [bg storage="StationFront.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 

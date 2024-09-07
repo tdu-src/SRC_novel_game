@@ -1,4 +1,5 @@
 *start
+[isKoryuHeader text="スカウトと②"]
 [bg storage="SchoolGate.jpg" time="1000"  ]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
