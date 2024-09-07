@@ -1,6 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="1000"  ]
-[isHeaderMostSize text="いざ、尋常に！"]
+[isHeader text="いざ、尋常に！" x="-350" width="500"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #

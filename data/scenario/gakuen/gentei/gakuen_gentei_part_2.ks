@@ -1,6 +1,6 @@
 *start
 [bg storage="SchoolGround.jpg" time="1000"  ]
-[isHeader text="体育祭にて"]
+[isHeader text="体育祭にて" x="-400" width="430"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]
 

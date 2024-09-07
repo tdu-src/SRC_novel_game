@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeader text="雑学クイズ"]
+[isHeader text="雑学クイズ" x="-400" width="430"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]

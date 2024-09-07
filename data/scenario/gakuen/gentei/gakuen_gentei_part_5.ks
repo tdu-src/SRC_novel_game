@@ -1,6 +1,6 @@
 *start
 [bg storage="rouka.jpg" time="1000"  ]
-[isHeaderLeastSize text="学園祭にて"]
+[isHeader text="学園祭にて" x="-400" width="430"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

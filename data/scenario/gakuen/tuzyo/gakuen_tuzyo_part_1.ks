@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeader text="補習の危機"]
+[isHeader text="補習の危機" x="-400" width="430"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="scout" time="1000" width="450" height="600" ]

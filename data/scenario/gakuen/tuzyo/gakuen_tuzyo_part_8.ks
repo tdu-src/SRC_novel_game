@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeaderMostSize text="理科準備室のうわさ"]
+[isHeader text="理科準備室のうわさ" x="-300" width="620"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="memori" width="450" height="600" ]

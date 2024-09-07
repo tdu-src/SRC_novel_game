@@ -1,6 +1,6 @@
 *start
 [bg storage="BeachEvening.jpg" time="1000"  ]
-[isHeaderLeastSize text="砂浜で"]
+[isHeader text="砂浜で" x="-450" width="330"]
 [playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 
 [eval exp="f.scout+=f.gakuen_tuzyou_koukando"]

@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeaderLeastSize text="購買にて"]
+[isHeader text="購買にて" x="-410" width="400"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]

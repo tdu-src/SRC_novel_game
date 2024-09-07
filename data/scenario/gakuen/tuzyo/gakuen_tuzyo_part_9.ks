@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeaderMostSize text="リフレッシュのすすめ"]
+[isHeader text="リフレッシュのすすめ" x="-290" width="640"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #

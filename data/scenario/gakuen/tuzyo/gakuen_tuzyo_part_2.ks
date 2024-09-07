@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeader text="教室の掃除"]
+[isHeader text="教室の掃除" x="-400" width="430"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 

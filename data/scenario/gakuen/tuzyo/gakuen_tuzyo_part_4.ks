@@ -1,6 +1,6 @@
 *start
 [bg storage="SchoolGround.jpg" time="1000"  ]
-[isHeaderMostSize text="ツクリの創作意欲"]
+[isHeader text="ツクリの創作意欲" x="-330" width="580"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_show name="wakastuki" width="450" height="600" ]

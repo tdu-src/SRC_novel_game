@@ -1,6 +1,6 @@
 *start
 [bg storage="SchoolGate.jpg" time="1000"  ]
-[isHeaderMostSize text="助けて！めもえもん！"]
+[isHeader text="助けて！めもえもん！" x="-280" width="650"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #
