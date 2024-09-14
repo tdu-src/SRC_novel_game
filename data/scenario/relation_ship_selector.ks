@@ -3,11 +3,13 @@
 [iscript]
 f.AnimationLayerFlag+=1;
 f.Relationship_selector_flag='true';
+//あんまよくないけど
+f.AnimationTransitionFlag="";
 [endscript]
 [cm ]
 ;ボタンの宣言
 ;戻るボタンの作成
-[button name="back_bt" graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="-2500" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png"  storage="houkago_selector.ks" target="*start_sab" ]
+[button name="back_bt" graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="-2500" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png" exp="f.AnimationTransitionFlag='true'"  storage="houkago_selector.ks" target="*start_sab" ]
 
 ;ボタンの作成
 
