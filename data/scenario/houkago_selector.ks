@@ -36,6 +36,7 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [eval exp="f.Relationship_selector_flag='false'"]
 [cm]
 [endif]
+;遷移アニメーションの処理
 [if exp="f.AnimationTransitionFlag=='true'"]
 [button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="-2500" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="-2500" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
@@ -161,6 +162,10 @@ if(f.houkago_now_place>=4){
 ;以下はただの宣言読む必要ない
 ;----------------------------------------
 *houkago_selector_1
+[iscript]
+f.AnimationTransitionFlag="false";
+[endscript]
+
 [cm]
 [SceneMove]
 [clearfix]
