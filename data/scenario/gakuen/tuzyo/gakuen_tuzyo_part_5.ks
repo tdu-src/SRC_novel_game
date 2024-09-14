@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeaderMostSize text="流行りのスマホゲーム"]
+[isHeader text="流行りのスマホゲーム" x="-280" width="660"]
 
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [chara_show name="tsukuri" width="450" height="600" ]

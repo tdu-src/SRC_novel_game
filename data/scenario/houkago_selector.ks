@@ -198,8 +198,11 @@ f.houkago_select_path+=".ks"
 ;月の追加
 
 ;ヘッダーの宣言
-[ptext layer="1" x="20" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
-[ptext layer="1" x="20" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
+;[ptext layer="1" x="20" y="10" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+;[ptext layer="1" x="20" y="50" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
+
+[ptext layer="1"x="20" y="0" size="40" text="&f.playmouth"  bold="true"  face="Arial" ]
+[ptext layer="1" x="20" y="40" size="40" text="&f.playmouth_string"  bold="true"  face="Arial"]
 
 
 [jump storage="&f.houkago_select_path"]

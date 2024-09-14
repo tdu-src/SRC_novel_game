@@ -1,7 +1,7 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/artmusum_background.jpg" time="100" ]
 
-[isHeaderLeastSize text="美術館"]
+[isHeader text="美術館" x="-450" width="330"]
 
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]

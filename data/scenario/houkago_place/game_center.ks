@@ -1,7 +1,7 @@
 *start
 [bg storage="Gamecenter.jpg" time="100" ]
 
-[isHeaderMostSize text="ゲームセンター"]
+[isHeader text="ゲームセンター" x="-360" width="500"]
 
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]

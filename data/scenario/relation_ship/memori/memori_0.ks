@@ -1,5 +1,5 @@
 *start
-[isKoryuHeader text="めもりと①"]
+[isKoryuHeader3 text="めもりと①"]
 [bg storage="room.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 

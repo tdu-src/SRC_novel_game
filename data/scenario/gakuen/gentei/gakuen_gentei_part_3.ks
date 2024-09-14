@@ -1,6 +1,6 @@
 *start
 [bg storage="Festival.jpg" time="1000"  ]
-[isHeaderLeastSize text="夏祭り"]
+[isHeader text="夏祭り"  x="-450" width="330"]
 [playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 [eval exp="f.memori+=f.gakuen_tuzyou_koukando"]

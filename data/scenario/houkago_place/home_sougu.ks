@@ -1,7 +1,7 @@
 *start
 [bg storage="../fgimage/houkago_selector_image/background/park_background.jpg" time="100" ]
 
-[isHeaderLeastSize text="公園"]
+[isHeader text="公園" x="-460" width="300"]
 
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 [wait time=1000]

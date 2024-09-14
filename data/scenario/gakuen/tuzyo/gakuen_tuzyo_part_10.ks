@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeaderMostSize text="ポスターのデザイン"]
+[isHeader text="ポスターのデザイン" x="-300" width="620"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]

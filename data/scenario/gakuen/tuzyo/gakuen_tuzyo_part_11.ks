@@ -1,6 +1,6 @@
 *start
 [bg storage="SchoolCourtyard.jpeg" time="1000"  ]
-[isHeader text="金欠問題"]
+[isHeader text="金欠問題" x="-400" width="400"]
 [playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 #&f.player_name

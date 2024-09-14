@@ -1,6 +1,6 @@
 *start
 [bg storage="SchoolCourtyard.jpeg" time="1000"  ]
-[isHeader text="異種族交流？"]
+[isHeader text="異種族交流？" x="-380" width="470"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #

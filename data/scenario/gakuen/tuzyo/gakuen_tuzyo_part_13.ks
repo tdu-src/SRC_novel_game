@@ -1,6 +1,6 @@
 *start
 [bg storage="room.jpg" time="1000"  ]
-[isHeader text="作業用BGM"]
+[isHeader text="作業用BGM" x="-400" width="440"]
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
