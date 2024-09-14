@@ -124,9 +124,23 @@ f.cafe_special_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ここは遭遇イベントショートパートのカフェです[s]
+放課後、特にあてもなくふらふらと道を歩いていた。[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
+
+#
+始めて見たカフェだが、なかなかに雰囲気が良さそうだ…[pse]
+
+#&f.player_name
+入ってみようかな…？[pse]
+
+[chara_show name="scout" width="450" height="600" ]
+[chara_mod name=scout face=surprise time="1000" ]
+#スカウト
+あれ、[emb exp="f.player_name"]さんじゃないですか！[pse]
+
+#
+スカウトとパフェを食べて過ごした[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]
