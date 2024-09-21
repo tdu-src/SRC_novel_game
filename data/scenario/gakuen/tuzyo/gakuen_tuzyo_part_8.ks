@@ -40,7 +40,7 @@
 [emb exp="f.player_name"]も気になるでしょ！実際に確かめに行くよ![pse]
 
 [isTimePassage]
-[bg storage="ScienceRoom.jpeg" time="1000"  ]
+[bg storage="ScienceRoom.jpg" time="1000"  ]
 [chara_mod name=memori face="normal" time="1000" ]
 #めもり
 ここが理科準備室だよ！[s]
