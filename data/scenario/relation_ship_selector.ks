@@ -57,9 +57,6 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 [endscript]
 
 
-;ヘッダーの作成
-[image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
-[ptext name="align_ct_h" layer="2" x="-530" y="15" size="62" text="交流"  bold="true"  face="Arial" color="0x736e6e"]
 
 
 ;スカウトの確認画面
@@ -140,7 +137,7 @@ tf.AnimationTime=800;
 ;
 ;ヘッダーの作成
 [image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
-
+[ptext name="align_ct_h" layer="2" x="-530" y="15" size="62" text="交流"  bold="true"  face="Arial" color="0x736e6e"]
 
 ;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
 ;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
