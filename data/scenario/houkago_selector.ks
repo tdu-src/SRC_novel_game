@@ -106,7 +106,6 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="625"   time="0" ]
 
 [if exp="f.AnimationLayerFlag>1&&f.AnimationTransitionFlag!='true'"]
-[eval exp="f.AnimationTransitionFlag='false'"]
 ;矢印 マウスカーソルを合わせると矢印を大きくする
 [button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
@@ -133,6 +132,8 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 ;場所画像の差し替え
 ;----------------------------------------
 *houkago_select_arrow
+[eval exp="f.AnimationTransitionFlag='false'"]
+
 [iscript]
 f.AnimationLayerFlag+=1;
 f.houkago_now_place+=tf.select_arrow;
