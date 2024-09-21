@@ -3,47 +3,28 @@
 [iscript]
 f.AnimationLayerFlag+=1;
 f.Relationship_selector_flag='true';
+//あんまよくないけど
+f.AnimationTransitionFlag="";
 [endscript]
-[cm  ]
-[bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
-[free layer="message0" name="chara_name_area"  ]
-
-[clearfix]
-
-[freeimage layer="0" time="0"  ]
-[freeimage layer="1" time="0"]
-[freeimage layer="2" time="0"]
-[layopt layer="message0" visible="false"]
-[layopt layer="2" visible="true" ]
-
-;静的なUIの作成
-
-;パラメータの枠組み
-[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
-
-;主人公パラメータ
-[ptext layer="2" name="align_ct_h" x="-330" y="620" size="30" text="&f.game_center"]
-[ptext layer="2" name="align_ct_h" x="-150" y="620" size="30" text="&f.park"]
-[ptext layer="2" name="align_ct_h" x="50" y="620" size="30" text="&f.cafe"]
-[ptext layer="2" name="align_ct_h" x="250" y="620" size="30" text="&f.art_museum"]
-
+[cm ]
+;ボタンの宣言
 ;戻るボタンの作成
-[button graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="20" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png"  storage="houkago_selector.ks" target="*start_sab" ]
+[button name="back_bt" graphic="../fgimage/relationship_selector_image/UI/backbutton.png"  x="1120"  y="-2500" enterimg="../fgimage/relationship_selector_image/UI/backbuttonaffter.png" exp="f.AnimationTransitionFlag='true'"  storage="houkago_selector.ks" target="*start_sab" ]
 
-;好感度パラメータのハートマークイメージの宣言
-[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="30"layer="0" time="0"  ]
-[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="165"layer="0" time="0"  ]
-[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="300"layer="0" time="0"  ]
-[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
+;ボタンの作成
 
-;好感度パラメータの宣言
-[ptext name="align_ct_h" layer="2" x="250" y="60" size="60" text="&f.scout"]
-[ptext name="align_ct_h" layer="2" x="250" y="195" size="60" text="&f.tsukuri"]
-[ptext name="align_ct_h" layer="2" x="250" y="330" size="60" text="&f.wakatsuki"]
-[ptext name="align_ct_h" layer="2" x="250" y="465" size="60" text="&f.memori"]
+;scoutの交流ボタンの作成
+[button name="scout_kouryu"  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png"  x="300"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
 
+;ツクリの交流ボタンの作成
+[button name="tsukuri_kouryu"  graphic="../fgimage/relationship_selector_image/UI/tsukuri_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/tsukuri_background_layeraffter.png" x="300"   y="-2500"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
 
-;
+;ワカツキの交流ボタンの作成
+[button name="wakastuki_kouryu"  graphic="../fgimage/relationship_selector_image/UI/wakatsuki_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/wakatsuki_background_layeraffter.png" x="300"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
+
+;メモリの交流ボタンの作成
+[button name="memori_kouryu" graphic="../fgimage/relationship_selector_image/UI/memori_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/memori_background_layeraffter.png" x="300"   y="-2500" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
+
 ;キャラ交流解放度
 [iscript]
 var obj = {
@@ -75,46 +56,91 @@ tf.tsukuri_achievement=obj.chara_achievement(f.tsukuri,f.tsukuri_kouryu_key,f.pa
 tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_key,f.game_center);
 [endscript]
 
+
 ;ヘッダーの作成
 [image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
 [ptext name="align_ct_h" layer="2" x="-530" y="15" size="62" text="交流"  bold="true"  face="Arial" color="0x736e6e"]
 
-;ボタンの作成
-
-;scoutの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/scout_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/scout_background_layeraffter.png"  x="300"   y="30" target="*kouryu_ivent"exp="tf.koryu_person='scout'"  ]
-
-;ツクリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/tsukuri_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/tsukuri_background_layeraffter.png" x="300"   y="165"  target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
-
-;ワカツキの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/wakatsuki_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/wakatsuki_background_layeraffter.png" x="300"   y="300" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"  ]
-
-;メモリの交流ボタンの作成
-[button  graphic="../fgimage/relationship_selector_image/UI/memori_background_layer.png" enterimg="../fgimage/relationship_selector_image/UI/memori_background_layeraffter.png" x="300"   y="435" target="*kouryu_ivent" exp="tf.koryu_person='memori'"  ]
-
 
 ;スカウトの確認画面
-[button  graphic="&tf.scout_achievement[0]"  x="450"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'" ]
-[button  graphic="&tf.scout_achievement[1]"  x="550"   y="50"  target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
-[button  graphic="&tf.scout_achievement[2]"  x="650"   y="50" target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
+[button name="scout_achievement" graphic="&tf.scout_achievement[0]"  x="450"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='scout'" ]
+[button name="scout_achievement" graphic="&tf.scout_achievement[1]"  x="550"   y="-2500"  target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
+[button name="scout_achievement" graphic="&tf.scout_achievement[2]"  x="650"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='scout'"]
 
 ;ツクリの確認画面
-[button  graphic="&tf.tsukuri_achievement[0]"  x="450"   y="190"target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
-[button  graphic="&tf.tsukuri_achievement[1]"  x="550"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
-[button  graphic="&tf.tsukuri_achievement[2]"  x="650"   y="190" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
+[button name="tsukuri_achievement" graphic="&tf.tsukuri_achievement[0]"  x="450"   y="-2500"target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'" ]
+[button name="tsukuri_achievement" graphic="&tf.tsukuri_achievement[1]"  x="550"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
+[button name="tsukuri_achievement" graphic="&tf.tsukuri_achievement[2]"  x="650"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='tsukuri'"]
 
 
 ;ワカツキの確認画面
-[button  graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'" ]
-[button  graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
-[button  graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="330" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
+[button name="wakastuki_achievement" graphic="&tf.wakatsuki_achievement[0]"  x="450"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'" ]
+[button name="wakastuki_achievement" graphic="&tf.wakatsuki_achievement[1]"  x="550"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
+[button name="wakastuki_achievement" graphic="&tf.wakatsuki_achievement[2]"  x="650"   y="-2500" target="*kouryu_ivent"exp="tf.koryu_person='wakatsuki'"]
 
 
 ;メモリの確認画面
-[button  graphic="&tf.memori_achievement[0]"  x="450"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'" ]
-[button  graphic="&tf.memori_achievement[1]"  x="550"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
-[button  graphic="&tf.memori_achievement[2]"  x="650"   y="470" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+[button name="memori_achievement" graphic="&tf.memori_achievement[0]"  x="450"   y="-2500" target="*kouryu_ivent" exp="tf.koryu_person='memori'" ]
+[button name="memori_achievement" graphic="&tf.memori_achievement[1]"  x="550"   y="-2500" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+[button name="memori_achievement" graphic="&tf.memori_achievement[2]"  x="650"   y="-2500" target="*kouryu_ivent" exp="tf.koryu_person='memori'"]
+
+
+;アニメーションの宣言
+[SceneMove]
+[iscript]
+tf.AnimationTime=800;
+[endscript]
+;アニメーションの宣言
+[anim name="back_bt" top="20" time="&tf.AnimationTime"]
+[anim name="scout_kouryu" top="30" time="&tf.AnimationTime"]
+[anim name="tsukuri_kouryu" top="165" time="&tf.AnimationTime"]
+[anim name="wakastuki_kouryu" top="300" time="&tf.AnimationTime"]
+[anim name="memori_kouryu" top="435" time="&tf.AnimationTime"]
+[anim name="scout_achievement" top="50" time="&tf.AnimationTime"]
+[anim name="tsukuri_achievement" top="190" time="&tf.AnimationTime"]
+[anim name="wakastuki_achievement" top="330" time="&tf.AnimationTime"]
+[anim name="memori_achievement" top="470" time="&tf.AnimationTime"]
+
+[bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
+[free layer="message0" name="chara_name_area"  ]
+
+[clearfix]
+
+[freeimage layer="0" time="0"  ]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
+[layopt layer="message0" visible="false"]
+[layopt layer="2" visible="true" ]
+
+;静的なUIの作成
+
+;パラメータの枠組み
+[image name="parameter_frame" storage="houkago_selector_image/UI/parameterbackground.png" x="200" y="600" width="809" height="75"  layer="0" time="0"  ]
+
+;主人公パラメータ
+[ptext layer="2" name="align_ct_h" x="-330" y="620" size="30" text="&f.game_center"]
+[ptext layer="2" name="align_ct_h" x="-150" y="620" size="30" text="&f.park"]
+[ptext layer="2" name="align_ct_h" x="50" y="620" size="30" text="&f.cafe"]
+[ptext layer="2" name="align_ct_h" x="250" y="620" size="30" text="&f.art_museum"]
+
+
+;好感度パラメータのハートマークイメージの宣言
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="30"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="165"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="300"layer="0" time="0"  ]
+[image storage="../fgimage/relationship_selector_image/image/heart.png" x="800" y="435"layer="0" time="0"  ]
+
+;好感度パラメータの宣言
+[ptext name="align_ct_h" layer="2" x="250" y="60" size="60" text="&f.scout"]
+[ptext name="align_ct_h" layer="2" x="250" y="195" size="60" text="&f.tsukuri"]
+[ptext name="align_ct_h" layer="2" x="250" y="330" size="60" text="&f.wakatsuki"]
+[ptext name="align_ct_h" layer="2" x="250" y="465" size="60" text="&f.memori"]
+
+
+;
+;ヘッダーの作成
+[image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
+
 
 ;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
 ;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]

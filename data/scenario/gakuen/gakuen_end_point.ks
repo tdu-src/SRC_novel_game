@@ -13,11 +13,11 @@ f.ButtonAnimationTime = 1800;
 
 
 ;選択ボタン
-[button clickse="&f.button_clicking_se" name="koryu_field" graphic="../fgimage/houkago_selector_image/background/game_center_background.png" enterimg="../fgimage/houkago_selector_image/background/game_center_backgroundaffter.png"  x="280" y="-1500"  target="*houkago_selector_1"   ]
+[button clickse="&f.button_clicking_se" name="koryu_field" graphic="../fgimage/houkago_selector_image/background/game_center_background.png" enterimg="../fgimage/houkago_selector_image/background/game_center_backgroundaffter.png"  x="280" y="-2000"  target="*houkago_selector_1"   ]
 
 
 ;交流ボタンの作成
-[button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="-500" storage="relation_ship_selector.ks" ]
+[button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="-10000" storage="relation_ship_selector.ks" ]
 
 ;アニメーションでレイヤーの処理
 [anim name="leftarrow" top="250" time="&f.ButtonAnimationTime"]

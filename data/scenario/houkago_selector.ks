@@ -36,6 +36,28 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [eval exp="f.Relationship_selector_flag='false'"]
 [cm]
 [endif]
+;遷移アニメーションの処理
+[if exp="f.AnimationTransitionFlag=='true'"]
+[button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="-2500" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
+[button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="-2500" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
+
+
+
+;選択ボタン
+[button clickse="&f.button_clicking_se" name="koryu_field" graphic="../fgimage/houkago_selector_image/background/game_center_background.png" enterimg="../fgimage/houkago_selector_image/background/game_center_backgroundaffter.png"  x="280" y="-2000"  target="*houkago_selector_1"   ]
+
+
+;交流ボタンの作成
+[button clickse="&f.button_clicking_se" name="houkagokouryu_button" graphic="../fgimage/houkago_selector_image/UI/koryu_button.png" enterimg="../fgimage/houkago_selector_image/UI/koryu_buttonaffter.png"   x="1080"  y="-10000" storage="relation_ship_selector.ks" ]
+
+;アニメーションでレイヤーの処理
+[anim name="leftarrow" top="250" time="&f.ButtonAnimationTime"]
+[anim name="koryu_field" top="150"  time="&f.ButtonAnimationTime"]
+[anim name="rightarrow" top="250" time="&f.ButtonAnimationTime"]
+[anim name="houkagokouryu_button" top="50" time="&f.ButtonAnimationTime"]
+
+[SceneMove]
+[endif]
 [clearfix ]
 [start_keyconfig]
 [freeimage layer="0" ]
@@ -83,7 +105,8 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 ;up画面の表示
 [image name="parameter_up" layer="1"  storage="houkago_selector_image/UI/confirm_up_parameter.png" x="&f.houkago_select_upparameter_listx[f.houkago_now_place]" y="625"   time="0" ]
 
-[if exp="f.AnimationLayerFlag>1"]
+[if exp="f.AnimationLayerFlag>1&&f.AnimationTransitionFlag!='true'"]
+[eval exp="f.AnimationTransitionFlag='false'"]
 ;矢印 マウスカーソルを合わせると矢印を大きくする
 [button name="rightarrow" graphic="../fgimage/houkago_selector_image/UI/rightarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterrightarrow.png"   x="1000" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=-1"]
 [button name="leftarrow" graphic="../fgimage/houkago_selector_image/UI/leftarrow.png" enterimg="../fgimage/houkago_selector_image/UI/afterleftarrow.png"  x="100" y="250" target="*houkago_select_arrow" exp="tf.select_arrow=1"]
@@ -140,6 +163,10 @@ if(f.houkago_now_place>=4){
 ;以下はただの宣言読む必要ない
 ;----------------------------------------
 *houkago_selector_1
+[iscript]
+f.AnimationTransitionFlag="false";
+[endscript]
+
 [cm]
 [SceneMove]
 [clearfix]
