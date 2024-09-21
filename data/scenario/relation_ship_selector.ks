@@ -77,6 +77,7 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 
 ;ヘッダーの作成
 [image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
+[ptext name="align_ct_h" layer="2" x="-530" y="15" size="62" text="交流"  bold="true"  face="Arial" color="0x736e6e"]
 
 ;ボタンの作成
 
