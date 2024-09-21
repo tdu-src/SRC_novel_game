@@ -1,5 +1,5 @@
 *start
-[bg storage="RoofTop.jpeg" time="1000"  ]
+[bg storage="RoofTop.jpg" time="1000"  ]
 [playbgm storage="../bgm/sofucharaEnding.mp3" ]
 
 [chara_show name="scout" width="450" height="600" ]
