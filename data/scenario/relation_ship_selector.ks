@@ -84,6 +84,14 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 
 ;アニメーションの宣言
 [SceneMove]
+[clearfix]
+
+[freeimage layer="0" time="0"  ]
+[freeimage layer="1" time="0"]
+[freeimage layer="2" time="0"]
+[layopt layer="message0" visible="false"]
+[layopt layer="2" visible="true" ]
+
 [iscript]
 tf.AnimationTime=800;
 [endscript]
@@ -100,14 +108,6 @@ tf.AnimationTime=800;
 
 [bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
-
-[clearfix]
-
-[freeimage layer="0" time="0"  ]
-[freeimage layer="1" time="0"]
-[freeimage layer="2" time="0"]
-[layopt layer="message0" visible="false"]
-[layopt layer="2" visible="true" ]
 
 ;静的なUIの作成
 
