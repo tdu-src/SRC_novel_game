@@ -15,13 +15,16 @@ f.cafe+=f.nomrmal_houkagoevent;
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-カフェに来た[s]
+放課後、美術館に立ち寄った！[s]
 
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
+#&f.player_name
+ここのコーヒー、やっぱりおいしいなぁ…[pse]
+
 #
-小一時間ほどカフェで勉強をして帰った[pse]
+お気に入りのコーヒーを飲んで、リラックスできた！[pse]
 
 [iscript]
 f.cafe_normal_flag="true";
@@ -37,12 +40,15 @@ f.cafe_normal_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-カフェに来た[s]
+放課後、美術館に立ち寄った！[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
 
 #
-小一時間ほどカフェで勉強をして帰った[pse]
+ここのコーヒー、やっぱりおいしいなぁ…[pse]
+
+#
+お気に入りのコーヒーを飲んで、リラックスできた！[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

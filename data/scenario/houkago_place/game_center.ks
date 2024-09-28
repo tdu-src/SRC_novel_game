@@ -16,13 +16,16 @@ f.game_center+=f.nomrmal_houkagoevent;
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-ゲームセンターに来た[s]
+放課後、ゲームセンターに遊びに来た！[s]
 
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
+#&f.player_name
+今日はあのゲームで遊ぼう！[pse]
+
 #
-ゲームセンターで少し遊んで帰った[pse]
+気になっていた最新のゲームを遊びつくすことが出来た！[pse]
 
 [iscript]
 f.gamesenter_normal_flag="true";
@@ -37,12 +40,15 @@ f.gamesenter_normal_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-ゲームセンターに来た[s]
+放課後、ゲームセンターに遊びに来た！[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
 
-#
-ゲームセンターで少し遊んで帰った[pse]
+#&f.player_name
+今日はあのゲームで遊ぼう！[pse]
+
+# 
+気になっていた最新のゲームを遊びつくすことが出来た！[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

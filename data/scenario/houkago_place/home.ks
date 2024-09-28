@@ -15,14 +15,16 @@ f.art_museum+=f.nomrmal_houkagoevent;
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-公園に来てみた[s]
+放課後、公園に立ち寄った！[s]
 
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
-#
-公園で少し遊んで帰った[pse]
+#&f.player_name
+鉄棒…  久々に筋トレでもしてみようかな？[pse]
 
+#
+公園で久々に体を動かして、良い運動が出来た！[pse]
 
 [iscript]
 f.art_museum_normal_flag="true";
@@ -37,12 +39,15 @@ f.art_museum_normal_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-公園に来てみた[s]
+放課後、公園に立ち寄った！[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
 
+#&f.player_name
+鉄棒…  久々に筋トレでもしてみようかな？[pse]
+
 #
-公園で少し遊んで帰った[pse]
+公園で久々に体を動かして、良い運動が出来た！[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]
