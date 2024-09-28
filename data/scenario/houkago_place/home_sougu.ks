@@ -121,20 +121,15 @@ f.art_museum_special_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-公園に来た[s]
+放課後、公園に立ち寄った！[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
 
-[chara_show name="memori" width="450" height="600" ]
-[chara_mod name=memori face=smaile time="1000" ]
-#めもり
-お～い、[emb exp="f.player_name"]！！[pse]
-
 #&f.player_name
-あっ、めもり！[pse]
+鉄棒…  久々に筋トレでもしてみようかな？[pse]
 
 #
-めもりは、今日も元気に登っている…[pse]
+公園で久々に体を動かして、良い運動が出来た！[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]

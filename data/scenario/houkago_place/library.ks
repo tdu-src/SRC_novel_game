@@ -15,16 +15,16 @@ f.park+=f.nomrmal_houkagoevent;
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point"]
 
 #
-放課後、新聞契約の特典でもらった優待券で、美術館に来ていた。[s]
+放課後、美術館に立ち寄った！[s]
 
 *Point
 [playse storage="../bgm/text_click_se.mp3" ]
 
-#
-少し難しい絵が多いな…[pse]
+#&f.player_name
+ここの雰囲気、やっぱり落ち着くなぁ…[pse]
 
 #
-でも、こういうのも芸術なんだろうな…[pse]
+様々な展示物を見て、気分転換できた！[pse]
 
 
 [iscript]
@@ -38,15 +38,15 @@ f.park_normal_flag="true";
 [glink graphic="../fgimage/items/screen_transition_item/InvisibleScreen.png"   size="500"  x="0"  width="2000"  y="0"  text=""   target="*Point_2"]
 
 #
-放課後、新聞契約の特典でもらった優待券で、美術館に来ていた。[s]
+放課後、美術館に立ち寄った！[s]
 
 *Point_2
 [playse storage="../bgm/text_click_se.mp3" ]
 
 #&f.player_name
-少し難しい絵が多いな…[pse]
+ここの雰囲気、やっぱり落ち着くなぁ…[pse]
 
-#&f.player_name
-でも、こういうのも芸術なんだろうな…[pse]
+#
+様々な展示物を見て、気分転換できた！[pse]
 
 [jump storage="houkago_place/houkago_end.ks"]
