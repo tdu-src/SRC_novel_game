@@ -16,10 +16,10 @@
 
 [playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
-[button name="start_button" x=135 y=340 graphic="../fgimage/items/titles/gamestart.png" enterimg="../fgimage/items/titles/gamestartaffter.png"  target="gamestart" keyfocus="1"]
-[button name="load_button" x=135 y=470 graphic="../fgimage/items/titles/gameload.png" enterimg="../fgimage/items/titles/gameloadaffter.png" role="load" keyfocus="2"]
-[button name="config_button" x=135 y=600 graphic="../fgimage/items/titles/gameconfig.png" enterimg="../fgimage/items/titles/gameconfigaffter.png" role="sleepgame" storage="config.ks" keyfocus="5"]
-[button name="credit_button" x=305 y=600 graphic="../fgimage/items/titles/gamecredit.png" enterimg="../fgimage/items/titles/gamecreditaffter.png" storage="credit_scene.ks" keyfocus="5"]
+[button name="start_button" x=80 y=280 graphic="../fgimage/items/titles/gamestart.png" enterimg="../fgimage/items/titles/gamestartaffter.png"  target="gamestart" keyfocus="1"]
+[button name="load_button" x=80 y=380 graphic="../fgimage/items/titles/gameload.png" enterimg="../fgimage/items/titles/gameloadaffter.png" role="load" keyfocus="2"]
+[button name="config_button" x=170 y=480 graphic="../fgimage/items/titles/gameconfig.png" enterimg="../fgimage/items/titles/gameconfigaffter.png" role="sleepgame" storage="config.ks" keyfocus="5"]
+[button name="credit_button" x=80 y=580 graphic="../fgimage/items/titles/gamecredit.png" enterimg="../fgimage/items/titles/gamecreditaffter.png" storage="credit_scene.ks" keyfocus="5"]
 [s]
 
 *gamestart
