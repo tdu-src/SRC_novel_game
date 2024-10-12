@@ -50,10 +50,13 @@
 @hidemenubutton
 
 ; [emb] 変数 f.player_name の中身を確認してみます。
-[emb exp="f.player_name"][r]
+#
+入力した名前であっていますか？
 
-[link target="*Part1_OK" ]【１】そうだ[endlink]／
-[link target="*Part1_Edit"]【２】チガウ[endlink]
+;[link target="*Part1_OK" ]【１】そうだ[endlink]／
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="250"  text="そうだ"   target="*Part1_OK"]
+[glink clickse="&f.button_clicking_se" color="blue"  size="28"  x="360"  width="500"  y="350"  text=" チガウ"  target="**Part1_Edit" ]
+;[link target="*Part1_Edit"]【２】チガウ[endlink]
 [s]
 
 ; ------------------------------------------------------
