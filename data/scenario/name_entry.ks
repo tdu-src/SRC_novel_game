@@ -59,4 +59,4 @@
 ; ------------------------------------------------------
 *Part1_OK
 [cm]
-[jump storage="logic.ks"]
+[jump storage="tutorial.ks"]
