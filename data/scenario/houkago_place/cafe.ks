@@ -2,7 +2,6 @@
 [bg storage="../fgimage/houkago_selector_image/background/cafe_background.jpg" time="100" ]
 
 [isHeader text="カフェ" x="-460" width="300"]
-[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
 
 [wait time=1000]
 [iscript]

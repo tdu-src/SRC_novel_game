@@ -65,7 +65,7 @@ f.houkago_select_upparameter_listx=[340,930,730,530]
 [freeimage layer="2" ]
 
 ;bgm
-[playbgm storage="../bgm/sohuchara_bgm_normal2.mp3" ]
+[playbgm storage="../bgm/HoukagoSelectorBGM.mp3" ]
 
 ;再読み込みが必要ないものの宣言 →再読み込みを行うと処理が重くなる
 ;--------------------------------
@@ -171,15 +171,13 @@ f.AnimationTransitionFlag="false";
 [cm]
 [SceneMove]
 [clearfix]
-[playbgm storage="../bgm/secene_moving_se.mp3" ]
+[playse storage="../bgm/secene_moving_se.mp3" ]
 [start_keyconfig]
 
 [freeimage layer="0" ]
 [freeimage layer="1" ]
 [freeimage layer="2" ]
 
-;bgmのフェードアウト
-[fadeoutbgm time="3000"]
 ;メッセージウィンドウの設定
 [position layer="message0" left="160" top="500" width="1000" height="200" page="fore" visible="true"]
 
