@@ -1,12 +1,12 @@
 *start
 [bg storage="../fgimage/TutorialBackGround/Tutorial1.png" time="0"]
 #
-そふきゃら学園にようこそ！ここからはチュートリアルです。[pse]
+ソフきゃら学園にようこそ！ここからはチュートリアルです。[pse]
 
 [bg storage="../fgimage/TutorialBackGround/Tutorial2.png" time="0"]
 
 #
-このゲームでは、学園での一年をそふきゃら達と過ごしていきます。[pse]
+このゲームでは、学園での一年をソフきゃら達と過ごしていきます。[pse]
 
 #
 ストーリーを進め、キャラとの親交を深めていきましょう。[pse]
