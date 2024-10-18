@@ -62,7 +62,11 @@
 これ？ペットフード代だけど…[pse]
 
 #&f.player_name
-さっき話してた人は…？ワカツキ（困惑保護猫のお世話のボランティアの人…[pse]
+さっき話してた人は…？
+
+[chara_mod name=wakastuki face=perplexed time="1000" ]
+#ワカツキ
+保護猫のお世話のボランティアの人…[pse]
 
 #&f.player_name
 あ～…[pse]
