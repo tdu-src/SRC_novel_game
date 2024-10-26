@@ -1,5 +1,7 @@
 *start
-[playbgm storage="../bgm/sofuchara_bgm_normal2.mp3" ]
+[stopbgm]
+[playbgm storage="kouryuBGM.mp3" ]
+
 [iscript]
 f.AnimationLayerFlag+=1;
 f.Relationship_selector_flag='true';
@@ -86,11 +88,13 @@ tf.wakatsuki_achievement=obj.chara_achievement(f.wakatsuki,f.wakatsuki_kouryu_ke
 [SceneMove]
 [clearfix]
 
+
 [freeimage layer="0" time="0"  ]
 [freeimage layer="1" time="0"]
 [freeimage layer="2" time="0"]
 [layopt layer="message0" visible="false"]
 [layopt layer="2" visible="true" ]
+
 
 [iscript]
 tf.AnimationTime=800;
@@ -108,6 +112,7 @@ tf.AnimationTime=800;
 
 [bg storage="../fgimage/relationship_selector_image/background/koryu_background.png" time="1000"  ]
 [free layer="message0" name="chara_name_area"  ]
+
 
 ;静的なUIの作成
 
@@ -139,8 +144,7 @@ tf.AnimationTime=800;
 [image storage="../fgimage/relationship_selector_image/image/header.png" x="-70" y="-10"layer="2" time="0"  ]
 [ptext name="align_ct_h" layer="2" x="-530" y="15" size="62" text="交流"  bold="true"  face="Arial" color="0x736e6e"]
 
-;[image name="scout_icon"  storage="kouryu/scout/scout_icon.png" height="100" width="100"    layer="2"  x="100" y="400" time="0"]
-;[image name="scout_icon"  storage="kouryu/memori/memori_icon.png" height="100" width="100"    layer="2"  x="100" y="280" time="0"]
+
 [s]
 ;好感度による会話の操作
 ;-------------------------------------------------
