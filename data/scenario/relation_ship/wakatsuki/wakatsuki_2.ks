@@ -1,7 +1,6 @@
 *start
 [isKoryuHeader4 text="ワカツキと③"]
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 
 [chara_show name="wakastuki" width="450" height="600" ]
 #

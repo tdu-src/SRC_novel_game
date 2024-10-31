@@ -1,7 +1,6 @@
 *start
 [isKoryuHeader3 text="めもりと③"]
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_sad2.mp3" ]
 
 #
 放課後…[s]

@@ -1,7 +1,6 @@
 *start
 [isKoryuHeader3 text="ツクリと②"]
 [bg storage="rouka.jpg" time="1000"  ]
-[playbgm storage="../bgm/SofucharaHappenning.mp3" ]
 
 #
 定期的にツクリの絵を見に行くようになり、今日も連絡を受けて美術室に向かっていた。[s]

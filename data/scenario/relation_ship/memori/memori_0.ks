@@ -1,8 +1,6 @@
 *start
 [isKoryuHeader3 text="めもりと①"]
 [bg storage="room.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
-
 #
 机の中に何か入っている… どうやら手紙のようだ…[s]
 *Point

@@ -1,6 +1,6 @@
 *start
 [stopbgm]
-[playbgm storage="kouryuBGM.mp3" ]
+[playbgm storage="kouryuBGM.mp3"]
 
 [iscript]
 f.AnimationLayerFlag+=1;

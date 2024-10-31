@@ -1,7 +1,6 @@
 *start
 [isKoryuHeader3 text="ツクリと①"]
 [bg storage="ArtRoom.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 [chara_show name="tsukuri" width="450" height="600" ]
 [chara_mod name=tsukuri face=smaile time="1000" ]
