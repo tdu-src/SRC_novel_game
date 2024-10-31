@@ -7,7 +7,7 @@
 [chara_show name="wakastuki" width="450" height="600"  time="1000"]
 
 
-
+[chara_mod name="scout" face="half_sad" time="1000" ]
 #スカウト
 うわぁぁぁ～ん！助けてください～！！！[s]
 *Point
