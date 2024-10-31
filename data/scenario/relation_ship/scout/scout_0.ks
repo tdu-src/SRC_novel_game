@@ -1,7 +1,6 @@
 *start
 [isKoryuHeader4 text="スカウトと①"]
 [bg storage="UrbanStreet.jpg" time="1000"  ]
-[playbgm storage="../bgm/sofuchara_bgm_normal.mp3" ]
 
 #
 放課後、特に予定もなく道を歩いていると...[s]

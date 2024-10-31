@@ -27,7 +27,7 @@ tf.MenberSize=30;
 [credit_scroll text="背景デザイン" y="1700" size="&tf.TitleSize"]
 [credit_scroll text="みんちりえ" y="1800" size="&tf.MenberSize"]
 [credit_scroll text="音楽" y="2000" size="&tf.TitleSize"]
-[credit_scroll text="シン" y="2100" size="&tf.MenberSize"]
+[credit_scroll text="シン・まいなそ" y="2100" size="&tf.MenberSize"]
 [credit_scroll text="サウンドエフェクト" y="2300" size="&tf.TitleSize"]
 [credit_scroll text="効果音ラボ" y="2400" size="&tf.MenberSize"]
 [credit_scroll text="プログラミング" y="2600" size="&tf.TitleSize"]
