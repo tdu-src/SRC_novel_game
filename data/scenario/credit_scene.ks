@@ -60,6 +60,7 @@ tf.MenberSize=30;
 [kanim name="align_ct_h" keyframe="animation1" time="500000" ]
 
 [wait time="84000"]
+[freeimage layer=0]
 
 [fadeoutbgm time="1000"]
 [jump storage="title.ks" ]
