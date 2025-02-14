@@ -1,5 +1,6 @@
 *start
 [bg storage="SchoolGate.jpg" time="1000"  ]
+[isHeader text="エンディング" x="-380" width="470"]
 [playbgm storage="../bgm/sofucharaEnding.mp3" ]
 
 #

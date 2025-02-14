@@ -48,6 +48,10 @@ tf.dev_gakuen_tuzyo_list+="パート";
 [glink  color="blue"  size="21"  x="400"  width="50"  y="500"  text="↑" exp="f.wakatsuki+=10"]
 [glink  color="blue"  size="21"  x="550"  width="50"  y="500"  text="↓" exp="f.wakatsuki-=10"]
 
+[ptext layer="1" x="100" y="600" size="40" text="&f.logic_turn"]
+[glink  color="blue"  size="21"  x="400"  width="50"  y="600"  text="↑" exp="f.logic_turn+=1"]
+[glink  color="blue"  size="21"  x="550"  width="50"  y="600"  text="↓" exp="f.logic_turn-=1"]
+
 [glink  color="blue"  size="21"  x="50"  width="100"  y="0"  text="戻る" target="*developer_option"]
 [s]
 

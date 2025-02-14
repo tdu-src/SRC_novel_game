@@ -1,5 +1,6 @@
 *start
 [playbgm storage="../bgm/sofucharaEnding.mp3" ]
+[isHeader text="エンディング" x="-380" width="470"]
 [bg storage="RoofTop.jpg" time="100" ]
 
 #
