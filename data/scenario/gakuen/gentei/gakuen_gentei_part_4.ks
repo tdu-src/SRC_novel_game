@@ -46,7 +46,7 @@
 私がいるよ？[pse]
 
 [chara_mod name=wakastuki face=surprise time="1000" ]
-#ワカツキ
+#スカウト
 そういう話じゃないです！[pse]
 
 #
